@@ -1,0 +1,686 @@
+[
+  {
+    "chapter": "",
+    "question": "Which of the following criteria, if two are met, would qualify a client as a large undertaking that may be treated as an elective professional client according to Chapter 3, Section 4.1, page 74?",
+    "options": [
+      "Balance sheet total at least EUR 10,000,000 and net turnover at least EUR 20,000,000.",
+      "Net turnover at least EUR 40,000,000 and Own funds at least EUR 2,000,000.",
+      "Balance sheet total at least EUR 20,000,000 and at least 500 employees.",
+      "Own funds at least EUR 1,000,000 and net turnover at least EUR 50,000,000."
+    ],
+    "answer": "Net turnover at least EUR 40,000,000 and Own funds at least EUR 2,000,000.",
+    "explanation": "Large undertakings may elect professional status if they meet at least two of: balance sheet ≥ €20m, net turnover ≥ €40m, own funds ≥ €2m. Section 4.1 — Page 71–72."
+  },
+  {
+    "chapter": "",
+    "question": "Under Article 67 concerning client order handling, when must a firm promptly inform a client of any material difficulty relevant to the proper carrying out of orders?",
+    "options": [
+      "Only if the difficulty results in a financial loss for the client.",
+      "At the end of the trading day.",
+      "Within 24 hours of becoming aware of the difficulty.",
+      "Promptly upon becoming aware of the difficulty."
+    ],
+    "answer": "Promptly upon becoming aware of the difficulty.",
+    "explanation": "Firms must promptly inform retail clients of any material difficulty relevant to proper order execution. Section 7.1 — Page 83–84."
+  },
+  {
+    "chapter": "",
+    "question": "When calculating costs and charges on an ex-ante basis, what should a firm do if actual incurred costs are not available, according to Article 50?",
+    "options": [
+      "Projected costs from the product manufacturer.",
+      "Industry average costs.",
+      "A reasonable estimation based on ex-post experience.",
+      "The lowest possible cost scenario."
+    ],
+    "answer": "A reasonable estimation based on ex-post experience.",
+    "explanation": "Where actual data are unavailable, firms may use reasonable estimates based on ex‑post experience for ex‑ante disclosures. Section 4.3 — Page 74–75."
+  },
+  {
+    "chapter": "",
+    "question": "What is the minimum information that must be recorded for relevant face-to-face conversations with clients, according to Section 2.2?",
+    "options": [
+      "Date, time, location, attendees, initiator, and relevant client order information.",
+      "A full audio recording of the conversation.",
+      "The client's signature confirming the minutes of the meeting.",
+      "Only the date and time of the meeting."
+    ],
+    "answer": "Date, time, location, attendees, initiator, and relevant client order information.",
+    "explanation": "Firms must record on a durable medium the date/time, location, identities/attendees, who initiated, and order details. Section 2.2 — Page 60–61."
+  },
+  {
+    "chapter": "",
+    "question": "According to Chapter 3, Section 6.1, when an investment firm provides automated advice through an algorithmic system, who retains the responsibility for undertaking the suitability assessment?",
+    "options": [
+      "The client, as they are interacting with a system.",
+      "A designated independent third-party assessor.",
+      "The investment firm.",
+      "The developer of the automated system."
+    ],
+    "answer": "The investment firm retains full responsibility for the suitability assessment.",
+    "explanation": "Use of automated tools does not transfer responsibility; the firm remains responsible for suitability. Section 6/6.1 — Page 77–79."
+  },
+  {
+    "chapter": "",
+    "question": "What is a primary responsibility of the internal audit function within an investment firm, as per Section 2.5?",
+    "options": [
+      "To establish, implement and maintain an audit plan to examine the adequacy of the firm's systems.",
+      "To set the level of risk tolerated by the firm.",
+      "To directly manage the risks relating to the firm’s activities.",
+      "To provide reports and advice on risk management directly to clients."
+    ],
+    "answer": "Establish and maintain an audit plan to examine and evaluate systems and controls, issue recommendations, and verify compliance.",
+    "explanation": "Internal audit independently evaluates the adequacy/effectiveness of systems and controls and verifies remediation. Section 2.5 — Page 65–66."
+  },
+  {
+    "chapter": "",
+    "question": "Under Article 66, firms must ensure their clients have the opportunity to provide consent for executing orders outside a trading venue. When should the firm obtain any consent for executing orders outside a trading venue?",
+    "options": [
+      "Before the first order is executed outside a trading venue.",
+      "After the first order is executed.",
+      "Only if the client asks for it.",
+      "Consent is not required."
+    ],
+    "answer": "Obtain the client’s prior express consent (which may be in a general agreement) before executing outside a trading venue.",
+    "explanation": "Firms must obtain clients’ prior express consent to execute outside an RM/MTF/OTF; this may be via general agreement. Section 7.1 — Page 82–83."
+  },
+  {
+    "chapter": "",
+    "question": "According to Section 3, if a firm is a member of a group, its risk management framework must also take into account circumstances arising from where?",
+    "options": [
+      "The preferences of its retail clients only.",
+      "General macroeconomic conditions.",
+      "The structure and business activities of other members of the group.",
+      "The activities of its competitors."
+    ],
+    "answer": "nan",
+    "explanation": "nan"
+  },
+  {
+    "chapter": "",
+    "question": "When providing information that includes indications of past performance, the information must cover a period of at least how many preceding years?",
+    "options": [
+      "Ten years.",
+      "Five years.",
+      "Three years.",
+      "One year."
+    ],
+    "answer": "Five years (or the period since inception if shorter), presented net of costs.",
+    "explanation": "Past performance should cover at least 5 years (if available) or since inception; include costs and relevant warnings. Section 4.2 — Page 73."
+  },
+  {
+    "chapter": "",
+    "question": "What must a firm offering both independent and non-independent investment advice ensure regarding a natural person providing advice, according to Article 53?",
+    "options": [
+      "Ensure the natural person has dual certification.",
+      "Require the natural person to disclose any potential conflict of interest before providing advice.",
+      "Not allow a natural person to provide both independent and non-independent advice.",
+      "Allow the natural person to provide both types of advice if the client consents."
+    ],
+    "answer": "Explain the scope of both and do not present the overall service as independent.",
+    "explanation": "If providing both types to the same client, the firm must explain the scope/limitations and not present itself as independent overall. Section 5 — Page 75–76."
+  },
+  {
+    "chapter": "",
+    "question": "Under Article 66, how should an investment firm check the appropriateness of executing an order outside a trading venue with respect to client consent?",
+    "options": [
+      "Verify the client’s legal identity.",
+      "Verify the order’s profitability.",
+      "Verify whether the client has consented to execute outside a trading venue.",
+      "Verify whether the client’s order aligns with market conditions."
+    ],
+    "answer": "Obtain the client’s prior express consent (which may be in a general agreement) before executing outside a trading venue.",
+    "explanation": "Firms must obtain clients’ prior express consent to execute outside an RM/MTF/OTF; this may be via general agreement. Section 7.1 — Page 82–83."
+  },
+  {
+    "chapter": "",
+    "question": "According to Section 2.7, which of the following must the firm include among the compliance function’s responsibilities?",
+    "options": [
+      "Approving all client transactions personally.",
+      "Monitoring and assessing the adequacy and effectiveness of the measures and procedures.",
+      "Acting as the firm’s legal counsel.",
+      "Conducting all risk management activities."
+    ],
+    "answer": "nan",
+    "explanation": "nan"
+  },
+  {
+    "chapter": "",
+    "question": "When providing information on future performance scenarios, this is permitted under what condition?",
+    "options": [
+      "It is based on objective market forecasts.",
+      "It is accompanied by a prominent warning that forecasts are not reliable indicators of future performance.",
+      "It is approved by the competent authority.",
+      "It is only provided to professional clients."
+    ],
+    "answer": "nan",
+    "explanation": "nan"
+  },
+  {
+    "chapter": "",
+    "question": "Under Article 67, when a firm aggregates a client’s order with other orders, when must the firm inform the client how allocation will operate?",
+    "options": [
+      "After the order has been fully executed.",
+      "When they become aware of the aggregation.",
+      "Only if the client requests.",
+      "Only if it results in a worse price for the client."
+    ],
+    "answer": "nan",
+    "explanation": "nan"
+  },
+  {
+    "chapter": "",
+    "question": "According to the best execution requirements in Article 64, when executing retail orders a firm should primarily consider which of the following when executing retail orders?",
+    "options": [
+      "The total consideration, representing the price and costs related to execution.",
+      "The speed of execution only.",
+      "The likelihood of settlement only.",
+      "The firm’s profit margin."
+    ],
+    "answer": "Price and costs (total consideration) are the primary factors for retail clients.",
+    "explanation": "For retail clients, best execution prioritises total consideration (price + costs). Section 7 — Page 80–82."
+  },
+  {
+    "chapter": "",
+    "question": "Under Article 67, what should firms do when a client’s order encounters a material difficulty relating to settlement or clearing facilities?",
+    "options": [
+      "Execute the order regardless.",
+      "Inform the client of any material difficulty promptly.",
+      "Delay the order until it is clarified.",
+      "Cancel the order."
+    ],
+    "answer": "Promptly upon becoming aware of the difficulty.",
+    "explanation": "Firms must promptly inform retail clients of any material difficulty relevant to proper order execution. Section 7.1 — Page 83–84."
+  },
+  {
+    "chapter": "",
+    "question": "Which of the following statements about the record-keeping requirements is correct according to Section 2.2?",
+    "options": [
+      "Records must be stored only in physical format.",
+      "Records must be kept for a minimum of three years for retail clients.",
+      "Records must be readily accessible and enable the competent authority to perform supervisory tasks.",
+      "Records may be altered to correct errors without documenting the change."
+    ],
+    "answer": "nan",
+    "explanation": "nan"
+  },
+  {
+    "chapter": "",
+    "question": "According to Section 2.3, which of the following data points should an order record include?",
+    "options": [
+      "Only the time of the order and client ID.",
+      "The details of the financial instrument, the venue, price, quantity, time, and client information.",
+      "Only the financial instrument and price.",
+      "Only the client’s personal data."
+    ],
+    "answer": "nan",
+    "explanation": "nan"
+  },
+  {
+    "chapter": "",
+    "question": "Under the remuneration policies discussed in Section 2.6, who should be involved in the design of remuneration structures?",
+    "options": [
+      "Executives only.",
+      "The HR department only.",
+      "The governing body in its supervisory function.",
+      "External consultants only."
+    ],
+    "answer": "nan",
+    "explanation": "nan"
+  },
+  {
+    "chapter": "",
+    "question": "According to Article 50 on costs and charges, ex-post disclosures should be provided to whom and at what frequency?",
+    "options": [
+      "To all clients at least annually.",
+      "To retail clients at least annually.",
+      "To professional clients only, upon request.",
+      "To eligible counterparties only."
+    ],
+    "answer": "Provide annual ex‑post information on all costs and charges actually incurred.",
+    "explanation": "Firms must provide annual ex‑post statements aggregating all costs and charges actually incurred. Section 4.3 — Page 74–75."
+  },
+  {
+    "chapter": "",
+    "question": "In providing information on costs and charges, which of the following is required regarding the disclosure format and presentation?",
+    "options": [
+      "It must always be in a single numerical figure.",
+      "It must be in a standardised format prescribed by the authority.",
+      "It must be provided in a manner that is fair, clear and not misleading.",
+      "It must be presented only in graphical form."
+    ],
+    "answer": "nan",
+    "explanation": "nan"
+  },
+  {
+    "chapter": "",
+    "question": "Which of the following is a requirement for staff who provide investment advice according to Article 25(1)?",
+    "options": [
+      "They must hold a PhD in finance.",
+      "They must possess the necessary knowledge and competence.",
+      "They must have at least 10 years of experience.",
+      "They must be licensed as lawyers."
+    ],
+    "answer": "nan",
+    "explanation": "nan"
+  },
+  {
+    "chapter": "",
+    "question": "Under Article 66, what must firms ensure about the execution of client orders?",
+    "options": [
+      "They are always executed on the firm’s own account.",
+      "They achieve the best possible result for clients.",
+      "They are executed only during market hours.",
+      "They are executed on the primary market only."
+    ],
+    "answer": "nan",
+    "explanation": "nan"
+  },
+  {
+    "chapter": "",
+    "question": "According to Article 53, when firms hold out advice as being independent, which products should they assess?",
+    "options": [
+      "A range of financial instruments only from the firm’s own offerings.",
+      "A broad enough range of financial instruments from across the market.",
+      "Only instruments listed on regulated markets.",
+      "Instruments recommended by the competent authority."
+    ],
+    "answer": "nan",
+    "explanation": "nan"
+  },
+  {
+    "chapter": "",
+    "question": "Under Article 67, when a firm aggregates a client order with others, what must it ensure regarding allocation?",
+    "options": [
+      "Allocation is within the firm’s discretion.",
+      "Allocation is fair and orderly and does not operate to the client’s disadvantage.",
+      "Allocation is based on client size.",
+      "Allocation is based on the potential profitability."
+    ],
+    "answer": "nan",
+    "explanation": "nan"
+  },
+  {
+    "chapter": "",
+    "question": "Which of the following must a firm do under Section 3.1 in relation to conflicts of interest?",
+    "options": [
+      "Ignore conflicts if disclosed.",
+      "Identify circumstances that constitute or may give rise to a conflict of interest.",
+      "Only monitor conflicts related to retail clients.",
+      "Disclose conflicts only after a loss has occurred."
+    ],
+    "answer": "nan",
+    "explanation": "nan"
+  },
+  {
+    "chapter": "",
+    "question": "Under the record-keeping rules in Section 2.2, which of the following is true regarding the recording of telephone conversations or electronic communications?",
+    "options": [
+      "They are only required for retail clients.",
+      "They are required when they result in a transaction only.",
+      "They are required whether or not they result in a transaction.",
+      "They are not required for professional clients."
+    ],
+    "answer": "Date, time, location, attendees, initiator, and relevant client order information.",
+    "explanation": "Firms must record on a durable medium the date/time, location, identities/attendees, who initiated, and order details. Section 2.2 — Page 60–61."
+  },
+  {
+    "chapter": "",
+    "question": "According to Article 50, which costs should be included in the costs and charges disclosure?",
+    "options": [
+      "Only the firm’s fees.",
+      "All costs and associated charges, including the cost of advice, the cost of the financial instrument and ancillary services.",
+      "Only the costs charged by the product manufacturer.",
+      "Only the explicit costs."
+    ],
+    "answer": "nan",
+    "explanation": "nan"
+  },
+  {
+    "chapter": "",
+    "question": "In relation to best execution for retail clients, what does ‘best possible result’ refer to as the most important factor?",
+    "options": [
+      "The likelihood of execution.",
+      "The price alone.",
+      "The total consideration, representing price and costs.",
+      "The speed of execution."
+    ],
+    "answer": "Price and costs (total consideration) are the primary factors for retail clients.",
+    "explanation": "For retail clients, best execution prioritises total consideration (price + costs). Section 7 — Page 80–82."
+  },
+  {
+    "chapter": "",
+    "question": "According to Section 2.6, remuneration policies must be designed in which way?",
+    "options": [
+      "Simple and directly linked to sales targets.",
+      "Consistent with and promote sound and effective risk management.",
+      "Determined solely by the CEO.",
+      "Based only on the firm’s profitability."
+    ],
+    "answer": "nan",
+    "explanation": "nan"
+  },
+  {
+    "chapter": "",
+    "question": "Under Article 66, what must a firm ensure about its systems and procedures for recording and carrying out client orders?",
+    "options": [
+      "They are complex and discretionary.",
+      "They record and carry out orders promptly and accurately.",
+      "They provide preferential treatment to high-value clients.",
+      "They aggregate orders without client consent."
+    ],
+    "answer": "nan",
+    "explanation": "nan"
+  },
+  {
+    "chapter": "",
+    "question": "What must firms do when providing comparisons in advertising or marketing materials?",
+    "options": [
+      "Use any competitor data, regardless of relevance.",
+      "Provide comparisons that are not unfair or misleading and that include sources and assumptions.",
+      "Avoid using any comparisons.",
+      "Use only internal data for comparisons."
+    ],
+    "answer": "nan",
+    "explanation": "nan"
+  },
+  {
+    "chapter": "",
+    "question": "Under the rules on marketing communications, which of the following is required?",
+    "options": [
+      "Marketing communications may be misleading as long as they are balanced overall.",
+      "Marketing communications must be clearly identifiable as such.",
+      "Marketing communications do not need to be consistent with any information that the firm provides to the client.",
+      "Marketing communications should only be verbal."
+    ],
+    "answer": "nan",
+    "explanation": "nan"
+  },
+  {
+    "chapter": "",
+    "question": "According to Section 2.3, firms must make records of all services, activities and transactions available to whom?",
+    "options": [
+      "Only to internal audit.",
+      "Only to the Board of Directors.",
+      "To the competent authority, upon request.",
+      "Only to clients upon request."
+    ],
+    "answer": "nan",
+    "explanation": "nan"
+  },
+  {
+    "chapter": "",
+    "question": "Under Article 64, which factor is NOT typically considered when determining best execution for retail clients?",
+    "options": [
+      "Price.",
+      "Costs.",
+      "Likelihood of execution and settlement.",
+      "The firm’s internal profit targets."
+    ],
+    "answer": "Price and costs (total consideration) are the primary factors for retail clients.",
+    "explanation": "For retail clients, best execution prioritises total consideration (price + costs). Section 7 — Page 80–82."
+  },
+  {
+    "chapter": "",
+    "question": "When recording face-to-face conversations, what is the minimum information that must be included?",
+    "options": [
+      "Time and attendee names only.",
+      "Date, time, location, attendees, initiator and relevant client order information.",
+      "Only a brief summary.",
+      "Client’s signature confirming the minutes."
+    ],
+    "answer": "Date, time, location, attendees, initiator, and relevant client order information.",
+    "explanation": "Firms must record on a durable medium the date/time, location, identities/attendees, who initiated, and order details. Section 2.2 — Page 60–61."
+  },
+  {
+    "chapter": "",
+    "question": "Under conflicts of interest policy requirements, firms must do which of the following?",
+    "options": [
+      "Identify conflicts and keep a written record of the kinds of service or activity in which a conflict has arisen or may arise.",
+      "Only identify conflicts when they cause a loss.",
+      "Ignore conflicts relating to group entities.",
+      "Disclose conflicts without taking any steps to manage them."
+    ],
+    "answer": "nan",
+    "explanation": "nan"
+  },
+  {
+    "chapter": "",
+    "question": "According to Section 2.5, the internal audit function should do which of the following?",
+    "options": [
+      "Develop and maintain an audit plan that examines the adequacy and effectiveness of the firm’s systems, internal control mechanisms and arrangements.",
+      "Approve all client orders.",
+      "Set bonuses for sales staff.",
+      "Conduct the firm’s compliance training alone."
+    ],
+    "answer": "Establish and maintain an audit plan to examine and evaluate systems and controls, issue recommendations, and verify compliance.",
+    "explanation": "Internal audit independently evaluates the adequacy/effectiveness of systems and controls and verifies remediation. Section 2.5 — Page 65–66."
+  },
+  {
+    "chapter": "",
+    "question": "Under Article 67, when can a firm aggregate a client’s order with that of another client?",
+    "options": [
+      "Whenever it sees fit.",
+      "When it is unlikely that the aggregation will work overall to the disadvantage of any client whose order is to be aggregated.",
+      "Only for professional clients.",
+      "Only when dealing on own account."
+    ],
+    "answer": "nan",
+    "explanation": "nan"
+  },
+  {
+    "chapter": "",
+    "question": "The costs and charges disclosure must include which of the following?",
+    "options": [
+      "Only ex-ante estimates.",
+      "Both ex-ante estimates and ex-post information about the costs actually incurred by the client.",
+      "Only ex-post information.",
+      "Neither ex-ante nor ex-post information is required."
+    ],
+    "answer": "nan",
+    "explanation": "nan"
+  },
+  {
+    "chapter": "",
+    "question": "According to the rules on telephone recording, how long must such recordings be kept?",
+    "options": [
+      "At least one year.",
+      "At least three years, or five years where requested by the competent authority.",
+      "At least seven years.",
+      "Indefinitely."
+    ],
+    "answer": "nan",
+    "explanation": "nan"
+  },
+  {
+    "chapter": "",
+    "question": "In the context of providing independent investment advice, which of the following is required?",
+    "options": [
+      "Offer a broad enough range of different financial instruments from across the market and not receive fees or commissions from third parties.",
+      "Offer only the firm’s proprietary products.",
+      "Receive third-party inducements as long as they are disclosed.",
+      "Consider only financial instruments available on the firm’s preferred venues."
+    ],
+    "answer": "nan",
+    "explanation": "nan"
+  },
+  {
+    "chapter": "",
+    "question": "When a firm provides non-independent advice, which of the following is true?",
+    "options": [
+      "The firm can claim it is independent if it discloses conflicts.",
+      "The firm may receive third-party inducements, provided they enhance the quality of service to the client and do not impair compliance with the firm’s duty to act honestly, fairly and professionally in accordance with the best interests of the client.",
+      "The firm must still assess a broad range of products across the market.",
+      "The firm must avoid any third-party payments or benefits."
+    ],
+    "answer": "Explain the scope of both and do not present the overall service as independent.",
+    "explanation": "If providing both types to the same client, the firm must explain the scope/limitations and not present itself as independent overall. Section 5 — Page 75–76."
+  },
+  {
+    "chapter": "",
+    "question": "Under Article 50, how should costs and charges information be presented?",
+    "options": [
+      "In a manner that is fair, clear and not misleading.",
+      "Only in numerical tables.",
+      "Only in narrative form.",
+      "Only upon request."
+    ],
+    "answer": "Aggregated, comprehensible, in a manner that enables clients to understand the overall costs and their cumulative effect.",
+    "explanation": "Costs and charges must be aggregated and presented clearly to enable clients to understand cumulative effects. Section 4.3 — Page 74–75."
+  },
+  {
+    "chapter": "",
+    "question": "According to Section 3.1, which of the following is a conflict of interest?",
+    "options": [
+      "The firm’s own-account trading always.",
+      "A situation where the firm, or a person connected with the firm, is in a position that may conflict with the duties owed to a client.",
+      "Any transaction that results in a profit.",
+      "The firm’s marketing activities."
+    ],
+    "answer": "A situation where the firm or a person could make a financial gain at the expense of a client.",
+    "explanation": "Conflicts include incentives to gain financially at a client’s expense, differing client interests, or third‑party inducements. Section 3 — Page 66–67."
+  },
+  {
+    "chapter": "",
+    "question": "Under Article 67, what must firms do when they have aggregated a client’s order with others?",
+    "options": [
+      "Inform clients only if the aggregated order results in a loss.",
+      "Disclose to clients a summary of the aggregation policy.",
+      "Provide details of how allocation will operate.",
+      "Nothing unless the client asks."
+    ],
+    "answer": "nan",
+    "explanation": "nan"
+  },
+  {
+    "chapter": "",
+    "question": "According to Article 65, firms must take all reasonable steps to do which of the following?",
+    "options": [
+      "Ensure that the execution or placing of an order does not result in a misleading impression of supply and demand.",
+      "Achieve the best possible result on every single order in all circumstances.",
+      "Ensure the client always gets the lowest possible price.",
+      "Avoid using any trading venues other than regulated markets."
+    ],
+    "answer": "nan",
+    "explanation": "nan"
+  },
+  {
+    "chapter": "",
+    "question": "Under Section 2.6, which of the following is TRUE regarding remuneration?",
+    "options": [
+      "Remuneration policies should encourage excessive risk taking.",
+      "Remuneration policies must be consistent with the firm’s long-term interests and risk appetite.",
+      "Remuneration should be based solely on quantitative targets.",
+      "Remuneration should be based solely on client acquisition."
+    ],
+    "answer": "Remuneration policies must not conflict with the duty to act in the client’s best interest.",
+    "explanation": "Remuneration must encourage responsible conduct and fair treatment, avoiding conflicts with client interests. Section 2.6 — Page 69–70."
+  },
+  {
+    "chapter": "",
+    "question": "Which of the following must be included in a firm’s conflicts of interest policy?",
+    "options": [
+      "Only conflicts that have already occurred.",
+      "Conflicts that have occurred or may occur in relation to investment services and activities.",
+      "Only conflicts relating to senior management.",
+      "Only conflicts disclosed by clients."
+    ],
+    "answer": "Measures to manage conflicts, including information barriers, separate supervision, and remuneration policies not linked to revenues.",
+    "explanation": "Policy must identify services giving rise to conflicts and set measures like information barriers and independent supervision. Section 3 — Page 66–67."
+  },
+  {
+    "chapter": "",
+    "question": "Under Article 67, when a firm aggregates a client order with another client’s orders, what must it do if the aggregated order is only partially executed?",
+    "options": [
+      "Allocate the related trades in any proportion.",
+      "Allocate the related trades in proportion to the size of the orders and in accordance with the firm’s allocation policy.",
+      "Allocate the related trades to the firm first.",
+      "Cancel the entire trade."
+    ],
+    "answer": "nan",
+    "explanation": "nan"
+  },
+  {
+    "chapter": "",
+    "question": "According to Article 64, when executing orders for professional clients, what factors should a firm consider?",
+    "options": [
+      "Consider only the price.",
+      "Consider various factors such as price, costs, speed, likelihood of execution and settlement, size, nature or any other consideration relevant to the execution of the order.",
+      "Consider only the speed of execution.",
+      "Consider the firm’s internal cost structures."
+    ],
+    "answer": "Consider price, costs, speed, likelihood of execution and settlement, size, nature and any other relevant consideration.",
+    "explanation": "For professional clients, multiple factors are balanced (not only total consideration). Section 7 — Page 80–82."
+  },
+  {
+    "chapter": "",
+    "question": "Under Section 2.2, which of the following must firms record and retain?",
+    "options": [
+      "Only records of executed client orders.",
+      "Records sufficient to enable the competent authority to monitor compliance with obligations.",
+      "Only records of client complaints.",
+      "Only records of marketing communications."
+    ],
+    "answer": "nan",
+    "explanation": "nan"
+  },
+  {
+    "chapter": "",
+    "question": "According to Article 53, what must a firm do when providing investment advice?",
+    "options": [
+      "Inform the client whether the advice is independent and whether it is based on a broad or restricted analysis of different financial instruments.",
+      "Only provide advice on proprietary products.",
+      "Provide advice without any disclosure of scope.",
+      "Only provide advice on products listed on regulated markets."
+    ],
+    "answer": "Gather necessary information about the client’s knowledge, experience, financial situation and objectives to recommend suitable services/instruments.",
+    "explanation": "Suitability requires obtaining client information to recommend suitable services/instruments. Section 6/6.1 — Page 77–79."
+  },
+  {
+    "chapter": "",
+    "question": "Under Article 67, what must firms do with client orders to achieve the best possible result for the client, considering price, costs, speed, likelihood of execution and settlement, size, nature or any other consideration relevant to the execution of the order, when executing client orders?",
+    "options": [
+      "Execute them at any available price.",
+      "Maintain an order execution policy and provide appropriate information to clients on this policy.",
+      "Only execute during normal business hours.",
+      "Execute only on one chosen venue."
+    ],
+    "answer": "Establish and implement an order execution policy and monitor effectiveness.",
+    "explanation": "Firms must take all reasonable steps, including an execution policy and monitoring, to achieve best possible results. Section 7 — Page 80–82."
+  },
+  {
+    "chapter": "",
+    "question": "According to Section 2.7, which of the following is a key function of the compliance function?",
+    "options": [
+      "Approving client orders.",
+      "Monitoring and assessing the adequacy and effectiveness of measures and procedures.",
+      "Setting remuneration policies.",
+      "Managing the firm’s risk directly."
+    ],
+    "answer": "Monitor and regularly assess the adequacy and effectiveness of policies/procedures and advise/assist relevant persons.",
+    "explanation": "Compliance performs ongoing monitoring and advises/assists staff; reports at least annually to management. Section 2.1/2.7 — Page 59–60."
+  },
+  {
+    "chapter": "",
+    "question": "When firms provide information on costs and charges, when must they provide it?",
+    "options": [
+      "Provide it in a summarised form only.",
+      "Provide it in good time before the provision of the service and at least annually on an ex-post basis for retail clients.",
+      "Provide it only upon request.",
+      "Provide it only after the service is provided."
+    ],
+    "answer": "Ex‑ante before the provision of services and annually ex‑post thereafter.",
+    "explanation": "Provide ex‑ante aggregated costs/charges before service, and ex‑post annual statements of actual costs. Section 4.3 — Page 74–75."
+  },
+  {
+    "chapter": "",
+    "question": "Under Article 66, when dealing with client limit orders in shares admitted to trading on a regulated market or traded on a trading venue, what must firms do if the order cannot be immediately executed under prevailing market conditions?",
+    "options": [
+      "They must keep the order internal until conditions improve.",
+      "They must make the order public immediately unless the client expressly instructs otherwise.",
+      "They must cancel the order.",
+      "They must execute it at the best available price regardless of market conditions."
+    ],
+    "answer": "Make the order public immediately (unless the client expressly instructs otherwise).",
+    "explanation": "If a client limit order cannot be immediately executed, make it public unless the client opts out. Section 7.1 — Page 83–84."
+  }
+]
