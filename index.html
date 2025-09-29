@@ -8,126 +8,213 @@
 <meta name="theme-color" content="#0f1218">
 <link rel="apple-touch-icon" href="icons/icon-192.png">
 <style>
-/* --- MOBILE LAYOUT FIXES --- */
-
-/* Use dynamic viewport height so iOS Safari accounts for URL bars */
-html, body { height: 100%; }
+:root{--bg:#0f1218;--panel:#171b22;--text:#e8ecf1;--muted:#9aa6b2;--accent:#7c9cff;--accent-2:#52dfa3;--danger:#ff6b6b;--shadow:0 10px 30px rgba(0,0,0,.35);--radius:14px}
+*{box-sizing:border-box}
+html,body{height:100%}
 body{
-  /* switch from CSS grid to flex so main can truly flex/scroll */
-  display: flex;
-  flex-direction: column;
-  min-height: 100dvh; /* dynamic viewport height */
-  overflow: hidden;   /* prevent double scrollbars on iOS */
+  margin:0;font-family:-apple-system,system-ui,Segoe UI,Roboto,Helvetica,Arial,sans-serif;
+  background:
+    radial-gradient(1200px 600px at 20% -10%, rgba(124,156,255,.15), transparent 60%),
+    radial-gradient(1200px 600px at 120% 110%, rgba(82,223,163,.12), transparent 60%),
+    var(--bg);
+  color:var(--text);
+  /* FLEX LAYOUT for reliable full-height scroll on mobile */
+  display:flex;flex-direction:column;
+  min-height:100dvh; /* dynamic viewport height for iOS/Android */
+  overflow:hidden;
+  padding-left:env(safe-area-inset-left);
+  padding-right:env(safe-area-inset-right);
 }
 
-/* Let main fill remaining space and be scrollable */
+header{
+  padding:16px;
+  padding-top:calc(10px + env(safe-area-inset-top));
+  border-bottom:1px solid rgba(255,255,255,.06);
+  position:sticky;top:0;z-index:5;
+  background:rgba(15,18,24,.7);
+  backdrop-filter:blur(6px)
+}
+
+h1{font-size:clamp(16px,3.5vw,22px);margin:0 0 6px}
+.sub{color:var(--muted);font-size:clamp(12px,2.6vw,14px)}
+
+.toolbar{display:grid;gap:10px;margin-top:10px;grid-template-columns:1fr}
+.toolbar .row{
+  display:flex;gap:10px;align-items:center;flex-wrap:wrap;
+  min-width:0;
+}
+@media (min-width:560px){.toolbar{grid-template-columns:1fr 1fr}}
+
+select,button,input[type="file"]{
+  background:var(--panel);color:var(--text);
+  border:1px solid rgba(255,255,255,.08);
+  border-radius:12px;padding:12px 14px;
+  font-size:clamp(14px,2.8vw,16px);
+  box-shadow:var(--shadow);
+  -webkit-tap-highlight-color:transparent
+}
+button{cursor:pointer}
+.primary{border-color:rgba(124,156,255,.4)}
+.accent{border-color:rgba(82,223,163,.4)}
+.danger{border-color:rgba(255,107,107,.35)}
+.ghost{background:transparent;border-color:rgba(255,255,255,.12)}
+
+.toolbar .row select{
+  flex:1 1 260px;
+  min-width:0;
+  max-width:100%;
+  overflow:hidden;
+  text-overflow:ellipsis;
+  white-space:nowrap;
+}
+
+@media (max-width:559.98px){
+  .toolbar .row select{flex:1 1 100%}
+}
+
+/* Main/stage */
 main{
-  flex: 1 1 auto;
-  min-height: 0;       /* important for flex children to shrink correctly */
-  overflow-y: auto;    /* page scroll lives here */
-  -webkit-overflow-scrolling: touch;
+  /* allow the page scroll to live here */
+  flex:1 1 auto;
+  min-height:0;
+  overflow-y:auto;
+  -webkit-overflow-scrolling:touch;
+  display:grid;place-items:center;padding:12px
+}
+.stage{width:min(960px,100%);display:grid;gap:12px}
+
+.meta{
+  display:flex;gap:8px;flex-wrap:wrap;color:var(--muted);
+  font-size:clamp(12px,2.6vw,13px);
+  min-width:0;
+}
+.badge{
+  padding:6px 10px;background:rgba(124,156,255,.12);
+  border:1px solid rgba(124,156,255,.25);border-radius:999px;
+  max-width:100%;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;
 }
 
-/* Stage stays responsive but won’t force page wider than screen */
-.stage{ width: min(960px, 100%); }
-
-/* On phones: hide the header entirely to save space */
-@media (max-width: 640px){
-  header{ display: none; }
-  /* When header is gone, body is just main + footer */
+.card{perspective:1200px;position:relative;min-height: clamp(340px, min(70vh, 90vw), 620px)}
+.card-inner{
+  position:absolute;inset:0;border-radius:var(--radius);
+  background:linear-gradient(180deg,rgba(23,27,34,1),rgba(23,27,34,.9));
+  border:1px solid rgba(255,255,255,.08);box-shadow:var(--shadow);
+  transform-style:preserve-3d;transition:transform .5s cubic-bezier(.2,.8,.2,1);
+  display:grid;grid-template-rows:auto 1fr auto;padding:clamp(14px,3vw,22px)
 }
+.card-inner.flipped{transform:rotateY(180deg)}
+.face{
+  position:absolute;inset:0;display:grid;grid-template-rows:auto 1fr auto;gap:10px;
+  padding:clamp(14px,3vw,22px);backface-visibility:hidden;
+  overflow:auto;-webkit-overflow-scrolling:touch
+}
+.front h2{font-size:clamp(18px,5vw,26px);line-height:1.35;margin:0 0 8px;font-weight:650}
+.options{display:grid;gap:10px;margin-top:6px}
+.option{
+  display:flex;gap:10px;align-items:flex-start;padding:10px 12px;border:1px solid rgba(255,255,255,.08);
+  border-radius:12px;background:rgba(255,255,255,.02)
+}
+.option input{margin-top:4px;transform:scale(1.1)}
+.controls{display:grid;gap:10px;grid-template-columns:repeat(2,1fr);margin-top:10px}
+@media (min-width:640px){.controls{grid-template-columns:repeat(4,1fr)}}
+.back{transform:rotateY(180deg)}
+.back h3{margin:0 0 8px;font-size:clamp(16px,4.6vw,20px)}
+.expl{line-height:1.55;font-size:clamp(14px,4.2vw,17px);white-space:pre-wrap}
+.correct{color:var(--accent-2)}
+.incorrect{color:var(--danger)}
 
-/* Make the card content comfortable on small screens */
+footer{
+  color:var(--muted);padding:14px;
+  padding-bottom:calc(12px + env(safe-area-inset-bottom));
+  text-align:center;border-top:1px solid rgba(255,255,255,.06)
+}
+.empty{color:var(--muted);border:1px dashed rgba(255,255,255,.2);border-radius:var(--radius);padding:14px;text-align:center}
+.hidden{display:none}
+.small{font-size:.9em;color:var(--muted)}
+
+/* --- MOBILE LAYOUT FIXES --- */
+/* Hide header on phones to save space */
 @media (max-width: 640px){
-  /* Let the card height be driven by content + viewport */
-  .card{ min-height: 0; height: auto; }
-
-  /* The faces already scroll internally; make sure they can */
-  .face{ overflow: auto; -webkit-overflow-scrolling: touch; }
-
-  /* Keep the action buttons visible as you read the question */
+  header{ display:none; }
+  footer{ font-size:12px; padding:8px 12px; }
+  .card{ min-height:0; height:auto; }
+  .face{ overflow:auto; -webkit-overflow-scrolling:touch; }
+  /* Sticky action buttons so Submit/Next stay visible */
   .controls{
-    position: sticky;
-    bottom: 0;
-    z-index: 2;
-    /* subtle backdrop so buttons pop over text */
-    background: linear-gradient(to top, rgba(23,27,34,0.96), rgba(23,27,34,0.4));
-    padding-top: 8px;
-    margin-top: 10px;
-    backdrop-filter: blur(6px);
+    position:sticky;
+    bottom:0;
+    z-index:2;
+    background:linear-gradient(to top, rgba(23,27,34,0.96), rgba(23,27,34,0.4));
+    padding-top:8px;
+    margin-top:10px;
+    backdrop-filter:blur(6px);
   }
 }
-
-/* If your footer gets in the way on phones, make it slimmer */
-@media (max-width: 640px){
-  footer{ font-size: 12px; padding: 8px 12px; }
-}
-  </style>
+</style>
 </head><body>
-<header style="">
-  <h1>MCQ Quiz • CSV/JSON (PWA)</h1>
-  <div class="sub">Tap an option → Submit → flip for the answer. Optimized for iPhone, offline-ready.</div>
-  
- <div class="toolbar">
-    <div class="row">
-      <select id="chapterFilter" title="Filter by chapter" disabled>
-        <option value="__ALL__">All chapters</option>
-      </select>
-      <button id="applyFilter" class="primary">Apply Filter</button>
-      <button id="reshuffle" class="ghost">Re-shuffle</button>
+  <header>
+    <h1>MCQ Quiz • CSV/JSON (PWA)</h1>
+    <div class="sub">Tap an option → Submit → flip for the answer. Optimized for iPhone, offline-ready.</div>
+    <div class="toolbar">
+      <div class="row">
+        <select id="chapterFilter" title="Filter by chapter" disabled>
+          <option value="__ALL__">All chapters</option>
+        </select>
+        <button id="applyFilter" class="primary">Apply Filter</button>
+        <button id="reshuffle" class="ghost">Re-shuffle</button>
+      </div>
+      <div class="row">
+        <input id="filePicker" type="file" accept=".json,.csv" />
+        <button id="loadDefault" class="accent">Load quiz-ch3.json</button>
+        <button id="resetSession" class="danger">Reset Session</button>
+      </div>
     </div>
-    <div class="row">
-      <input id="filePicker" type="file" accept=".json,.csv" />
-      <button id="loadDefault" class="accent">Load quiz-ch3.json</button>
-      <button id="resetSession" class="danger">Reset Session</button>
-    </div>
-  </div>
-</header>
+  </header>
 
-<main>
-  <div class="stage">
-    <div class="meta">
-      <span id="metaPool" class="badge">Pool: 0</span>
-      <span id="metaViewed" class="badge">Viewed: 0</span>
-      <span id="metaChapter" class="badge">Chapter: All</span>
-      <span id="metaScore" class="badge">Score: 0</span>
-      <span id="metaProgress" class="badge">Progress: 0 / 0</span>
-      <span class="badge">Submit to flip</span>
-    </div>
+  <main>
+    <div class="stage">
+      <div class="meta">
+        <span id="metaPool" class="badge">Pool: 0</span>
+        <span id="metaViewed" class="badge">Viewed: 0</span>
+        <span id="metaChapter" class="badge">Chapter: All</span>
+        <span id="metaScore" class="badge">Score: 0</span>
+        <span id="metaProgress" class="badge">Progress: 0 / 0</span>
+        <span class="badge">Submit to flip</span>
+      </div>
 
-    <div class="card" id="card">
-      <div class="card-inner" id="cardInner">
-        <div class="face front">
-          <h2 id="questionText"></h2>
-          <div id="options" class="options"></div>
-          <div class="controls">
-            <button id="prevBtn">← Previous</button>
-            <button id="submitBtn" class="primary">Submit</button>
-            <button id="nextBtn" class="primary">Next →</button>
-            <button id="skipBtn" class="ghost">Skip</button>
+      <div class="card" id="card">
+        <div class="card-inner" id="cardInner">
+          <div class="face front">
+            <h2 id="questionText"></h2>
+            <div id="options" class="options"></div>
+            <div class="controls">
+              <button id="prevBtn">← Previous</button>
+              <button id="submitBtn" class="primary">Submit</button>
+              <button id="nextBtn" class="primary">Next →</button>
+              <button id="skipBtn" class="ghost">Skip</button>
+            </div>
+            <div class="small" id="helper"></div>
           </div>
-          <div class="small" id="helper"></div>
-        </div>
-        <div class="face back">
-          <h3 id="answerHeader"></h3>
-          <div class="expl" id="explanationText"></div>
-          <div class="controls">
-            <button id="flipBackBtn">← Back</button>
-            <button id="nextFromBackBtn" class="primary">Next →</button>
-            <button id="reshuffle2" class="ghost">Re-shuffle</button>
-            <button id="reset2" class="danger">Reset</button>
+          <div class="face back">
+            <h3 id="answerHeader"></h3>
+            <div class="expl" id="explanationText"></div>
+            <div class="controls">
+              <button id="flipBackBtn">← Back</button>
+              <button id="nextFromBackBtn" class="primary">Next →</button>
+              <button id="reshuffle2" class="ghost">Re-shuffle</button>
+              <button id="reset2" class="danger">Reset</button>
+            </div>
           </div>
         </div>
       </div>
-    </div>
 
-    <div id="emptyState" class="empty hidden">
-      <p>No questions in this pool/filter. Try <strong>Re-shuffle</strong> or load data.</p>
+      <div id="emptyState" class="empty hidden">
+        <p>No questions in this pool/filter. Try <strong>Re-shuffle</strong> or load data.</p>
+      </div>
     </div>
-  </div>
-</main>
+  </main>
 
-<footer>MCQ Quiz PWA • Offline • iPhone-friendly layout</footer>
+  <footer>MCQ Quiz PWA • Offline • iPhone-friendly layout</footer>
 
 <script>
 (function(){
@@ -158,10 +245,9 @@ main{
     const s = String(a).trim();
     const map = {A:0,B:1,C:2,D:3};
     if (s.length===1 && map[s.toUpperCase()]!=null) return s.toUpperCase();
-    // try to match by text
-    const i = options.findIndex(opt => opt && opt.trim().toLowerCase() === s.toLowerCase());
+    const i = (options||[]).findIndex(opt => opt && opt.trim().toLowerCase() === s.toLowerCase());
     if (i>=0) return Object.keys(map)[i];
-    return s; // leave as-is
+    return s;
   }
 
   function hasChapter(){
@@ -192,10 +278,12 @@ main{
   }
 
   function render(){
-    // handle empty
-    el('emptyState').classList.toggle('hidden', pool.length>0);
-    el('card').classList.toggle('hidden', pool.length===0);
-    if (pool.length===0) return;
+    const empty = el('emptyState');
+    const card = el('card');
+    const hasPool = pool.length>0;
+    empty.classList.toggle('hidden', hasPool);
+    card.classList.toggle('hidden', !hasPool);
+    if (!hasPool) return;
 
     const q = pool[idx];
     questionText.textContent = q.question || '(No question)';
@@ -227,22 +315,14 @@ main{
     cardInner.classList.add('flipped');
   }
 
-  function flipBack(){
-    cardInner.classList.remove('flipped');
-  }
-
-  function currentQ(){
-    return pool[idx];
-  }
+  function flipBack(){ cardInner.classList.remove('flipped'); }
+  function currentQ(){ return pool[idx]; }
 
   function submit(){
-    if (answeredThis) { return; }
+    if (answeredThis) return;
     const q = currentQ();
     const picked = document.querySelector('input[name="opt"]:checked');
-    if (!picked){
-      helper.textContent = 'Pick an option before submitting.';
-      return;
-    }
+    if (!picked){ helper.textContent = 'Pick an option before submitting.'; return; }
     userChoice = picked.value; // A/B/C/D
     const labels = ['A','B','C','D'];
     const right = normalizeAnswer(q.answer, q.options || []);
@@ -251,38 +331,23 @@ main{
     const correct = userChoice === right;
     if (correct) score++;
     answeredThis = true;
-    viewed.add(idx);
     flipToBack(correct, userChoice, right || '—', rightText, q.explanation || '');
     updateMeta();
   }
 
-  function next(){
-    if (pool.length===0) return;
-    idx = (idx + 1) % pool.length;
-    cardInner.classList.remove('flipped');
-    render();
-  }
-
-  function prev(){
-    if (pool.length===0) return;
-    idx = (idx - 1 + pool.length) % pool.length;
-    cardInner.classList.remove('flipped');
-    render();
-  }
-
-  function skip(){
-    next();
-  }
+  function next(){ if (!pool.length) return; idx = (idx + 1) % pool.length; flipBack(); render(); }
+  function prev(){ if (!pool.length) return; idx = (idx - 1 + pool.length) % pool.length; flipBack(); render(); }
+  function skip(){ next(); }
 
   function updateMeta(){
     meta.pool.textContent = 'Pool: ' + pool.length;
-    meta.viewed.textContent = 'Viewed: ' + viewed.size;
+    // "viewed" badge can be repurposed, but keep simple:
+    meta.viewed.textContent = 'Viewed: ' + (idx+1);
     meta.progress.textContent = `Progress: ${idx+1} / ${pool.length}`;
     meta.score.textContent = `Score: ${score}`;
   }
 
   async function parseCSV(text){
-    // very light CSV (expects headers: Chapter,Question,Option A,B,C,D,Correct Answer,Explanation)
     const lines = text.split(/\r?\n/).filter(l=>l.trim()!=='');
     if (!lines.length) return [];
     const headers = lines[0].split(',').map(h=>h.trim().replace(/^\uFEFF/,''));
@@ -298,7 +363,7 @@ main{
       expl: gi('Explanation')
     };
     return lines.slice(1).map(line=>{
-      // naive split; handles quotes if simple, but for complex CSV use JSON instead
+      // basic CSV with quoted-field support
       const cells = line.match(/("([^"]|"")*"|[^,]*)/g).filter((_,i)=>i%2===0).map(s=>s.replace(/^"(.*)"$/,'$1').replace(/""/g,'"'));
       const pick = i => (i>=0 && i<cells.length) ? cells[i] : '';
       return {
@@ -320,12 +385,10 @@ main{
       explanation: r.explanation || ''
     })).filter(r=>r.question && r.options.some(Boolean));
     updateChapterFilter();
-    // default filter = All
     pool = all.slice();
     reshuffle(true);
   }
 
-  // Load default file (must be in same folder)
   async function loadDefault(){
     try{
       const res = await fetch('./quiz-ch3.json?v=' + Date.now());
@@ -337,7 +400,7 @@ main{
     }
   }
 
-  // Handlers
+  // Wire up controls
   el('submitBtn').addEventListener('click', submit);
   el('nextBtn').addEventListener('click', next);
   el('prevBtn').addEventListener('click', prev);
@@ -346,8 +409,8 @@ main{
   el('nextFromBackBtn').addEventListener('click', next);
   el('reshuffle').addEventListener('click', ()=>reshuffle(true));
   el('reshuffle2').addEventListener('click', ()=>reshuffle(true));
-  el('resetSession').addEventListener('click', ()=>{ viewed.clear(); score=0; idx=0; render(); });
-  el('reset2').addEventListener('click', ()=>{ viewed.clear(); score=0; idx=0; flipBack(); render(); });
+  el('resetSession').addEventListener('click', ()=>{ score=0; idx=0; flipBack(); render(); });
+  el('reset2').addEventListener('click', ()=>{ score=0; idx=0; flipBack(); render(); });
   el('applyFilter').addEventListener('click', applyFilter);
   el('loadDefault').addEventListener('click', loadDefault);
 
@@ -364,7 +427,7 @@ main{
     }
   });
 
-  // init (tries to fetch default if present)
+  // init: try default JSON if present
   loadDefault();
 
   // PWA
