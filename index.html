@@ -128,6 +128,44 @@
     /*header{display:none}*/
     footer{font-size:12px}
     }
+
+    /* RESULTS VIEW */
+    .results-bar{
+    display:grid;
+    grid-template-columns:repeat(4,1fr);
+    gap:10px;
+    margin:8px 0 12px;
+    }
+    .results-summary{
+    padding:12px;
+    border:1px solid rgba(255,255,255,.1);
+    border-radius:12px;
+    background:rgba(255,255,255,.03);
+    margin-bottom:12px;
+    line-height:1.5;
+    }
+    .results-list{
+    display:grid; gap:10px;
+    }
+    .result-item{
+    border:1px solid rgba(255,255,255,.12);
+    border-radius:12px;
+    background:rgba(255,255,255,.02);
+    padding:12px;
+    }
+    .result-item .title{
+    font-weight:650; margin:0 0 6px;
+    }
+    .result-meta{
+    font-size:.92em; color:var(--muted); margin-bottom:6px;
+    }
+    .tag{ padding:2px 8px; border-radius:999px; border:1px solid rgba(255,255,255,.2); display:inline-block; margin-right:6px }
+    .tag.correct{ border-color:rgba(82,223,163,.5); color:var(--accent-2) }
+    .tag.incorrect{ border-color:rgba(255,107,107,.5); color:var(--danger) }
+    .tag.skipped{ border-color:rgba(124,156,255,.5); color:var(--accent) }
+    .mono{ font-family: ui-monospace,SFMono-Regular,Menlo,monospace; }
+
+
     </style>
     </head><body>
     <header>
@@ -190,6 +228,30 @@
         <div id="emptyState" class="empty hidden">
         <p>No questions in this pool/filter. Try <strong>Re-shuffle</strong> or load data.</p>
         </div>
+
+        <!-- RESULTS VIEW -->
+        <section id="resultsView" class="hidden">
+        <div class="results-bar">
+            <button id="btnAll" class="primary">0 All</button>
+            <button id="btnCorrect" class="accent">0 Correct</button>
+            <button id="btnIncorrect" class="danger">0 Incorrect</button>
+            <button id="btnSkipped" class="ghost">0 Skipped</button>
+        </div>
+
+        <div id="resultsSummary" class="results-summary">
+            <!-- filled by JS -->
+        </div>
+
+        <div id="resultsList" class="results-list">
+            <!-- filled by JS -->
+        </div>
+
+        <div class="controls">
+            <button id="backToQuiz">← Review Questions</button>
+            <button id="restartQuiz" class="primary">Restart</button>
+        </div>
+        </section>
+
     </div>
     </main>
 
@@ -218,6 +280,12 @@
     let score = 0;
     let answeredThis = false;
 
+    let status = [];            // per-question state: 'pending' | 'correct' | 'incorrect' | 'skipped'
+    let correctLog = [];        // array of entries (see makeEntry)
+    let incorrectLog = [];
+    let skippedLog = [];
+
+
     function normalizeAnswer(a, options){
     if(!a) return '';
     const s = String(a).trim();
@@ -236,55 +304,64 @@
     }
 
     function applyFilter(){
-    const sel = chapterFilter.value;
-    pool = all.filter(q => sel==='__ALL__' ? true : String(q.chapter||'').trim()===sel);
-    reshuffle(false);
-    meta.chapter.textContent = 'Chapter: ' + (sel==='__ALL__'?'All':sel);
+        const sel = chapterFilter.value;
+        pool = all.filter(q => sel==='__ALL__' ? true : String(q.chapter||'').trim()===sel);
+        reshuffle(false);
+        meta.chapter.textContent = 'Chapter: ' + (sel==='__ALL__'?'All':sel);
     }
 
     function reshuffle(resetScore=true){
-    pool = pool.sort(()=>Math.random()-0.5);
-    idx = 0;
-    if (resetScore) score = 0;
-    cardInner.classList.remove('flipped');
-    render();
+        pool = pool.sort(()=>Math.random()-0.5);
+        idx = 0;
+        if (resetScore) score = 0;
+
+        // reset session tracking for this pool order
+        status = new Array(pool.length).fill('pending');
+        correctLog = [];
+        incorrectLog = [];
+        skippedLog = [];
+
+        cardInner.classList.remove('flipped');
+        // show quiz view, hide results (in case we were there)
+        showQuizView();
+        render();
     }
 
     function render(){
-    const empty = el('emptyState');
-    const card = el('card');
-    const hasPool = pool.length > 0;
-    empty.classList.toggle('hidden', hasPool);
-    card.classList.toggle('hidden', !hasPool);
-    if (!hasPool) return;
+        const empty = el('emptyState');
+        const card = el('card');
+        const hasPool = pool.length > 0;
+        empty.classList.toggle('hidden', hasPool);
+        card.classList.toggle('hidden', !hasPool);
+        if (!hasPool) return;
 
-    const q = pool[idx];
-    questionText.textContent = q.question || '(No question)';
-    optionsEl.innerHTML = '';
+        const q = pool[idx];
+        questionText.textContent = q.question || '(No question)';
+        optionsEl.innerHTML = '';
 
-    const labels = ['A','B','C','D'];
-    (q.options || []).slice(0,4).forEach((text, i) => {
-    const lab = labels[i];
-    const row = document.createElement('label');
-    row.className = 'option';
-    row.innerHTML = `
-        <input type="radio" name="opt" value="${lab}">
-        <div><strong>${lab}.</strong> ${text || ''}</div>
-    `;
-    optionsEl.appendChild(row);
-    });
+        const labels = ['A','B','C','D'];
+        (q.options || []).slice(0,4).forEach((text, i) => {
+        const lab = labels[i];
+        const row = document.createElement('label');
+        row.className = 'option';
+        row.innerHTML = `
+            <input type="radio" name="opt" value="${lab}">
+            <div><strong>${lab}.</strong> ${text || ''}</div>
+        `;
+        optionsEl.appendChild(row);
+        });
 
-    // Auto-submit when user picks an option
-    const radios = optionsEl.querySelectorAll('input[name="opt"]');
-    radios.forEach(r => {
-    r.addEventListener('change', () => {
-        if (!answeredThis) submit();   // call your existing submit()
-    }, { passive: true });
-    });
+        // Auto-submit when user picks an option
+        const radios = optionsEl.querySelectorAll('input[name="opt"]');
+        radios.forEach(r => {
+        r.addEventListener('change', () => {
+            if (!answeredThis) submit();   // call your existing submit()
+        }, { passive: true });
+        });
 
-    answeredThis = false;
-    helper.textContent = 'Tap an option to submit.';
-    updateMeta();
+        answeredThis = false;
+        helper.textContent = 'Tap an option to submit.';
+        updateMeta();
     }
 
 
@@ -313,33 +390,77 @@
     function flipBack(){ cardInner.classList.remove('flipped'); }
     function currentQ(){ return pool[idx]; }
 
-    function submit(){
-    if (answeredThis) return;
-    const q = currentQ();
-    const picked = document.querySelector('input[name="opt"]:checked');
-    if (!picked){ helper.textContent = 'Pick an option before submitting.'; return; }
-    const userChoice = picked.value; // A/B/C/D
-    const labels = ['A','B','C','D'];
-    const right = normalizeAnswer(q.answer, q.options || []);
-    const rightIdx = labels.indexOf(right);
-    const rightText = (q.options||[])[rightIdx] || '';
-    const correct = userChoice === right;
-    if (correct) score++;
-    answeredThis = true;
-    flipToBack(
-    correct,
-    userChoice,
-    right || '—',
-    rightText,
-    q.explanation || '',
-    q.overallExplanation || ''
-    );
-    updateMeta();
+    function makeEntry(q, picked, rightLetter, rightText){
+    return {
+        question: q.question || '',
+        picked: picked ?? null,           // 'A'|'B'|'C'|'D' or null
+        correctLetter: rightLetter || '',
+        correctText: rightText || '',
+        explanation: q.explanation || '',
+        overallExplanation: (q.overallExplanation || '')
+    };
     }
+
+
+    function submit(){
+        if (answeredThis) return;
+        const q = currentQ();
+        const picked = document.querySelector('input[name="opt"]:checked');
+        if (!picked){ helper.textContent = 'Pick an option before submitting.'; return; }
+
+        const userChoice = picked.value; // A/B/C/D
+        const labels = ['A','B','C','D'];
+        const right = normalizeAnswer(q.answer, q.options || []);
+        const rightIdx = labels.indexOf(right);
+        const rightText = (q.options||[])[rightIdx] || '';
+        const correct = userChoice === right;
+
+        // session log
+        const entry = makeEntry(q, userChoice, right || '—', rightText);
+        if (status[idx] === 'pending'){
+            if (correct) { correctLog.push(entry); status[idx] = 'correct'; score++; }
+            else { incorrectLog.push(entry); status[idx] = 'incorrect'; }
+        }
+
+        answeredThis = true;
+
+        flipToBack(
+            correct,
+            userChoice,
+            right || '—',
+            rightText,
+            q.explanation || '',
+            q.overallExplanation || ''
+        );
+        updateMeta();
+
+        // If that was the last pending question, show results
+        checkIfFinished();
+    }
+
 
     function next(){ if (!pool.length) return; idx = (idx + 1) % pool.length; flipBack(); render(); }
     function prev(){ if (!pool.length) return; idx = (idx - 1 + pool.length) % pool.length; flipBack(); render(); }
-    function skip(){ next(); }
+    function skip(){
+        if (!pool.length) return;
+            const q = currentQ();
+            const labels = ['A','B','C','D'];
+            const right = normalizeAnswer(q.answer, q.options || []);
+            const rightIdx = labels.indexOf(right);
+            const rightText = (q.options||[])[rightIdx] || '';
+
+            if (status[idx] === 'pending'){
+                skippedLog.push(makeEntry(q, null, right || '—', rightText));
+                status[idx] = 'skipped';
+            }
+
+            // move to next item (keep your flow)
+            idx = (idx + 1) % pool.length;
+            flipBack();
+            render();
+
+            checkIfFinished();
+    }
 
     function updateMeta(){
     meta.pool.textContent = 'Pool: ' + pool.length;
@@ -378,29 +499,120 @@
     }
 
     function setData(rows){
-    all = rows.map(r=>{
-    // normalize/fallbacks for overall explanation across CSV/JSON variants
-    const ov =
-        r.overallExplanation ??
-        r.overall_explanation ??
-        r['Overall explanation'] ??
-        r['Overall Explanation'] ??
-        r.overallexplanation ?? // sometimes all lower
-        '';
+        all = rows.map(r=>{
+            const ov =
+            r.overallExplanation ??
+            r.overall_explanation ??
+            r['Overall explanation'] ??
+            r['Overall Explanation'] ??
+            r.overallexplanation ?? '';
+            return {
+            question: r.question || '',
+            options: (r.options || []).slice(0,4),
+            answer: r.answer || '',
+            explanation: r.explanation || '',
+            overallExplanation: ov || '',
+            chapter: r.chapter || ''
+            };
+        }).filter(r=>r.question && r.options.some(Boolean));
 
-    return {
-        question: r.question || '',
-        options: (r.options || []).slice(0,4),
-        answer: r.answer || '',
-        explanation: r.explanation || '',
-        overallExplanation: ov || '',
-        chapter: r.chapter || ''
-    };
-    }).filter(r=>r.question && r.options.some(Boolean));
-    updateChapterFilter();
-    pool = all.slice();
-    reshuffle(true);
+        updateChapterFilter();
+        pool = all.slice();
+        reshuffle(true);
     }
+
+    function showResultsView(){
+        // update counts & labels
+        const c = status.filter(s => s === 'correct').length;
+        const i = status.filter(s => s === 'incorrect').length;
+        const k = status.filter(s => s === 'skipped').length;
+        const total = pool.length;
+        const answered = c + i;
+        const pct = answered ? Math.round((c / answered) * 100) : 0;
+
+        el('btnAll').textContent = `${total} All`;
+        el('btnCorrect').textContent = `${c} Correct`;
+        el('btnIncorrect').textContent = `${i} Incorrect`;
+        el('btnSkipped').textContent = `${k} Skipped`;
+
+        el('resultsSummary').innerHTML =
+            `Total Questions Answered = <strong>${answered}</strong><br>`+
+            `Total Correct = <strong>${c}</strong><br>`+
+            `Total Incorrect = <strong>${i}</strong><br>`+
+            `Percentage Correct = <strong>${pct}%</strong>`;
+
+        // default: show ALL
+        displayAll();
+
+        // swap views
+        el('resultsView').classList.remove('hidden');
+        el('card').classList.add('hidden');
+        el('emptyState').classList.add('hidden');
+        }
+
+        function showQuizView(){
+        el('resultsView').classList.add('hidden');
+        el('card').classList.remove('hidden');
+    }
+
+    function clearResultsList(){ el('resultsList').innerHTML = ''; }
+
+    function renderListFrom(arr, tag){
+    clearResultsList();
+    const list = el('resultsList');
+    if (!arr.length){
+        list.innerHTML = `<div class="result-item"><em>No items.</em></div>`;
+        return;
+        }
+    arr.forEach(item=>{
+        const div = document.createElement('div');
+        div.className = 'result-item';
+        const picked = item.picked ? `${item.picked}` : '—';
+        div.innerHTML = `
+        <div class="result-meta">
+            <span class="tag ${tag}">${tag}</span>
+            <span class="mono">Picked: ${picked}</span>
+            &nbsp;•&nbsp;
+            <span class="mono">Correct: ${item.correctLetter}</span>
+        </div>
+        <div class="title">${escapeHtml(item.question)}</div>
+        <div><strong>Correct answer:</strong> ${escapeHtml(item.correctLetter + (item.correctText ? (". " + item.correctText) : ""))}</div>
+        ${item.explanation ? `<div class="expl"><strong>Explanation:</strong> ${escapeHtml(item.explanation)}</div>` : ``}
+        ${item.overallExplanation ? `<div class="expl"><strong>Overall:</strong> ${escapeHtml(item.overallExplanation)}</div>` : ``}
+        `;
+        list.appendChild(div);
+    });
+    }
+
+    function checkIfFinished(){
+    if (status.every(s => s !== 'pending')){
+        showResultsView();
+        return true;
+    }
+    return false;
+    }
+
+    function displayAll(){
+    const allItems = [
+        ...correctLog.map(x => ({...x, _t:'correct'})),
+        ...incorrectLog.map(x => ({...x, _t:'incorrect'})),
+        ...skippedLog.map(x => ({...x, _t:'skipped'}))
+    ];
+    clearResultsList();
+    if (!allItems.length){
+        el('resultsList').innerHTML = `<div class="result-item"><em>No results yet.</em></div>`;
+        return;
+    }
+    // group by type in order: correct, incorrect, skipped
+    if (correctLog.length) renderListFrom(correctLog, 'correct');
+    if (incorrectLog.length) renderListFrom(incorrectLog, 'incorrect');
+    if (skippedLog.length) renderListFrom(skippedLog, 'skipped');
+    }
+
+    function displayCorrect(){ renderListFrom(correctLog, 'correct'); }
+    function displayIncorrect(){ renderListFrom(incorrectLog, 'incorrect'); }
+    function displaySkipped(){ renderListFrom(skippedLog, 'skipped'); }
+
 
     async function loadDefault(){
     try{
@@ -414,6 +626,20 @@
     }
 
     // Wire up controls
+    // Results actions
+    el('btnAll').addEventListener('click', displayAll);
+    el('btnCorrect').addEventListener('click', displayCorrect);
+    el('btnIncorrect').addEventListener('click', displayIncorrect);
+    el('btnSkipped').addEventListener('click', displaySkipped);
+
+    el('backToQuiz').addEventListener('click', ()=>{
+    showQuizView();
+    render();
+    });
+    el('restartQuiz').addEventListener('click', ()=>{
+    reshuffle(true); // resets logs & score
+    });
+
     //document.getElementById('submitBtn').addEventListener('click', submit);
     document.getElementById('nextBtn').addEventListener('click', next);
     document.getElementById('prevBtn').addEventListener('click', prev);
