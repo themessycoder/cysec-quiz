@@ -1,222 +1,222 @@
-<!DOCTYPE html><html lang="en"><head>
-<meta charset="utf-8"/>
-<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover"/>
-<title>MCQ Quiz • CSV/JSON (PWA)</title>
-<link rel="manifest" href="manifest.json">
-<meta name="apple-mobile-web-app-capable" content="yes">
-<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-<meta name="theme-color" content="#0f1218">
-<link rel="apple-touch-icon" href="icons/icon-192.png">
-<style>
-:root{--bg:#0f1218;--panel:#171b22;--text:#e8ecf1;--muted:#9aa6b2;--accent:#7c9cff;--accent-2:#52dfa3;--danger:#ff6b6b;--shadow:0 10px 30px rgba(0,0,0,.35);--radius:14px}
-*{box-sizing:border-box}
-html,body{height:100%}
-body{
-  margin:0;font-family:-apple-system,system-ui,Segoe UI,Roboto,Helvetica,Arial,sans-serif;
-  background:
+    <!DOCTYPE html><html lang="en"><head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover"/>
+    <title>MCQ Quiz • CSV/JSON (PWA)</title>
+    <link rel="manifest" href="manifest.json">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="theme-color" content="#0f1218">
+    <link rel="apple-touch-icon" href="icons/icon-192.png">
+    <style>
+    :root{--bg:#0f1218;--panel:#171b22;--text:#e8ecf1;--muted:#9aa6b2;--accent:#7c9cff;--accent-2:#52dfa3;--danger:#ff6b6b;--shadow:0 10px 30px rgba(0,0,0,.35);--radius:14px}
+    *{box-sizing:border-box}
+    html,body{height:100%}
+    body{
+    margin:0;font-family:-apple-system,system-ui,Segoe UI,Roboto,Helvetica,Arial,sans-serif;
+    background:
     radial-gradient(1200px 600px at 20% -10%, rgba(124,156,255,.15), transparent 60%),
     radial-gradient(1200px 600px at 120% 110%, rgba(82,223,163,.12), transparent 60%),
     var(--bg);
-  color:var(--text);
-  display:flex;flex-direction:column;
-  min-height:100dvh;
-  overflow:hidden; /* prevent double scrollbars */
-  padding-left:env(safe-area-inset-left);
-  padding-right:env(safe-area-inset-right);
-}
+    color:var(--text);
+    display:flex;flex-direction:column;
+    min-height:100dvh;
+    overflow:hidden; /* prevent double scrollbars */
+    padding-left:env(safe-area-inset-left);
+    padding-right:env(safe-area-inset-right);
+    }
 
-header{
-  padding:16px;
-  padding-top:calc(10px + env(safe-area-inset-top));
-  border-bottom:1px solid rgba(255,255,255,.06);
-  position:sticky;top:0;z-index:5;
-  background:rgba(15,18,24,.7);
-  backdrop-filter:blur(6px)
-}
-h1{font-size:clamp(16px,3.5vw,22px);margin:0 0 6px}
-.sub{color:var(--muted);font-size:clamp(12px,2.6vw,14px)}
+    header{
+    padding:16px;
+    padding-top:calc(10px + env(safe-area-inset-top));
+    border-bottom:1px solid rgba(255,255,255,.06);
+    position:sticky;top:0;z-index:5;
+    background:rgba(15,18,24,.7);
+    backdrop-filter:blur(6px)
+    }
+    h1{font-size:clamp(16px,3.5vw,22px);margin:0 0 6px}
+    .sub{color:var(--muted);font-size:clamp(12px,2.6vw,14px)}
 
-.toolbar{display:grid;gap:10px;margin-top:10px;grid-template-columns:1fr}
-.toolbar .row{display:flex;gap:10px;align-items:center;flex-wrap:wrap;min-width:0}
-@media (min-width:560px){.toolbar{grid-template-columns:1fr 1fr}}
+    .toolbar{display:grid;gap:10px;margin-top:10px;grid-template-columns:1fr}
+    .toolbar .row{display:flex;gap:10px;align-items:center;flex-wrap:wrap;min-width:0}
+    @media (min-width:560px){.toolbar{grid-template-columns:1fr 1fr}}
 
-select,button,input[type="file"]{
-  background:var(--panel);color:var(--text);
-  border:1px solid rgba(255,255,255,.08);
-  border-radius:12px;padding:12px 14px;
-  font-size:clamp(14px,2.8vw,16px);
-  box-shadow:var(--shadow);
-  -webkit-tap-highlight-color:transparent
-}
-button{cursor:pointer}
-.primary{border-color:rgba(124,156,255,.4)}
-.accent{border-color:rgba(82,223,163,.4)}
-.danger{border-color:rgba(255,107,107,.35)}
-.ghost{background:transparent;border-color:rgba(255,255,255,.12)}
-.toolbar .row select{flex:1 1 260px;min-width:0;max-width:100%;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
-@media (max-width:559.98px){.toolbar .row select{flex:1 1 100%}}
+    select,button,input[type="file"]{
+    background:var(--panel);color:var(--text);
+    border:1px solid rgba(255,255,255,.08);
+    border-radius:12px;padding:12px 14px;
+    font-size:clamp(14px,2.8vw,16px);
+    box-shadow:var(--shadow);
+    -webkit-tap-highlight-color:transparent
+    }
+    button{cursor:pointer}
+    .primary{border-color:rgba(124,156,255,.4)}
+    .accent{border-color:rgba(82,223,163,.4)}
+    .danger{border-color:rgba(255,107,107,.35)}
+    .ghost{background:transparent;border-color:rgba(255,255,255,.12)}
+    .toolbar .row select{flex:1 1 260px;min-width:0;max-width:100%;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+    @media (max-width:559.98px){.toolbar .row select{flex:1 1 100%}}
 
-/* MAIN: full-height scroll lives here */
-main{
-  flex:1 1 auto;min-height:0;overflow-y:auto;-webkit-overflow-scrolling:touch;
-  padding:12px
-}
-.stage{width:min(960px,100%);margin:0 auto;display:grid;gap:12px}
+    /* MAIN: full-height scroll lives here */
+    main{
+    flex:1 1 auto;min-height:0;overflow-y:auto;-webkit-overflow-scrolling:touch;
+    padding:12px
+    }
+    .stage{width:min(960px,100%);margin:0 auto;display:grid;gap:12px}
 
-/* badges */
-.meta{display:flex;gap:8px;flex-wrap:wrap;color:var(--muted);font-size:clamp(12px,2.6vw,13px);min-width:0}
-.badge{
-  padding:6px 10px;background:rgba(124,156,255,.12);
-  border:1px solid rgba(124,156,255,.25);border-radius:999px;
-  max-width:100%;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;
-}
+    /* badges */
+    .meta{display:flex;gap:8px;flex-wrap:wrap;color:var(--muted);font-size:clamp(12px,2.6vw,13px);min-width:0}
+    .badge{
+    padding:6px 10px;background:rgba(124,156,255,.12);
+    border:1px solid rgba(124,156,255,.25);border-radius:999px;
+    max-width:100%;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;
+    }
 
-/* CARD — flow-based (no absolute positioning) so it expands naturally */
-.card{}
-.card-inner{
-  border-radius:var(--radius);
-  background:linear-gradient(180deg,rgba(23,27,34,1),rgba(23,27,34,.9));
-  border:1px solid rgba(255,255,255,.08);box-shadow:var(--shadow);
-  padding:clamp(14px,3vw,22px);
-}
+    /* CARD — flow-based (no absolute positioning) so it expands naturally */
+    .card{}
+    .card-inner{
+    border-radius:var(--radius);
+    background:linear-gradient(180deg,rgba(23,27,34,1),rgba(23,27,34,.9));
+    border:1px solid rgba(255,255,255,.08);box-shadow:var(--shadow);
+    padding:clamp(14px,3vw,22px);
+    }
 
-/* faces are plain blocks; we just toggle display when "flipped" */
-.face{display:grid;grid-template-rows:auto 1fr auto;gap:10px;min-height:40dvh}
-.card-inner:not(.flipped) .back{display:none}
-.card-inner.flipped .front{display:none}
+    /* faces are plain blocks; we just toggle display when "flipped" */
+    .face{display:grid;grid-template-rows:auto 1fr auto;gap:10px;min-height:40dvh}
+    .card-inner:not(.flipped) .back{display:none}
+    .card-inner.flipped .front{display:none}
 
-.front h2{font-size:clamp(18px,5vw,26px);line-height:1.35;margin:0 0 8px;font-weight:650}
-.options{display:grid;gap:10px;margin-top:6px}
-.option{
-  display:flex;gap:10px;align-items:flex-start;padding:10px 12px;border:1px solid rgba(255,255,255,.08);
-  border-radius:12px;background:rgba(255,255,255,.02)
-}
-.option input{margin-top:4px;transform:scale(1.1)}
-/* The content area (between title and controls) scrolls if long */
-.face > :nth-child(2){
-  overflow:auto;min-height:0;-webkit-overflow-scrolling:touch;
-}
+    .front h2{font-size:clamp(18px,5vw,26px);line-height:1.35;margin:0 0 8px;font-weight:650}
+    .options{display:grid;gap:10px;margin-top:6px}
+    .option{
+    display:flex;gap:10px;align-items:flex-start;padding:10px 12px;border:1px solid rgba(255,255,255,.08);
+    border-radius:12px;background:rgba(255,255,255,.02)
+    }
+    .option input{margin-top:4px;transform:scale(1.1)}
+    /* The content area (between title and controls) scrolls if long */
+    .face > :nth-child(2){
+    overflow:auto;min-height:0;-webkit-overflow-scrolling:touch;
+    }
 
-.controls{display:grid;gap:10px;grid-template-columns:repeat(2,1fr);margin-top:10px}
-@media (min-width:640px){.controls{grid-template-columns:repeat(4,1fr)}}
+    .controls{display:grid;gap:10px;grid-template-columns:repeat(2,1fr);margin-top:10px}
+    @media (min-width:640px){.controls{grid-template-columns:repeat(4,1fr)}}
 
-/* Sticky action row inside the card so Submit/Next stay visible */
-.controls{
-  position:sticky;bottom:0;z-index:2;
-  background:linear-gradient(to top, rgba(23,27,34,0.96), rgba(23,27,34,0.4));
-  padding-top:8px;margin-top:10px;backdrop-filter:blur(6px)
-}
+    /* Sticky action row inside the card so Submit/Next stay visible */
+    .controls{
+    position:sticky;bottom:0;z-index:2;
+    background:linear-gradient(to top, rgba(23,27,34,0.96), rgba(23,27,34,0.4));
+    padding-top:8px;margin-top:10px;backdrop-filter:blur(6px)
+    }
 
-.back h3{margin:0 0 8px;font-size:clamp(16px,4.6vw,20px)}
-.expl{line-height:1.55;font-size:clamp(14px,4.2vw,17px);white-space:pre-wrap}
-.correct{color:var(--accent-2)}
-.incorrect{color:var(--danger)}
+    .back h3{margin:0 0 8px;font-size:clamp(16px,4.6vw,20px)}
+    .expl{line-height:1.55;font-size:clamp(14px,4.2vw,17px);white-space:pre-wrap}
+    .correct{color:var(--accent-2)}
+    .incorrect{color:var(--danger)}
 
-footer{
-  color:var(--muted);padding:12px;
-  padding-bottom:calc(10px + env(safe-area-inset-bottom));
-  text-align:center;border-top:1px solid rgba(255,255,255,.06)
-}
-.empty{color:var(--muted);border:1px dashed rgba(255,255,255,.2);border-radius:var(--radius);padding:14px;text-align:center}
-.hidden{display:none}
-.small{font-size:.9em;color:var(--muted)}
+    footer{
+    color:var(--muted);padding:12px;
+    padding-bottom:calc(10px + env(safe-area-inset-bottom));
+    text-align:center;border-top:1px solid rgba(255,255,255,.06)
+    }
+    .empty{color:var(--muted);border:1px dashed rgba(255,255,255,.2);border-radius:var(--radius);padding:14px;text-align:center}
+    .hidden{display:none}
+    .small{font-size:.9em;color:var(--muted)}
 
-/* Hide header on phones to save vertical space */
-@media (max-width: 640px){
-  header{display:none}
-  footer{font-size:12px}
-}
-</style>
-</head><body>
-  <header>
+    /* Hide header on phones to save vertical space */
+    @media (max-width: 640px){
+    header{display:none}
+    footer{font-size:12px}
+    }
+    </style>
+    </head><body>
+    <header>
     <h1>MCQ Quiz • CSV/JSON (PWA)</h1>
     <div class="sub">Tap an option → Submit → flip for the answer. Optimized for iPhone, offline-ready.</div>
     <div class="toolbar">
-      <div class="row">
+        <div class="row">
         <select id="chapterFilter" title="Filter by chapter" disabled>
-          <option value="__ALL__">All chapters</option>
+            <option value="__ALL__">All chapters</option>
         </select>
         <button id="applyFilter" class="primary">Apply Filter</button>
         <button id="reshuffle" class="ghost">Re-shuffle</button>
-      </div>
-      <div class="row">
+        </div>
+        <div class="row">
         <input id="filePicker" type="file" accept=".json,.csv" />
         <button id="loadDefault" class="accent">Load default json</button>
         <button id="resetSession" class="danger">Reset Session</button>
-      </div>
+        </div>
     </div>
-  </header>
+    </header>
 
-  <main>
+    <main>
     <div class="stage">
-      <div class="meta">
+        <div class="meta">
         <span id="metaPool" class="badge">Pool: 0</span>
         <span id="metaViewed" class="badge">Viewed: 0</span>
         <span id="metaChapter" class="badge">Chapter: All</span>
         <span id="metaScore" class="badge">Score: 0</span>
         <span id="metaProgress" class="badge">Progress: 0 / 0</span>
         <span class="badge">Submit to flip</span>
-      </div>
+        </div>
 
-      <div class="card" id="card">
+        <div class="card" id="card">
         <div class="card-inner" id="cardInner">
-          <div class="face front">
+            <div class="face front">
             <h2 id="questionText"></h2>
             <div id="options" class="options"></div>
             <div class="controls">
-              <button id="prevBtn">← Previous</button>
-              <button id="nextBtn" class="primary">Next →</button>
-              <button id="skipBtn" class="ghost">Skip</button>
+                <button id="prevBtn">← Previous</button>
+                <button id="nextBtn" class="primary">Next →</button>
+                <button id="skipBtn" class="ghost">Skip</button>
             </div>
             <div class="small" id="helper"></div>
-          </div>
+            </div>
 
-          <div class="face back">
+            <div class="face back">
             <h3 id="answerHeader"></h3>
             <div class="expl" id="explanationText"></div>            
             <div class="expl" id="overallExplanationText"></div>
             <div class="controls">
-              <button id="flipBackBtn">← Back</button>
-              <button id="nextFromBackBtn" class="primary">Next →</button>
-              <button id="reshuffle2" class="ghost">Re-shuffle</button>
-              <button id="reset2" class="danger">Reset</button>
+                <button id="flipBackBtn">← Back</button>
+                <button id="nextFromBackBtn" class="primary">Next →</button>
+                <button id="reshuffle2" class="ghost">Re-shuffle</button>
+                <button id="reset2" class="danger">Reset</button>
             </div>
-          </div>
+            </div>
         </div>
-      </div>
+        </div>
 
-      <div id="emptyState" class="empty hidden">
+        <div id="emptyState" class="empty hidden">
         <p>No questions in this pool/filter. Try <strong>Re-shuffle</strong> or load data.</p>
-      </div>
+        </div>
     </div>
-  </main>
+    </main>
 
-  <footer>MCQ Quiz PWA • Offline • iPhone-friendly layout</footer>
+    <footer>MCQ Quiz PWA • Offline • iPhone-friendly layout</footer>
 
-<script>
-(function(){
-  const el = id => document.getElementById(id);
-  const cardInner = el('cardInner');
-  const questionText = el('questionText');
-  const optionsEl = el('options');
-  const answerHeader = el('answerHeader');
-  const explanationText = el('explanationText');
-  const overallExplanationText = el('overallExplanationText');
-  const helper = el('helper');
+    <script>
+    (function(){
+    const el = id => document.getElementById(id);
+    const cardInner = el('cardInner');
+    const questionText = el('questionText');
+    const optionsEl = el('options');
+    const answerHeader = el('answerHeader');
+    const explanationText = el('explanationText');
+    const overallExplanationText = el('overallExplanationText');
+    const helper = el('helper');
 
-  const meta = {
+    const meta = {
     pool: el('metaPool'), viewed: el('metaViewed'), chapter: el('metaChapter'),
     progress: el('metaProgress'), score: el('metaScore')
-  };
-  const chapterFilter = el('chapterFilter');
+    };
+    const chapterFilter = el('chapterFilter');
 
-  let all = [];   // full dataset
-  let pool = [];  // filtered/shuffled dataset
-  let idx = 0;    // current index
-  let score = 0;
-  let answeredThis = false;
+    let all = [];   // full dataset
+    let pool = [];  // filtered/shuffled dataset
+    let idx = 0;    // current index
+    let score = 0;
+    let answeredThis = false;
 
-  function normalizeAnswer(a, options){
+    function normalizeAnswer(a, options){
     if(!a) return '';
     const s = String(a).trim();
     const map = {A:0,B:1,C:2,D:3};
@@ -224,83 +224,94 @@ footer{
     const i = (options||[]).findIndex(opt => opt && opt.trim().toLowerCase() === s.toLowerCase());
     if (i>=0) return Object.keys(map)[i];
     return s;
-  }
+    }
 
-  function updateChapterFilter(){
+    function updateChapterFilter(){
     const chapters = Array.from(new Set(all.map(q => (q.chapter||'').trim()).filter(Boolean))).sort();
     chapterFilter.innerHTML = '<option value="__ALL__">All chapters</option>' +
-      chapters.map(ch => `<option value="${ch}">${ch}</option>`).join('');
+        chapters.map(ch => `<option value="${ch}">${ch}</option>`).join('');
     chapterFilter.disabled = chapters.length === 0;
-  }
+    }
 
-  function applyFilter(){
+    function applyFilter(){
     const sel = chapterFilter.value;
     pool = all.filter(q => sel==='__ALL__' ? true : String(q.chapter||'').trim()===sel);
     reshuffle(false);
     meta.chapter.textContent = 'Chapter: ' + (sel==='__ALL__'?'All':sel);
-  }
+    }
 
-  function reshuffle(resetScore=true){
+    function reshuffle(resetScore=true){
     pool = pool.sort(()=>Math.random()-0.5);
     idx = 0;
     if (resetScore) score = 0;
     cardInner.classList.remove('flipped');
     render();
-  }
+    }
 
-function render(){
-  const empty = el('emptyState');
-  const card = el('card');
-  const hasPool = pool.length > 0;
-  empty.classList.toggle('hidden', hasPool);
-  card.classList.toggle('hidden', !hasPool);
-  if (!hasPool) return;
+    function render(){
+    const empty = el('emptyState');
+    const card = el('card');
+    const hasPool = pool.length > 0;
+    empty.classList.toggle('hidden', hasPool);
+    card.classList.toggle('hidden', !hasPool);
+    if (!hasPool) return;
 
-  const q = pool[idx];
-  questionText.textContent = q.question || '(No question)';
-  optionsEl.innerHTML = '';
+    const q = pool[idx];
+    questionText.textContent = q.question || '(No question)';
+    optionsEl.innerHTML = '';
 
-  const labels = ['A','B','C','D'];
-  (q.options || []).slice(0,4).forEach((text, i) => {
+    const labels = ['A','B','C','D'];
+    (q.options || []).slice(0,4).forEach((text, i) => {
     const lab = labels[i];
     const row = document.createElement('label');
     row.className = 'option';
     row.innerHTML = `
-      <input type="radio" name="opt" value="${lab}">
-      <div><strong>${lab}.</strong> ${text || ''}</div>
+        <input type="radio" name="opt" value="${lab}">
+        <div><strong>${lab}.</strong> ${text || ''}</div>
     `;
     optionsEl.appendChild(row);
-  });
+    });
 
-  // Auto-submit when user picks an option
-  const radios = optionsEl.querySelectorAll('input[name="opt"]');
-  radios.forEach(r => {
+    // Auto-submit when user picks an option
+    const radios = optionsEl.querySelectorAll('input[name="opt"]');
+    radios.forEach(r => {
     r.addEventListener('change', () => {
-      if (!answeredThis) submit();   // call your existing submit()
+        if (!answeredThis) submit();   // call your existing submit()
     }, { passive: true });
-  });
+    });
 
-  answeredThis = false;
-  helper.textContent = 'Tap an option to submit.';
-  updateMeta();
-}
+    answeredThis = false;
+    helper.textContent = 'Tap an option to submit.';
+    updateMeta();
+    }
 
 
-  function flipToBack(correct, picked, rightLetter, rightText, expl, ovexpl){
+    function flipToBack(correct, picked, rightLetter, rightText, expl, ovexpl){
     const msg = correct
-      ? `✅ Correct — ${rightLetter}. ${rightText}`
-      : `❌ Incorrect — You chose ${picked}. Correct is ${rightLetter}. ${rightText}`;
+        ? `✅ Correct — ${rightLetter}. ${rightText}`
+        : `❌ Incorrect — You chose ${picked}. Correct is ${rightLetter}. ${rightText}`;
     answerHeader.className = correct ? 'correct' : 'incorrect';
     answerHeader.textContent = msg;
-    explanationText.textContent = expl || '';    
-    overallExplanationText.textContent = ovexpl || '';
+
+    // Label + show only if present
+    explanationText.innerHTML = expl
+        ? `<strong>Explanation:</strong> ${escapeHtml(expl)}`
+        : '';
+    overallExplanationText.innerHTML = ovexpl
+        ? `<strong>Overall:</strong> ${escapeHtml(ovexpl)}`
+        : '';
+
     cardInner.classList.add('flipped');
-  }
+    }
 
-  function flipBack(){ cardInner.classList.remove('flipped'); }
-  function currentQ(){ return pool[idx]; }
+    function escapeHtml(s){
+    return String(s).replace(/[&<>"']/g, m => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[m]));
+    }
 
-  function submit(){
+    function flipBack(){ cardInner.classList.remove('flipped'); }
+    function currentQ(){ return pool[idx]; }
+
+    function submit(){
     if (answeredThis) return;
     const q = currentQ();
     const picked = document.querySelector('input[name="opt"]:checked');
@@ -322,107 +333,118 @@ function render(){
     q.overallExplanation || ''
     );
     updateMeta();
-  }
+    }
 
-  function next(){ if (!pool.length) return; idx = (idx + 1) % pool.length; flipBack(); render(); }
-  function prev(){ if (!pool.length) return; idx = (idx - 1 + pool.length) % pool.length; flipBack(); render(); }
-  function skip(){ next(); }
+    function next(){ if (!pool.length) return; idx = (idx + 1) % pool.length; flipBack(); render(); }
+    function prev(){ if (!pool.length) return; idx = (idx - 1 + pool.length) % pool.length; flipBack(); render(); }
+    function skip(){ next(); }
 
-  function updateMeta(){
+    function updateMeta(){
     meta.pool.textContent = 'Pool: ' + pool.length;
     meta.progress.textContent = `Progress: ${idx+1} / ${pool.length}`;
     meta.score.textContent = `Score: ${score}`;
-  }
+    }
 
-  async function parseCSV(text){
+    async function parseCSV(text){
     const lines = text.split(/\r?\n/).filter(l=>l.trim()!=='');
     if (!lines.length) return [];
     const headers = lines[0].split(',').map(h=>h.trim().replace(/^\uFEFF/,''));
     const gi = name => headers.findIndex(h => h.toLowerCase()===name.toLowerCase());
     const col = {
-      question: gi('Question'),
-      oa: gi('Option A'),
-      ob: gi('Option B'),
-      oc: gi('Option C'),
-      od: gi('Option D'),
-      ans: gi('Correct Answer'),
-      expl: gi('Explanation'),
-      ovexpl: gi('Overall explanation'),
-      chapter: gi('Chapter')
+        question: gi('Question'),
+        oa: gi('Option A'),
+        ob: gi('Option B'),
+        oc: gi('Option C'),
+        od: gi('Option D'),
+        ans: gi('Correct Answer'),
+        expl: gi('Explanation'),
+        ovexpl: gi('Overall explanation'),
+        chapter: gi('Chapter')
     };
     return lines.slice(1).map(line=>{
-      const cells = line.match(/("([^"]|"")*"|[^,]*)/g).filter((_,i)=>i%2===0).map(s=>s.replace(/^"(.*)"$/,'$1').replace(/""/g,'"'));
-      const pick = i => (i>=0 && i<cells.length) ? cells[i] : '';
-      return {
+        const cells = line.match(/("([^"]|"")*"|[^,]*)/g).filter((_,i)=>i%2===0).map(s=>s.replace(/^"(.*)"$/,'$1').replace(/""/g,'"'));
+        const pick = i => (i>=0 && i<cells.length) ? cells[i] : '';
+        return {
         question: pick(col.question) || '',
         options: [pick(col.oa), pick(col.ob), pick(col.oc), pick(col.od)],
         answer: pick(col.ans) || '',
         explanation: pick(col.expl) || '',        
         overallExplanation: pick(col.ovexpl) || '',
         chapter: pick(col.chapter) || ''
-      };
+        };
     }).filter(r=>r.question);
-  }
+    }
 
-  function setData(rows){
-    all = rows.map(r=>({
-      question: r.question || '',
-      options: (r.options || []).slice(0,4),
-      answer: r.answer || '',
-      explanation: r.explanation || '',
-      overallExplanation: r.overallExplanation || '',
-      chapter: r.chapter || ''
-    })).filter(r=>r.question && r.options.some(Boolean));
+    function setData(rows){
+    all = rows.map(r=>{
+    // normalize/fallbacks for overall explanation across CSV/JSON variants
+    const ov =
+        r.overallExplanation ??
+        r.overall_explanation ??
+        r['Overall explanation'] ??
+        r['Overall Explanation'] ??
+        r.overallexplanation ?? // sometimes all lower
+        '';
+
+    return {
+        question: r.question || '',
+        options: (r.options || []).slice(0,4),
+        answer: r.answer || '',
+        explanation: r.explanation || '',
+        overallExplanation: ov || '',
+        chapter: r.chapter || ''
+    };
+    }).filter(r=>r.question && r.options.some(Boolean));
     updateChapterFilter();
     pool = all.slice();
     reshuffle(true);
-  }
-
-  async function loadDefault(){
-    try{
-      const res = await fetch('./chapter3.json?v=' + Date.now());
-      if (!res.ok) throw new Error('Not found');
-      const json = await res.json();
-      setData(json);
-    }catch(e){
-      helper.textContent = 'Could not fetch json file. Use Upload to load JSON/CSV.';
     }
-  }
 
-  // Wire up controls
-  //document.getElementById('submitBtn').addEventListener('click', submit);
-  document.getElementById('nextBtn').addEventListener('click', next);
-  document.getElementById('prevBtn').addEventListener('click', prev);
-  document.getElementById('skipBtn').addEventListener('click', skip);
-  document.getElementById('flipBackBtn').addEventListener('click', flipBack);
-  document.getElementById('nextFromBackBtn').addEventListener('click', next);
-  document.getElementById('reshuffle').addEventListener('click', ()=>reshuffle(true));
-  document.getElementById('reshuffle2').addEventListener('click', ()=>reshuffle(true));
-  document.getElementById('resetSession').addEventListener('click', ()=>{ score=0; idx=0; flipBack(); render(); });
-  document.getElementById('reset2').addEventListener('click', ()=>{ score=0; idx=0; flipBack(); render(); });
-  document.getElementById('applyFilter').addEventListener('click', applyFilter);
-  document.getElementById('loadDefault').addEventListener('click', loadDefault);
+    async function loadDefault(){
+    try{
+        const res = await fetch('./chapter3.json?v=' + Date.now());
+        if (!res.ok) throw new Error('Not found');
+        const json = await res.json();
+        setData(json);
+    }catch(e){
+        helper.textContent = 'Could not fetch json file. Use Upload to load JSON/CSV.';
+    }
+    }
 
-  document.getElementById('filePicker').addEventListener('change', async (e)=>{
+    // Wire up controls
+    //document.getElementById('submitBtn').addEventListener('click', submit);
+    document.getElementById('nextBtn').addEventListener('click', next);
+    document.getElementById('prevBtn').addEventListener('click', prev);
+    document.getElementById('skipBtn').addEventListener('click', skip);
+    document.getElementById('flipBackBtn').addEventListener('click', flipBack);
+    document.getElementById('nextFromBackBtn').addEventListener('click', next);
+    document.getElementById('reshuffle').addEventListener('click', ()=>reshuffle(true));
+    document.getElementById('reshuffle2').addEventListener('click', ()=>reshuffle(true));
+    document.getElementById('resetSession').addEventListener('click', ()=>{ score=0; idx=0; flipBack(); render(); });
+    document.getElementById('reset2').addEventListener('click', ()=>{ score=0; idx=0; flipBack(); render(); });
+    document.getElementById('applyFilter').addEventListener('click', applyFilter);
+    document.getElementById('loadDefault').addEventListener('click', loadDefault);
+
+    document.getElementById('filePicker').addEventListener('change', async (e)=>{
     const file = e.target.files[0];
     if (!file) return;
     const text = await file.text();
     if (file.name.toLowerCase().endsWith('.json')){
-      try { setData(JSON.parse(text)); }
-      catch { helper.textContent = 'Invalid JSON.'; }
+        try { setData(JSON.parse(text)); }
+        catch { helper.textContent = 'Invalid JSON.'; }
     } else {
-      const rows = await parseCSV(text);
-      setData(rows);
+        const rows = await parseCSV(text);
+        setData(rows);
     }
-  });
+    });
 
-  // init: try default JSON if present
-  loadDefault();
+    // init: try default JSON if present
+    loadDefault();
 
-  // PWA
-  if ('serviceWorker' in navigator) {
+    // PWA
+    if ('serviceWorker' in navigator) {
     navigator.serviceWorker.register('./service-worker.js').catch(()=>{});
-  }
-})();
-</script>
-</body></html>
+    }
+    })();
+    </script>
+    </body></html>
