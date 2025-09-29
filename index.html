@@ -174,7 +174,8 @@ footer{
 
           <div class="face back">
             <h3 id="answerHeader"></h3>
-            <div class="expl" id="explanationText"></div>
+            <div class="expl" id="explanationText"></div>            
+            <div class="expl" id="overallExplanationText"></div>
             <div class="controls">
               <button id="flipBackBtn">← Back</button>
               <button id="nextFromBackBtn" class="primary">Next →</button>
@@ -201,6 +202,7 @@ footer{
   const optionsEl = el('options');
   const answerHeader = el('answerHeader');
   const explanationText = el('explanationText');
+  const overallExplanationText = el('overallExplanationText');
   const helper = el('helper');
 
   const meta = {
@@ -274,13 +276,14 @@ footer{
     updateMeta();
   }
 
-  function flipToBack(correct, picked, rightLetter, rightText, expl){
+  function flipToBack(correct, picked, rightLetter, rightText, expl, ovexpl){
     const msg = correct
       ? `✅ Correct — ${rightLetter}. ${rightText}`
       : `❌ Incorrect — You chose ${picked}. Correct is ${rightLetter}. ${rightText}`;
     answerHeader.className = correct ? 'correct' : 'incorrect';
     answerHeader.textContent = msg;
-    explanationText.textContent = expl || '';
+    explanationText.textContent = expl || '';    
+    overallExplanationText.textContent = ovexpl || '';
     cardInner.classList.add('flipped');
   }
 
@@ -320,35 +323,38 @@ footer{
     const headers = lines[0].split(',').map(h=>h.trim().replace(/^\uFEFF/,''));
     const gi = name => headers.findIndex(h => h.toLowerCase()===name.toLowerCase());
     const col = {
-      chapter: gi('Chapter'),
       question: gi('Question'),
       oa: gi('Option A'),
       ob: gi('Option B'),
       oc: gi('Option C'),
       od: gi('Option D'),
       ans: gi('Correct Answer'),
-      expl: gi('Explanation')
+      expl: gi('Explanation'),
+      ovexpl: gi('Overall explanation'),
+      chapter: gi('Chapter')
     };
     return lines.slice(1).map(line=>{
       const cells = line.match(/("([^"]|"")*"|[^,]*)/g).filter((_,i)=>i%2===0).map(s=>s.replace(/^"(.*)"$/,'$1').replace(/""/g,'"'));
       const pick = i => (i>=0 && i<cells.length) ? cells[i] : '';
       return {
-        chapter: pick(col.chapter) || '',
         question: pick(col.question) || '',
         options: [pick(col.oa), pick(col.ob), pick(col.oc), pick(col.od)],
         answer: pick(col.ans) || '',
-        explanation: pick(col.expl) || ''
+        explanation: pick(col.expl) || '',        
+        overallExplanation: pick(col.ovexpl) || '',
+        chapter: pick(col.chapter) || ''
       };
     }).filter(r=>r.question);
   }
 
   function setData(rows){
     all = rows.map(r=>({
-      chapter: r.chapter || '',
       question: r.question || '',
       options: (r.options || []).slice(0,4),
       answer: r.answer || '',
-      explanation: r.explanation || ''
+      explanation: r.explanation || '',
+      overallExplanation: r.overallExplanation || '',
+      chapter: r.chapter || ''
     })).filter(r=>r.question && r.options.some(Boolean));
     updateChapterFilter();
     pool = all.slice();
