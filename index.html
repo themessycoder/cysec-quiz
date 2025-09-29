@@ -592,21 +592,41 @@
     return false;
     }
 
+    function appendListFrom(arr, tag){
+        const list = el('resultsList');
+        if (!arr.length) return;
+        const frag = document.createDocumentFragment();
+        arr.forEach(item=>{
+            const div = document.createElement('div');
+            div.className = 'result-item';
+            const picked = item.picked ? `${item.picked}` : '—';
+            div.innerHTML = `
+            <div class="result-meta">
+                <span class="tag ${tag}">${tag}</span>
+                <span class="mono">Picked: ${picked}</span>
+                &nbsp;•&nbsp;
+                <span class="mono">Correct: ${item.correctLetter}</span>
+            </div>
+            <div class="title">${escapeHtml(item.question)}</div>
+            <div><strong>Correct answer:</strong> ${escapeHtml(item.correctLetter + (item.correctText ? (". " + item.correctText) : ""))}</div>
+            ${item.explanation ? `<div class="expl"><strong>Explanation:</strong> ${escapeHtml(item.explanation)}</div>` : ``}
+            ${item.overallExplanation ? `<div class="expl"><strong>Overall:</strong> ${escapeHtml(item.overallExplanation)}</div>` : ``}
+            `;
+            frag.appendChild(div);
+        });
+        list.appendChild(frag);
+        }
+
     function displayAll(){
-    const allItems = [
-        ...correctLog.map(x => ({...x, _t:'correct'})),
-        ...incorrectLog.map(x => ({...x, _t:'incorrect'})),
-        ...skippedLog.map(x => ({...x, _t:'skipped'}))
-    ];
-    clearResultsList();
-    if (!allItems.length){
-        el('resultsList').innerHTML = `<div class="result-item"><em>No results yet.</em></div>`;
-        return;
-    }
-    // group by type in order: correct, incorrect, skipped
-    if (correctLog.length) renderListFrom(correctLog, 'correct');
-    if (incorrectLog.length) renderListFrom(incorrectLog, 'incorrect');
-    if (skippedLog.length) renderListFrom(skippedLog, 'skipped');
+        clearResultsList(); // your existing helper that empties resultsList
+        const any = correctLog.length + incorrectLog.length + skippedLog.length;
+        if (!any){
+            el('resultsList').innerHTML = `<div class="result-item"><em>No results yet.</em></div>`;
+            return;
+        }
+        appendListFrom(correctLog, 'correct');
+        appendListFrom(incorrectLog, 'incorrect');
+        appendListFrom(skippedLog, 'skipped');
     }
 
     function displayCorrect(){ renderListFrom(correctLog, 'correct'); }
