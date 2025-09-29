@@ -1,6 +1,6 @@
 [
   {
-    "chapter": "Chapter 01 Investment Services Law 2017",
+    "chapter": "Chapter 01 - Investment Services Law 2017",
     "question": "What type of offence is committed by a person who fails to ensure the correctness, completeness, and accuracy of information submitted to CySEC or the CBC, according to Section 4?",
     "options": [
       "An administrative offence only",
@@ -9,11 +9,11 @@
       "A criminal offence"
     ],
     "answer": "A criminal offence",
-    "explanation": "Explanation: Section 4 clearly states: 'Any person who fails to comply with this is guilty of a criminal offence.' This refers to the obligation to ensure correctness, completeness, and accuracy of information.",
-    "overallExplanation": "Overall Explanation: Failure to ensure the accuracy of information provided to regulatory bodies like CySEC or the CBC is treated as a criminal offence under Law 87(I)/2017."
+    "explanation": "Section 4 clearly states: 'Any person who fails to comply with this is guilty of a criminal offence.' This refers to the obligation to ensure correctness, completeness, and accuracy of information.",
+    "overallExplanation": "Failure to ensure the accuracy of information provided to regulatory bodies like CySEC or the CBC is treated as a criminal offence under Law 87(I)/2017."
   },
   {
-    "chapter": "Chapter 01 Investment Services Law 2017",
+    "chapter": "Chapter 01 - Investment Services Law 2017",
     "question": "In the event an offence under Law 87(I)/2017 is committed by a legal person, who may also be criminally liable according to Section 4?",
     "options": [
       "The legal person itself is solely liable, individuals cannot be.",
@@ -22,11 +22,11 @@
       "Only the CEO of the legal person."
     ],
     "answer": "Members of the board of directors, and managerial, supervisory or auditory bodies of the legal person, if they consented or were party to the offence.",
-    "explanation": "Explanation: Section 4 states: 'In the event an offence is committed by a legal person, the following may also be criminally liable: - members of the board of directors, and - managerial, supervisory or auditory bodies of the legal person. However, they are only liable if it is established that they have consented to, or are party to, the offence.'",
-    "overallExplanation": "Overall Explanation: When a legal entity commits an offence under this law, key individuals within it can also face criminal liability if their involvement is proven."
+    "explanation": "Section 4 states: 'In the event an offence is committed by a legal person, the following may also be criminally liable: - members of the board of directors, and - managerial, supervisory or auditory bodies of the legal person. However, they are only liable if it is established that they have consented to, or are party to, the offence.'",
+    "overallExplanation": "When a legal entity commits an offence under this law, key individuals within it can also face criminal liability if their involvement is proven."
   },
   {
-    "chapter": "Chapter 01 Investment Services Law 2017",
+    "chapter": "Chapter 01 - Investment Services Law 2017",
     "question": "As stated in Section 2, who is responsible for ensuring that identities of all direct and indirect shareholders of a CIF are known when authorising investment services?",
     "options": [
       "CySEC",
@@ -35,11 +35,11 @@
       "The Central Bank of Cyprus"
     ],
     "answer": "CySEC",
-    "explanation": "Explanation: Section 2 clearly states: 'When authorising the provision of investment services and/or the performance of investment activities, CySEC makes sure that it knows the identities of all (in)direct shareholders.'",
-    "overallExplanation": "Overall Explanation: CySEC holds the responsibility for identifying the ultimate beneficial owners (shareholders) of CIFs during the authorisation process."
+    "explanation": "Section 2 clearly states: 'When authorising the provision of investment services and/or the performance of investment activities, CySEC makes sure that it knows the identities of all (in)direct shareholders.'",
+    "overallExplanation": "CySEC holds the responsibility for identifying the ultimate beneficial owners (shareholders) of CIFs during the authorisation process."
   },
   {
-    "chapter": "Chapter 01 Investment Services Law 2017",
+    "chapter": "Chapter 01 - Investment Services Law 2017",
     "question": "Under Section 1.2, a third-country firm that received branch authorisation in the Republic and later meets ESMA registration conditions must communicate the final decision to whom?",
     "options": [
       "The European Commission",
@@ -48,11 +48,11 @@
       "CySEC"
     ],
     "answer": "CySEC",
-    "explanation": "Explanation: Section 1.2 concludes the paragraph with: 'The final decision must be communicated to CySEC.'",
-    "overallExplanation": "Overall Explanation: Decisions by third-country firms regarding their operational status in Cyprus (branch vs. ESMA registration) after meeting EU equivalence must be communicated to CySEC."
+    "explanation": "Section 1.2 concludes the paragraph with: 'The final decision must be communicated to CySEC.'",
+    "overallExplanation": "Decisions by third-country firms regarding their operational status in Cyprus (branch vs. ESMA registration) after meeting EU equivalence must be communicated to CySEC."
   },
   {
-    "chapter": "Chapter 01 Investment Services Law 2017",
+    "chapter": "Chapter 01 - Investment Services Law 2017",
     "question": "According to Section 1.4, supervisory authorities can exercise their powers by which means?",
     "options": [
       "Directly, by collaboration, or by application to competent courts.",
@@ -61,11 +61,11 @@
       "Only by direct action."
     ],
     "answer": "Directly, by collaboration, or by application to competent courts.",
-    "explanation": "Explanation: Section 1.4 clearly outlines: 'The supervisory authorities can exercise their powers either directly, by collaborating among themselves or with other authorities, or by application to the competent courts.'",
-    "overallExplanation": "Overall Explanation: Supervisory authorities like CySEC and CBC have multiple avenues to exercise their powers, including direct action, collaboration, and legal recourse."
+    "explanation": "Section 1.4 clearly outlines: 'The supervisory authorities can exercise their powers either directly, by collaborating among themselves or with other authorities, or by application to the competent courts.'",
+    "overallExplanation": "Supervisory authorities like CySEC and CBC have multiple avenues to exercise their powers, including direct action, collaboration, and legal recourse."
   },
   {
-    "chapter": "Chapter 01 Investment Services Law 2017",
+    "chapter": "Chapter 01 - Investment Services Law 2017",
     "question": "What is the maximum percentage of cumulative covered claims that the ICF will compensate, if this amount is smaller than EUR 20,000, according to Section 3.3?",
     "options": [
       "90 percent",
@@ -74,11 +74,11 @@
       "100 percent"
     ],
     "answer": "90 percent",
-    "explanation": "Explanation: Section 3.3 explicitly states: 'The ICF provides coverage... but cannot exceed EUR 20,000 or 90 percent of the cumulative covered claims of the covered client whichever of the two amounts is smaller.'",
-    "overallExplanation": "Overall Explanation: The ICF compensation mechanism involves a cap of 90 percent of the claim or EUR 20,000, ensuring a balance in coverage."
+    "explanation": "Section 3.3 explicitly states: 'The ICF provides coverage... but cannot exceed EUR 20,000 or 90 percent of the cumulative covered claims of the covered client whichever of the two amounts is smaller.'",
+    "overallExplanation": "The ICF compensation mechanism involves a cap of 90 percent of the claim or EUR 20,000, ensuring a balance in coverage."
   },
   {
-    "chapter": "Chapter 01 Investment Services Law 2017",
+    "chapter": "Chapter 01 - Investment Services Law 2017",
     "question": "As per Section 1.2, if a third-country firm received authorisation for a branch in the Republic and the EU later adopts a decision that the firm satisfies legal conditions for ESMA registration, what can the firm do?",
     "options": [
       "Its branch authorisation is automatically converted to an ESMA registration.",
@@ -87,11 +87,11 @@
       "It must close its branch and operate solely through ESMA registration."
     ],
     "answer": "It may continue operating its branch or be registered in the ESMA third-country register.",
-    "explanation": "Explanation: Section 1.2 states: 'In the event where the third-party firm received authorisation of a branch in the Republic, and the EU adopts a decision which results to the third-country firm satisfying the legal conditions, the third-party firm may continue the operation of its branch or be registered in the third-country register of ESMA.'",
-    "overallExplanation": "Overall Explanation: If a third-country firm with a Cyprus branch later meets EU equivalence criteria for ESMA registration, it has the option to continue its branch operations or become ESMA registered."
+    "explanation": "Section 1.2 states: 'In the event where the third-party firm received authorisation of a branch in the Republic, and the EU adopts a decision which results to the third-country firm satisfying the legal conditions, the third-party firm may continue the operation of its branch or be registered in the third-country register of ESMA.'",
+    "overallExplanation": "If a third-country firm with a Cyprus branch later meets EU equivalence criteria for ESMA registration, it has the option to continue its branch operations or become ESMA registered."
   },
   {
-    "chapter": "Chapter 01 Investment Services Law 2017",
+    "chapter": "Chapter 01 - Investment Services Law 2017",
     "question": "According to Section 3.3, what information must ICF members provide to their customers regarding ICF coverage?",
     "options": [
       "A comparison with other compensation schemes in the EU.",
@@ -100,11 +100,11 @@
       "Only the maximum amount of compensation."
     ],
     "answer": "The provided coverage, which customers are covered, maximum compensation, and conditions/formalities of payment.",
-    "explanation": "Explanation: Section 3.3, under 'Customer Information,' details that 'The members of the ICF must inform their customers about the provided coverage, which customers are covered, the maximum amount of compensation and the conditions and formalities of the payment of compensation.'",
-    "overallExplanation": "Overall Explanation: ICF members have a duty to fully inform their customers about the scope, limits, and procedures of the investor compensation scheme."
+    "explanation": "Section 3.3, under 'Customer Information,' details that 'The members of the ICF must inform their customers about the provided coverage, which customers are covered, the maximum amount of compensation and the conditions and formalities of the payment of compensation.'",
+    "overallExplanation": "ICF members have a duty to fully inform their customers about the scope, limits, and procedures of the investor compensation scheme."
   },
   {
-    "chapter": "Chapter 01 Investment Services Law 2017",
+    "chapter": "Chapter 01 - Investment Services Law 2017",
     "question": "As per Section 1.4, which entity is the designated contact point for the facilitation and acceleration of cooperation and exchange of information for the purposes of Directive 2004/39/EC?",
     "options": [
       "Cyprus Securities and Exchange Commission (CySEC)",
@@ -113,11 +113,11 @@
       "The European Securities and Markets Authority (ESMA)"
     ],
     "answer": "Cyprus Securities and Exchange Commission (CySEC)",
-    "explanation": "Explanation: Section 1.4 clearly states: 'CySEC is the designated contact point for the facilitation and acceleration of cooperation and for the exchange of information for the purposes of Directive 2004/39/EC.'",
-    "overallExplanation": "Overall Explanation: CySEC serves as the key contact point in Cyprus for cooperation under Directive 2004/39/EC."
+    "explanation": "Section 1.4 clearly states: 'CySEC is the designated contact point for the facilitation and acceleration of cooperation and for the exchange of information for the purposes of Directive 2004/39/EC.'",
+    "overallExplanation": "CySEC serves as the key contact point in Cyprus for cooperation under Directive 2004/39/EC."
   },
   {
-    "chapter": "Chapter 01 Investment Services Law 2017",
+    "chapter": "Chapter 01 - Investment Services Law 2017",
     "question": "Under Section 1.3, organisations dealing on own account in financial instruments (other than commodity derivatives or emission allowances) are exempt, unless they are which of the following?",
     "options": [
       "Market makers.",
@@ -126,11 +126,11 @@
       "Regulated by another EU authority."
     ],
     "answer": "Market makers.",
-    "explanation": "Explanation: Section 1.3, point 4.a, specifies that the exemption for dealing on own account does not apply if they are 'market makers'.",
-    "overallExplanation": "Overall Explanation: The exemption for own-account dealing has specific carve-outs, notably for entities acting as market makers."
+    "explanation": "Section 1.3, point 4.a, specifies that the exemption for dealing on own account does not apply if they are 'market makers'.",
+    "overallExplanation": "The exemption for own-account dealing has specific carve-outs, notably for entities acting as market makers."
   },
   {
-    "chapter": "Chapter 01 Investment Services Law 2017",
+    "chapter": "Chapter 01 - Investment Services Law 2017",
     "question": "What information is CySEC required to provide to ESMA on an annual basis, according to Section 2?",
     "options": [
       "A detailed report on the Cypriot economy's performance.",
@@ -139,11 +139,11 @@
       "A list of all CIFs and their profits."
     ],
     "answer": "Consolidated information concerning all administrative penalties imposed.",
-    "explanation": "Explanation: Section 2 states: 'In addition, on an annual basis, CySEC will provide consolidated information concerning all administrative penalties imposed.'",
-    "overallExplanation": "Overall Explanation: CySEC's annual reporting to ESMA includes key regulatory data such as administrative penalties imposed."
+    "explanation": "Section 2 states: 'In addition, on an annual basis, CySEC will provide consolidated information concerning all administrative penalties imposed.'",
+    "overallExplanation": "CySEC's annual reporting to ESMA includes key regulatory data such as administrative penalties imposed."
   },
   {
-    "chapter": "Chapter 01 Investment Services Law 2017",
+    "chapter": "Chapter 01 - Investment Services Law 2017",
     "question": "According to Section 1.2, what is one of the requirements a third-country firm (not satisfying ESMA registration criteria) must meet to provide investment services to eligible counterparties in the Republic?",
     "options": [
       "Be listed on a major international stock exchange.",
@@ -152,11 +152,11 @@
       "Have a minimum of EUR 10 million in capital."
     ],
     "answer": "Comply with the requirements of the Law.",
-    "explanation": "Explanation: Section 1.2, in the paragraph describing firms that do not satisfy legal requirements for ESMA registration, lists one of the requirements as: '- Comply with the requirements of the Law.'",
-    "overallExplanation": "Overall Explanation: For third-country firms not meeting ESMA's direct registration criteria, compliance with Cypriot law is a fundamental requirement alongside establishing a local branch."
+    "explanation": "Section 1.2, in the paragraph describing firms that do not satisfy legal requirements for ESMA registration, lists one of the requirements as: '- Comply with the requirements of the Law.'",
+    "overallExplanation": "For third-country firms not meeting ESMA's direct registration criteria, compliance with Cypriot law is a fundamental requirement alongside establishing a local branch."
   },
   {
-    "chapter": "Chapter 01 Investment Services Law 2017",
+    "chapter": "Chapter 01 - Investment Services Law 2017",
     "question": "Under Section 1.2, what is required for a third-country firm wishing to provide services in the Republic to eligible counterparties and professional customers WITHOUT establishing a branch?",
     "options": [
       "Registration in the ESMA register of third-country firms",
@@ -165,11 +165,11 @@
       "Establishment of a representative office supervised by the Central Bank"
     ],
     "answer": "Registration in the ESMA register of third-country firms",
-    "explanation": "Explanation: Section 1.2 specifies: 'In cases where third-country firms wish to provide their services in the Republic to eligible counterparties and professional customers without the establishment of a branch, their registration in the register of third-country firms maintained by the European Securities and Markets Authority (ESMA) is required.'",
-    "overallExplanation": "Overall Explanation: Third-country firms can provide services to certain client types in Cyprus without a branch if they are registered with ESMA, which has its own set of conditions."
+    "explanation": "Section 1.2 specifies: 'In cases where third-country firms wish to provide their services in the Republic to eligible counterparties and professional customers without the establishment of a branch, their registration in the register of third-country firms maintained by the European Securities and Markets Authority (ESMA) is required.'",
+    "overallExplanation": "Third-country firms can provide services to certain client types in Cyprus without a branch if they are registered with ESMA, which has its own set of conditions."
   },
   {
-    "chapter": "Chapter 01 Investment Services Law 2017",
+    "chapter": "Chapter 01 - Investment Services Law 2017",
     "question": "According to Section 2, with whom does CySEC need to cooperate when it is necessary for carrying out its duties, besides competent authorities of other member states?",
     "options": [
       "The European Securities and Markets Authority (ESMA)",
@@ -178,11 +178,11 @@
       "The Investor Compensation Fund (ICF)"
     ],
     "answer": "The European Securities and Markets Authority (ESMA)",
-    "explanation": "Explanation: Section 2 states: 'CySEC needs to cooperate with the competent authorities of other member states, as well as the European Securities and Markets Authority (ESMA) when this is necessary for the purpose of carrying out its duties.'",
-    "overallExplanation": "Overall Explanation: CySEC's cooperative efforts extend to ESMA, ensuring alignment and effectiveness in its regulatory duties across the EU."
+    "explanation": "Section 2 states: 'CySEC needs to cooperate with the competent authorities of other member states, as well as the European Securities and Markets Authority (ESMA) when this is necessary for the purpose of carrying out its duties.'",
+    "overallExplanation": "CySEC's cooperative efforts extend to ESMA, ensuring alignment and effectiveness in its regulatory duties across the EU."
   },
   {
-    "chapter": "Chapter 01 Investment Services Law 2017",
+    "chapter": "Chapter 01 - Investment Services Law 2017",
     "question": "According to Section 1.1, which of these specific provisions applies to authorised credit institutions that sell or advise clients in relation to structured products?",
     "options": [
       "No requirement for investor protection measures",
@@ -191,11 +191,11 @@
       "Freedom from appointing tied agents"
     ],
     "answer": "Conflicts of interest",
-    "explanation": "Explanation: Section 1.1, in the paragraph starting 'In addition, the following also apply to authorised credit institutions that sell or advise clients in relation to structured products:', lists 'Conflicts of interest' as one of the applicable provisions.",
-    "overallExplanation": "Overall Explanation: Authorised credit institutions dealing with structured products are subject to specific MiFID II provisions, including those concerning conflicts of interest."
+    "explanation": "Section 1.1, in the paragraph starting 'In addition, the following also apply to authorised credit institutions that sell or advise clients in relation to structured products:', lists 'Conflicts of interest' as one of the applicable provisions.",
+    "overallExplanation": "Authorised credit institutions dealing with structured products are subject to specific MiFID II provisions, including those concerning conflicts of interest."
   },
   {
-    "chapter": "Chapter 01 Investment Services Law 2017",
+    "chapter": "Chapter 01 - Investment Services Law 2017",
     "question": "According to Section 3.3, when does the ICF proceed with the payment of compensation?",
     "options": [
       "Only after a court in the Republic issues a decision for CIF liquidation.",
@@ -204,11 +204,11 @@
       "Within 30 days of a customer submitting a claim, regardless of CySEC approval."
     ],
     "answer": "Following CySEC’s approval when it determines a member is not capable of fulfilling its obligations from customer claims.",
-    "explanation": "Explanation: Section 3.3 states: 'The ICF proceeds with the process of payment of compensation followed by CySEC’s approval when it determines that a member of the ICF is not capable of fulfilling its obligations arising from customer claims...'",
-    "overallExplanation": "Overall Explanation: The ICF compensation process is triggered by a formal determination of a member's inability to meet client obligations, typically involving CySEC's approval."
+    "explanation": "Section 3.3 states: 'The ICF proceeds with the process of payment of compensation followed by CySEC’s approval when it determines that a member of the ICF is not capable of fulfilling its obligations arising from customer claims...'",
+    "overallExplanation": "The ICF compensation process is triggered by a formal determination of a member's inability to meet client obligations, typically involving CySEC's approval."
   },
   {
-    "chapter": "Chapter 01 Investment Services Law 2017",
+    "chapter": "Chapter 01 - Investment Services Law 2017",
     "question": "What is a key responsibility of CySEC regarding Cypriot Investment Firms (CIFs) established in the Republic, according to Section 2?",
     "options": [
       "To ensure all CIF authorisations, rejections, and revocations are communicated to ESMA.",
@@ -217,11 +217,11 @@
       "To set the investment strategies for CIFs."
     ],
     "answer": "To ensure all CIF authorisations, rejections, and revocations are communicated to ESMA.",
-    "explanation": "Explanation: Section 2 states: 'It is the responsibility of CySEC to ensure... that all CIF authorisations, rejections and revocations are communicated to ESMA.'",
-    "overallExplanation": "Overall Explanation: CySEC has a responsibility to ensure transparency and coordination at the EU level by communicating CIF authorisation statuses to ESMA."
+    "explanation": "Section 2 states: 'It is the responsibility of CySEC to ensure... that all CIF authorisations, rejections and revocations are communicated to ESMA.'",
+    "overallExplanation": "CySEC has a responsibility to ensure transparency and coordination at the EU level by communicating CIF authorisation statuses to ESMA."
   },
   {
-    "chapter": "Chapter 01 Investment Services Law 2017",
+    "chapter": "Chapter 01 - Investment Services Law 2017",
     "question": "What is the minimum timeframe for a member of the ICF to have held unsolicited customer funds before being able to pay them to the ICF, as per Section 3.2?",
     "options": [
       "Ten years",
@@ -230,11 +230,11 @@
       "Three years"
     ],
     "answer": "Six years",
-    "explanation": "Explanation: Section 3.2, under 'Unsolicited customer funds,' states one of the conditions is: 'the member held the amount for at least six years from the date on which the last transaction in that account took place...'",
-    "overallExplanation": "Overall Explanation: A significant period of inactivity (at least six years) must pass before an ICF member can consider transferring unsolicited customer funds to the ICF, provided other conditions are met."
+    "explanation": "Section 3.2, under 'Unsolicited customer funds,' states one of the conditions is: 'the member held the amount for at least six years from the date on which the last transaction in that account took place...'",
+    "overallExplanation": "A significant period of inactivity (at least six years) must pass before an ICF member can consider transferring unsolicited customer funds to the ICF, provided other conditions are met."
   },
   {
-    "chapter": "Chapter 01 Investment Services Law 2017",
+    "chapter": "Chapter 01 - Investment Services Law 2017",
     "question": "As per Section 2, if CySEC has reason to believe an entity not subject to its supervision is acting contrary to EC regulation in another member state, what must CySEC do?",
     "options": [
       "Launch an independent investigation in that member state.",
@@ -243,11 +243,11 @@
       "Immediately impose sanctions on the entity."
     ],
     "answer": "Notify the competent authority in that member state and ESMA, in as much detail as possible.",
-    "explanation": "Explanation: Section 2 states: 'If CySEC has reason to believe that an entity which is not subject to its supervision is carrying out an act contrary to EC regulation in another member state, it shall notify the competent authority in that member state as well as ESMA, in as much detail as possible.'",
-    "overallExplanation": "Overall Explanation: In cases of suspected cross-border non-compliance by entities outside its direct supervision, CySEC's role involves informing the relevant national competent authority and ESMA."
+    "explanation": "Section 2 states: 'If CySEC has reason to believe that an entity which is not subject to its supervision is carrying out an act contrary to EC regulation in another member state, it shall notify the competent authority in that member state as well as ESMA, in as much detail as possible.'",
+    "overallExplanation": "In cases of suspected cross-border non-compliance by entities outside its direct supervision, CySEC's role involves informing the relevant national competent authority and ESMA."
   },
   {
-    "chapter": "Chapter 01 Investment Services Law 2017",
+    "chapter": "Chapter 01 - Investment Services Law 2017",
     "question": "According to Section 1.4, in addition to CySEC, the CBC also has the power to do what in relation to persons under their supervision?",
     "options": [
       "Issue operating licenses for all financial institutions.",
@@ -256,11 +256,11 @@
       "Set the national interest rate."
     ],
     "answer": "Request the freezing and/or the sequestration of assets.",
-    "explanation": "Explanation: Section 1.4, in the list of CBC powers in relation to CySEC, includes: 'request the freezing and/or the sequestration of assets'.",
-    "overallExplanation": "Overall Explanation: The Central Bank of Cyprus possesses significant powers, including requesting asset freezes, in its supervisory role alongside CySEC."
+    "explanation": "Section 1.4, in the list of CBC powers in relation to CySEC, includes: 'request the freezing and/or the sequestration of assets'.",
+    "overallExplanation": "The Central Bank of Cyprus possesses significant powers, including requesting asset freezes, in its supervisory role alongside CySEC."
   },
   {
-    "chapter": "Chapter 01 Investment Services Law 2017",
+    "chapter": "Chapter 01 - Investment Services Law 2017",
     "question": "According to Section 1.3, point 9, which condition must be met for an organisation dealing in commodity derivatives on their own account (not executing client orders) to be exempt from Law 87(I)/2017?",
     "options": [
       "They must provide investment services to customers or suppliers of their main business.",
@@ -269,11 +269,11 @@
       "They must annually notify CySEC of the exemption."
     ],
     "answer": "They must annually notify CySEC of the exemption.",
-    "explanation": "Explanation: Section 1.3, point 9.c, lists as a condition for the exemption: 'they annually notify the Cyprus Securities and Exchange Commission (CySEC) of the exemption.'",
-    "overallExplanation": "Overall Explanation: Specific conditions, including annual notification to CySEC, apply for the exemption related to own-account dealing in commodity derivatives as an ancillary activity."
+    "explanation": "Section 1.3, point 9.c, lists as a condition for the exemption: 'they annually notify the Cyprus Securities and Exchange Commission (CySEC) of the exemption.'",
+    "overallExplanation": "Specific conditions, including annual notification to CySEC, apply for the exemption related to own-account dealing in commodity derivatives as an ancillary activity."
   },
   {
-    "chapter": "Chapter 01 Investment Services Law 2017",
+    "chapter": "Chapter 01 - Investment Services Law 2017",
     "question": "If CySEC decides to address an IF authorised in another member state which is a remote member of a regulated market in Cyprus, whom will CySEC inform, according to Section 2?",
     "options": [
       "The regulated market operator only.",
@@ -282,11 +282,11 @@
       "The IF directly, without informing any authority."
     ],
     "answer": "The competent authority of the IF’s home member state.",
-    "explanation": "Explanation: Section 2 specifies: 'Similarly, when CySEC decides to address an IF authorised in another member state which is a remote member of a regulated market authorised in the Republic, CySEC will inform the competent authority of the IF’s home member state.'",
-    "overallExplanation": "Overall Explanation: When CySEC addresses a remote IF member from another EU state, it ensures communication with that IF's home regulator."
+    "explanation": "Section 2 specifies: 'Similarly, when CySEC decides to address an IF authorised in another member state which is a remote member of a regulated market authorised in the Republic, CySEC will inform the competent authority of the IF’s home member state.'",
+    "overallExplanation": "When CySEC addresses a remote IF member from another EU state, it ensures communication with that IF's home regulator."
   },
   {
-    "chapter": "Chapter 01 Investment Services Law 2017",
+    "chapter": "Chapter 01 - Investment Services Law 2017",
     "question": "According to Section 3.3, the ICF is obliged to pay compensation to a covered client within what timeframe from the notification of its decision determining the amount and beneficiaries?",
     "options": [
       "Immediately upon decision",
@@ -295,11 +295,11 @@
       "Within six months"
     ],
     "answer": "Within three months",
-    "explanation": "Explanation: Section 3.3 states: 'The ICF, after issuing a decision that includes the determination of the amount of compensation and the beneficiaries, is obliged to pay within three months from the notification of its decision to the covered client the compensation due to it.'",
-    "overallExplanation": "Overall Explanation: Once a compensation decision is made, the ICF has a three-month window to pay the covered client."
+    "explanation": "Section 3.3 states: 'The ICF, after issuing a decision that includes the determination of the amount of compensation and the beneficiaries, is obliged to pay within three months from the notification of its decision to the covered client the compensation due to it.'",
+    "overallExplanation": "Once a compensation decision is made, the ICF has a three-month window to pay the covered client."
   },
   {
-    "chapter": "Chapter 01 Investment Services Law 2017",
+    "chapter": "Chapter 01 - Investment Services Law 2017",
     "question": "How frequently will CySEC review the arrangements, strategies, processes, and mechanisms implemented by CIFs, as stated in Section 2?",
     "options": [
       "Only upon request from ESMA",
@@ -308,11 +308,11 @@
       "Every two years"
     ],
     "answer": "At least annually",
-    "explanation": "Explanation: Section 2 clearly states: 'The frequency and intensity of the reviews will be established based on size, systemic importance, nature, scale and complexity of the activities... reviews will take place at least annually.'",
-    "overallExplanation": "Overall Explanation: CySEC is required to conduct reviews of CIFs on a regular basis, with a minimum frequency of once per year."
+    "explanation": "Section 2 clearly states: 'The frequency and intensity of the reviews will be established based on size, systemic importance, nature, scale and complexity of the activities... reviews will take place at least annually.'",
+    "overallExplanation": "CySEC is required to conduct reviews of CIFs on a regular basis, with a minimum frequency of once per year."
   },
   {
-    "chapter": "Chapter 01 Investment Services Law 2017",
+    "chapter": "Chapter 01 - Investment Services Law 2017",
     "question": "What percentage of the ICF's total assets, at a minimum, should be placed in governmental securities or interest-bearing accounts in banks operating in the Republic/other Member State(s) or in an ICF account in the Central Bank of Cyprus, according to the Investment Policy in Section 3.2?",
     "options": [
       "10 percent",
@@ -321,11 +321,11 @@
       "70 percent"
     ],
     "answer": "70 percent",
-    "explanation": "Explanation: Section 3.2, under Investment Policy, specifies: '-70 percent of all assets are to be placed in governmental securities, in interest-bearing accounts in banks operating in the Republic / other Member State(s) or in an ICF account in the Central Bank of Cyprus'.",
-    "overallExplanation": "Overall Explanation: The ICF's investment policy mandates a significant portion of its assets to be held in relatively secure investments like government securities or specific bank accounts."
+    "explanation": "Section 3.2, under Investment Policy, specifies: '-70 percent of all assets are to be placed in governmental securities, in interest-bearing accounts in banks operating in the Republic / other Member State(s) or in an ICF account in the Central Bank of Cyprus'.",
+    "overallExplanation": "The ICF's investment policy mandates a significant portion of its assets to be held in relatively secure investments like government securities or specific bank accounts."
   },
   {
-    "chapter": "Chapter 01 Investment Services Law 2017",
+    "chapter": "Chapter 01 - Investment Services Law 2017",
     "question": "Which of the following entities are NOT listed as participating members of the ICF in Section 3.1?",
     "options": [
       "Individual retail investors",
@@ -334,11 +334,11 @@
       "Cypriot Investment Firms (CIFs)"
     ],
     "answer": "Individual retail investors",
-    "explanation": "Explanation: Section 3.1 lists the types of firms that are members. Retail investors are the beneficiaries (covered customers), not members of the ICF.",
-    "overallExplanation": "Overall Explanation: The ICF members are various types of financial service providers, while retail investors are the potential beneficiaries of the fund."
+    "explanation": "Section 3.1 lists the types of firms that are members. Retail investors are the beneficiaries (covered customers), not members of the ICF.",
+    "overallExplanation": "The ICF members are various types of financial service providers, while retail investors are the potential beneficiaries of the fund."
   },
   {
-    "chapter": "Chapter 01 Investment Services Law 2017",
+    "chapter": "Chapter 01 - Investment Services Law 2017",
     "question": "In which entity is explicitly mentioned in Section 1.3, point 8, as being exempt from Law 87(I)/2017?",
     "options": [
       "Hedge funds",
@@ -347,11 +347,11 @@
       "Brokerage firms dealing in equities only"
     ],
     "answer": "Collective investment undertakings and pension funds and their depositaries and managers.",
-    "explanation": "Explanation: Section 1.3, point 8, lists as exempt: 'Collective investment undertakings and pension funds and their depositaries and managers.'",
-    "overallExplanation": "Overall Explanation: Collective investment undertakings, pension funds, and their related entities are generally exempt from the Investment Services Law 2017."
+    "explanation": "Section 1.3, point 8, lists as exempt: 'Collective investment undertakings and pension funds and their depositaries and managers.'",
+    "overallExplanation": "Collective investment undertakings, pension funds, and their related entities are generally exempt from the Investment Services Law 2017."
   },
   {
-    "chapter": "Chapter 01 Investment Services Law 2017",
+    "chapter": "Chapter 01 - Investment Services Law 2017",
     "question": "What is the status of requirements related to position limits and position management controls in commodity derivatives for organisations otherwise exempt under Section 1.3?",
     "options": [
       "They are also exempt from these requirements.",
@@ -360,11 +360,11 @@
       "These requirements remain applicable."
     ],
     "answer": "These requirements remain applicable.",
-    "explanation": "Explanation: Section 1.3 explicitly states: 'However, for each of these, the requirements in relation to position limits and position management controls in commodity derivatives and reporting remain applicable.'",
-    "overallExplanation": "Overall Explanation: Even if an organisation is broadly exempt from Law 87(I)/2017, specific rules on commodity derivative position limits and controls still apply."
+    "explanation": "Section 1.3 explicitly states: 'However, for each of these, the requirements in relation to position limits and position management controls in commodity derivatives and reporting remain applicable.'",
+    "overallExplanation": "Even if an organisation is broadly exempt from Law 87(I)/2017, specific rules on commodity derivative position limits and controls still apply."
   },
   {
-    "chapter": "Chapter 01 Investment Services Law 2017",
+    "chapter": "Chapter 01 - Investment Services Law 2017",
     "question": "Which of these entities is listed as exempt from Law 87(I)/2017 under Section 1.3, point 7?",
     "options": [
       "Market operators of regulated markets in Cyprus",
@@ -373,11 +373,11 @@
       "Members of the European System of Central Banks (ESCB)"
     ],
     "answer": "Members of the European System of Central Banks (ESCB)",
-    "explanation": "Explanation: Section 1.3, point 7, explicitly lists as exempt: 'Members of the European System of Central Banks (ESCB) or an equivalent national body.'",
-    "overallExplanation": "Overall Explanation: Members of the European System of Central Banks are among the entities specifically exempted from the Investment Services Law 2017."
+    "explanation": "Section 1.3, point 7, explicitly lists as exempt: 'Members of the European System of Central Banks (ESCB) or an equivalent national body.'",
+    "overallExplanation": "Members of the European System of Central Banks are among the entities specifically exempted from the Investment Services Law 2017."
   },
   {
-    "chapter": "Chapter 01 Investment Services Law 2017",
+    "chapter": "Chapter 01 - Investment Services Law 2017",
     "question": "Under what circumstance may the Management Committee of the ICF receive loans and other credits with banks, as per Section 3.2?",
     "options": [
       "At any time to increase ICF funds.",
@@ -386,11 +386,11 @@
       "If it deems funds are insufficient for payments, with CySEC's consent."
     ],
     "answer": "If it deems funds are insufficient for payments, with CySEC's consent.",
-    "explanation": "Explanation: Section 3.2 states: 'The Management Committee of the ICF, if it deems that the funds available are not sufficient for the payment of the due or probable expenses or compensations, may, with the consent of CySEC, receive loans and other credits with banks...'",
-    "overallExplanation": "Overall Explanation: The ICF can seek external loans if its existing funds are insufficient to cover compensation or expenses, but this requires CySEC's approval."
+    "explanation": "Section 3.2 states: 'The Management Committee of the ICF, if it deems that the funds available are not sufficient for the payment of the due or probable expenses or compensations, may, with the consent of CySEC, receive loans and other credits with banks...'",
+    "overallExplanation": "The ICF can seek external loans if its existing funds are insufficient to cover compensation or expenses, but this requires CySEC's approval."
   },
   {
-    "chapter": "Chapter 01 Investment Services Law 2017",
+    "chapter": "Chapter 01 - Investment Services Law 2017",
     "question": "According to Section 1.1, what type of trading requirements also apply to members or participants of regulated markets and MTFs that are not required to be regulated?",
     "options": [
       "Investor compensation fund membership requirements",
@@ -399,11 +399,11 @@
       "Capital adequacy requirements"
     ],
     "answer": "Algorithmic trading requirements",
-    "explanation": "Explanation: Section 1.1 states: 'Algorithmic trading requirements also apply to members or participants of regulated markets and MTFs that are not required to be regulated.'",
-    "overallExplanation": "Overall Explanation: Algorithmic trading rules extend to certain participants of regulated markets and MTFs even if those participants themselves are not directly regulated under other parts of the law."
+    "explanation": "Section 1.1 states: 'Algorithmic trading requirements also apply to members or participants of regulated markets and MTFs that are not required to be regulated.'",
+    "overallExplanation": "Algorithmic trading rules extend to certain participants of regulated markets and MTFs even if those participants themselves are not directly regulated under other parts of the law."
   },
   {
-    "chapter": "Chapter 01 Investment Services Law 2017",
+    "chapter": "Chapter 01 - Investment Services Law 2017",
     "question": "According to Section 1.2, what must a third-country firm do if it does NOT satisfy the legal requirements for ESMA registration and intends to provide investment services to eligible counterparties and professional clients in the Republic?",
     "options": [
       "Establish a branch in the Republic, which will be supervised by CySEC or the Central Bank.",
@@ -412,11 +412,11 @@
       "It can operate freely under its third-country license."
     ],
     "answer": "Establish a branch in the Republic, which will be supervised by CySEC or the Central Bank.",
-    "explanation": "Explanation: Section 1.2 explicitly states such a firm must: 'Establish a branch in the Republic, which will be supervised by CySEC or the Central Bank.'",
-    "overallExplanation": "Overall Explanation: If a third-country firm doesn't meet ESMA's criteria for cross-border services without a branch, it must establish a supervised branch in Cyprus."
+    "explanation": "Section 1.2 explicitly states such a firm must: 'Establish a branch in the Republic, which will be supervised by CySEC or the Central Bank.'",
+    "overallExplanation": "If a third-country firm doesn't meet ESMA's criteria for cross-border services without a branch, it must establish a supervised branch in Cyprus."
   },
   {
-    "chapter": "Chapter 01 Investment Services Law 2017",
+    "chapter": "Chapter 01 - Investment Services Law 2017",
     "question": "According to Section 1.1, Law 87(I)/2017 regulates the authorisation and operation of which type of markets in the Republic?",
     "options": [
       "Third-country markets only",
@@ -425,11 +425,11 @@
       "Regulated markets"
     ],
     "answer": "Regulated markets",
-    "explanation": "Explanation: Section 1.1, point 3, explicitly states that the Law regulates 'the authorisation and operation of the regulated markets of the Republic'.",
-    "overallExplanation": "Overall Explanation: Law 87(I)/2017 provides the framework for the authorisation and operation of regulated financial markets within Cyprus."
+    "explanation": "Section 1.1, point 3, explicitly states that the Law regulates 'the authorisation and operation of the regulated markets of the Republic'.",
+    "overallExplanation": "Law 87(I)/2017 provides the framework for the authorisation and operation of regulated financial markets within Cyprus."
   },
   {
-    "chapter": "Chapter 01 Investment Services Law 2017",
+    "chapter": "Chapter 01 - Investment Services Law 2017",
     "question": "Which of these entities is an example of an 'Uncovered Customer' by the ICF, as listed in Section 3.3, point 4?",
     "options": [
       "Companies that have a close connection with the member of ICF.",
@@ -438,11 +438,11 @@
       "A professional client who opted for retail client treatment."
     ],
     "answer": "Companies that have a close connection with the member of ICF.",
-    "explanation": "Explanation: Section 3.3, point 4 under 'Uncovered Customers,' lists: 'Companies that have a close connection with the member of ICF.'",
-    "overallExplanation": "Overall Explanation: Entities with close ties to a failed ICF member are typically excluded from compensation to avoid potential conflicts and moral hazard."
+    "explanation": "Section 3.3, point 4 under 'Uncovered Customers,' lists: 'Companies that have a close connection with the member of ICF.'",
+    "overallExplanation": "Entities with close ties to a failed ICF member are typically excluded from compensation to avoid potential conflicts and moral hazard."
   },
   {
-    "chapter": "Chapter 01 Investment Services Law 2017",
+    "chapter": "Chapter 01 - Investment Services Law 2017",
     "question": "What is the primary purpose of the Investor Compensation Fund (ICF) as stated in Section 3.1?",
     "options": [
       "To secure the claims of covered customers against ICF members by paying compensation.",
@@ -451,11 +451,11 @@
       "To audit the financial statements of CIFs."
     ],
     "answer": "To secure the claims of covered customers against ICF members by paying compensation.",
-    "explanation": "Explanation: Section 3.1 explicitly states: 'The purpose of the ICF is to secure the claims of covered customers against the members of the ICF, by paying compensation.'",
-    "overallExplanation": "Overall Explanation: The ICF exists to protect covered customers of its member firms by providing compensation in case of a member's failure."
+    "explanation": "Section 3.1 explicitly states: 'The purpose of the ICF is to secure the claims of covered customers against the members of the ICF, by paying compensation.'",
+    "overallExplanation": "The ICF exists to protect covered customers of its member firms by providing compensation in case of a member's failure."
   },
   {
-    "chapter": "Chapter 01 Investment Services Law 2017",
+    "chapter": "Chapter 01 - Investment Services Law 2017",
     "question": "In which of these is NOT a condition for ESMA to register a third-country firm for providing investment services in the Union without a branch, as per Section 1.2?",
     "options": [
       "The European Commission has issued an equivalence decision for the third country.",
@@ -464,11 +464,11 @@
       "The firm is licensed in its home third country for the services to be provided in the EU."
     ],
     "answer": "The firm must establish a physical office in at least one EU member state.",
-    "explanation": "Explanation: Section 1.2 specifically discusses the scenario where third-country firms wish to provide services 'without the establishment of a branch'. Therefore, establishing a physical office is not a condition for this type of ESMA registration.",
-    "overallExplanation": "Overall Explanation: ESMA registration for third-country firms providing services without a branch has specific criteria, primarily focusing on equivalence and supervisory cooperation, not requiring a physical EU office for this particular route."
+    "explanation": "Section 1.2 specifically discusses the scenario where third-country firms wish to provide services 'without the establishment of a branch'. Therefore, establishing a physical office is not a condition for this type of ESMA registration.",
+    "overallExplanation": "ESMA registration for third-country firms providing services without a branch has specific criteria, primarily focusing on equivalence and supervisory cooperation, not requiring a physical EU office for this particular route."
   },
   {
-    "chapter": "Chapter 01 Investment Services Law 2017",
+    "chapter": "Chapter 01 - Investment Services Law 2017",
     "question": "Which of the following organisations is EXEMPT from Law 87(I)/2017, according to Section 1.3?",
     "options": [
       "Cypriot Investment Firms (CIFs) providing only advisory services.",
@@ -477,11 +477,11 @@
       "Third-country firms establishing a branch in the Republic."
     ],
     "answer": "Persons providing investment services exclusively to their parent undertakings or subsidiaries.",
-    "explanation": "Explanation: Section 1.3, point 2, lists as exempt: 'Providing investment services exclusively to parent undertakings, subsidiaries or other subsidiaries of the parent.'",
-    "overallExplanation": "Overall Explanation: Law 87(I)/2017 provides several exemptions, one of which is for entities providing investment services solely within their corporate group structure."
+    "explanation": "Section 1.3, point 2, lists as exempt: 'Providing investment services exclusively to parent undertakings, subsidiaries or other subsidiaries of the parent.'",
+    "overallExplanation": "Law 87(I)/2017 provides several exemptions, one of which is for entities providing investment services solely within their corporate group structure."
   },
   {
-    "chapter": "Chapter 01 Investment Services Law 2017",
+    "chapter": "Chapter 01 - Investment Services Law 2017",
     "question": "Which two supervisory authorities are primarily responsible for supervision under EU directives and regulations in the Republic of Cyprus, as mentioned in Section 1.4?",
     "options": [
       "The Central Bank of Cyprus (CBC) and the Ministry of Finance",
@@ -490,11 +490,11 @@
       "CySEC and the European Securities and Markets Authority (ESMA)"
     ],
     "answer": "Cyprus Securities and Exchange Commission (CySEC) and the Central Bank of Cyprus (CBC)",
-    "explanation": "Explanation: Section 1.4 states: 'Each of the two supervisory authorities, CySEC and the CBC, is responsible for supervision under EU directives and regulations...'",
-    "overallExplanation": "Overall Explanation: CySEC and the CBC are the designated competent authorities in Cyprus for financial services supervision under EU frameworks."
+    "explanation": "Section 1.4 states: 'Each of the two supervisory authorities, CySEC and the CBC, is responsible for supervision under EU directives and regulations...'",
+    "overallExplanation": "CySEC and the CBC are the designated competent authorities in Cyprus for financial services supervision under EU frameworks."
   },
   {
-    "chapter": "Chapter 01 Investment Services Law 2017",
+    "chapter": "Chapter 01 - Investment Services Law 2017",
     "question": "What is the maximum amount of compensation the ICF provides per covered client, according to Section 3.3?",
     "options": [
       "EUR 100,000 or 100 percent of the claim, whichever is smaller.",
@@ -503,11 +503,11 @@
       "EUR 20,000 flat rate."
     ],
     "answer": "EUR 20,000 or 90 percent of the cumulative covered claims, whichever is smaller.",
-    "explanation": "Explanation: Section 3.3 clearly states: 'The ICF provides coverage for all the claims of the covered client against a member of the ICF but cannot exceed EUR 20,000 or 90 percent of the cumulative covered claims of the covered client whichever of the two amounts is smaller.'",
-    "overallExplanation": "Overall Explanation: The ICF provides compensation up to a maximum of EUR 20,000 or 90 percent of the claim, whichever is the lesser amount."
+    "explanation": "Section 3.3 clearly states: 'The ICF provides coverage for all the claims of the covered client against a member of the ICF but cannot exceed EUR 20,000 or 90 percent of the cumulative covered claims of the covered client whichever of the two amounts is smaller.'",
+    "overallExplanation": "The ICF provides compensation up to a maximum of EUR 20,000 or 90 percent of the claim, whichever is the lesser amount."
   },
   {
-    "chapter": "Chapter 01 Investment Services Law 2017",
+    "chapter": "Chapter 01 - Investment Services Law 2017",
     "question": "Under Section 4, if an offence is committed by a legal person, and members of its board of directors are found criminally liable, what additional liability might they face?",
     "options": [
       "They are only liable for a reduced fine.",
@@ -516,11 +516,11 @@
       "They are exempt from any liability for damages if the legal person pays the fine."
     ],
     "answer": "They are liable together with the legal person and/or separately for any damage caused to third parties.",
-    "explanation": "Explanation: Section 4 states: 'They are liable together with the legal person and/or separately for any damage caused to third parties by the act or the omission comprising the offence.'",
-    "overallExplanation": "Overall Explanation: Individuals on the board found liable for an offence committed by a legal person can also be held responsible for damages caused to third parties, in addition to criminal penalties."
+    "explanation": "Section 4 states: 'They are liable together with the legal person and/or separately for any damage caused to third parties by the act or the omission comprising the offence.'",
+    "overallExplanation": "Individuals on the board found liable for an offence committed by a legal person can also be held responsible for damages caused to third parties, in addition to criminal penalties."
   },
   {
-    "chapter": "Chapter 01 Investment Services Law 2017",
+    "chapter": "Chapter 01 - Investment Services Law 2017",
     "question": "According to Section 3.2, regular annual contributions of ICF members are based on what?",
     "options": [
       "The member's annual profit.",
@@ -529,11 +529,11 @@
       "The annual statement of eligible funds and financial instruments of their covered customers."
     ],
     "answer": "The annual statement of eligible funds and financial instruments of their covered customers.",
-    "explanation": "Explanation: Section 3.2 states that regular annual contributions are 'based on the annual statement of eligible funds and financial instruments of their covered customers'.",
-    "overallExplanation": "Overall Explanation: Annual ICF contributions from members are calculated based on the volume of eligible client assets they manage."
+    "explanation": "Section 3.2 states that regular annual contributions are 'based on the annual statement of eligible funds and financial instruments of their covered customers'.",
+    "overallExplanation": "Annual ICF contributions from members are calculated based on the volume of eligible client assets they manage."
   },
   {
-    "chapter": "Chapter 01 Investment Services Law 2017",
+    "chapter": "Chapter 01 - Investment Services Law 2017",
     "question": "As per Section 1.4, CySEC must ensure that individuals acting on behalf of a CIF or an IF of another EU member state possess appropriate what?",
     "options": [
       "Membership in a specific professional body in Cyprus.",
@@ -542,11 +542,11 @@
       "General, commercial, and professional knowledge."
     ],
     "answer": "General, commercial, and professional knowledge.",
-    "explanation": "Explanation: Section 1.4 states: 'CySEC ensures that these individuals need to be of sufficiently good repute and possess appropriate general, commercial and professional knowledge.'",
-    "overallExplanation": "Overall Explanation: CySEC requires individuals representing investment firms to have good repute and the necessary knowledge across general, commercial, and professional domains."
+    "explanation": "Section 1.4 states: 'CySEC ensures that these individuals need to be of sufficiently good repute and possess appropriate general, commercial and professional knowledge.'",
+    "overallExplanation": "CySEC requires individuals representing investment firms to have good repute and the necessary knowledge across general, commercial, and professional domains."
   },
   {
-    "chapter": "Chapter 01 Investment Services Law 2017",
+    "chapter": "Chapter 01 - Investment Services Law 2017",
     "question": "When the ICF compensation payment process is activated, what is the minimum number of newspapers in Cyprus in which the ICF must publish a request for compensation, according to Section 3.3?",
     "options": [
       "Three newspapers",
@@ -555,11 +555,11 @@
       "Two newspapers"
     ],
     "answer": "Two newspapers",
-    "explanation": "Explanation: Section 3.3, under 'Application procedure,' states: 'When the compensation payment process is activated, the ICF publishes as soon as possible, in at least two newspapers widely circulating in Cyprus, a request for compensation...'",
-    "overallExplanation": "Overall Explanation: To ensure wide reach, the ICF is required to publish its call for compensation applications in at least two widely circulated Cypriot newspapers."
+    "explanation": "Section 3.3, under 'Application procedure,' states: 'When the compensation payment process is activated, the ICF publishes as soon as possible, in at least two newspapers widely circulating in Cyprus, a request for compensation...'",
+    "overallExplanation": "To ensure wide reach, the ICF is required to publish its call for compensation applications in at least two widely circulated Cypriot newspapers."
   },
   {
-    "chapter": "Chapter 01 Investment Services Law 2017",
+    "chapter": "Chapter 01 - Investment Services Law 2017",
     "question": "As per Section 1.1, which of the following specific provisions applies to credit institutions undertaking investment services activities covered by their EU member state authorisation?",
     "options": [
       "Trading process and finalisation of transactions in a multilateral trading facility (MTF) and an organised trading facility (OTF).",
@@ -568,11 +568,11 @@
       "The requirement to obtain a separate CIF license from CySEC."
     ],
     "answer": "Trading process and finalisation of transactions in a multilateral trading facility (MTF) and an organised trading facility (OTF).",
-    "explanation": "Explanation: Section 1.1 lists 'Trading process and finalisation of transactions in a multilateral trading facility (MTF) and an organised trading facility (OTF)' among the specific provisions applicable to such credit institutions.",
-    "overallExplanation": "Overall Explanation: Credit institutions operating in Cyprus under an EU passport are still subject to certain local rules, including those governing trading on MTFs and OTFs."
+    "explanation": "Section 1.1 lists 'Trading process and finalisation of transactions in a multilateral trading facility (MTF) and an organised trading facility (OTF)' among the specific provisions applicable to such credit institutions.",
+    "overallExplanation": "Credit institutions operating in Cyprus under an EU passport are still subject to certain local rules, including those governing trading on MTFs and OTFs."
   },
   {
-    "chapter": "Chapter 01 Investment Services Law 2017",
+    "chapter": "Chapter 01 - Investment Services Law 2017",
     "question": "Under what condition can an ICF member choose to pay the ICF with unsolicited customer funds, as described in Section 3.2?",
     "options": [
       "The amount is less than EUR 100.",
@@ -581,11 +581,11 @@
       "The member is able to demonstrate it has taken reasonable steps to identify and reimburse the customer."
     ],
     "answer": "The member is able to demonstrate it has taken reasonable steps to identify and reimburse the customer.",
-    "explanation": "Explanation: Section 3.2 lists this as a condition: 'the member is able to demonstrate that it has taken reasonable steps to identify the customer and reimburse the amount'.",
-    "overallExplanation": "Overall Explanation: ICF members can transfer long-held, unclaimed customer funds to the ICF if they have made reasonable efforts to return them to the customer."
+    "explanation": "Section 3.2 lists this as a condition: 'the member is able to demonstrate that it has taken reasonable steps to identify the customer and reimburse the amount'.",
+    "overallExplanation": "ICF members can transfer long-held, unclaimed customer funds to the ICF if they have made reasonable efforts to return them to the customer."
   },
   {
-    "chapter": "Chapter 01 Investment Services Law 2017",
+    "chapter": "Chapter 01 - Investment Services Law 2017",
     "question": "If CySEC receives a request from another competent authority regarding an inspection or investigation, what action will CySEC NOT take, according to Section 2?",
     "options": [
       "Automatically delegate the request to ESMA.",
@@ -594,11 +594,11 @@
       "Allow the requesting authority to carry out the inspection or investigation."
     ],
     "answer": "Automatically delegate the request to ESMA.",
-    "explanation": "Explanation: Section 2 describes CySEC's options as carrying out the investigation itself, allowing the requesting authority to do so, or allowing auditors/experts. It does not state automatic delegation to ESMA as an action upon receiving such a request. ESMA staff may participate, but that's different from automatic delegation.",
-    "overallExplanation": "Overall Explanation: When cooperating with other authorities on inspections/investigations, CySEC has several direct options or can involve auditors/experts, but doesn't automatically delegate to ESMA."
+    "explanation": "Section 2 describes CySEC's options as carrying out the investigation itself, allowing the requesting authority to do so, or allowing auditors/experts. It does not state automatic delegation to ESMA as an action upon receiving such a request. ESMA staff may participate, but that's different from automatic delegation.",
+    "overallExplanation": "When cooperating with other authorities on inspections/investigations, CySEC has several direct options or can involve auditors/experts, but doesn't automatically delegate to ESMA."
   },
   {
-    "chapter": "Chapter 01 Investment Services Law 2017",
+    "chapter": "Chapter 01 - Investment Services Law 2017",
     "question": "According to Section 3.3, which category of investors is generally NOT covered by the ICF?",
     "options": [
       "Clients who have submitted their application for compensation late.",
@@ -607,11 +607,11 @@
       "Clients whose claims are below EUR 1,000."
     ],
     "answer": "Institutional and professional investors.",
-    "explanation": "Explanation: Section 3.3, point 1 under 'Uncovered Customers,' lists: 'Institutional and professional investors (investment firms, banks, cooperative credit institutions, insurance companies, UCITS and management companies, social security institutions and funds, legal entities affiliated with a member of the ICF)'.",
-    "overallExplanation": "Overall Explanation: The ICF typically does not cover institutional and professional investors, as they are presumed to have a higher degree of financial sophistication and ability to assess risk."
+    "explanation": "Section 3.3, point 1 under 'Uncovered Customers,' lists: 'Institutional and professional investors (investment firms, banks, cooperative credit institutions, insurance companies, UCITS and management companies, social security institutions and funds, legal entities affiliated with a member of the ICF)'.",
+    "overallExplanation": "The ICF typically does not cover institutional and professional investors, as they are presumed to have a higher degree of financial sophistication and ability to assess risk."
   },
   {
-    "chapter": "Chapter 01 Investment Services Law 2017",
+    "chapter": "Chapter 01 - Investment Services Law 2017",
     "question": "What is the maximum fine for a person convicted of the criminal offence of providing false or misleading information under Law 87(I)/2017, as per Section 4?",
     "options": [
       "EUR 500,000",
@@ -620,11 +620,11 @@
       "EUR 1,000,000"
     ],
     "answer": "EUR 700,000",
-    "explanation": "Explanation: Section 4 states: 'In the event of a conviction, this is punishable by imprisonment of up to five years and/or a fine of up to EUR 700,000.'",
-    "overallExplanation": "Overall Explanation: Providing false or misleading information under Law 87(I)/2017 is a serious criminal offence with a substantial maximum fine."
+    "explanation": "Section 4 states: 'In the event of a conviction, this is punishable by imprisonment of up to five years and/or a fine of up to EUR 700,000.'",
+    "overallExplanation": "Providing false or misleading information under Law 87(I)/2017 is a serious criminal offence with a substantial maximum fine."
   },
   {
-    "chapter": "Chapter 01 Investment Services Law 2017",
+    "chapter": "Chapter 01 - Investment Services Law 2017",
     "question": "In what is the minimum percentage of the ICF's total assets that must be placed in interest-bearing current accounts in banks operating in the Republic, according to the Investment Policy in Section 3.2?",
     "options": [
       "5 percent",
@@ -633,11 +633,11 @@
       "10 percent"
     ],
     "answer": "10 percent",
-    "explanation": "Explanation: Section 3.2, under 'Investment Policy,' specifies: '-10 percent of the total assets are to be placed in interest-bearing current accounts in banks operating in the Republic.'",
-    "overallExplanation": "Overall Explanation: A portion of the ICF's assets is mandated to be held in liquid, interest-bearing current accounts within Cypriot banks."
+    "explanation": "Section 3.2, under 'Investment Policy,' specifies: '-10 percent of the total assets are to be placed in interest-bearing current accounts in banks operating in the Republic.'",
+    "overallExplanation": "A portion of the ICF's assets is mandated to be held in liquid, interest-bearing current accounts within Cypriot banks."
   },
   {
-    "chapter": "Chapter 01 Investment Services Law 2017",
+    "chapter": "Chapter 01 - Investment Services Law 2017",
     "question": "Under Section 4, who is liable, along with the legal person, for any damage caused to third parties by an offence, provided they consented or were party to it?",
     "options": [
       "Only the shareholders of the legal person.",
@@ -646,11 +646,11 @@
       "CySEC officials who failed to prevent the offence."
     ],
     "answer": "Members of the board of directors, managerial, supervisory or auditory bodies.",
-    "explanation": "Explanation: Section 4 states these individuals 'are liable together with the legal person and/or separately for any damage caused to third parties by the act or the omission comprising the offence' if they consented or were party to it.",
-    "overallExplanation": "Overall Explanation: Key individuals within a company (board, management) can be held personally liable for damages arising from offences they were involved in."
+    "explanation": "Section 4 states these individuals 'are liable together with the legal person and/or separately for any damage caused to third parties by the act or the omission comprising the offence' if they consented or were party to it.",
+    "overallExplanation": "Key individuals within a company (board, management) can be held personally liable for damages arising from offences they were involved in."
   },
   {
-    "chapter": "Chapter 01 Investment Services Law 2017",
+    "chapter": "Chapter 01 - Investment Services Law 2017",
     "question": "As per Section 3.3, which of these is NOT a category of 'Uncovered Customers' by the ICF?",
     "options": [
       "States and supranational organizations",
@@ -659,11 +659,11 @@
       "Retail clients who are Cyprus nationals"
     ],
     "answer": "Retail clients who are Cyprus nationals",
-    "explanation": "Explanation: The list of 'Uncovered Customers' in Section 3.3 focuses on institutional investors, related parties, and those involved in the member's difficulties, not on excluding retail clients based on nationality.",
-    "overallExplanation": "Overall Explanation: The ICF's exclusions primarily target sophisticated investors and parties closely linked to the failed member firm, not ordinary retail clients based on their nationality."
+    "explanation": "The list of 'Uncovered Customers' in Section 3.3 focuses on institutional investors, related parties, and those involved in the member's difficulties, not on excluding retail clients based on nationality.",
+    "overallExplanation": "The ICF's exclusions primarily target sophisticated investors and parties closely linked to the failed member firm, not ordinary retail clients based on their nationality."
   },
   {
-    "chapter": "Chapter 01 Investment Services Law 2017",
+    "chapter": "Chapter 01 - Investment Services Law 2017",
     "question": "Which specific provision applies to credit institutions undertaking investment services covered by their authorisation granted by another EU member state, as per Section 1.1?",
     "options": [
       "Governance arrangements",
@@ -672,11 +672,11 @@
       "Obligation to re-authorise with CySEC"
     ],
     "answer": "Governance arrangements",
-    "explanation": "Explanation: Section 1.1 explicitly lists 'Governance arrangements' as one of the specific provisions that apply to credit institutions undertaking investment services or activities covered by the authorisation granted to them by the competent authority of another EU member state.",
-    "overallExplanation": "Overall Explanation: Credit institutions from other EU member states operating under their home state authorisation are still subject to certain specific provisions of Law 87(I)/2017 in Cyprus."
+    "explanation": "Section 1.1 explicitly lists 'Governance arrangements' as one of the specific provisions that apply to credit institutions undertaking investment services or activities covered by the authorisation granted to them by the competent authority of another EU member state.",
+    "overallExplanation": "Credit institutions from other EU member states operating under their home state authorisation are still subject to certain specific provisions of Law 87(I)/2017 in Cyprus."
   },
   {
-    "chapter": "Chapter 01 Investment Services Law 2017",
+    "chapter": "Chapter 01 - Investment Services Law 2017",
     "question": "Under which circumstance may CySEC refuse to provide information or cooperate with an investigation requested by another member state, as outlined in Section 2?",
     "options": [
       "If judicial proceedings have already been initiated in respect of the same actions and persons before a court in the Republic.",
@@ -685,11 +685,11 @@
       "If ESMA has not pre-approved the information sharing."
     ],
     "answer": "If judicial proceedings have already been initiated in respect of the same actions and persons before a court in the Republic.",
-    "explanation": "Explanation: Section 2 states CySEC may refuse if: 'judicial proceedings have already been initiated in respect of the same actions and the same persons before a court'.",
-    "overallExplanation": "Overall Explanation: CySEC has limited grounds for refusing cooperation with other member states, primarily to avoid interference with domestic judicial processes or protect national sovereignty."
+    "explanation": "Section 2 states CySEC may refuse if: 'judicial proceedings have already been initiated in respect of the same actions and the same persons before a court'.",
+    "overallExplanation": "CySEC has limited grounds for refusing cooperation with other member states, primarily to avoid interference with domestic judicial processes or protect national sovereignty."
   },
   {
-    "chapter": "Chapter 01 Investment Services Law 2017",
+    "chapter": "Chapter 01 - Investment Services Law 2017",
     "question": "Under what circumstance can contributions and fees paid to the ICF be refunded to members, as an exception mentioned in Section 3.2?",
     "options": [
       "If a member has not had any covered claims against it for five consecutive years.",
@@ -698,11 +698,11 @@
       "If the member decides to voluntarily leave the ICF."
     ],
     "answer": "In the event of a miscalculation of a contribution paid during the current year.",
-    "explanation": "Explanation: Section 3.2 states: 'no amount can be refunded to members at any stage, except (a) in the event of a miscalculation of a contribution paid during the current year...'",
-    "overallExplanation": "Overall Explanation: ICF contributions are generally non-refundable, with very specific exceptions like correcting a miscalculated payment."
+    "explanation": "Section 3.2 states: 'no amount can be refunded to members at any stage, except (a) in the event of a miscalculation of a contribution paid during the current year...'",
+    "overallExplanation": "ICF contributions are generally non-refundable, with very specific exceptions like correcting a miscalculated payment."
   },
   {
-    "chapter": "Chapter 01 Investment Services Law 2017",
+    "chapter": "Chapter 01 - Investment Services Law 2017",
     "question": "What is the maximum term of imprisonment for a person convicted of providing false or misleading information under Law 87(I)/2017, as per Section 4?",
     "options": [
       "Up to one year",
@@ -711,11 +711,11 @@
       "Up to three years"
     ],
     "answer": "Up to five years",
-    "explanation": "Explanation: Section 4 states: 'In the event of a conviction, this is punishable by imprisonment of up to five years and/or a fine of up to EUR 700.000.'",
-    "overallExplanation": "Overall Explanation: The criminal offence of providing false or misleading information carries a potential imprisonment sentence of up to five years."
+    "explanation": "Section 4 states: 'In the event of a conviction, this is punishable by imprisonment of up to five years and/or a fine of up to EUR 700.000.'",
+    "overallExplanation": "The criminal offence of providing false or misleading information carries a potential imprisonment sentence of up to five years."
   },
   {
-    "chapter": "Chapter 01 Investment Services Law 2017",
+    "chapter": "Chapter 01 - Investment Services Law 2017",
     "question": "When is an ICF member also removed from the ICF, according to Section 3.1?",
     "options": [
       "If it expands its services to a new EU member state.",
@@ -724,11 +724,11 @@
       "Annually, for renewal purposes."
     ],
     "answer": "If the member loses for any reason its operating license.",
-    "explanation": "Explanation: Section 3.1 states: 'In the event that a member of the ICF loses for any reason its operating license, the member is also removed from the ICF.'",
-    "overallExplanation": "Overall Explanation: Loss of the operating license is a critical event that leads to an ICF member's removal from the fund."
+    "explanation": "Section 3.1 states: 'In the event that a member of the ICF loses for any reason its operating license, the member is also removed from the ICF.'",
+    "overallExplanation": "Loss of the operating license is a critical event that leads to an ICF member's removal from the fund."
   },
   {
-    "chapter": "Chapter 01 Investment Services Law 2017",
+    "chapter": "Chapter 01 - Investment Services Law 2017",
     "question": "According to Section 3.2, from which of these sources do the ICF funds NOT derive?",
     "options": [
       "Direct funding from the Cyprus government budget.",
@@ -737,11 +737,11 @@
       "Regular annual contributions of members."
     ],
     "answer": "Direct funding from the Cyprus government budget.",
-    "explanation": "Explanation: Section 3.2 lists various sources such as member contributions, investment income, donations, and fees, but does not mention direct funding from the government budget as a primary source.",
-    "overallExplanation": "Overall Explanation: The ICF is primarily funded by its members and its own operations, not by direct government budget allocations."
+    "explanation": "Section 3.2 lists various sources such as member contributions, investment income, donations, and fees, but does not mention direct funding from the government budget as a primary source.",
+    "overallExplanation": "The ICF is primarily funded by its members and its own operations, not by direct government budget allocations."
   },
   {
-    "chapter": "Chapter 01 Investment Services Law 2017",
+    "chapter": "Chapter 01 - Investment Services Law 2017",
     "question": "According to Section 1.1, Law 87(I)/2017 applies to which of the following entities providing investment services or activities through the establishment of a branch in the Republic?",
     "options": [
       "Only Cypriot investment firms (CIFs)",
@@ -750,11 +750,11 @@
       "Credit institutions from other EU member states without a branch"
     ],
     "answer": "Third-country firms",
-    "explanation": "Explanation: Section 1.1 clearly states that Law 87(I)/2017 applies to third-country firms providing investment services or activities through the establishment of a branch in the Republic.",
-    "overallExplanation": "Overall Explanation: Law 87(I)/2017 has a broad scope, including third-country firms that establish a branch in Cyprus to provide investment services."
+    "explanation": "Section 1.1 clearly states that Law 87(I)/2017 applies to third-country firms providing investment services or activities through the establishment of a branch in the Republic.",
+    "overallExplanation": "Law 87(I)/2017 has a broad scope, including third-country firms that establish a branch in Cyprus to provide investment services."
   },
   {
-    "chapter": "Chapter 01 Investment Services Law 2017",
+    "chapter": "Chapter 01 - Investment Services Law 2017",
     "question": "Which of the following is NOT a condition for the payment of compensation by the ICF, as listed in Section 3.3?",
     "options": [
       "That the claims do not result from transactions for which a criminal conviction has been issued for money laundering.",
@@ -763,13 +763,913 @@
       "The covered client must be a resident of Cyprus."
     ],
     "answer": "The covered client must be a resident of Cyprus.",
-    "explanation": "Explanation: Section 3.3 does not list residency of the covered client in Cyprus as a condition for payment. The conditions relate to the validity of the claim, the process activation, and absence of criminal issues related to the claim.",
-    "overallExplanation": "Overall Explanation: Eligibility for ICF compensation depends on the nature of the claim and the process, not typically on the client's residency.\""
+    "explanation": "Section 3.3 does not list residency of the covered client in Cyprus as a condition for payment. The conditions relate to the validity of the claim, the process activation, and absence of criminal issues related to the claim.",
+    "overallExplanation": "Eligibility for ICF compensation depends on the nature of the claim and the process, not typically on the client's residency."
   },
 
 
 
-  
+
+  {
+    "chapter": "Chapter 02 - Exam Questions",
+    "question": "Section 1.3, Page 32, outlines obligations for a CIF once CySEC has been notified of its intention to renounce authorisation. Which of the following is one such obligation?",
+    "options": [
+      "To return all funds and financial instruments owned by or accounted for their clients, including any profits.",
+      "To expand its marketing activities for a final 30-day period.",
+      "To expand its marketing activities for a final 30-day period.",
+      "To transfer all client complaints to an independent dispute resolution body."
+    ],
+    "answer": "To return all funds and financial instruments owned by or accounted for their clients, including any profits.",
+    "explanation": "Section 1.3, Page 32, lists as an obligation: 'return all funds and financial instruments owned by or are accounted for their clients, including any profits'.",
+    "overallExplanation": "When a CIF renounces its authorisation, it has several key obligations to ensure an orderly wind-down and protection of client interests."
+  },
+  {
+    "chapter": "Chapter 02 - Exam Questions",
+    "question": "As per Section 2.1, what is the minimum number of executive directors required for the management of a CIF?",
+    "options": [
+      "Two",
+      "One",
+      "Three",
+      "Four, if the CIF is significant in size."
+    ],
+    "answer": "Two",
+    "explanation": "Section 2.1, Page 34, specifies: 'At least two members of the management of a CIF need to be classed as directors.'",
+    "overallExplanation": "CIFs must have a minimum number of directors to ensure proper management and governance."
+  },
+  {
+    "chapter": "Chapter 02 - Exam Questions",
+    "question": "According to Section 6.1.1, Table on Page 50 (Signal 19), what manipulative practice involves submitting multiple or large orders away from the touch on one side of the order book to execute a trade on the other side, and then removing the manipulative orders?",
+    "options": [
+      "Marking the close",
+      "Layering and spoofing",
+      "Quote stuffing",
+      "Painting the tape"
+    ],
+    "answer": "Layering and spoofing",
+    "explanation": "Signal 19 on Page 50 describes: 'Submitting multiple or large orders to trade often away from the touch on one side of the order book in order to execute a trade on the other side of the order book. Once that trade has taken place, the manipulative orders will be removed (usually known as layering and spoofing).'",
+    "overallExplanation": "Layering and spoofing is a specific type of market manipulation that trading venues need to detect and prevent."
+  },
+  {
+    "chapter": "Chapter 02 - Exam Questions",
+    "question": "As per Section 4, when are the restrictions on CFDs NOT applicable regarding payments or financial benefits provided by the CFD provider?",
+    "options": [
+      "When the provider only provides profits from the CFD trading itself.",
+      "When the provider offers loyalty bonuses.",
+      "When the provider shares trading signals for free.",
+      "When the provider offers a discount on commission rates."
+    ],
+    "answer": "When the provider only provides profits from the CFD trading itself.",
+    "explanation": "Section 4, Page 41, states a condition for non-applicability of restrictions is that the CFD provider 'does not provide directly or indirectly a payment, financial or exempted non-financial, related to the marketing, distribution or sale of CFDs, except profits'.",
+    "overallExplanation": "Restrictions on CFDs aim to protect private clients, and these restrictions may not apply if the provider adheres to certain conditions, including how they handle payments and benefits."
+  },
+  {
+    "chapter": "Chapter 02 - Exam Questions",
+    "question": "According to Section 3.1, if a CIF intends to use a tied agent established in the Republic, how long does CySEC typically take to approve the appointment?",
+    "options": [
+      "Within 7 working days",
+      "Within 3 months",
+      "Within 1 month",
+      "Within 15 working days"
+    ],
+    "answer": "Within 1 month",
+    "explanation": "Section 3.1, Page 38 specifies: 'CySEC approves the appointment of the tied agent within 1 month.'",
+    "overallExplanation": "CySEC has a defined timeframe for approving the appointment of tied agents to ensure timely processing of such requests."
+  },
+  {
+    "chapter": "Chapter 02 - Exam Questions",
+    "question": "According to Section 1.1, Page 30, what is the obligation of a CIF regarding the publication of its authorisation number and supervisory status by CySEC?",
+    "options": [
+      "To publish it only on its annual report.",
+      "To display it prominently at its physical office premises.",
+      "To communicate it verbally to new clients only.",
+      "To publish it on any official documents and maintain it on its website."
+    ],
+    "answer": "To publish it on any official documents and maintain it on its website.",
+    "explanation": "Section 1.1, Page 30, specifies: 'It is the obligation of the CIF to publish their authorisation number as well as the fact that they are supervised and authorised by CySEC on any official documents. Moreover, a CIF must maintain a website, which should clearly state that it is authorised by CySEC as well as contain its number and content of authorisation.'",
+    "overallExplanation": "CIFs must ensure transparency regarding their authorisation and supervision by CySEC through various public means."
+  },
+  {
+    "chapter": "Chapter 02 - Exam Questions",
+    "question": "Section 6.1.1 on page 46 mentions knock-on effects of a suspension or removal of a financial instrument. This includes sufficiently related items for which the removed or suspended instrument serves as what?",
+    "options": [
+      "A benchmark for market sentiment.",
+      "A primary funding source.",
+      "A hedging instrument only.",
+      "An underlying or constituent."
+    ],
+    "answer": "An underlying or constituent.",
+    "explanation": "According to Section 6.1.1, Page 46, point 3: 'knock-on effects of a suspension or removal of sufficiently related derivatives, indices or benchmarks for which the removed or suspended instrument serves as an underlying or constituent.'",
+    "overallExplanation": "When considering the impact of suspending or removing a financial instrument, regulatory authorities look at its role as an underlying or constituent for other financial products."
+  },
+  {
+    "chapter": "Chapter 02 - Exam Questions",
+    "question": "According to Section 1.3, if it was not possible to return all client funds during the process of renouncement or withdrawal of authorisation, where will the remaining amount be deposited by the CIF?",
+    "options": [
+      "In a special account held by CySEC.",
+      "With the Central Bank of Cyprus.",
+      "The funds will be forfeited to the state.",
+      "In a bank account in the Investor Compensation Fund (ICF)."
+    ],
+    "answer": "In a bank account in the Investor Compensation Fund (ICF).",
+    "explanation": "Section 1.3, Page 33 clearly states: 'In cases where it was not possible to return all client funds, the remaining amount will be deposited by the CIF in a bank account in the Investor Compensation Fund (ICF).'",
+    "overallExplanation": "The regulations provide a clear procedure for handling client funds that cannot be returned during the renouncement or withdrawal of a CIF's authorisation, prioritizing investor protection through the ICF."
+  },
+  {
+    "chapter": "Chapter 02 - Exam Questions",
+    "question": "As per Section 6.5, if a CIF or market operator identifies conduct that may indicate behaviour prohibited under MiFID rules, what must they do?",
+    "options": [
+      "Immediately inform CySEC.",
+      "Only inform CySEC if the behaviour results in financial loss.",
+      "Issue a public warning about the potential behaviour.",
+      "Conduct an internal investigation and report only if confirmed."
+    ],
+    "answer": "Immediately inform CySEC.",
+    "explanation": "Section 6.5, Page 56, states: 'CIFs must immediately inform CySEC of any: ... conduct that may indicate behaviour prohibited under the MiFID rules, or ...'",
+    "overallExplanation": "CIFs and market operators have a duty to promptly report suspicious conduct that might constitute market abuse under MiFID rules to CySEC."
+  },
+  {
+    "chapter": "Chapter 02 - Exam Questions",
+    "question": "As per Section 3.1, a CIF that appoints tied agents must ensure the tied agent discloses what information to clients?",
+    "options": [
+      "The CIF's annual profit margins.",
+      "The tied agent's personal financial information.",
+      "The capacity in which the tied agent is acting and the CIF they are representing.",
+      "The specific commission structure for the services offered."
+    ],
+    "answer": "The capacity in which the tied agent is acting and the CIF they are representing.",
+    "explanation": "Section 3.1, Page 38, states: 'In addition, it is the responsibility of the CIF to ensure that a tied agent discloses the capacity in which he is acting and the CIF he is representing.'",
+    "overallExplanation": "Transparency is crucial when CIFs use tied agents, requiring agents to clearly identify their role and the firm they represent."
+  },
+  {
+    "chapter": "Chapter 02 - Exam Questions",
+    "question": "According to Section 2.2, what is one of the duties of the nomination committee in a CIF that is significant in terms of its size?",
+    "options": [
+      "To decide on a target for the representation of the underrepresented gender in the board of directors.",
+      "To set the remuneration policy for all CIF employees.",
+      "To directly appoint senior management.",
+      "To approve the CIF's annual financial statements."
+    ],
+    "answer": "To decide on a target for the representation of the underrepresented gender in the board of directors.",
+    "explanation": "Section 2.2, Page 36, lists as a duty: 'Decide on a target for the representation of the underrepresented gender in the board of directors and prepare a policy on how to increase the number of the underrepresented gender in the board of directors in order to meet that target.'",
+    "overallExplanation": "The nomination committee plays a crucial role in the governance of significant CIFs, focusing on board composition, diversity, and selection processes for senior management."
+  },
+  {
+    "chapter": "Chapter 02 - Exam Questions",
+    "question": "As per Section 6.3, if a financial instrument is admitted to trading on multiple regulated markets, is the consent of the issuer required for each admission?",
+    "options": [
+      "No, consent of the issuer is not required for admission to multiple regulated markets.",
+      "Yes, explicit consent is required for each market.",
+      "Yes, but only if the issuer is domiciled outside the EU.",
+      "No, but the issuer must be informed and given the option to object within 30 days."
+    ],
+    "answer": "No, consent of the issuer is not required for admission to multiple regulated markets.",
+    "explanation": "Section 6.3, Page 54, clearly states: 'Financial instruments can be admitted to trading on multiple regulated markets, even without the consent of the issuer.'",
+    "overallExplanation": "The admission of financial instruments to trading on regulated markets has specific rules regarding issuer consent, particularly when multiple markets are involved."
+  },
+  {
+    "chapter": "Chapter 02 - Exam Questions",
+    "question": "According to Section 2.1, Page 34, directorships in which type of organisations do NOT count towards the directorship limits for a CIF board member?",
+    "options": [
+      "Undertakings in which the CIF holds a qualifying holding.",
+      "Organisations which do not pursue predominantly commercial objectives.",
+      "Third-country investment firms.",
+      "Other CIFs within the same group."
+    ],
+    "answer": "Organisations which do not pursue predominantly commercial objectives.",
+    "explanation": "Section 2.1, Page 34, states: 'Directorships in organisations which do not pursue predominantly commercial objectives do not count towards this limit.'",
+    "overallExplanation": "The rules on directorship limits provide exceptions for roles in non-commercial organisations."
+  },
+  {
+    "chapter": "Chapter 02 - Exam Questions",
+    "question": "As per Section 4, what is the minimum validity period (issue to expiry) for a binary option for the restrictions on marketing, purchase, distribution, and selling to private clients NOT to apply?",
+    "options": [
+      "At least 30 days",
+      "At least 180 days",
+      "At least 60 days",
+      "At least 90 days"
+    ],
+    "answer": "At least 90 days",
+    "explanation": "Section 4, Page 41, specifies that for the restrictions on binary options not to apply, 'the binary option\u2019s validity period (issue to expiry) is at least 90 days'.",
+    "overallExplanation": "Specific conditions, including a minimum validity period, must be met for binary options to be marketed to private clients without the standard restrictions."
+  },
+  {
+    "chapter": "Chapter 02 - Exam Questions",
+    "question": "As detailed in Section 2.2, can the chairman of the board of directors of a CIF also be the chief executive officer (CEO) of the same CIF?",
+    "options": [
+      "Yes, without any restrictions.",
+      "No, unless the CIF is not considered significant in size.",
+      "Yes, if justified by the CIF and approved by CySEC.",
+      "No, this is strictly prohibited under all circumstances."
+    ],
+    "answer": "Yes, if justified by the CIF and approved by CySEC.",
+    "explanation": "Section 2.2, Page 35, specifies: 'The chairman of the board of directors of the CIF cannot also be the chief executive officer (CEO) of the same CIF, unless justified by the CIF and approved by CySEC.'",
+    "overallExplanation": "Governance rules for CIFs address the separation of key roles like Chairman and CEO to ensure effective oversight, with provisions for exceptions under specific conditions."
+  },
+  {
+    "chapter": "Chapter 02 - Exam Questions",
+    "question": "As per Section 6.1.1, Table on Page 47, which of the following is a signal of a 'Significant infringement of the rules of a trading venue'?",
+    "options": [
+      "The price discovery process is interfered with over a significant period of time.",
+      "Any major malfunction or breakdown of the system for market access.",
+      "A trading venue considers that an infringement is of sufficient severity or impact to justify consideration of disciplinary action.",
+      "Market makers/liquidity providers repeatedly claim mis-trades."
+    ],
+    "answer": "A trading venue considers that an infringement is of sufficient severity or impact to justify consideration of disciplinary action.",
+    "explanation": "The table on Page 47, under 'Significant infringement of the rules of a trading venue', Signal 2 states: 'a trading venue considers that an infringement is of sufficient severity or impact to justify consideration of disciplinary action.'",
+    "overallExplanation": "Trading venues must monitor for various signals indicating potential issues, including significant rule infringements which have their own distinct indicators."
+  },
+  {
+    "chapter": "Chapter 02 - Exam Questions",
+    "question": "As per Section 7, Page 57, if an APA or CTP provides market data, the price of this data must be based on the cost of production and disseminating the data and may include what?",
+    "options": [
+      "A premium based on market demand.",
+      "A levy to fund CySEC's oversight activities.",
+      "A reasonable margin.",
+      "A fee set by ESMA."
+    ],
+    "answer": "A reasonable margin.",
+    "explanation": "Section 7, Page 57, point 1 (Provision of market data on the basis of cost) specifies: 'the price of market data must be based on the cost of production and disseminating the data and may include a reasonable margin.'",
+    "overallExplanation": "The pricing of market data by APAs and CTPs is regulated to ensure it is cost-based with the allowance for a reasonable margin, promoting fair access to information."
+  },
+  {
+    "chapter": "Chapter 02 - Exam Questions",
+    "question": "According to Section 3.3, concerning crowdfunding services by a CIF, what is the CIF NOT allowed to do to avoid conflicts of interest?",
+    "options": [
+      "Operate a bulletin board for investors.",
+      "Perform due diligence checks on project owners.",
+      "Require project owners to issue a Key Investment Information Sheet (KIIS).",
+      "Acquire securities in relation to projects offered through their platform."
+    ],
+    "answer": "Acquire securities in relation to projects offered through their platform.",
+    "explanation": "Section 3.3 (Avoiding conflicts of interest), Page 40, point 1.(iii) states: 'CIFs are not allowed to acquire securities in relation to the projects offered through their platform or to allow specific persons (who are defined as involved persons) to act as project owners.'",
+    "overallExplanation": "To maintain independence and avoid conflicts of interest, CIFs providing crowdfunding services are restricted from investing in projects on their own platform."
+  },
+  {
+    "chapter": "Chapter 02 - Exam Questions",
+    "question": "According to Section 5, what is the maximum total balance sheet an issuer without listed equity can have to be considered an SME, if it also has fewer than 250 employees?",
+    "options": [
+      "EUR 200 million",
+      "EUR 50 million",
+      "EUR 43 million",
+      "EUR 20 million"
+    ],
+    "answer": "EUR 43 million",
+    "explanation": "Section 5, Page 42, states that an issuer without listed equity will be deemed an SME if they meet at least two of three criteria, one of which is: 'The total balance sheet does not exceed EUR 43 million.'",
+    "overallExplanation": "The definition of an SME for the purposes of SME Growth Markets includes specific financial thresholds for unlisted issuers."
+  },
+  {
+    "chapter": "Chapter 02 - Exam Questions",
+    "question": "According to Section 6.1.1, Table on Page 48, what does 'Unusual concentration of transactions and/or orders to trade in a particular financial instrument with one member/participant or between certain members/participants' signal?",
+    "options": [
+      "Significant infringement of trading venue rules",
+      "Signals of possible insider dealing or market manipulation",
+      "Disorderly trading conditions",
+      "System disruption"
+    ],
+    "answer": "Signals of possible insider dealing or market manipulation",
+    "explanation": "The table on Page 48 lists 'Unusual concentration of transactions and/or orders to trade in a particular financial instrument with one member/ participant or between certain members/participants.' as Signal 1 under 'Signals of possible insider dealing or market manipulation'.",
+    "overallExplanation": "Trading venues must be alert to patterns like unusual transaction concentrations, as these can be indicators of potential insider dealing or market manipulation."
+  },
+  {
+    "chapter": "Chapter 02 - Exam Questions",
+    "question": "As per Section 2.3, how often, at a minimum, should senior management of a firm receive written reports covering compliance, risk management, and internal audit?",
+    "options": [
+      "Bi-annually (every two years)",
+      "Annually",
+      "Semi-annually",
+      "Quarterly"
+    ],
+    "answer": "Annually",
+    "explanation": "Section 2.3, Page 37, states: 'It is the responsibility of the firm to ensure that senior management periodically (at a minimum annually) receive written reports covering: compliance, risk management, and internal audit.'",
+    "overallExplanation": "Regular reporting to senior management on key control functions is essential for effective oversight and compliance within a CIF."
+  },
+  {
+    "chapter": "Chapter 02 - Exam Questions",
+    "question": "As per Section 5, an MTF applying to be an SME growth market must establish and apply rules requiring an issuer seeking admission to publish what document?",
+    "options": [
+      "A letter of intent reviewed by CySEC.",
+      "Only its latest audited annual financial report.",
+      "A full prospectus equivalent to a regulated market.",
+      "An appropriate admission document."
+    ],
+    "answer": "An appropriate admission document.",
+    "explanation": "Section 5, Page 43, point 3, specifies that the MTF must have rules that 'require an issuer seeking admission of its financial instruments to trading on the MTF, to publish, an appropriate admission document'.",
+    "overallExplanation": "SME Growth Markets have specific requirements for admission documents to ensure sufficient information is available to investors."
+  },
+  {
+    "chapter": "Chapter 02 - Exam Questions",
+    "question": "According to Section 5, what is the maximum annual net turnover an issuer without listed equity can have to be considered an SME, if it also has a total balance sheet not exceeding EUR 43 million?",
+    "options": [
+      "EUR 20 million",
+      "EUR 200 million",
+      "EUR 50 million",
+      "EUR 43 million"
+    ],
+    "answer": "EUR 50 million",
+    "explanation": "Section 5, Page 42, specifies that an unlisted issuer meets the SME criteria if they satisfy at least two of the three conditions, one of which is: 'The annual net turnover does not exceed EUR 50 million.'",
+    "overallExplanation": "SME Growth Markets have specific criteria for defining SMEs, including turnover limits for unlisted companies."
+  },
+  {
+    "chapter": "Chapter 02 - Exam Questions",
+    "question": "As per Section 5, Page 43, an MTF applying to be an SME growth market must require issuers whose securities are traded on its venue to publish annual financial reports within how many months after the end of each financial year?",
+    "options": [
+      "Six months",
+      "Three months",
+      "Nine months",
+      "Four months"
+    ],
+    "answer": "Six months",
+    "explanation": "According to Section 5, Page 43, point 7: an MTF 'requires the issuers whose securities are traded on its venue to publish annual financial reports within six months after the end of each financial year'.",
+    "overallExplanation": "Timely financial reporting is an important ongoing obligation for issuers on SME Growth Markets."
+  },
+  {
+    "chapter": "Chapter 02 - Exam Questions",
+    "question": "According to Section 1.3, page 32, if a CIF renounces its authorisation, how must it notify CySEC?",
+    "options": [
+      "By publishing an announcement on its website only.",
+      "Verbally, followed by a written confirmation within 30 days.",
+      "Through an application submitted by its legal representative.",
+      "In writing, including the original authorisation and proposed timetable."
+    ],
+    "answer": "In writing, including the original authorisation and proposed timetable.",
+    "explanation": "Section 1.3, Page 32, specifies: 'In the event that a CIF ... renounces its authorisation for any reason, they must notify CySEC in writing. The notification must include the original authorisation, its intention towards renouncing the authorisation, the related reasons, and the proposed timetable for the implementation of its actions.'",
+    "overallExplanation": "CIFs intending to renounce their authorisation must follow a formal written notification process with CySEC, providing specific details and documentation."
+  },
+  {
+    "chapter": "Chapter 02 - Exam Questions",
+    "question": "As per Section 2.2, Page 36, how often, at least, must the nomination committee of a significant CIF assess the knowledge, skills, and experience of members of the board of directors individually and collectively?",
+    "options": [
+      "Annually",
+      "Only when a new director is appointed.",
+      "Every six months",
+      "Every two years"
+    ],
+    "answer": "Annually",
+    "explanation": "Section 2.2, Page 36, specifies that the nomination committee must 'Periodically (and at least annually) assess the knowledge, skills and experience of members of the board of directors individually, and of the board of directors collectively, and report to the board of directors accordingly.'",
+    "overallExplanation": "The nomination committee has an ongoing responsibility to ensure the board possesses the necessary collective and individual expertise."
+  },
+  {
+    "chapter": "Chapter 02 - Exam Questions",
+    "question": "As per Section 2.1, what is the maximum number of non-executive directorships a member of the board of a significant CIF can hold, if they hold no executive directorships?",
+    "options": [
+      "One",
+      "Four",
+      "Two",
+      "Three"
+    ],
+    "answer": "Four",
+    "explanation": "Section 2.1, Page 34, states: 'members of the board of directors of a CIF that is significant... shall not hold more than one of the following combinations of directorships at the same time: ... b. four non-executive directorships.'",
+    "overallExplanation": "CIF regulations set limits on the number of directorships board members can hold to ensure they can dedicate sufficient time to their duties, especially for significant CIFs."
+  },
+  {
+    "chapter": "Chapter 02 - Exam Questions",
+    "question": "As per Section 6.1.1, Table on Page 47, Signal 4 for 'Disorderly trading conditions' indicates that:",
+    "options": [
+      "Any major malfunction or breakdown of the system for the matching of transactions.",
+      "Market participants infringe rules of the trading venue.",
+      "The capacities of the trading systems are reached or exceeded.",
+      "A trading venue considers that an infringement is of sufficient severity."
+    ],
+    "answer": "The capacities of the trading systems are reached or exceeded.",
+    "explanation": "The table on Page 47, under 'Disorderly trading conditions', Signal 4 states: 'The capacities of the trading systems are reached or exceeded'.",
+    "overallExplanation": "Trading system capacity issues are a key indicator of disorderly trading conditions that venues must monitor."
+  },
+  {
+    "chapter": "Chapter 02 - Exam Questions",
+    "question": "According to Section 6.4, on what basis must the rules for obtaining access to membership of a regulated market be established?",
+    "options": [
+      "Based on the applicant's existing market share.",
+      "On transparent, non-discriminatory rules which are based on objective criteria.",
+      "Primarily on the financial turnover of the applicant.",
+      "At the sole discretion of the regulated market operator."
+    ],
+    "answer": "On transparent, non-discriminatory rules which are based on objective criteria.",
+    "explanation": "Section 6.4, Page 55, states: 'The rule for obtaining access to membership of the regulated market must be based on transparent, non-discriminatory rules which are based on objective criteria.'",
+    "overallExplanation": "Fair and open access to regulated markets is supported by rules that are transparent, non-discriminatory, and based on objective criteria."
+  },
+  {
+    "chapter": "Chapter 02 - Exam Questions",
+    "question": "Section 6.1.1, Page 46, lists factors to consider when determining if suspension or removal of a financial instrument is likely to cause significant damage. What is one such factor related to the relevance of the market?",
+    "options": [
+      "The number of new listings on the market in the past year.",
+      "The age of the regulated market.",
+      "The geographical location of the market operator's headquarters.",
+      "The market's relevance in terms of liquidity."
+    ],
+    "answer": "The market's relevance in terms of liquidity.",
+    "explanation": "Section 6.1.1, Page 46, point 1, states a relevant factor is: 'relevance of the market in terms of liquidity where the consequences of the actions are likely to be more significant where those markets are more relevant in terms of liquidity than in other markets.'",
+    "overallExplanation": "The liquidity of a market is a crucial factor in assessing the potential impact of suspending or removing a financial instrument from trading."
+  },
+  {
+    "chapter": "Chapter 02 - Exam Questions",
+    "question": "Section 6.1.1 of Chapter 2 discusses operating obligations for trading venues. When is the continuation of trading on a market considered necessary to perform critical post-trade risk management functions?",
+    "options": [
+      "When there is a need for liquidation of financial instruments due to a clearing member's default and the CCP cannot calculate margin requirements.",
+      "If it prevents a dominant market position from unwinding.",
+      "During the launch of new financial instruments.",
+      "When the market experiences high volatility."
+    ],
+    "answer": "When there is a need for liquidation of financial instruments due to a clearing member's default and the CCP cannot calculate margin requirements.",
+    "explanation": "Section 6.1.1, Page 46, point b, states that continuation of trading is necessary 'when there is a need for the liquidation of financial instruments due to the default of a clearing member under the default procedures of the CCP and the CCP would be exposed to unacceptable risks as a result of an inability to calculate margin requirements.'",
+    "overallExplanation": "Trading venues have obligations related to market stability, including ensuring that critical post-trade risk management functions can be performed, especially in default scenarios."
+  },
+  {
+    "chapter": "Chapter 02 - Exam Questions",
+    "question": "According to Section 3.3, Page 40, under what condition related to the collection of capital should CIFs transfer the money raised in a crowdfunding project to the project owner?",
+    "options": [
+      "Only after the successful completion of the offer (i.e., the goal set for capital collection is achieved).",
+      "Within 7 days of the first investor contribution.",
+      "Once the project owner provides a personal guarantee.",
+      "As soon as 50 percent of the target capital is achieved."
+    ],
+    "answer": "Only after the successful completion of the offer (i.e., the goal set for capital collection is achieved).",
+    "explanation": "Section 3.3, Page 40, point 4 (Protection of investors' funds and financial instruments) specifies: 'CIFs should transfer the money raised to the project owner only after the successful completion of the offer (i.e. only when the goal set for the collection of capital is achieved).'",
+    "overallExplanation": "Crowdfunding regulations ensure investor funds are protected by stipulating that raised capital is transferred to the project owner only upon successful completion of the funding goal."
+  },
+  {
+    "chapter": "Chapter 02 - Exam Questions",
+    "question": "According to Section 6.1.1, Page 46, the determination of whether the suspension or removal of a financial instrument is likely to cause significant damage should consider effects on market end-users who are NOT what?",
+    "options": [
+      "Financial counterparties.",
+      "SMEs using the instruments for investment.",
+      "Retail investors.",
+      "Institutional investors."
+    ],
+    "answer": "Financial counterparties.",
+    "explanation": "Section 6.1.1, Page 46, point 4 specifies considering 'effects of a suspension on the interests of market end users who are not financial counterparties, such as entities trading in financial instruments to hedge commercial risks.'",
+    "overallExplanation": "When assessing the impact of market actions like suspensions, regulators consider the effect on various market participants, with a distinction for non-financial counterparty end-users."
+  },
+  {
+    "chapter": "Chapter 02 - Exam Questions",
+    "question": "As per Section 6.1, Page 45, when may CySEC withdraw the authorisation of a regulated market regarding its operational status?",
+    "options": [
+      "If it has not operated for the preceding six months.",
+      "If it has not operated for the preceding twelve months, unless it also renounces its authorisation.",
+      "If it has not operated for the preceding nine months.",
+      "If it has not operated for the preceding three months."
+    ],
+    "answer": "If it has not operated for the preceding six months.",
+    "explanation": "According to Section 6.1, Page 45, one of the conditions for withdrawal is when the regulated market 'has not operated for the preceding six months.'",
+    "overallExplanation": "Continuous operation is a condition for maintaining regulated market authorisation; prolonged inactivity can lead to withdrawal by CySEC."
+  },
+  {
+    "chapter": "Chapter 02 - Exam Questions",
+    "question": "According to Section 3.1, Page 38, what is the timeframe within which a principal must update its website regarding the termination of cooperation with a tied agent (unless it's a replacement with a new principal)?",
+    "options": [
+      "Within five (5) working days",
+      "Within three (3) working days",
+      "Without any delay",
+      "Within one (1) working day"
+    ],
+    "answer": "Without any delay",
+    "explanation": "Section 3.1, Page 39 states: 'shall, without any delay, publish on their website in a clear and visible way, the termination and the date of the termination of the cooperation.'",
+    "overallExplanation": "Principals must promptly update their public information when a tied agent relationship is terminated."
+  },
+  {
+    "chapter": "Chapter 02 - Exam Questions",
+    "question": "According to Section 5, Page 42, what is the maximum average number of employees an issuer without listed equity can have during the financial year to be deemed an SME, provided other criteria are met?",
+    "options": [
+      "Fewer than 500",
+      "Fewer than 100",
+      "Fewer than 1000",
+      "Fewer than 250"
+    ],
+    "answer": "Fewer than 250",
+    "explanation": "Section 5, Page 42, point 1, specifies one of the criteria for an unlisted issuer to be deemed an SME: 'The average number of employees during the financial year is less than 250.'",
+    "overallExplanation": "The definition of an SME for SME Growth Markets includes employee headcount as a key criterion for unlisted companies."
+  },
+  {
+    "chapter": "Chapter 02 - Exam Questions",
+    "question": "According to Section 1.3, what is one of the activities a CIF is NOT allowed to do during a suspension period of its authorisation, unless specified by CySEC?",
+    "options": [
+      "Accept any new customers.",
+      "Communicate with existing clients regarding their current investments.",
+      "Settle outstanding obligations to CySEC.",
+      "Perform internal audits."
+    ],
+    "answer": "Accept any new customers.",
+    "explanation": "Section 1.3, Page 32, states: 'During the suspension period, the CIF is not allowed to ... accept any new customers ... unless otherwise specified by CySEC.'",
+    "overallExplanation": "During a suspension of authorisation, CIFs face significant restrictions on their activities, particularly concerning new business and client acquisition."
+  },
+  {
+    "chapter": "Chapter 02 - Exam Questions",
+    "question": "According to Section 2.2, which body is responsible for overseeing the implementation of a CIF's strategic objectives and risk prevention strategy?",
+    "options": [
+      "The internal audit department.",
+      "The board of directors.",
+      "The senior management team.",
+      "The compliance officer."
+    ],
+    "answer": "The board of directors.",
+    "explanation": "Section 2.2, Page 35, clearly states the board of directors must 'have overall responsibility for the CIF and approve and oversee the implementation of the CIF\u2019s strategic objectives, risk prevention strategy and internal governance'.",
+    "overallExplanation": "The board of directors holds ultimate responsibility for the strategic direction and risk governance of a CIF."
+  },
+  {
+    "chapter": "Chapter 02 - Exam Questions",
+    "question": "According to Section 6.1, within how many months must CySEC inform a market operator of its decision regarding an application for regulated market authorisation after submission of a duly completed application?",
+    "options": [
+      "Twelve months",
+      "Six months",
+      "One month",
+      "Three months"
+    ],
+    "answer": "Six months",
+    "explanation": "As per Section 6.1, Page 44: 'CySEC must inform the market operator of its decision within six months from the submission of a duly completed application.'",
+    "overallExplanation": "CySEC has a defined processing time for applications for regulated market authorisation to ensure clarity for applicants."
+  },
+  {
+    "chapter": "Chapter 02 - Exam Questions",
+    "question": "Under what conditions, as per Section 1.2, must a CIF disclose the general nature and/or sources of conflicts of interest to a client?",
+    "options": [
+      "Only when the conflict involves senior management.",
+      "Whenever any conflict of interest is identified, regardless of mitigation measures.",
+      "Only if the client specifically requests information about conflicts of interest.",
+      "If arrangements to prevent risk of damage to clients\u2019 interests are deemed insufficient, prior to undertaking any business on the client\u2019s behalf."
+    ],
+    "answer": "If arrangements to prevent risk of damage to clients\u2019 interests are deemed insufficient, prior to undertaking any business on the client\u2019s behalf.",
+    "explanation": "Section 1.2, Page 31, states: 'If the arrangements are deemed to be insufficient, the CIF must clearly disclose the general nature and/or sources of conflicts of interest to the client prior to undertaking any business on the client\u2019s behalf.'",
+    "overallExplanation": "CIFs have continuous obligations to manage conflicts of interest, and disclosure becomes necessary when internal arrangements are insufficient to protect client interests."
+  },
+  {
+    "chapter": "Chapter 02 - Exam Questions",
+    "question": "According to Section 6.2, Page 53, a regulated market imposing a higher fee on operators of a high-frequency algorithmic trading technique must be able to identify what related to these orders?",
+    "options": [
+      "The average profit generated by these orders.",
+      "The specific risk parameters embedded in the algorithms.",
+      "The orders generated, the different algorithms used, and the persons initiating these orders.",
+      "The geographical origin of these orders."
+    ],
+    "answer": "The orders generated, the different algorithms used, and the persons initiating these orders.",
+    "explanation": "Section 6.2, Page 53, states: 'In addition, they must be able to identify orders generated in this way, the different algorithms used and the persons initiating these orders. This information needs to be made available to CySEC on request.'",
+    "overallExplanation": "To properly manage and potentially charge differently for high-frequency trading, regulated markets need capabilities to identify such orders and their characteristics."
+  },
+  {
+    "chapter": "Chapter 02 - Exam Questions",
+    "question": "As detailed in Section 5, for how many consecutive calendar years must the proportion of SMEs on an SME Growth Market fall below 50 percent for CySEC to deregister it?",
+    "options": [
+      "One calendar year",
+      "Five consecutive calendar years",
+      "Two consecutive calendar years",
+      "Three consecutive calendar years"
+    ],
+    "answer": "Three consecutive calendar years",
+    "explanation": "According to Section 5, Page 43: 'An SME growth market shall only be deregistered by CySEC where the proportion of SMEs falls below 50% for three consecutive calendar years.'",
+    "overallExplanation": "SME Growth Markets have specific ongoing requirements regarding the proportion of SMEs listed, and failure to meet these can lead to deregistration."
+  },
+  {
+    "chapter": "Chapter 02 - Exam Questions",
+    "question": "As per Section 3.3, Page 40 (point 5, Exit opportunities), if a CIF-operated bulletin board for crowdfunding allows binding prices to be posted, what does it become?",
+    "options": [
+      "An unregulated communication platform.",
+      "A systematic internaliser.",
+      "An eligible counterparty.",
+      "A trading venue."
+    ],
+    "answer": "A trading venue.",
+    "explanation": "Section 3.3, Page 40, point 5, explains: 'When such a board allows binding prices to be posted on it, it will act as a trading venue... When a bulletin board acts not only as a point of contact for investment interest, but also as a place where investment interest is matched by concluding a transaction or contract, then it will meet the definition of the trading venue\" of the Law and the CIF must be licensed for the operation of such a trading venue.'\"",
+    "overallExplanation": "The functionality of a bulletin board in a crowdfunding context determines its regulatory classification; allowing binding prices shifts it into the category of a trading venue requiring licensure."
+  },
+  {
+    "chapter": "Chapter 02 - Exam Questions",
+    "question": "As stated in Section 1.3, which of the following is NOT a reason for CySEC to withdraw a CIF\u2019s authorisation?",
+    "options": [
+      "The CIF has not used its authorisation within 12 months of the date it was granted.",
+      "The CIF has changed its primary custodian bank.",
+      "The CIF has received authorisation based on false or misleading information.",
+      "The CIF has not provided investment services or performed investment activities for a period of six months."
+    ],
+    "answer": "The CIF has changed its primary custodian bank.",
+    "explanation": "Changing a custodian bank is not listed as a direct reason for withdrawal of authorisation in Section 1.3, Page 32. The reasons include non-use of authorisation, renouncement, failure to provide services for six months, false information, no longer meeting conditions, serious violations, or irrelevant operational licences.",
+    "overallExplanation": "CySEC has specific grounds upon which it can withdraw a CIF's authorisation, focusing on operational integrity and compliance."
+  },
+  {
+    "chapter": "Chapter 02 - Exam Questions",
+    "question": "As per Section 1.1, can a CIF receive authorisation solely for the provision of ancillary services?",
+    "options": [
+      "Yes, but only for a limited period.",
+      "Yes, if it meets specific capital requirements.",
+      "No, unless it is a branch of a third-country firm.",
+      "No, authorisation will not be provided solely for ancillary services."
+    ],
+    "answer": "No, authorisation will not be provided solely for ancillary services.",
+    "explanation": "Section 1.1, Page 30, explicitly states, 'No authorisation will be provided solely for the provision of ancillary services.'",
+    "overallExplanation": "The scope of authorisation for a CIF is specific regarding the types of services for which it can be authorised."
+  },
+  {
+    "chapter": "Chapter 02 - Exam Questions",
+    "question": "According to Section 7, within how many minutes after publication must Consolidated Tape Providers (CTPs) make information available free of charge?",
+    "options": [
+      "30 minutes",
+      "15 minutes",
+      "5 minutes",
+      "10 minutes"
+    ],
+    "answer": "15 minutes",
+    "explanation": "Section 7, Page 57, explicitly states: 'In addition, within 15 minutes after publication, CTPs will need to make the information available free of charge'.",
+    "overallExplanation": "CTPs have specific obligations regarding the timely dissemination of consolidated market data, including making it available free of charge shortly after publication."
+  },
+  {
+    "chapter": "Chapter 02 - Exam Questions",
+    "question": "As described in Section 6.1.1, Table on Page 49 (Signal 10), what is 'Buying or selling of a financial instrument at the reference time of the trading session (eg, opening, closing, settlement) in an effort to increase, to decrease or to maintain the reference price at a specific level' commonly known as?",
+    "options": [
+      "Layering and spoofing",
+      "Marking the close",
+      "Quote stuffing",
+      "Painting the tape"
+    ],
+    "answer": "Marking the close",
+    "explanation": "Signal 10 on Page 49 describes: 'Buying or selling of a financial instrument at the reference time of the trading session (eg, opening, closing, settlement) in an effort to increase, to decrease or to maintain the reference price (eg, opening price, closing price, settlement price) at a specific level (usually known as marking the close).'",
+    "overallExplanation": "Certain trading activities around key reference times like market open or close can be manipulative if intended to artificially influence prices, a practice known as 'marking the close'."
+  },
+  {
+    "chapter": "Chapter 02 - Exam Questions",
+    "question": "According to Section 1.2, Page 31, the rules and conditions governing CIF authorisation cover organisational requirements, ongoing capital requirements, and what other key area?",
+    "options": [
+      "Client onboarding procedures",
+      "Outsourcing",
+      "Marketing strategies",
+      "Cybersecurity protocols"
+    ],
+    "answer": "Outsourcing",
+    "explanation": "Section 1.2, Page 31, explicitly mentions: 'The rules and conditions governing CIF authorisation cover organisational requirements, ongoing capital requirements and outsourcing.'",
+    "overallExplanation": "The regulatory framework for CIF authorisation encompasses several critical aspects of a firm's operations and structure."
+  },
+  {
+    "chapter": "Chapter 02 - Exam Questions",
+    "question": "According to Section 7, by when at the latest must Approved Reporting Mechanisms (ARMs) report all transaction information?",
+    "options": [
+      "By the close of the next business day.",
+      "Within 48 hours of the transaction.",
+      "Within one hour of the transaction.",
+      "By the close of the same business day."
+    ],
+    "answer": "By the close of the next business day.",
+    "explanation": "Section 7, Page 57, specifies: 'ARMs need to report all transaction information as soon as reasonably practicable but at the latest by the close of the next business day.'",
+    "overallExplanation": "ARMs have a specific deadline for reporting transaction information to ensure timely data for regulatory oversight."
+  },
+  {
+    "chapter": "Chapter 02 - Exam Questions",
+    "question": "According to Section 6.1, Page 44, changes in ownership levels of persons with significant influence over a regulated market must be reported to CySEC at what point?",
+    "options": [
+      "At the end of the financial year in which the transfer occurred.",
+      "Within 30 days after the transfer of ownership.",
+      "Prior to the transfer of ownership.",
+      "Only if the change exceeds a 10 percent threshold."
+    ],
+    "answer": "Prior to the transfer of ownership.",
+    "explanation": "As per Section 6.1, Page 44: 'Any changes in the ownership levels of persons with significant influence must be reported to CySEC prior to the transfer of ownership'.",
+    "overallExplanation": "CySEC must be informed in advance of changes in significant ownership of regulated markets to ensure proper oversight."
+  },
+  {
+    "chapter": "Chapter 02 - Exam Questions",
+    "question": "According to Section 3.3 concerning crowdfunding, what must a project owner issue for CIFs to accept a crowdfunding project on their platform?",
+    "options": [
+      "A Key Investment Information Sheet (KIIS).",
+      "A credit rating from a recognized agency.",
+      "A notarized guarantee of returns.",
+      "A detailed business plan."
+    ],
+    "answer": "A Key Investment Information Sheet (KIIS).",
+    "explanation": "Section 3.3 (Transparency obligations), Page 40 states: 'In order for CIFs to accept a crowdfunding project on their platform, the project owner must issue a Key Investment Information Sheet (\u201cKIIS\u201d).'",
+    "overallExplanation": "Transparency is key in crowdfunding, and the KIIS is a mandatory document for CIFs to accept projects on their platforms."
+  },
+  {
+    "chapter": "Chapter 02 - Exam Questions",
+    "question": "As per Section 6.2, a regulated market must be able to distinguish and, if necessary, stop orders or trading by a person using direct electronic access (DEA) separately from what?",
+    "options": [
+      "Algorithmic trading orders not using DEA.",
+      "Other orders or trading.",
+      "Orders placed via telephone.",
+      "Orders from institutional investors."
+    ],
+    "answer": "Other orders or trading.",
+    "explanation": "Section 6.2, Page 53, states: 'The regulated market need to be able to distinguish and, if necessary, stop orders or trading by a person using direct electronic access separately from other orders or trading.'",
+    "overallExplanation": "To manage risks associated with DEA, regulated markets must have systems to identify and control DEA orders separately from other market activity."
+  },
+  {
+    "chapter": "Chapter 02 - Exam Questions",
+    "question": "According to Section 6.3, what is the obligation of an issuer if its financial instruments are admitted to trading on a regulated market without its consent?",
+    "options": [
+      "The issuer has no obligation to provide information directly to that regulated market.",
+      "To pay additional listing fees to that market.",
+      "To provide all regulatory disclosures directly to that market.",
+      "To apply for de-listing from that market immediately."
+    ],
+    "answer": "The issuer has no obligation to provide information directly to that regulated market.",
+    "explanation": "Section 6.3, Page 54, explicitly states: 'The issuer has no obligation to provide information directly to any regulated market that trades its instruments without its consent.'",
+    "overallExplanation": "When instruments are traded on a market without the issuer's explicit consent, the issuer's direct information provision obligations to that specific market are limited."
+  },
+  {
+    "chapter": "Chapter 02 - Exam Questions",
+    "question": "According to Section 6.1, if CySEC finds that persons who effectively direct the business and operation of a regulated market are not suitable, what action may CySEC take regarding the application for authorisation?",
+    "options": [
+      "Impose a temporary operational ban.",
+      "Request additional security deposits.",
+      "Reject the application.",
+      "Grant a conditional authorisation."
+    ],
+    "answer": "Reject the application.",
+    "explanation": "As per Section 6.1, Page 44: 'In the event that CySEC finds these persons are not suitable, it may reject the application.'",
+    "overallExplanation": "The suitability of senior management is a critical factor in the authorisation process for regulated markets."
+  },
+  {
+    "chapter": "Chapter 02 - Exam Questions",
+    "question": "As per Section 7 (Articles 84-89 of EU 565/2017), what is the minimum notice period APAs and CTPs must provide for advanced disclosure of future price changes for market data?",
+    "options": [
+      "90 days",
+      "45 days",
+      "60 days",
+      "30 days"
+    ],
+    "answer": "90 days",
+    "explanation": "Section 7, Page 58, point 5.b regarding Transparency obligation, states: 'advanced disclosure with a minimum of 90 days\u2019 notice of future price changes'.",
+    "overallExplanation": "DRSPs like APAs and CTPs must provide sufficient advance notice of any changes to their pricing for market data to ensure transparency."
+  },
+  {
+    "chapter": "Chapter 02 - Exam Questions",
+    "question": "As per Section 6.4, what must a regulated market communicate to CySEC if it intends to provide remote participation from other member states?",
+    "options": [
+      "The fee structure for remote participants.",
+      "A list of potential remote participants.",
+      "Proof of technological capability for remote access.",
+      "Its intention to provide remote participation."
+    ],
+    "answer": "Its intention to provide remote participation.",
+    "explanation": "Section 6.4, Page 55, states: 'Any regulated market shall communicate to CySEC if it intends to provide remote participation from other member states.'",
+    "overallExplanation": "Regulated markets planning to offer remote participation need to inform CySEC of their intentions as part of regulatory oversight."
+  },
+  {
+    "chapter": "Chapter 02 - Exam Questions",
+    "question": "As per Section 7, if an APA or CTP deems a per-user fee for market data disproportionate, what may they decide to do?",
+    "options": [
+      "Report the disproportionate fee structure to ESMA.",
+      "Not make the data available on that basis and publish their grounds for refusal.",
+      "Offer a 50 percent discount on the fee.",
+      "Make the data available only to institutional investors."
+    ],
+    "answer": "Not make the data available on that basis and publish their grounds for refusal.",
+    "explanation": "According to Section 7, Page 58, point 3: 'Where a per-user fee is deemed disproportionate the APA or CTP may decide not to make the data available on this basis and will publish their grounds for refusal on their website.'",
+    "overallExplanation": "APAs and CTPs have a mechanism to address situations where per-user fees for market data are considered disproportionate, ensuring fairness in data provision."
+  },
+  {
+    "chapter": "Chapter 02 - Exam Questions",
+    "question": "As per Section 4, Page 41, for the restrictions on binary options not to apply, what condition must be met by the binary option provider regarding profit or loss from the option?",
+    "options": [
+      "The provider is not making any profit or loss from the binary option except announced commissions, payments, or charges.",
+      "The provider must absorb any client losses beyond the initial premium.",
+      "The provider must guarantee a minimum profit to the client.",
+      "The provider's profit from the option must not exceed 10 percent of the client's investment."
+    ],
+    "answer": "The provider is not making any profit or loss from the binary option except announced commissions, payments, or charges.",
+    "explanation": "Section 4, Page 41, point o, specifies for restrictions not to apply: 'the binary option provider ... is not making any profit or loss from the binary option except the related commission, payment or charges that are announced in advance.'",
+    "overallExplanation": "For binary option restrictions to be lifted, the provider's revenue model from the option must be transparent and based on pre-announced fees, not on profiting from the option's outcome against the client."
+  },
+  {
+    "chapter": "Chapter 02 - Exam Questions",
+    "question": "According to Section 3.1, Page 38, what quality must tied agents established in the Republic possess, in addition to appropriate knowledge and competence?",
+    "options": [
+      "A minimum net worth.",
+      "A university degree in finance.",
+      "Sufficiently good repute.",
+      "Prior experience as a CIF employee."
+    ],
+    "answer": "Sufficiently good repute.",
+    "explanation": "Section 3.1, Page 38, lists requirements for tied agents: 'need to be of sufficiently good repute and possess the appropriate general, commercial and professional knowledge and competence to undertake their service...'",
+    "overallExplanation": "Tied agents acting for CIFs must meet certain standards, including good repute, to ensure client protection and market integrity."
+  },
+  {
+    "chapter": "Chapter 02 - Exam Questions",
+    "question": "As per Section 2.1, Page 34, unless representing the Republic, a member of the board of a significant CIF holding one executive directorship can hold how many additional non-executive directorships at the same time?",
+    "options": [
+      "Two",
+      "Four",
+      "One",
+      "Three"
+    ],
+    "answer": "Two",
+    "explanation": "Section 2.1, Page 34, lists one of the allowed combinations as: 'a. one executive and two non-executive directorships'.",
+    "overallExplanation": "Directorship limits are specific and depend on the combination of executive and non-executive roles held by board members of significant CIFs."
+  },
+  {
+    "chapter": "Chapter 02 - Exam Questions",
+    "question": "According to Section 6.2, what must a regulated market that permits direct electronic access (DEA) ensure about the members or participants providing these DEA services?",
+    "options": [
+      "They are only permitted to provide these services if they are authorised Investment Firms (IFs).",
+      "They have a minimum of 5 years of trading experience.",
+      "They only offer DEA to professional clients.",
+      "They maintain a specific minimum capital adequacy ratio exclusively for DEA services."
+    ],
+    "answer": "They are only permitted to provide these services if they are authorised Investment Firms (IFs).",
+    "explanation": "Section 6.2, Page 53, point 1, states: 'members or participants are only permitted to provide these services if they are authorised IFs'.",
+    "overallExplanation": "Regulated markets allowing DEA must ensure that entities providing such access are appropriately authorised, safeguarding market integrity."
+  },
+  {
+    "chapter": "Chapter 02 - Exam Questions",
+    "question": "As per Section 7, Page 57, what must Approved Reporting Mechanisms (ARMs) have systems in place to check transaction reports for?",
+    "options": [
+      "Potential profitability for the CIF.",
+      "Market sentiment alignment.",
+      "Completeness, omissions, and obvious errors caused by the CIF.",
+      "Compliance with the CIF's internal trading limits."
+    ],
+    "answer": "Completeness, omissions, and obvious errors caused by the CIF.",
+    "explanation": "Section 7, Page 57, specifies: 'ARMs must have systems in place that can effectively check transaction reports for completeness, identify omissions and obvious errors caused by the CIF.'",
+    "overallExplanation": "ARMs play a crucial role in ensuring the quality and accuracy of transaction reports submitted by CIFs."
+  },
+  {
+    "chapter": "Chapter 02 - Exam Questions",
+    "question": "According to Section 5, Page 42, if an issuer's shares have been admitted to trading for between one and two years, what is used as the base price for determining if their market capitalisation is below EUR 200 million for SME Growth Market qualification?",
+    "options": [
+      "Average of last closing share prices of each of the first two years of trading.",
+      "Last closing share price of the first year of trading.",
+      "The initial public offering (IPO) price.",
+      "Closing share price of the first day of trading."
+    ],
+    "answer": "Last closing share price of the first year of trading.",
+    "explanation": "The table in Section 5, Page 42, specifies for 'Between one and two years' of trading, the Base Price is the 'Last closing share price of the first year of trading.'",
+    "overallExplanation": "For determining SME status for SME Growth Markets, the method of calculating market capitalisation varies based on how long the issuer's shares have been trading."
+  },
+  {
+    "chapter": "Chapter 02 - Exam Questions",
+    "question": "According to Section 1.1, within how many months will CySEC inform an applicant for a CIF authorisation whether its application has been successful?",
+    "options": [
+      "Within nine months",
+      "Within twelve months",
+      "Within three months",
+      "Within six months"
+    ],
+    "answer": "Within six months",
+    "explanation": "Section 1.1, Page 30, states, 'CySEC will inform the applicant within six months of their application whether it is successful.'",
+    "overallExplanation": "The timeframe for CySEC to inform an applicant about the success of their CIF authorisation application is clearly defined in the regulations."
+  },
+  {
+    "chapter": "Chapter 02 - Exam Questions",
+    "question": "As per Section 3.2, when a CIF deals with eligible counterparties, what must it obtain from the counterparty regarding its treatment?",
+    "options": [
+      "A detailed financial statement.",
+      "A list of its ultimate beneficial owners.",
+      "Express confirmation that it agrees to be treated as an eligible counterparty.",
+      "A commitment to a minimum transaction volume."
+    ],
+    "answer": "Express confirmation that it agrees to be treated as an eligible counterparty.",
+    "explanation": "Section 3.2, Page 39, clearly states: 'When dealing with eligible counterparties, the CIF obtains express confirmation from the counterparty that it agrees to be treated as an eligible counterparty.'",
+    "overallExplanation": "For CIFs dealing with eligible counterparties, explicit agreement on this classification is a key requirement."
+  },
+  {
+    "chapter": "Chapter 02 - Exam Questions",
+    "question": "As per Section 2.1, Page 34, if CySEC considers directors of a CIF applicant not of sufficiently good repute or experience, what action can CySEC take?",
+    "options": [
+      "Impose higher capital requirements on the CIF.",
+      "Mandate additional training for the directors.",
+      "Limit the scope of services the CIF can offer.",
+      "Reject the application for authorisation."
+    ],
+    "answer": "Reject the application for authorisation.",
+    "explanation": "According to Section 2.1, Page 34: 'CySEC may reject an application for authorisation of a CIF if they consider the directors are not of sufficiently good repute or experience, or if CySEC believes that these directors pose a threat to the CIF\u2019s sound and prudent management...'",
+    "overallExplanation": "The suitability of a CIF's directors is paramount, and CySEC can reject an authorisation application if concerns exist in this regard."
+  },
+  {
+    "chapter": "Chapter 02 - Exam Questions",
+    "question": "According to Section 2.1, which of the following counts as a single directorship for the purpose of directorship limits?",
+    "options": [
+      "Executive directorships held in two unrelated CIFs.",
+      "Directorships in organisations which pursue predominantly non-commercial objectives.",
+      "Executive or non-executive directorships held within the same group.",
+      "Non-executive directorships in a CIF and an unrelated commercial company."
+    ],
+    "answer": "Executive or non-executive directorships held within the same group.",
+    "explanation": "Section 2.1, Page 34, clearly states: 'The following count as a single directorship: a. executive or non-executive directorships held within the same group'.",
+    "overallExplanation": "The rules clarify how multiple directorships are counted, particularly within group structures, to ensure compliance with the overall limits."
+  },
+  {
+    "chapter": "Chapter 02 - Exam Questions",
+    "question": "According to Section 1.3, if a CIF's authorisation is suspended, what happens if it fails to comply with the relevant rules and regulations within the deadline set by CySEC?",
+    "options": [
+      "The CIF will be placed under temporary administration.",
+      "CySEC will impose an administrative fine and allow more time.",
+      "The suspension period is automatically extended.",
+      "CySEC will withdraw its operating licence without any additional notice or procedure."
+    ],
+    "answer": "CySEC will withdraw its operating licence without any additional notice or procedure.",
+    "explanation": "Section 1.3, Page 31, clearly states, 'In the event that the CIF fails to comply within the deadline, CySEC will withdraw its operating licence without any additional notice or procedure.'",
+    "overallExplanation": "The consequences of non-compliance after a CIF's authorisation has been suspended are severe and clearly outlined."
+  },
+  {
+    "chapter": "Chapter 02 - Exam Questions",
+    "question": "As per Section 6.1.1, Table on Page 48, Signal 4 for 'Signals of possible insider dealing' relates to orders or transactions undertaken by a market member/participant before or immediately after what event?",
+    "options": [
+      "The announcement of a new regulatory requirement by CySEC.",
+      "The release of the company's annual financial report.",
+      "That member/participant (or linked persons) produce or disseminate publicly available research or investment recommendations.",
+      "A significant change in the market index."
+    ],
+    "answer": "That member/participant (or linked persons) produce or disseminate publicly available research or investment recommendations.",
+    "explanation": "The table on Page 48, Signal 4 under 'Signals of possible insider dealing' states: 'Whether orders to trade are given or transactions are undertaken by a market member/participant before or immediately after that member/participant or persons publicly known as linked to that member/participant produce or disseminate research or investment recommendations that are made publicly available.'",
+    "overallExplanation": "Trading patterns around the release of investment research can be a signal of potential insider dealing if individuals with advance knowledge of the research trade on it."
+  },
+
+
+
   {
     "chapter": "Chapter 03 - Cypriot Investment Firms (CIFs) and Banks",
     "question": "Which of the following criteria, if two are met, would qualify a large undertaking as a professional client according to Chapter 3, Section 4.1, page 74?",
