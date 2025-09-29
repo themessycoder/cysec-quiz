@@ -1,0 +1,710 @@
+[
+  {
+    "chapter": "Chapter 03 - Cypriot Investment Firms (CIFs) and Banks",
+    "question": "Which of the following criteria, if two are met, would qualify a large undertaking as a professional client according to Chapter 3, Section 4.1, page 74?",
+    "options": [
+      "Balance sheet total at least EUR 10,000,000 and net turnover at least EUR 20,000,000.",
+      "Net turnover at least EUR 40,000,000 and own funds at least EUR 2,000,000.",
+      "Balance sheet total at least EUR 20,000,000 and at least 500 employees.",
+      "Own funds at least EUR 1,000,000 and net turnover at least EUR 50,000,000."
+    ],
+    "answer": "Net turnover at least EUR 40,000,000 and own funds at least EUR 2,000,000.",
+    "explanation": "This combination meets two of the three criteria specified in Chapter 3, Section 4.1, page 74: 'a. balance sheet total at least e20.000.000 b. net turnover at least e40.000.000 c. own funds at least e2.000.000.' Meeting (b) and (c) qualifies the undertaking."
+  },
+  {
+    "chapter": "Chapter 03 - Cypriot Investment Firms (CIFs) and Banks",
+    "question": "Under Article 67 concerning client order handling, when must a firm inform a retail client about any material difficulty relevant to the proper carrying out of orders?",
+    "options": [
+      "Only if the difficulty results in a financial loss for the client.",
+      "At the end of the trading day.",
+      "Within 24 hours of becoming aware of the difficulty.",
+      "Promptly upon becoming aware of the difficulty."
+    ],
+    "answer": "Promptly upon becoming aware of the difficulty.",
+    "explanation": "Page 85, Section 7.1, point 3, states firms must 'inform a retail client about any material difficulty relevant to the proper carrying out of orders promptly upon becoming aware of the difficulty.'"
+  },
+  {
+    "chapter": "Chapter 03 - Cypriot Investment Firms (CIFs) and Banks",
+    "question": "When calculating costs and charges on an ex-ante basis, what will the firm use as a proxy if actual incurred costs are not available, according to Article 50?",
+    "options": [
+      "Projected costs from the product manufacturer.",
+      "Industry average costs.",
+      "A reasonable estimation based on ex-post experience.",
+      "The lowest possible cost scenario."
+    ],
+    "answer": "A reasonable estimation based on ex-post experience.",
+    "explanation": "Page 78, Section 4.3, first paragraph states: 'In the event actual costs are not available, the firm will make a reasonable estimation. Assumptions will be assessed on the basis of ex-post experience and will make adjustments o their assumptions as required.'"
+  },
+  {
+    "chapter": "Chapter 03 - Cypriot Investment Firms (CIFs) and Banks",
+    "question": "What is the minimum information that must be recorded for relevant face-to-face conversations with clients, according to Section 2.2?",
+    "options": [
+      "Date, time, location, attendees, initiator, and relevant client order information.",
+      "A full audio recording of the conversation.",
+      "The client's signature confirming the minutes of the meeting.",
+      "Only the date and time of the meeting."
+    ],
+    "answer": "Date, time, location, attendees, initiator, and relevant client order information.",
+    "explanation": "Page 64, Section 2.2, lists the minimum requirements for recording face-to-face conversations: 'date and time of meetings, location of meetings, identity of the attendees, initiator of the meetings, and relevant information about the client order including the price, volume, type of order and when it shall be transmitted or executed.'"
+  },
+  {
+    "chapter": "Chapter 03 - Cypriot Investment Firms (CIFs) and Banks",
+    "question": "According to Chapter 3, Section 6.1, when an investment firm provides investment advice or portfolio management through an automated or semi-automated system, who retains the responsibility for undertaking the suitability assessment?",
+    "options": [
+      "The client, as they are interacting with a system.",
+      "Adesignated independent third-party assessor.",
+      "The investment firm.",
+      "The developer of the automated system."
+    ],
+    "answer": "The investment firm.",
+    "explanation": "Chapter 3, Section 6.1, page 80, clearly states: 'Where investment advice or portfolio management services are provided in whole or in part through an automated or semi-automated system, the responsibility to undertake the suitability assessment remains with the investment firm and is not reduced by the use of an electronic system.'"
+  },
+  {
+    "chapter": "Chapter 03 - Cypriot Investment Firms (CIFs) and Banks",
+    "question": "What is a primary responsibility of the internal audit function within an investment firm, as per Section 2.5?",
+    "options": [
+      "To establish, implement and maintain an audit plan to examine the adequacy of the firm's systems.",
+      "To set the level of risk tolerated by the firm.",
+      "To directly manage the risks relating to the firm’s activities.",
+      "To provide reports and advice on risk management directly to clients."
+    ],
+    "answer": "To establish, implement and maintain an audit plan to examine the adequacy of the firm's systems.",
+    "explanation": "Page 69, Section 2.5, point a under internal audit responsibilities, states it must 'establish, implement and maintain an audit plan to examine and evaluate the adequacy and effectiveness of the investment firm’s systems, internal control mechanisms and arrangements'."
+  },
+  {
+    "chapter": "Chapter 03 - Cypriot Investment Firms (CIFs) and Banks",
+    "question": "Which of the following functions is not considered critical or important when considering outsourcing by an investment firm, according to Section 2.3?",
+    "options": [
+      "Portfolio management functions.",
+      "Risk management functions.",
+      "Client order execution systems.",
+      "Provision of legal advice to the firm."
+    ],
+    "answer": "Provision of legal advice to the firm.",
+    "explanation": "Page 65, Section 2.3, lists 'Provision of advisory services and other services which do not form part of the investment business of the firm, including the provision of legal advice...' as functions not considered critical or important."
+  },
+  {
+    "chapter": "Chapter 03 - Cypriot Investment Firms (CIFs) and Banks",
+    "question": "According to Section 3, if a firm is a member of a group, its conflicts of interest policy must also take into account circumstances arising from where?",
+    "options": [
+      "The preferences of its retail clients only.",
+      "General macroeconomic conditions.",
+      "The structure and business activities of other members of the group.",
+      "The activities of its competitors."
+    ],
+    "answer": "The structure and business activities of other members of the group.",
+    "explanation": "Page 70, Section 3, states: 'Where the firm is a member of a group, the policy shall also take into account any circumstances, of which the firm is or should be aware, which may give rise to a conflict of interest arising as a result of the structure and business activities of other members of the group.'"
+  },
+  {
+    "chapter": "Chapter 03 - Cypriot Investment Firms (CIFs) and Banks",
+    "question": "When providing information that includes indications of past performance of a financial instrument, Chapter 3, Section 4 states this information must cover a period of at least how many preceding years?",
+    "options": [
+      "Ten years.",
+      "Five years.",
+      "Three years.",
+      "One year."
+    ],
+    "answer": "Five years.",
+    "explanation": "According to Chapter 3, Section 4, page 72: 'Any indications of past performance... must include the appropriate performance information covering at least the preceding five years.'"
+  },
+  {
+    "chapter": "Chapter 03 - Cypriot Investment Firms (CIFs) and Banks",
+    "question": "What must a firm offering both independent and Non-independent investment advice do regarding a natural person providing advice, according to Article 53?",
+    "options": [
+      "Ensure the natural person has dual certification.",
+      "Require the natural person to disclose any potential conflict of interest before providing advice.",
+      "Not allow a natural person to provide both independent and Non-independent advice.",
+      "Allow the natural person to provide both types of advice if the client consents."
+    ],
+    "answer": "Not allow a natural person to provide both independent and Non-independent advice.",
+    "explanation": "Page 80, Section 5, point 3 under obligations for firms offering both types of advice, states: 'The investment firm shall not allow a natural person to provide both independent and non-independent advice.'"
+  },
+  {
+    "chapter": "Chapter 03 - Cypriot Investment Firms (CIFs) and Banks",
+    "question": "When switching investments for a retail client, what analysis must an investment firm undertake according to Article 54?",
+    "options": [
+      "An analysis of the market sentiment towards the new investment.",
+      "An analysis of the tax implications for the firm.",
+      "An analysis of the client's satisfaction with previous investments.",
+      "An analysis of the costs and benefits of the switch."
+    ],
+    "answer": "An analysis of the costs and benefits of the switch.",
+    "explanation": "Page 82, Section 6.1, states: 'When the advice includes switching investments... investment firms shall collect the necessary information on the client’s existing investments and the recommended new investments and shall undertake an analysis of the costs and benefits of the switch so that they will be reasonably able to demonstrate that the benefits of switching are greater than the cost.'"
+  },
+  {
+    "chapter": "Chapter 03 - Cypriot Investment Firms (CIFs) and Banks",
+    "question": "What is the maximum own funds an investment firm is required to have if its portfolio value exceeds EUR 250.000.000,00 and it is increasing capital by 0.02 percent of the additional portfolio value?",
+    "options": [
+      "EUR 10.000.000,00",
+      "EUR 1.000.000,00",
+      "No maximun, it increases indefinitely with portfolio value.",
+      "UR 5.000.000,00"
+    ],
+    "answer": "EUR 10.000.000,00",
+    "explanation": "Page 111, Section 4.1.2, under Share Capital states: 'In the event that the value of the portfolio of the management company exceeds EUR 250.000.000,00 the capital of the management company needs to be increased by 0.02% of the additional portfolio value..., with a maximum increase of own funds to EUR 10.000.000,00.'"
+  },
+  {
+    "chapter": "Chapter 03 - Cypriot Investment Firms (CIFs) and Banks",
+    "question": "If an investment firm provides both independent and Non-independent investment advice, what is an obligation mentioned in Chapter 3, Section 5, page 79, regarding natural persons providing advice?",
+    "options": [
+      "A natural person must first provide Non-independent advice before being eligible to offer independent advice.",
+      "The firm must ensure a natural person provides both types of advice to the same client for consistency.",
+      "A natural person can provide both types of advice if they have dual certification.",
+      "The investment firm shall not allow a natural person to provide both independent and Non-independent advice."
+    ],
+    "answer": "The investment firm shall not allow a natural person to provide both independent and Non-independent advice.",
+    "explanation": "This is clearly stated in Chapter 3, Section 5, under point 3 of the obligations for firms offering both types of advice, on page 80: 'The investment firm shall not allow a natural person to provide both independent and non-independent advice.'"
+  },
+  {
+    "chapter": "Chapter 03 - Cypriot Investment Firms (CIFs) and Banks",
+    "question": "Under Chapter 3, Section 2.2 (Electronic Communications), for how long must records of telephone conversations and electronic communications be retained by an investment firm, and for how long can this period be extended if requested by CySEC?",
+    "options": [
+      "Three years, extendable to five years upon CySEC request.",
+      "Ten years, with no option for extension.",
+      "Seven years, extendable to ten years upon CySEC request.",
+      "Five years, extendable to seven years upon CySEC request."
+    ],
+    "answer": "Five years, extendable to seven years upon CySEC request.",
+    "explanation": "According to Chapter 3, Section 2.2, page 64: 'Firms need to inform new and existing clients that their conversations and communications are recorded and that a copy will be made available on request for up to five years. If requested by CySEC, the information may be retained for up to seven years.'"
+  },
+  {
+    "chapter": "Chapter 03 - Cypriot Investment Firms (CIFs) and Banks",
+    "question": "When a UCITS invests in other UCITS or CISs managed by the same management company, what fees are they not charged, according to Chapter 4, Section 2.1.17",
+    "options": [
+      "Advisory fees.",
+      "Subscription, redemption, or repurchase fees.",
+      "Custody fees.",
+      "Performance fees."
+    ],
+    "answer": "Subscription, redemption, or repurchase fees.",
+    "explanation": "Page 101, Section 2.1.1, states: 'When a UCITS invests in other UCITS or collective investment schemes (CISs) that are managed by the same management company, they will not be charged any subscription, redemption, or repurchase fees.'"
+  },
+  {
+    "chapter": "Chapter 03 - Cypriot Investment Firms (CIFs) and Banks",
+    "question": "What is the primary reason a firm undertakes a suitability assessment when providing investment advice or portfolio management, as stated in Article 54?",
+    "options": [
+      "To reduce the firm's liability in case of investment losses.",
+      "To assess the client's creditworthiness for potential loans.",
+      "To fulfill regulatory record-keeping requirements.",
+      "To enable the firm to act in the client's best interest."
+    ],
+    "answer": "To enable the firm to act in the client's best interest.",
+    "explanation": "Page 80, Section 6.1, explicitly states: 'When undertaking the suitability assessment, the firm shall inform (potential) clients, clearly and simply, that the reason for assessing suitability is to enable the firm to act in the client’s best interest.'"
+  },
+  {
+    "chapter": "Chapter 03 - Cypriot Investment Firms (CIFs) and Banks",
+    "question": "If a legal person or a group of natural persons is the client, what should the investment policy record regarding the suitability assessment?",
+    "options": [
+      "That suitability assessment is not required for legal persons.",
+      "Only the financial situation of the legal person.",
+      "Who should be assessed for suitability and how this assessment will be done.",
+      "The preferred investment products of the legal person's CEO."
+    ],
+    "answer": "Who should be assessed for suitability and how this assessment will be done.",
+    "explanation": "Page 81, Section 6.1, states: 'When a client is a legal person or a group of natural persons the investment policy will record who should be assessed for suitability and how this assessment will be done in practice...'"
+  },
+  {
+    "chapter": "Chapter 03 - Cypriot Investment Firms (CIFs) and Banks",
+    "question": "When an investment firm charges different fees depending on the execution venue, what must it explain to the client?",
+    "options": [
+      "That the most expensive venue always provides the best execution.",
+      "The historical performance of each venue.",
+      "The differences in sufficient detail for the client to understand the advantages and disadvantages of the choice.",
+      "Only the cheapest fee option available."
+    ],
+    "answer": "The differences in sufficient detail for the client to understand the advantages and disadvantages of the choice.",
+    "explanation": "Page 85, Section 7, states: 'If a frim applies different fees depending on the execution venue, the firm shall explain these differences in sufficient detail in order to allow the client to understand the advantages and the disadvantages of the choice of a single execution venue.'"
+  },
+  {
+    "chapter": "Chapter 03 - Cypriot Investment Firms (CIFs) and Banks",
+    "question": "What is the minimum net turnover for a large undertaking to be considered for professional client status, under Article 58 of EU 2017/565?",
+    "options": [
+      "UR 50.000.000",
+      "EUR 2.000.000",
+      "EUR 20.000.000",
+      "EUR 40.000.000"
+    ],
+    "answer": "EUR 40.000.000",
+    "explanation": "Page 74, Section 4.1, point 2b under professional client criteria, states 'net turnover at least EUR 40.000.000'."
+  },
+  {
+    "chapter": "Chapter 03 - Cypriot Investment Firms (CIFs) and Banks",
+    "question": "Under what circumstance do the detailed requirements on costs and charges have limited application for professional clients or eligible counterparties, according to Section 4.3?",
+    "options": [
+      "When the services are provided exclusively online.",
+      "When the transaction value is below EUR 50000.",
+      "If the client waives their right to detailed disclosure in writing.",
+      "Unless derivatives are involved."
+    ],
+    "answer": "Unless derivatives are involved.",
+    "explanation": "Page 77, Section 4.3, begins: 'Firms providing investment services to professional clients or eligible counterparties have the right to agree to a limited application of the detailed requirements on costs and charges, unless derivatives are involved.'"
+  },
+  {
+    "chapter": "Chapter 03 - Cypriot Investment Firms (CIFs) and Banks",
+    "question": "What is the minimum frequency for the compliance function to report to the management body on the overall control environment for investment services and activities, according to Article 22?",
+    "options": [
+      "Annually",
+      "Monthly",
+      "Quarterly",
+      "Bi-annually"
+    ],
+    "answer": "Annually",
+    "explanation": "Page 62, Section 2.1, point c under compliance responsibilities, states that the compliance function must 'report to the management body, on at least an annual basis, on the implementation and effectiveness of the overall control environment...'"
+  },
+  {
+    "chapter": "Chapter 03 - Cypriot Investment Firms (CIFs) and Banks",
+    "question": "When providing indications of past performance, if the information is in a currency other than euro, what must be clearly stated according to Section 4?",
+    "options": [
+      "That the figures are more reliable than euro-deNominated ones.",
+      "The currency used and a warning that the return may vary due to currency fluctuations.",
+      "The equivalent performance in euro.",
+      "That currency risk is not a factor for this specific investment."
+    ],
+    "answer": "The currency used and a warning that the return may vary due to currency fluctuations.",
+    "explanation": "Page 72, Section 4, states: 'If the information is in a currency other that euro this needs to be clearly stated together with a warning that the return may vary as a result of currency fluctuations.'"
+  },
+  {
+    "chapter": "Chapter 03 - Cypriot Investment Firms (CIFs) and Banks",
+    "question": "What percentage of a single UCITS or other collective investment undertaking's units may a UCITS not obtain more than?",
+    "options": [
+      "25 percent",
+      "10 percent",
+      "20 percent",
+      "15 percent"
+    ],
+    "answer": "25 percent",
+    "explanation": "Page 101, Section 2.1.1, clearly states a UCITS may not obtain more than: '25% of the units of a single UCITS or other collective investment undertaking'."
+  },
+  {
+    "chapter": "Chapter 03 - Cypriot Investment Firms (CIFs) and Banks",
+    "question": "Under what condition, as outlined in Chapter 3, Section 3, page 71, can disclosure to clients be used as a measure for managing conflicts of interest?",
+    "options": [
+      "Only if the client explicitly requests disclosure.",
+      "Only where the effective organisational and administrative arrangements established by the firm to prevent or manage its conflicts of interest are not sufficient to ensure, with reasonable confidence, that risks of damage to client interests will be prevented.",
+      "Whenever a conflict of interest involves a professional client, as they are deemed capable of understanding complex disclosures.",
+      "As the primary and preferred method of managing all conflicts."
+    ],
+    "answer": "Only where the effective organisational and administrative arrangements established by the firm to prevent or manage its conflicts of interest are not sufficient to ensure, with reasonable confidence, that risks of damage to client interests will be prevented.",
+    "explanation": "This is the specific condition mentioned in Chapter 3, Section 3, page 71. Disclosure is a measure of last resort when other internal arrangements are deemed insufficient."
+  },
+  {
+    "chapter": "Chapter 03 - Cypriot Investment Firms (CIFs) and Banks",
+    "question": "What is the balance sheet total threshold for a large undertaking to be considered for professional client status, if it meets one other size requirement, according to Chapter 3, Section 4.1, page 74?",
+    "options": [
+      "At least EUR 10,000,000.",
+      "At least EUR 20,000,000.",
+      "At least EUR 40,000,000.",
+      "At least EUR 50,000,000."
+    ],
+    "answer": "At least EUR 20,000,000.",
+    "explanation": "Chapter 3, Section 4.1, page 74 explicitly states as one of the criteria for large undertakings: 'a. balance sheet total at least e20.000.000'."
+  },
+  {
+    "chapter": "Chapter 03 - Cypriot Investment Firms (CIFs) and Banks",
+    "question": "When providing investment advice, if a firm offers both independent and Non-independent advice to the same client, what must it not do, according to Article 52?",
+    "options": [
+      "Explain why the advice qualifies as independent or Non-independent.",
+      "Give undue prominence to their independent investment advice services.",
+      "Describe the type and nature of restrictions that apply.",
+      "Explain the scope of both services."
+    ],
+    "answer": "Give undue prominence to their independent investment advice services.",
+    "explanation": "Page 78, Section 5, explicitly states: 'Firms shall not give undue prominence to their independent investment advice services over the non-independent advice.'"
+  },
+  {
+    "chapter": "Chapter 03 - Cypriot Investment Firms (CIFs) and Banks",
+    "question": "According to Section 2.4, if client assets are held in an omnibus account by a third party, what must the firm do?",
+    "options": [
+      "Inform the client of this, including a warning of the risks.",
+      "Obtain the client's explicit written consent for the omnibus account.",
+      "Guarantee the client against any losses due to the third party's insolvency.",
+      "Ensure the client's assets are insured up to EUR 100000."
+    ],
+    "answer": "Inform the client of this, including a warning of the risks.",
+    "explanation": "Page 68, Section 2.4, point 2 explicitly states: 'When funds may be held in an omnibus account by a third party – client will be informed of this including a warning of the risks.'"
+  },
+  {
+    "chapter": "Chapter 03 - Cypriot Investment Firms (CIFs) and Banks",
+    "question": "What is the minimum period for which appropriate performance information must be included when indicating past performance to clients, if the instrument has existed for that long?",
+    "options": [
+      "The preceding five years.",
+      "The preceding ten years.",
+      "The preceding one year.",
+      "The preceding three years."
+    ],
+    "answer": "The preceding five years.",
+    "explanation": "Page 72, Section 4, states: 'Any indications of past performance...must include the appropriate performance information covering at least the preceding five years.'"
+  },
+  {
+    "chapter": "Chapter 03 - Cypriot Investment Firms (CIFs) and Banks",
+    "question": "What is a key condition for an investment firm to aggregate a client order with its own account transaction or other client orders, as per Chapter 3, Section 7.1, page 86?",
+    "options": [
+      "The aggregated order size is below the standard market size.",
+      "The aggregation guarantees a better price for the firm's own account.",
+      "The client has explicitly requested aggregation in writing.",
+      "It is unlikely that the aggregation will work to the disadvantage of any client involved."
+    ],
+    "answer": "It is unlikely that the aggregation will work to the disadvantage of any client involved.",
+    "explanation": "Chapter 3, Section 7.1, page 86, states: 'A firm may not carry out a client order or a transaction for own account in aggregation with another client order unless it is unlikely that the aggregation will work to the disadvantage of any client involved...'"
+  },
+  {
+    "chapter": "Chapter 03 - Cypriot Investment Firms (CIFs) and Banks",
+    "question": "According to Article 21, investment firms must establish, implement and maintain decision-making procedures and an organisational structure that clearly and in a documented manner specifies what?",
+    "options": [
+      "Profitability targets and marketing strategies.",
+      "Employee compensation schemes and bonus structures.",
+      "Reporting lines and allocates functions and responsibilities.",
+      "External audit schedules and shareholder communication protocols."
+    ],
+    "answer": "Reporting lines and allocates functions and responsibilities.",
+    "explanation": "Page 60, Section 1, states that investment firms must 'establish, implement and maintain decision-making procedures and an organisational structure which clearly, and in a documented manner, specifies reporting lines and allocates functions and responsibilities'."
+  },
+  {
+    "chapter": "Chapter 03 - Cypriot Investment Firms (CIFs) and Banks",
+    "question": "Aconflict of interest is considered to arise if a firm receives an inducement from a person other than the client in what form, according to Article 33?",
+    "options": [
+      "Only if the inducement is not disclosed to the client.",
+      "Monetary or Non-monetary benefits or services.",
+      "Only monetary benefits exceeding EUR 1000.",
+      "Only Non-monetary benefits such as training."
+    ],
+    "answer": "Monetary or Non-monetary benefits or services.",
+    "explanation": "Page 70, Section 3, point 5, states a conflict arises if the firm 'Receives or will receive from a person other than the client an inducement in relation to a service provided to the client, in the form of monetary or non-monetary benefits or services.'"
+  },
+  {
+    "chapter": "Chapter 03 - Cypriot Investment Firms (CIFs) and Banks",
+    "question": "Which of the following functions is not considered critical or important for the purposes of outsourcing, according to Chapter 3, Section 2.3?",
+    "options": [
+      "Risk management.",
+      "Compliance function activities.",
+      "Portfolio management.",
+      "Provision of legal advice to the firm."
+    ],
+    "answer": "Provision of legal advice to the firm.",
+    "explanation": "Chapter 3, Section 2.3, page 65, explicitly states: 'The following functions shall not be considered as critical or important: Provision of advisory services and other services which do not form part of the investment business of the firm, including the provision of legal advice, training of personnel, billing services and the security of the firm’s premises and personnel.'"
+  },
+  {
+    "chapter": "Chapter 03 - Cypriot Investment Firms (CIFs) and Banks",
+    "question": "According to Article 76, if exceptional circumstances prevent a firm from recording a telephone conversation on issued devices, what must be done?",
+    "options": [
+      "The firm must immediately inform CySEC of the failure to record.",
+      "Evidence of such circumstances shall be retained and be accessible to competent authorities.",
+      "The client must provide written confirmation of the unrecorded conversation's content.",
+      "The conversation must be summarized in an internal memo within 24 hours."
+    ],
+    "answer": "Evidence of such circumstances shall be retained and be accessible to competent authorities.",
+    "explanation": "Page 64, Section 2.2, states: 'Evidence of such circumstances shall be retained and shall be accessible to competent authorities.'"
+  },
+  {
+    "chapter": "Chapter 03 - Cypriot Investment Firms (CIFs) and Banks",
+    "question": "As per Chapter 3, Section 4, page 72, what is the minimum font size requirement for describing risks in information addressed to clients, relative to the font used for the rest of the material?",
+    "options": [
+      "It must be at least the same as the font used for the remaining material.",
+      "There is no specific font size requirement for risk disclosures.",
+      "It can be smaller, provided it is in bold text.",
+      "It must be at least two points larger."
+    ],
+    "answer": "It must be at least the same as the font used for the remaining material.",
+    "explanation": "According to Chapter 3, Section 4, page 72: 'The font size used to describe the risks should at least be the same as the font used for the remaining of the material, and should be prominently presented.' This ensures risks are not downplayed."
+  },
+  {
+    "chapter": "Chapter 03 - Cypriot Investment Firms (CIFs) and Banks",
+    "question": "When is disclosure to clients considered a measure of last resort for managing conflicts of interest, according to Section 3?",
+    "options": [
+      "Only for conflicts involving senior management.",
+      "When organisational and administrative arrangements are insufficient to prevent risk of damage to client interests.",
+      "Whenever a conflict of interest is identified, regardless of other measures.",
+      "If the client is classified as a retail client."
+    ],
+    "answer": "When organisational and administrative arrangements are insufficient to prevent risk of damage to client interests.",
+    "explanation": "Page 71, Section 3, clearly states: 'Investment firms need to ensure that disclosure to clients is a measure of last resort that shall be used only where the effective organisational and administrative arrangements established by the investment firm to prevent or manage its conflicts of interest are not sufficient to ensure, with reasonable confidence, that risks of damage to the interests of the client will be prevented.'"
+  },
+  {
+    "chapter": "Chapter 03 - Cypriot Investment Firms (CIFs) and Banks",
+    "question": "What is the minimum frequency for the internal audit department to review and evaluate the appropriateness, effectiveness, and adequacy of a CIF's policies and control mechanisms for preventing money laundering and terrorist financing, as per Chapter 3, Section 2.2?",
+    "options": [
+      "Every two years.",
+      "Quarterly, to ensure timely detection.",
+      "At least on an annual basis.",
+      "On an ad-hoc basis, only when suspicious activity is detected."
+    ],
+    "answer": "At least on an annual basis.",
+    "explanation": "Chapter 3, Section 2.2, page 63, under 'Obligations of the Internal Audit department', explicitly states the internal audit department reviews and evaluates 'at least on annual basis'."
+  },
+  {
+    "chapter": "Chapter 03 - Cypriot Investment Firms (CIFs) and Banks",
+    "question": "When an investment firm outsources portfolio management to a service provider in a third country, what is a key condition regarding the service provider's supervision?",
+    "options": [
+      "The service provider must be listed on a recognized stock exchange.",
+      "The service provider is authorised or registered and effectively supervised in its home country.",
+      "The service provider must use only EU-based sub-custodians.",
+      "The service provider must have a physical presence in Cyprus."
+    ],
+    "answer": "The service provider is authorised or registered and effectively supervised in its home country.",
+    "explanation": "Page 67, Section 2.3, condition 1 explicitly states: 'The service provider is authorised or registered in its home country to provide that service and is effectively supervised by a competent authority in that third country.'"
+  },
+  {
+    "chapter": "Chapter 03 - Cypriot Investment Firms (CIFs) and Banks",
+    "question": "When conducting a suitability assessment, if an investment firm provides a service that involves periodic suitability assessments and reports, how often must subsequent reports after the initial service be undertaken at a minimum, according to Chapter 3, Section 6.1, page 82?",
+    "options": [
+      "At least annually.",
+      "Every two years.",
+      "Only when there is a significant change in the client's financial situation.",
+      "Every six months."
+    ],
+    "answer": "At least annually.",
+    "explanation": "According to Chapter 3, Section 6.1, page 82: 'If a periodic suitability assessment review is provided, the review shall be undertaken at least annually.'"
+  },
+  {
+    "chapter": "Chapter 03 - Cypriot Investment Firms (CIFs) and Banks",
+    "question": "Under Chapter 3, Section 7 (Best Execution), how often must a firm's execution policy and order execution arrangements be reviewed at a minimum?",
+    "options": [
+      "Every six months.",
+      "Only when a client files a complaint regarding execution quality.",
+      "At least annually.",
+      "Every two years."
+    ],
+    "answer": "At least annually.",
+    "explanation": "According to Chapter 3, Section 7, page 84: 'The execution policy and order execution arrangements need to be reviewed at least annually. In addition, they will also be when a material change occurs...'"
+  },
+  {
+    "chapter": "Chapter 03 - Cypriot Investment Firms (CIFs) and Banks",
+    "question": "How often must a periodic suitability assessment review be undertaken at a minimum, if provided by an investment firm?",
+    "options": [
+      "Every six months",
+      "Annually",
+      "Every two years",
+      "Only when the client requests it"
+    ],
+    "answer": "Annually",
+    "explanation": "Page 82, Section 6.1, specifies: 'If a periodic suitability assessment review is provided, the review shall be undertaken at least annually.'"
+  },
+  {
+    "chapter": "Chapter 03 - Cypriot Investment Firms (CIFs) and Banks",
+    "question": "For how long must firms retain records of telephone conversations and electronic communications if requested by CySEC, beyond the standard retention period?",
+    "options": [
+      "Up to seven years",
+      "Up to ten years",
+      "Up to five years",
+      "Up to three years"
+    ],
+    "answer": "Up to seven years",
+    "explanation": "Page 64, Section 2.2, explicitly states: 'If requested by CySEC, the information may be retained for up to seven years.'"
+  },
+  {
+    "chapter": "Chapter 03 - Cypriot Investment Firms (CIFs) and Banks",
+    "question": "What is the minimum balance sheet total for a large undertaking to be considered for professional client status, as per Article 58 of EU 2017/565?",
+    "options": [
+      "EUR 40.000.000",
+      "EUR 20.000.000",
+      "EUR 2.000.000",
+      "EUR 10.000.000"
+    ],
+    "answer": "EUR 20.000.000",
+    "explanation": "Page 74, Section 4.1, point 2a under professional client criteria, states 'balance sheet total at least EUR 20.000.000'."
+  },
+  {
+    "chapter": "Chapter 03 - Cypriot Investment Firms (CIFs) and Banks",
+    "question": "When a financial instrument is composed of two or more different financial instruments or services, what must the firm provide regarding its legal nature, as per Section 4.2?",
+    "options": [
+      "A separate disclosure document for each component instrument.",
+      "A recommendation to consult an independent legal advisor.",
+      "A simplified summary understandable by a layperson.",
+      "An adequate description of its legal nature, components, and how their interaction affects risks."
+    ],
+    "answer": "An adequate description of its legal nature, components, and how their interaction affects risks.",
+    "explanation": "Page 76, Section 4.2, states: 'In case the financial instrument is composed of two or more different financial instruments or services, the firm shall provide an adequate description of the legal nature of the financial instrument, the components of that instrument and the way in which the interaction between the components affects the risks of the investment.'"
+  },
+  {
+    "chapter": "Chapter 03 - Cypriot Investment Firms (CIFs) and Banks",
+    "question": "What is the status of a recommendation made by an investment firm to a client if it does not meet  the definition of investment research’ as per Article 367",
+    "options": [
+      "It is considered personal advice and exempt from disclosure.",
+      "It is prohibited and must be withdrawn immediately.",
+      "It shall be treated as a marketing communication.",
+      "It must be approved by the client's legal counsel before dissemination."
+    ],
+    "answer": "It shall be treated as a marketing communication.",
+    "explanation": "Page 71, Section 3, clearly states: 'A recommendation that does not meet these conditions shall be treated as a marketing communication.'"
+  },
+  {
+    "chapter": "Chapter 03 - Cypriot Investment Firms (CIFs) and Banks",
+    "question": "According to Chapter 3, Section 3, page 70, which of the following situations would constitute a conflict of interest for an investment firm?",
+    "options": [
+      "The firm provides a standardized report to all clients regarding market conditions.",
+      "The firm uses the same IT system for multiple clients to ensure efficiency.",
+      "The firm receives an inducement from a person other than the client in relation to a service provided to the client, in the form of monetary or Non-monetary benefits or services.",
+      "The firm makes a financial gain that is aligned with the client's financial gain."
+    ],
+    "answer": "The firm receives an inducement from a person other than the client in relation to a service provided to the client, in the form of monetary or Non-monetary benefits or services.",
+    "explanation": "This is explicitly listed as point 5 on page 70 of Chapter 3, Section 3, as a situation that can give rise to a conflict of interest."
+  },
+  {
+    "chapter": "Chapter 03 - Cypriot Investment Firms (CIFs) and Banks",
+    "question": "When a firm aggregates transactions for its own account with one or more client orders, and the aggregated order is partially executed, what is the general rule regarding the allocation of the trades, as per Chapter 3, Section 7.1, page 86?",
+    "options": [
+      "Client transactions will be given priority over the firm's.",
+      "The allocation is determined by the time the individual orders were received, regardless of aggregation.",
+      "The trades are allocated proportionally between the firm's account and client orders.",
+      "The firm's own account trades are given priority to ensure market stability."
+    ],
+    "answer": "Client transactions will be given priority over the firm's.",
+    "explanation": "This is explicitly stated in Chapter 3, Section 7.1, page 86: 'Firms that have aggregated transactions for own account with one or more client orders shall not allocate the related trades in a way that is detrimental to a client and in case of partially executed orders the client transactions will be given priority over the firm’s.'"
+  },
+  {
+    "chapter": "Chapter 03 - Cypriot Investment Firms (CIFs) and Banks",
+    "question": "What is a key condition for an investment firm to carry out a client order or a transaction for its own account in aggregation with aNother client order, according to Article 68?",
+    "options": [
+      "The firm's own account transaction must be smaller than the client's.",
+      "The client must be classified as a professional client.",
+      "The aggregation is disclosed to all clients involved.",
+      "The firm must obtain a lower price through aggregation."
+    ],
+    "answer": "The aggregation is disclosed to all clients involved.",
+    "explanation": "Page 86, Section 7.1, under Client Order Handling states one of the conditions for aggregation is that 'the aggregation is disclosed to all clients involved...'"
+  },
+  {
+    "chapter": "Chapter 03 - Cypriot Investment Firms (CIFs) and Banks",
+    "question": "According to Article 53, if a firm provides independent investment advice focused on a specified range of financial instruments, what must it require from clients?",
+    "options": [
+      "To indicate they are only interested in investing in that specified category or range.",
+      "To sign a waiver acknowledging the limited scope of advice.",
+      "To demonstrate extensive knowledge of those specific instruments.",
+      "To agree toa higher fee structure for specialized advice."
+    ],
+    "answer": "To indicate they are only interested in investing in that specified category or range.",
+    "explanation": "Page 79, Section 5, states: 'In addition, the firm shall require clients to indicate that they are only interested in investing in the specified category or range of financial instruments...'"
+  },
+  {
+    "chapter": "Chapter 03 - Cypriot Investment Firms (CIFs) and Banks",
+    "question": "According to Chapter 3, Section 4.3 (Costs and Charges), when must firms provide ex-post information about all costs and charges related to instruments and services they have recommended or marketed to a client with whom they had an ongoing relationship?",
+    "options": [
+      "On an annual basis.",
+      "Only upon the client's specific request.",
+      "On a monthly basis.",
+      "On a quarterly basis."
+    ],
+    "answer": "On an annual basis.",
+    "explanation": "Chapter 3, Section 4.3, page 78, clearly specifies: 'On an annual basis, firms will provide ex-post information about all costs and charges related to instruments and services they have recommended or marketed to the client...'"
+  },
+  {
+    "chapter": "Chapter 03 - Cypriot Investment Firms (CIFs) and Banks",
+    "question": "What is a general principle for AIFMs according to Article 13 regarding conflicts of interest?",
+    "options": [
+      "They must take all reasonable steps to avoid or, if unavoidable, manage conflicts of interest.",
+      "They must always prioritize the AIFM's interests over investor interests.",
+      "Disclosure of conflicts of interest is not required if investors are professional.",
+      "They are exempt from managing conflicts if the AIF is domiciled outside the EU."
+    ],
+    "answer": "They must take all reasonable steps to avoid or, if unavoidable, manage conflicts of interest.",
+    "explanation": "Page 132, Section 2.2, states: 'AIFMs need to take all reasonable steps to avoid or, if they cannot be avoided, to manage any conflicts of interest.'"
+  },
+  {
+    "chapter": "Chapter 03 - Cypriot Investment Firms (CIFs) and Banks",
+    "question": "How often must senior management receive written reports on situations in which conflicts of interest have arisen, according to Article 35?",
+    "options": [
+      "Monthly",
+      "Only upon request by CySEC",
+      "Quarterly",
+      "At least annually"
+    ],
+    "answer": "At least annually",
+    "explanation": "Page 71, Section 3, states: 'On a regular basis, and at least annually, senior management shall receive written reports on situations in which conflicts of interest have arisen.'"
+  },
+  {
+    "chapter": "Chapter 03 - Cypriot Investment Firms (CIFs) and Banks",
+    "question": "When an investment firm outsources functions related to the investment service of portfolio management to a service provider in a third country, what is one of the conditions that must be satisfied, according to Chapter 3, Section 2.3, page 67?",
+    "options": [
+      "The service provider must be a member of the same group as the investment firm.",
+      "CySEC must conduct an on-site inspection of the third-country service provider annually.",
+      "The service provider is authorised or registered in its home country to provide that service and is effectively supervised by a competent authority in that third country.",
+      "The service provider must offer its services at a significantly lower cost than EU-based providers."
+    ],
+    "answer": "The service provider is authorised or registered in its home country to provide that service and is effectively supervised by a competent authority in that third country.",
+    "explanation": "This is explicitly stated as condition 1 in Chapter 3, Section 2.3, page 67: 'The service provider is authorised or registered in its home country to provide that service and is effectively supervised by a competent authority in that third country.'"
+  },
+  {
+    "chapter": "Chapter 03 - Cypriot Investment Firms (CIFs) and Banks",
+    "question": "According to Article 21 of MiFID II as outlined in Chapter 3, Section 1, what is a primary organisational requirement for investment firms regarding their decision-making procedures and structure?",
+    "options": [
+      "To outsource all decision-making procedures to external consultants for objectivity.",
+      "To prioritize flexible and informal communication channels over documented procedures.",
+      "To establish, implement, and maintain decision-making procedures and an organisational structure that clearly and in a documented manner specifies reporting lines and allocates functions and responsibilities.",
+      "To ensure maximum profitability for shareholders above all other considerations."
+    ],
+    "answer": "To establish, implement, and maintain decision-making procedures and an organisational structure that clearly and in a documented manner specifies reporting lines and allocates functions and responsibilities.",
+    "explanation": "This is a direct organisational requirement listed in Chapter 3, Section 1. Firms must have clearly defined and documented procedures, reporting lines, and allocated responsibilities."
+  },
+  {
+    "chapter": "Chapter 03 - Cypriot Investment Firms (CIFs) and Banks",
+    "question": "A large undertaking meets the criteria for a professional client if it satisfies how many of the specified size requirements regarding balance sheet total, net turnover, and own funds?",
+    "options": [
+      "One ofthe three",
+      "None, if their main activity is to invest in financial instruments.",
+      "Two of the three",
+      "All three"
+    ],
+    "answer": "Two of the three",
+    "explanation": "Page 74, Section 4.1, point 2, specifies: 'large undertakings meeting two of the following size requirements: a. balance sheet total at least EUR 20.000.000 b. net turnover at least EUR 40.000.000 c. own funds at least EUR 2.000.000.'"
+  },
+  {
+    "chapter": "Chapter 03 - Cypriot Investment Firms (CIFs) and Banks",
+    "question": "If a firm holds client financial instruments and intends to enter into securities financing transactions with them, what must it do BEFOREHAND, according to Section 2.4?",
+    "options": [
+      "Inform the (potential) client, including terms for restitution and risks involved.",
+      "Segregate double the amount of assets as collateral.",
+      "Obtain approval from CySEC.",
+      "Publish its intention on its website for 30 days."
+    ],
+    "answer": "Inform the (potential) client, including terms for restitution and risks involved.",
+    "explanation": "Page 68, Section 2.4, clearly states: 'Before entering into securities financing transactions in relation to financial instruments held by it on behalf of a client... the firm must inform the (potential) client including the terms for restitutions and risks involved.'"
+  },
+  {
+    "chapter": "Chapter 03 - Cypriot Investment Firms (CIFs) and Banks",
+    "question": "According to Chapter 3, Section 2.1, which body is responsible for appointing and replacing the compliance officer of an investment firm?",
+    "options": [
+      "The management body of the firm.",
+      "The existing compliance officer, through a succession plan.",
+      "The internal audit department.",
+      "The CysEc."
+    ],
+    "answer": "The management body of the firm.",
+    "explanation": "Chapter 3, Section 2.1, point 2 on page 63, states: 'A compliance officer is appointed and replaced by the management body and is responsible for the compliance function and for any reporting as to compliance.'"
+  },
+  {
+    "chapter": "Chapter 03 - Cypriot Investment Firms (CIFs) and Banks",
+    "question": "What is one of the conditions an investment firm must ensure when outsourcing critical or important operational functions, as per Section 2.3?",
+    "options": [
+      "The outsourcing does not result in the delegation by senior management of its responsibility.",
+      "The service provider assumes full legal liability for the outsourced functions.",
+      "The client must explicitly consent to the outsourcing of each specific function.",
+      "The service provider must be located within the European Union."
+    ],
+    "answer": "The outsourcing does not result in the delegation by senior management of its responsibility.",
+    "explanation": "Page 65, Section 2.3, point a under conditions for outsourcing, states: 'The outsourcing does not result in the delegation by senior management of its responsibility.'"
+  },
+  {
+    "chapter": "Chapter 03 - Cypriot Investment Firms (CIFs) and Banks",
+    "question": "Which of the following is a responsibility of the internal audit function within an investment firm, as described in Chapter 3, Section 2.57",
+    "options": [
+      "Approving all new product offerings before they are launched.",
+      "To establish, implement and maintain an audit plan to examine and evaluate the adequacy and effectiveness of the investment firm’s systems, internal control mechanisms and arrangements.",
+      "Setting the firm's overall risk appetite and strategic objectives.",
+      "Directly managing the firm's investment portfolios."
+    ],
+    "answer": "To establish, implement and maintain an audit plan to examine and evaluate the adequacy and effectiveness of the investment firm’s systems, internal control mechanisms and arrangements.",
+    "explanation": "This is explicitly listed as responsibility 'a' of the internal audit function in Chapter 3, Section 2.5, page 69."
+  },
+  {
+    "chapter": "Chapter 03 - Cypriot Investment Firms (CIFs) and Banks",
+    "question": "When providing information about financial instruments that incorporate a guarantee or capital protection, what must the investment firm provide to the client?",
+    "options": [
+      "Information about the scope and nature of such guarantee or capital protection.",
+      "The historical success rate of similar guarantees.",
+      "A list of alternative Non-guaranteed instruments.",
+      "Astatement that guarantees are always fully reliable."
+    ],
+    "answer": "Information about the scope and nature of such guarantee or capital protection.",
+    "explanation": "Page 76, Section 4.2, states: 'For financial instruments that incorporate a guarantee or capital protection, the investment firm shall provide a client or a potential client with information about the scope and nature of such guarantee or capital protection.'"
+  }
+]
