@@ -136,7 +136,7 @@
         <select id="chapterFilter" title="Filter by chapter" disabled>
             <option value="__ALL__">All chapters</option>
         </select>
-        <button id="applyFilter" class="primary">Apply Filter</button>
+        <!--<button id="applyFilter" class="primary">Apply Filter</button>-->
         <button id="reshuffle" class="ghost">Re-shuffle</button>
         </div>
         <div class="row">
@@ -422,7 +422,7 @@
     document.getElementById('reshuffle2').addEventListener('click', ()=>reshuffle(true));
     document.getElementById('resetSession').addEventListener('click', ()=>{ score=0; idx=0; flipBack(); render(); });
     document.getElementById('reset2').addEventListener('click', ()=>{ score=0; idx=0; flipBack(); render(); });
-    document.getElementById('applyFilter').addEventListener('click', applyFilter);
+    //document.getElementById('applyFilter').addEventListener('click', applyFilter);
     
     document.getElementById('chapterFilter').addEventListener('change', applyFilter);
     document.getElementById('loadDefault').addEventListener('click', loadDefault);
