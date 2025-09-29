@@ -402,7 +402,7 @@
 
     async function loadDefault(){
     try{
-        const res = await fetch('./full.json?v=1' + Date.now());
+        const res = await fetch('./chapter3.json?v=' + Date.now());
         if (!res.ok) throw new Error('Not found');
         const json = await res.json();
         setData(json);
@@ -423,6 +423,8 @@
     document.getElementById('resetSession').addEventListener('click', ()=>{ score=0; idx=0; flipBack(); render(); });
     document.getElementById('reset2').addEventListener('click', ()=>{ score=0; idx=0; flipBack(); render(); });
     document.getElementById('applyFilter').addEventListener('click', applyFilter);
+    
+    document.getElementById('chapterFilter').addEventListener('change', applyFilter);
     document.getElementById('loadDefault').addEventListener('click', loadDefault);
 
     document.getElementById('filePicker').addEventListener('change', async (e)=>{
