@@ -313,7 +313,14 @@ function render(){
     const correct = userChoice === right;
     if (correct) score++;
     answeredThis = true;
-    flipToBack(correct, userChoice, right || '—', rightText, q.explanation || '');
+    flipToBack(
+    correct,
+    userChoice,
+    right || '—',
+    rightText,
+    q.explanation || '',
+    q.overallExplanation || ''
+    );
     updateMeta();
   }
 
