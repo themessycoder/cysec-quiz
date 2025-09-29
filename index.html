@@ -18,10 +18,9 @@ body{
     radial-gradient(1200px 600px at 120% 110%, rgba(82,223,163,.12), transparent 60%),
     var(--bg);
   color:var(--text);
-  /* FLEX LAYOUT for reliable full-height scroll on mobile */
   display:flex;flex-direction:column;
-  min-height:100dvh; /* dynamic viewport height for iOS/Android */
-  overflow:hidden;
+  min-height:100dvh;
+  overflow:hidden; /* prevent double scrollbars */
   padding-left:env(safe-area-inset-left);
   padding-right:env(safe-area-inset-right);
 }
@@ -34,15 +33,11 @@ header{
   background:rgba(15,18,24,.7);
   backdrop-filter:blur(6px)
 }
-
 h1{font-size:clamp(16px,3.5vw,22px);margin:0 0 6px}
 .sub{color:var(--muted);font-size:clamp(12px,2.6vw,14px)}
 
 .toolbar{display:grid;gap:10px;margin-top:10px;grid-template-columns:1fr}
-.toolbar .row{
-  display:flex;gap:10px;align-items:center;flex-wrap:wrap;
-  min-width:0;
-}
+.toolbar .row{display:flex;gap:10px;align-items:center;flex-wrap:wrap;min-width:0}
 @media (min-width:560px){.toolbar{grid-template-columns:1fr 1fr}}
 
 select,button,input[type="file"]{
@@ -58,56 +53,38 @@ button{cursor:pointer}
 .accent{border-color:rgba(82,223,163,.4)}
 .danger{border-color:rgba(255,107,107,.35)}
 .ghost{background:transparent;border-color:rgba(255,255,255,.12)}
+.toolbar .row select{flex:1 1 260px;min-width:0;max-width:100%;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+@media (max-width:559.98px){.toolbar .row select{flex:1 1 100%}}
 
-.toolbar .row select{
-  flex:1 1 260px;
-  min-width:0;
-  max-width:100%;
-  overflow:hidden;
-  text-overflow:ellipsis;
-  white-space:nowrap;
-}
-
-@media (max-width:559.98px){
-  .toolbar .row select{flex:1 1 100%}
-}
-
-/* Main/stage */
+/* MAIN: full-height scroll lives here */
 main{
-  /* allow the page scroll to live here */
-  flex:1 1 auto;
-  min-height:0;
-  overflow-y:auto;
-  -webkit-overflow-scrolling:touch;
-  display:grid;place-items:center;padding:12px
+  flex:1 1 auto;min-height:0;overflow-y:auto;-webkit-overflow-scrolling:touch;
+  padding:12px
 }
-.stage{width:min(960px,100%);display:grid;gap:12px}
+.stage{width:min(960px,100%);margin:0 auto;display:grid;gap:12px}
 
-.meta{
-  display:flex;gap:8px;flex-wrap:wrap;color:var(--muted);
-  font-size:clamp(12px,2.6vw,13px);
-  min-width:0;
-}
+/* badges */
+.meta{display:flex;gap:8px;flex-wrap:wrap;color:var(--muted);font-size:clamp(12px,2.6vw,13px);min-width:0}
 .badge{
   padding:6px 10px;background:rgba(124,156,255,.12);
   border:1px solid rgba(124,156,255,.25);border-radius:999px;
   max-width:100%;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;
 }
 
-.card{perspective:1200px;position:relative;min-height: clamp(340px, min(70vh, 90vw), 620px)}
+/* CARD — flow-based (no absolute positioning) so it expands naturally */
+.card{}
 .card-inner{
-  position:absolute;inset:0;border-radius:var(--radius);
+  border-radius:var(--radius);
   background:linear-gradient(180deg,rgba(23,27,34,1),rgba(23,27,34,.9));
   border:1px solid rgba(255,255,255,.08);box-shadow:var(--shadow);
-  transform-style:preserve-3d;transition:transform .5s cubic-bezier(.2,.8,.2,1);
-  display:grid;grid-template-rows:auto 1fr auto;padding:clamp(14px,3vw,22px)
+  padding:clamp(14px,3vw,22px);
 }
-.card-inner.flipped{transform:rotateY(180deg)}
-.face{
-  position:absolute;inset:0;display:grid;grid-template-rows:auto 1fr auto;gap:10px;
-  padding:clamp(14px,3vw,22px);backface-visibility:hidden;
-  overflow:auto;-webkit-overflow-scrolling:touch
-}
+
+/* faces are plain blocks; we just toggle display when "flipped" */
+.face{display:grid;grid-template-rows:auto 1fr auto;gap:10px;min-height:40dvh}
+.card-inner:not(.flipped) .back{display:none}
+.card-inner.flipped .front{display:none}
+
 .front h2{font-size:clamp(18px,5vw,26px);line-height:1.35;margin:0 0 8px;font-weight:650}
 .options{display:grid;gap:10px;margin-top:6px}
 .option{
@@ -115,40 +92,39 @@ main{
   border-radius:12px;background:rgba(255,255,255,.02)
 }
 .option input{margin-top:4px;transform:scale(1.1)}
+/* The content area (between title and controls) scrolls if long */
+.face > :nth-child(2){
+  overflow:auto;min-height:0;-webkit-overflow-scrolling:touch;
+}
+
 .controls{display:grid;gap:10px;grid-template-columns:repeat(2,1fr);margin-top:10px}
 @media (min-width:640px){.controls{grid-template-columns:repeat(4,1fr)}}
-.back{transform:rotateY(180deg)}
+
+/* Sticky action row inside the card so Submit/Next stay visible */
+.controls{
+  position:sticky;bottom:0;z-index:2;
+  background:linear-gradient(to top, rgba(23,27,34,0.96), rgba(23,27,34,0.4));
+  padding-top:8px;margin-top:10px;backdrop-filter:blur(6px)
+}
+
 .back h3{margin:0 0 8px;font-size:clamp(16px,4.6vw,20px)}
 .expl{line-height:1.55;font-size:clamp(14px,4.2vw,17px);white-space:pre-wrap}
 .correct{color:var(--accent-2)}
 .incorrect{color:var(--danger)}
 
 footer{
-  color:var(--muted);padding:14px;
-  padding-bottom:calc(12px + env(safe-area-inset-bottom));
+  color:var(--muted);padding:12px;
+  padding-bottom:calc(10px + env(safe-area-inset-bottom));
   text-align:center;border-top:1px solid rgba(255,255,255,.06)
 }
 .empty{color:var(--muted);border:1px dashed rgba(255,255,255,.2);border-radius:var(--radius);padding:14px;text-align:center}
 .hidden{display:none}
 .small{font-size:.9em;color:var(--muted)}
 
-/* --- MOBILE LAYOUT FIXES --- */
-/* Hide header on phones to save space */
+/* Hide header on phones to save vertical space */
 @media (max-width: 640px){
-  header{ display:none; }
-  footer{ font-size:12px; padding:8px 12px; }
-  .card{ min-height:0; height:auto; }
-  .face{ overflow:auto; -webkit-overflow-scrolling:touch; }
-  /* Sticky action buttons so Submit/Next stay visible */
-  .controls{
-    position:sticky;
-    bottom:0;
-    z-index:2;
-    background:linear-gradient(to top, rgba(23,27,34,0.96), rgba(23,27,34,0.4));
-    padding-top:8px;
-    margin-top:10px;
-    backdrop-filter:blur(6px);
-  }
+  header{display:none}
+  footer{font-size:12px}
 }
 </style>
 </head><body>
@@ -195,6 +171,7 @@ footer{
             </div>
             <div class="small" id="helper"></div>
           </div>
+
           <div class="face back">
             <h3 id="answerHeader"></h3>
             <div class="expl" id="explanationText"></div>
@@ -232,13 +209,11 @@ footer{
   };
   const chapterFilter = el('chapterFilter');
 
-  let all = [];         // full dataset
-  let pool = [];        // filtered/shuffled dataset
-  let idx = 0;          // current index in pool
-  let viewed = new Set();
-  let score = 0;        // correct count
+  let all = [];   // full dataset
+  let pool = [];  // filtered/shuffled dataset
+  let idx = 0;    // current index
+  let score = 0;
   let answeredThis = false;
-  let userChoice = null;
 
   function normalizeAnswer(a, options){
     if(!a) return '';
@@ -248,10 +223,6 @@ footer{
     const i = (options||[]).findIndex(opt => opt && opt.trim().toLowerCase() === s.toLowerCase());
     if (i>=0) return Object.keys(map)[i];
     return s;
-  }
-
-  function hasChapter(){
-    return all.some(q => q.chapter && String(q.chapter).trim() !== '');
   }
 
   function updateChapterFilter(){
@@ -268,11 +239,10 @@ footer{
     meta.chapter.textContent = 'Chapter: ' + (sel==='__ALL__'?'All':sel);
   }
 
-  function reshuffle(resetViewed=true){
+  function reshuffle(resetScore=true){
     pool = pool.sort(()=>Math.random()-0.5);
     idx = 0;
-    if (resetViewed) viewed.clear();
-    score = 0;
+    if (resetScore) score = 0;
     cardInner.classList.remove('flipped');
     render();
   }
@@ -300,7 +270,6 @@ footer{
       optionsEl.appendChild(row);
     });
     answeredThis = false;
-    userChoice = null;
     helper.textContent = 'Select one option, then press Submit.';
     updateMeta();
   }
@@ -323,7 +292,7 @@ footer{
     const q = currentQ();
     const picked = document.querySelector('input[name="opt"]:checked');
     if (!picked){ helper.textContent = 'Pick an option before submitting.'; return; }
-    userChoice = picked.value; // A/B/C/D
+    const userChoice = picked.value; // A/B/C/D
     const labels = ['A','B','C','D'];
     const right = normalizeAnswer(q.answer, q.options || []);
     const rightIdx = labels.indexOf(right);
@@ -341,8 +310,6 @@ footer{
 
   function updateMeta(){
     meta.pool.textContent = 'Pool: ' + pool.length;
-    // "viewed" badge can be repurposed, but keep simple:
-    meta.viewed.textContent = 'Viewed: ' + (idx+1);
     meta.progress.textContent = `Progress: ${idx+1} / ${pool.length}`;
     meta.score.textContent = `Score: ${score}`;
   }
@@ -363,7 +330,6 @@ footer{
       expl: gi('Explanation')
     };
     return lines.slice(1).map(line=>{
-      // basic CSV with quoted-field support
       const cells = line.match(/("([^"]|"")*"|[^,]*)/g).filter((_,i)=>i%2===0).map(s=>s.replace(/^"(.*)"$/,'$1').replace(/""/g,'"'));
       const pick = i => (i>=0 && i<cells.length) ? cells[i] : '';
       return {
@@ -401,20 +367,20 @@ footer{
   }
 
   // Wire up controls
-  el('submitBtn').addEventListener('click', submit);
-  el('nextBtn').addEventListener('click', next);
-  el('prevBtn').addEventListener('click', prev);
-  el('skipBtn').addEventListener('click', skip);
-  el('flipBackBtn').addEventListener('click', flipBack);
-  el('nextFromBackBtn').addEventListener('click', next);
-  el('reshuffle').addEventListener('click', ()=>reshuffle(true));
-  el('reshuffle2').addEventListener('click', ()=>reshuffle(true));
-  el('resetSession').addEventListener('click', ()=>{ score=0; idx=0; flipBack(); render(); });
-  el('reset2').addEventListener('click', ()=>{ score=0; idx=0; flipBack(); render(); });
-  el('applyFilter').addEventListener('click', applyFilter);
-  el('loadDefault').addEventListener('click', loadDefault);
+  document.getElementById('submitBtn').addEventListener('click', submit);
+  document.getElementById('nextBtn').addEventListener('click', next);
+  document.getElementById('prevBtn').addEventListener('click', prev);
+  document.getElementById('skipBtn').addEventListener('click', skip);
+  document.getElementById('flipBackBtn').addEventListener('click', flipBack);
+  document.getElementById('nextFromBackBtn').addEventListener('click', next);
+  document.getElementById('reshuffle').addEventListener('click', ()=>reshuffle(true));
+  document.getElementById('reshuffle2').addEventListener('click', ()=>reshuffle(true));
+  document.getElementById('resetSession').addEventListener('click', ()=>{ score=0; idx=0; flipBack(); render(); });
+  document.getElementById('reset2').addEventListener('click', ()=>{ score=0; idx=0; flipBack(); render(); });
+  document.getElementById('applyFilter').addEventListener('click', applyFilter);
+  document.getElementById('loadDefault').addEventListener('click', loadDefault);
 
-  el('filePicker').addEventListener('change', async (e)=>{
+  document.getElementById('filePicker').addEventListener('change', async (e)=>{
     const file = e.target.files[0];
     if (!file) return;
     const text = await file.text();
