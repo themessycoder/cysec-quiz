@@ -124,7 +124,8 @@
 
     /* Hide header on phones to save vertical space */
     @media (max-width: 640px){
-    header{display:none}
+    .hide-mobile{display:none}
+    /*header{display:none}*/
     footer{font-size:12px}
     }
     </style>
@@ -140,7 +141,7 @@
         <!--<button id="applyFilter" class="primary">Apply Filter</button>-->
         <button id="reshuffle" class="ghost">Re-shuffle</button>
         </div>
-        <div class="row">
+        <div class="row hide-mobile">
         <input id="filePicker" type="file" accept=".json,.csv" />
         <button id="loadDefault" class="accent">Load default json</button>
         <button id="resetSession" class="danger">Reset Session</button>
