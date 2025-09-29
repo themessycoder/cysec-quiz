@@ -403,7 +403,7 @@
 
     async function loadDefault(){
     try{
-        const res = await fetch('./chapter3.json?v=' + Date.now());
+        const res = await fetch('./full.json?v=' + Date.now());
         if (!res.ok) throw new Error('Not found');
         const json = await res.json();
         setData(json);
