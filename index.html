@@ -8,75 +8,61 @@
 <meta name="theme-color" content="#0f1218">
 <link rel="apple-touch-icon" href="icons/icon-192.png">
 <style>
-:root{--bg:#0f1218;--panel:#171b22;--text:#e8ecf1;--muted:#9aa6b2;--accent:#7c9cff;--accent-2:#52dfa3;--danger:#ff6b6b;--shadow:0 10px 30px rgba(0,0,0,.35);--radius:14px}
-*{box-sizing:border-box}
-html,body{height:100%}
+/* --- MOBILE LAYOUT FIXES --- */
+
+/* Use dynamic viewport height so iOS Safari accounts for URL bars */
+html, body { height: 100%; }
 body{
-  margin:0;font-family:-apple-system,system-ui,Segoe UI,Roboto,Helvetica,Arial,sans-serif;
-  background:
-    radial-gradient(1200px 600px at 20% -10%, rgba(124,156,255,.15), transparent 60%),
-    radial-gradient(1200px 600px at 120% 110%, rgba(82,223,163,.12), transparent 60%),
-    var(--bg);
-  color:var(--text);min-height:100vh;display:grid;grid-template-rows:auto 1fr auto;
-  overflow-x:hidden;padding-left:env(safe-area-inset-left);padding-right:env(safe-area-inset-right)
+  /* switch from CSS grid to flex so main can truly flex/scroll */
+  display: flex;
+  flex-direction: column;
+  min-height: 100dvh; /* dynamic viewport height */
+  overflow: hidden;   /* prevent double scrollbars on iOS */
 }
-header{padding:16px;padding-top:calc(10px + env(safe-area-inset-top));border-bottom:1px solid rgba(255,255,255,.06);position:sticky;top:0;z-index:5;background:rgba(15,18,24,.7);backdrop-filter:blur(6px)}
-h1{font-size:clamp(16px,3.5vw,22px);margin:0 0 6px}
-.sub{color:var(--muted);font-size:clamp(12px,2.6vw,14px)}
-.toolbar{display:grid;gap:10px;margin-top:10px;grid-template-columns:1fr}
-.toolbar .row{display:flex;gap:10px;align-items:center;flex-wrap:wrap;min-width:0}
-@media (min-width:560px){.toolbar{grid-template-columns:1fr 1fr}}
-select,button,input[type="file"]{
-  background:var(--panel);color:var(--text);border:1px solid rgba(255,255,255,.08);
-  border-radius:12px;padding:12px 14px;font-size:clamp(14px,2.8vw,16px);box-shadow:var(--shadow);
-  -webkit-tap-highlight-color:transparent
+
+/* Let main fill remaining space and be scrollable */
+main{
+  flex: 1 1 auto;
+  min-height: 0;       /* important for flex children to shrink correctly */
+  overflow-y: auto;    /* page scroll lives here */
+  -webkit-overflow-scrolling: touch;
 }
-button{cursor:pointer}
-.primary{border-color:rgba(124,156,255,.4)}
-.accent{border-color:rgba(82,223,163,.4)}
-.danger{border-color:rgba(255,107,107,.35)}
-.ghost{background:transparent;border-color:rgba(255,255,255,.12)}
-.toolbar .row select{flex:1 1 260px;min-width:0;max-width:100%;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
-@media (max-width:559.98px){.toolbar .row select{flex:1 1 100%}}
-main{display:grid;place-items:center;padding:12px}
-.stage{width:min(960px,100%);display:grid;gap:12px}
-.meta{display:flex;gap:8px;flex-wrap:wrap;color:var(--muted);font-size:clamp(12px,2.6vw,13px);min-width:0}
-.badge{
-  padding:6px 10px;background:rgba(124,156,255,.12);border:1px solid rgba(124,156,255,.25);
-  border-radius:999px;max-width:100%;overflow:hidden;text-overflow:ellipsis;white-space:nowrap
+
+/* Stage stays responsive but won’t force page wider than screen */
+.stage{ width: min(960px, 100%); }
+
+/* On phones: hide the header entirely to save space */
+@media (max-width: 640px){
+  header{ display: none; }
+  /* When header is gone, body is just main + footer */
 }
-.card{perspective:1200px;position:relative;min-height: clamp(340px, min(70vh, 90vw), 620px)}
-.card-inner{
-  position:absolute;inset:0;border-radius:var(--radius);
-  background:linear-gradient(180deg,rgba(23,27,34,1),rgba(23,27,34,.9));
-  border:1px solid rgba(255,255,255,.08);box-shadow:var(--shadow);
-  transform-style:preserve-3d;transition:transform .5s cubic-bezier(.2,.8,.2,1);
-  display:grid;grid-template-rows:auto 1fr auto;padding:clamp(14px,3vw,22px)
+
+/* Make the card content comfortable on small screens */
+@media (max-width: 640px){
+  /* Let the card height be driven by content + viewport */
+  .card{ min-height: 0; height: auto; }
+
+  /* The faces already scroll internally; make sure they can */
+  .face{ overflow: auto; -webkit-overflow-scrolling: touch; }
+
+  /* Keep the action buttons visible as you read the question */
+  .controls{
+    position: sticky;
+    bottom: 0;
+    z-index: 2;
+    /* subtle backdrop so buttons pop over text */
+    background: linear-gradient(to top, rgba(23,27,34,0.96), rgba(23,27,34,0.4));
+    padding-top: 8px;
+    margin-top: 10px;
+    backdrop-filter: blur(6px);
+  }
 }
-.card-inner.flipped{transform:rotateY(180deg)}
-.face{
-  position:absolute;inset:0;display:grid;grid-template-rows:auto 1fr auto;gap:10px;
-  padding:clamp(14px,3vw,22px);backface-visibility:hidden;overflow:auto;-webkit-overflow-scrolling:touch
+
+/* If your footer gets in the way on phones, make it slimmer */
+@media (max-width: 640px){
+  footer{ font-size: 12px; padding: 8px 12px; }
 }
-.front h2{font-size:clamp(18px,5vw,26px);line-height:1.35;margin:0 0 8px;font-weight:650}
-.options{display:grid;gap:10px;margin-top:6px}
-.option{
-  display:flex;gap:10px;align-items:flex-start;padding:10px 12px;border:1px solid rgba(255,255,255,.08);
-  border-radius:12px;background:rgba(255,255,255,.02)
-}
-.option input{margin-top:4px;transform:scale(1.1)}
-.controls{display:grid;gap:10px;grid-template-columns:repeat(2,1fr);margin-top:10px}
-@media (min-width:640px){.controls{grid-template-columns:repeat(4,1fr)}}
-.back{transform:rotateY(180deg)}
-.back h3{margin:0 0 8px;font-size:clamp(16px,4.6vw,20px)}
-.expl{line-height:1.55;font-size:clamp(14px,4.2vw,17px);white-space:pre-wrap}
-.correct{color:var(--accent-2)}
-.incorrect{color:var(--danger)}
-footer{color:var(--muted);padding:14px;padding-bottom:calc(12px + env(safe-area-inset-bottom));text-align:center;border-top:1px solid rgba(255,255,255,.06)}
-.empty{color:var(--muted);border:1px dashed rgba(255,255,255,.2);border-radius:var(--radius);padding:14px;text-align:center}
-.hidden{display:none}
-.small{font-size:.9em;color:var(--muted)}
-</style>
+  </style>
 </head><body>
 <header style="">
   <h1>MCQ Quiz • CSV/JSON (PWA)</h1>
