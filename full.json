@@ -771,7 +771,7 @@
 
 
   {
-    "chapter": "Chapter 02 - Exam Questions",
+    "chapter": "Chapter 02 - Cypriot Investment Firms (CIFs)",
     "question": "Section 1.3, Page 32, outlines obligations for a CIF once CySEC has been notified of its intention to renounce authorisation. Which of the following is one such obligation?",
     "options": [
       "To return all funds and financial instruments owned by or accounted for their clients, including any profits.",
@@ -784,7 +784,7 @@
     "overallExplanation": "When a CIF renounces its authorisation, it has several key obligations to ensure an orderly wind-down and protection of client interests."
   },
   {
-    "chapter": "Chapter 02 - Exam Questions",
+    "chapter": "Chapter 02 - Cypriot Investment Firms (CIFs)",
     "question": "As per Section 2.1, what is the minimum number of executive directors required for the management of a CIF?",
     "options": [
       "Two",
@@ -797,7 +797,7 @@
     "overallExplanation": "CIFs must have a minimum number of directors to ensure proper management and governance."
   },
   {
-    "chapter": "Chapter 02 - Exam Questions",
+    "chapter": "Chapter 02 - Cypriot Investment Firms (CIFs)",
     "question": "According to Section 6.1.1, Table on Page 50 (Signal 19), what manipulative practice involves submitting multiple or large orders away from the touch on one side of the order book to execute a trade on the other side, and then removing the manipulative orders?",
     "options": [
       "Marking the close",
@@ -810,7 +810,7 @@
     "overallExplanation": "Layering and spoofing is a specific type of market manipulation that trading venues need to detect and prevent."
   },
   {
-    "chapter": "Chapter 02 - Exam Questions",
+    "chapter": "Chapter 02 - Cypriot Investment Firms (CIFs)",
     "question": "As per Section 4, when are the restrictions on CFDs NOT applicable regarding payments or financial benefits provided by the CFD provider?",
     "options": [
       "When the provider only provides profits from the CFD trading itself.",
@@ -823,7 +823,7 @@
     "overallExplanation": "Restrictions on CFDs aim to protect private clients, and these restrictions may not apply if the provider adheres to certain conditions, including how they handle payments and benefits."
   },
   {
-    "chapter": "Chapter 02 - Exam Questions",
+    "chapter": "Chapter 02 - Cypriot Investment Firms (CIFs)",
     "question": "According to Section 3.1, if a CIF intends to use a tied agent established in the Republic, how long does CySEC typically take to approve the appointment?",
     "options": [
       "Within 7 working days",
@@ -836,7 +836,7 @@
     "overallExplanation": "CySEC has a defined timeframe for approving the appointment of tied agents to ensure timely processing of such requests."
   },
   {
-    "chapter": "Chapter 02 - Exam Questions",
+    "chapter": "Chapter 02 - Cypriot Investment Firms (CIFs)",
     "question": "According to Section 1.1, Page 30, what is the obligation of a CIF regarding the publication of its authorisation number and supervisory status by CySEC?",
     "options": [
       "To publish it only on its annual report.",
@@ -849,7 +849,7 @@
     "overallExplanation": "CIFs must ensure transparency regarding their authorisation and supervision by CySEC through various public means."
   },
   {
-    "chapter": "Chapter 02 - Exam Questions",
+    "chapter": "Chapter 02 - Cypriot Investment Firms (CIFs)",
     "question": "Section 6.1.1 on page 46 mentions knock-on effects of a suspension or removal of a financial instrument. This includes sufficiently related items for which the removed or suspended instrument serves as what?",
     "options": [
       "A benchmark for market sentiment.",
@@ -862,7 +862,7 @@
     "overallExplanation": "When considering the impact of suspending or removing a financial instrument, regulatory authorities look at its role as an underlying or constituent for other financial products."
   },
   {
-    "chapter": "Chapter 02 - Exam Questions",
+    "chapter": "Chapter 02 - Cypriot Investment Firms (CIFs)",
     "question": "According to Section 1.3, if it was not possible to return all client funds during the process of renouncement or withdrawal of authorisation, where will the remaining amount be deposited by the CIF?",
     "options": [
       "In a special account held by CySEC.",
@@ -875,7 +875,7 @@
     "overallExplanation": "The regulations provide a clear procedure for handling client funds that cannot be returned during the renouncement or withdrawal of a CIF's authorisation, prioritizing investor protection through the ICF."
   },
   {
-    "chapter": "Chapter 02 - Exam Questions",
+    "chapter": "Chapter 02 - Cypriot Investment Firms (CIFs)",
     "question": "As per Section 6.5, if a CIF or market operator identifies conduct that may indicate behaviour prohibited under MiFID rules, what must they do?",
     "options": [
       "Immediately inform CySEC.",
@@ -888,7 +888,7 @@
     "overallExplanation": "CIFs and market operators have a duty to promptly report suspicious conduct that might constitute market abuse under MiFID rules to CySEC."
   },
   {
-    "chapter": "Chapter 02 - Exam Questions",
+    "chapter": "Chapter 02 - Cypriot Investment Firms (CIFs)",
     "question": "As per Section 3.1, a CIF that appoints tied agents must ensure the tied agent discloses what information to clients?",
     "options": [
       "The CIF's annual profit margins.",
@@ -901,7 +901,7 @@
     "overallExplanation": "Transparency is crucial when CIFs use tied agents, requiring agents to clearly identify their role and the firm they represent."
   },
   {
-    "chapter": "Chapter 02 - Exam Questions",
+    "chapter": "Chapter 02 - Cypriot Investment Firms (CIFs)",
     "question": "According to Section 2.2, what is one of the duties of the nomination committee in a CIF that is significant in terms of its size?",
     "options": [
       "To decide on a target for the representation of the underrepresented gender in the board of directors.",
@@ -914,7 +914,7 @@
     "overallExplanation": "The nomination committee plays a crucial role in the governance of significant CIFs, focusing on board composition, diversity, and selection processes for senior management."
   },
   {
-    "chapter": "Chapter 02 - Exam Questions",
+    "chapter": "Chapter 02 - Cypriot Investment Firms (CIFs)",
     "question": "As per Section 6.3, if a financial instrument is admitted to trading on multiple regulated markets, is the consent of the issuer required for each admission?",
     "options": [
       "No, consent of the issuer is not required for admission to multiple regulated markets.",
@@ -927,7 +927,7 @@
     "overallExplanation": "The admission of financial instruments to trading on regulated markets has specific rules regarding issuer consent, particularly when multiple markets are involved."
   },
   {
-    "chapter": "Chapter 02 - Exam Questions",
+    "chapter": "Chapter 02 - Cypriot Investment Firms (CIFs)",
     "question": "According to Section 2.1, Page 34, directorships in which type of organisations do NOT count towards the directorship limits for a CIF board member?",
     "options": [
       "Undertakings in which the CIF holds a qualifying holding.",
@@ -940,7 +940,7 @@
     "overallExplanation": "The rules on directorship limits provide exceptions for roles in non-commercial organisations."
   },
   {
-    "chapter": "Chapter 02 - Exam Questions",
+    "chapter": "Chapter 02 - Cypriot Investment Firms (CIFs)",
     "question": "As per Section 4, what is the minimum validity period (issue to expiry) for a binary option for the restrictions on marketing, purchase, distribution, and selling to private clients NOT to apply?",
     "options": [
       "At least 30 days",
@@ -953,7 +953,7 @@
     "overallExplanation": "Specific conditions, including a minimum validity period, must be met for binary options to be marketed to private clients without the standard restrictions."
   },
   {
-    "chapter": "Chapter 02 - Exam Questions",
+    "chapter": "Chapter 02 - Cypriot Investment Firms (CIFs)",
     "question": "As detailed in Section 2.2, can the chairman of the board of directors of a CIF also be the chief executive officer (CEO) of the same CIF?",
     "options": [
       "Yes, without any restrictions.",
@@ -966,7 +966,7 @@
     "overallExplanation": "Governance rules for CIFs address the separation of key roles like Chairman and CEO to ensure effective oversight, with provisions for exceptions under specific conditions."
   },
   {
-    "chapter": "Chapter 02 - Exam Questions",
+    "chapter": "Chapter 02 - Cypriot Investment Firms (CIFs)",
     "question": "As per Section 6.1.1, Table on Page 47, which of the following is a signal of a 'Significant infringement of the rules of a trading venue'?",
     "options": [
       "The price discovery process is interfered with over a significant period of time.",
@@ -979,7 +979,7 @@
     "overallExplanation": "Trading venues must monitor for various signals indicating potential issues, including significant rule infringements which have their own distinct indicators."
   },
   {
-    "chapter": "Chapter 02 - Exam Questions",
+    "chapter": "Chapter 02 - Cypriot Investment Firms (CIFs)",
     "question": "As per Section 7, Page 57, if an APA or CTP provides market data, the price of this data must be based on the cost of production and disseminating the data and may include what?",
     "options": [
       "A premium based on market demand.",
@@ -992,7 +992,7 @@
     "overallExplanation": "The pricing of market data by APAs and CTPs is regulated to ensure it is cost-based with the allowance for a reasonable margin, promoting fair access to information."
   },
   {
-    "chapter": "Chapter 02 - Exam Questions",
+    "chapter": "Chapter 02 - Cypriot Investment Firms (CIFs)",
     "question": "According to Section 3.3, concerning crowdfunding services by a CIF, what is the CIF NOT allowed to do to avoid conflicts of interest?",
     "options": [
       "Operate a bulletin board for investors.",
@@ -1005,7 +1005,7 @@
     "overallExplanation": "To maintain independence and avoid conflicts of interest, CIFs providing crowdfunding services are restricted from investing in projects on their own platform."
   },
   {
-    "chapter": "Chapter 02 - Exam Questions",
+    "chapter": "Chapter 02 - Cypriot Investment Firms (CIFs)",
     "question": "According to Section 5, what is the maximum total balance sheet an issuer without listed equity can have to be considered an SME, if it also has fewer than 250 employees?",
     "options": [
       "EUR 200 million",
@@ -1018,7 +1018,7 @@
     "overallExplanation": "The definition of an SME for the purposes of SME Growth Markets includes specific financial thresholds for unlisted issuers."
   },
   {
-    "chapter": "Chapter 02 - Exam Questions",
+    "chapter": "Chapter 02 - Cypriot Investment Firms (CIFs)",
     "question": "According to Section 6.1.1, Table on Page 48, what does 'Unusual concentration of transactions and/or orders to trade in a particular financial instrument with one member/participant or between certain members/participants' signal?",
     "options": [
       "Significant infringement of trading venue rules",
@@ -1031,7 +1031,7 @@
     "overallExplanation": "Trading venues must be alert to patterns like unusual transaction concentrations, as these can be indicators of potential insider dealing or market manipulation."
   },
   {
-    "chapter": "Chapter 02 - Exam Questions",
+    "chapter": "Chapter 02 - Cypriot Investment Firms (CIFs)",
     "question": "As per Section 2.3, how often, at a minimum, should senior management of a firm receive written reports covering compliance, risk management, and internal audit?",
     "options": [
       "Bi-annually (every two years)",
@@ -1044,7 +1044,7 @@
     "overallExplanation": "Regular reporting to senior management on key control functions is essential for effective oversight and compliance within a CIF."
   },
   {
-    "chapter": "Chapter 02 - Exam Questions",
+    "chapter": "Chapter 02 - Cypriot Investment Firms (CIFs)",
     "question": "As per Section 5, an MTF applying to be an SME growth market must establish and apply rules requiring an issuer seeking admission to publish what document?",
     "options": [
       "A letter of intent reviewed by CySEC.",
@@ -1057,7 +1057,7 @@
     "overallExplanation": "SME Growth Markets have specific requirements for admission documents to ensure sufficient information is available to investors."
   },
   {
-    "chapter": "Chapter 02 - Exam Questions",
+    "chapter": "Chapter 02 - Cypriot Investment Firms (CIFs)",
     "question": "According to Section 5, what is the maximum annual net turnover an issuer without listed equity can have to be considered an SME, if it also has a total balance sheet not exceeding EUR 43 million?",
     "options": [
       "EUR 20 million",
@@ -1070,7 +1070,7 @@
     "overallExplanation": "SME Growth Markets have specific criteria for defining SMEs, including turnover limits for unlisted companies."
   },
   {
-    "chapter": "Chapter 02 - Exam Questions",
+    "chapter": "Chapter 02 - Cypriot Investment Firms (CIFs)",
     "question": "As per Section 5, Page 43, an MTF applying to be an SME growth market must require issuers whose securities are traded on its venue to publish annual financial reports within how many months after the end of each financial year?",
     "options": [
       "Six months",
@@ -1083,7 +1083,7 @@
     "overallExplanation": "Timely financial reporting is an important ongoing obligation for issuers on SME Growth Markets."
   },
   {
-    "chapter": "Chapter 02 - Exam Questions",
+    "chapter": "Chapter 02 - Cypriot Investment Firms (CIFs)",
     "question": "According to Section 1.3, page 32, if a CIF renounces its authorisation, how must it notify CySEC?",
     "options": [
       "By publishing an announcement on its website only.",
@@ -1096,7 +1096,7 @@
     "overallExplanation": "CIFs intending to renounce their authorisation must follow a formal written notification process with CySEC, providing specific details and documentation."
   },
   {
-    "chapter": "Chapter 02 - Exam Questions",
+    "chapter": "Chapter 02 - Cypriot Investment Firms (CIFs)",
     "question": "As per Section 2.2, Page 36, how often, at least, must the nomination committee of a significant CIF assess the knowledge, skills, and experience of members of the board of directors individually and collectively?",
     "options": [
       "Annually",
@@ -1109,7 +1109,7 @@
     "overallExplanation": "The nomination committee has an ongoing responsibility to ensure the board possesses the necessary collective and individual expertise."
   },
   {
-    "chapter": "Chapter 02 - Exam Questions",
+    "chapter": "Chapter 02 - Cypriot Investment Firms (CIFs)",
     "question": "As per Section 2.1, what is the maximum number of non-executive directorships a member of the board of a significant CIF can hold, if they hold no executive directorships?",
     "options": [
       "One",
@@ -1122,7 +1122,7 @@
     "overallExplanation": "CIF regulations set limits on the number of directorships board members can hold to ensure they can dedicate sufficient time to their duties, especially for significant CIFs."
   },
   {
-    "chapter": "Chapter 02 - Exam Questions",
+    "chapter": "Chapter 02 - Cypriot Investment Firms (CIFs)",
     "question": "As per Section 6.1.1, Table on Page 47, Signal 4 for 'Disorderly trading conditions' indicates that:",
     "options": [
       "Any major malfunction or breakdown of the system for the matching of transactions.",
@@ -1135,7 +1135,7 @@
     "overallExplanation": "Trading system capacity issues are a key indicator of disorderly trading conditions that venues must monitor."
   },
   {
-    "chapter": "Chapter 02 - Exam Questions",
+    "chapter": "Chapter 02 - Cypriot Investment Firms (CIFs)",
     "question": "According to Section 6.4, on what basis must the rules for obtaining access to membership of a regulated market be established?",
     "options": [
       "Based on the applicant's existing market share.",
@@ -1148,7 +1148,7 @@
     "overallExplanation": "Fair and open access to regulated markets is supported by rules that are transparent, non-discriminatory, and based on objective criteria."
   },
   {
-    "chapter": "Chapter 02 - Exam Questions",
+    "chapter": "Chapter 02 - Cypriot Investment Firms (CIFs)",
     "question": "Section 6.1.1, Page 46, lists factors to consider when determining if suspension or removal of a financial instrument is likely to cause significant damage. What is one such factor related to the relevance of the market?",
     "options": [
       "The number of new listings on the market in the past year.",
@@ -1161,7 +1161,7 @@
     "overallExplanation": "The liquidity of a market is a crucial factor in assessing the potential impact of suspending or removing a financial instrument from trading."
   },
   {
-    "chapter": "Chapter 02 - Exam Questions",
+    "chapter": "Chapter 02 - Cypriot Investment Firms (CIFs)",
     "question": "Section 6.1.1 of Chapter 2 discusses operating obligations for trading venues. When is the continuation of trading on a market considered necessary to perform critical post-trade risk management functions?",
     "options": [
       "When there is a need for liquidation of financial instruments due to a clearing member's default and the CCP cannot calculate margin requirements.",
@@ -1174,7 +1174,7 @@
     "overallExplanation": "Trading venues have obligations related to market stability, including ensuring that critical post-trade risk management functions can be performed, especially in default scenarios."
   },
   {
-    "chapter": "Chapter 02 - Exam Questions",
+    "chapter": "Chapter 02 - Cypriot Investment Firms (CIFs)",
     "question": "According to Section 3.3, Page 40, under what condition related to the collection of capital should CIFs transfer the money raised in a crowdfunding project to the project owner?",
     "options": [
       "Only after the successful completion of the offer (i.e., the goal set for capital collection is achieved).",
@@ -1187,7 +1187,7 @@
     "overallExplanation": "Crowdfunding regulations ensure investor funds are protected by stipulating that raised capital is transferred to the project owner only upon successful completion of the funding goal."
   },
   {
-    "chapter": "Chapter 02 - Exam Questions",
+    "chapter": "Chapter 02 - Cypriot Investment Firms (CIFs)",
     "question": "According to Section 6.1.1, Page 46, the determination of whether the suspension or removal of a financial instrument is likely to cause significant damage should consider effects on market end-users who are NOT what?",
     "options": [
       "Financial counterparties.",
@@ -1200,7 +1200,7 @@
     "overallExplanation": "When assessing the impact of market actions like suspensions, regulators consider the effect on various market participants, with a distinction for non-financial counterparty end-users."
   },
   {
-    "chapter": "Chapter 02 - Exam Questions",
+    "chapter": "Chapter 02 - Cypriot Investment Firms (CIFs)",
     "question": "As per Section 6.1, Page 45, when may CySEC withdraw the authorisation of a regulated market regarding its operational status?",
     "options": [
       "If it has not operated for the preceding six months.",
@@ -1213,7 +1213,7 @@
     "overallExplanation": "Continuous operation is a condition for maintaining regulated market authorisation; prolonged inactivity can lead to withdrawal by CySEC."
   },
   {
-    "chapter": "Chapter 02 - Exam Questions",
+    "chapter": "Chapter 02 - Cypriot Investment Firms (CIFs)",
     "question": "According to Section 3.1, Page 38, what is the timeframe within which a principal must update its website regarding the termination of cooperation with a tied agent (unless it's a replacement with a new principal)?",
     "options": [
       "Within five (5) working days",
@@ -1226,7 +1226,7 @@
     "overallExplanation": "Principals must promptly update their public information when a tied agent relationship is terminated."
   },
   {
-    "chapter": "Chapter 02 - Exam Questions",
+    "chapter": "Chapter 02 - Cypriot Investment Firms (CIFs)",
     "question": "According to Section 5, Page 42, what is the maximum average number of employees an issuer without listed equity can have during the financial year to be deemed an SME, provided other criteria are met?",
     "options": [
       "Fewer than 500",
@@ -1239,7 +1239,7 @@
     "overallExplanation": "The definition of an SME for SME Growth Markets includes employee headcount as a key criterion for unlisted companies."
   },
   {
-    "chapter": "Chapter 02 - Exam Questions",
+    "chapter": "Chapter 02 - Cypriot Investment Firms (CIFs)",
     "question": "According to Section 1.3, what is one of the activities a CIF is NOT allowed to do during a suspension period of its authorisation, unless specified by CySEC?",
     "options": [
       "Accept any new customers.",
@@ -1252,7 +1252,7 @@
     "overallExplanation": "During a suspension of authorisation, CIFs face significant restrictions on their activities, particularly concerning new business and client acquisition."
   },
   {
-    "chapter": "Chapter 02 - Exam Questions",
+    "chapter": "Chapter 02 - Cypriot Investment Firms (CIFs)",
     "question": "According to Section 2.2, which body is responsible for overseeing the implementation of a CIF's strategic objectives and risk prevention strategy?",
     "options": [
       "The internal audit department.",
@@ -1265,7 +1265,7 @@
     "overallExplanation": "The board of directors holds ultimate responsibility for the strategic direction and risk governance of a CIF."
   },
   {
-    "chapter": "Chapter 02 - Exam Questions",
+    "chapter": "Chapter 02 - Cypriot Investment Firms (CIFs)",
     "question": "According to Section 6.1, within how many months must CySEC inform a market operator of its decision regarding an application for regulated market authorisation after submission of a duly completed application?",
     "options": [
       "Twelve months",
@@ -1278,7 +1278,7 @@
     "overallExplanation": "CySEC has a defined processing time for applications for regulated market authorisation to ensure clarity for applicants."
   },
   {
-    "chapter": "Chapter 02 - Exam Questions",
+    "chapter": "Chapter 02 - Cypriot Investment Firms (CIFs)",
     "question": "Under what conditions, as per Section 1.2, must a CIF disclose the general nature and/or sources of conflicts of interest to a client?",
     "options": [
       "Only when the conflict involves senior management.",
@@ -1291,7 +1291,7 @@
     "overallExplanation": "CIFs have continuous obligations to manage conflicts of interest, and disclosure becomes necessary when internal arrangements are insufficient to protect client interests."
   },
   {
-    "chapter": "Chapter 02 - Exam Questions",
+    "chapter": "Chapter 02 - Cypriot Investment Firms (CIFs)",
     "question": "According to Section 6.2, Page 53, a regulated market imposing a higher fee on operators of a high-frequency algorithmic trading technique must be able to identify what related to these orders?",
     "options": [
       "The average profit generated by these orders.",
@@ -1304,7 +1304,7 @@
     "overallExplanation": "To properly manage and potentially charge differently for high-frequency trading, regulated markets need capabilities to identify such orders and their characteristics."
   },
   {
-    "chapter": "Chapter 02 - Exam Questions",
+    "chapter": "Chapter 02 - Cypriot Investment Firms (CIFs)",
     "question": "As detailed in Section 5, for how many consecutive calendar years must the proportion of SMEs on an SME Growth Market fall below 50 percent for CySEC to deregister it?",
     "options": [
       "One calendar year",
@@ -1317,7 +1317,7 @@
     "overallExplanation": "SME Growth Markets have specific ongoing requirements regarding the proportion of SMEs listed, and failure to meet these can lead to deregistration."
   },
   {
-    "chapter": "Chapter 02 - Exam Questions",
+    "chapter": "Chapter 02 - Cypriot Investment Firms (CIFs)",
     "question": "As per Section 3.3, Page 40 (point 5, Exit opportunities), if a CIF-operated bulletin board for crowdfunding allows binding prices to be posted, what does it become?",
     "options": [
       "An unregulated communication platform.",
@@ -1330,7 +1330,7 @@
     "overallExplanation": "The functionality of a bulletin board in a crowdfunding context determines its regulatory classification; allowing binding prices shifts it into the category of a trading venue requiring licensure."
   },
   {
-    "chapter": "Chapter 02 - Exam Questions",
+    "chapter": "Chapter 02 - Cypriot Investment Firms (CIFs)",
     "question": "As stated in Section 1.3, which of the following is NOT a reason for CySEC to withdraw a CIF\u2019s authorisation?",
     "options": [
       "The CIF has not used its authorisation within 12 months of the date it was granted.",
@@ -1343,7 +1343,7 @@
     "overallExplanation": "CySEC has specific grounds upon which it can withdraw a CIF's authorisation, focusing on operational integrity and compliance."
   },
   {
-    "chapter": "Chapter 02 - Exam Questions",
+    "chapter": "Chapter 02 - Cypriot Investment Firms (CIFs)",
     "question": "As per Section 1.1, can a CIF receive authorisation solely for the provision of ancillary services?",
     "options": [
       "Yes, but only for a limited period.",
@@ -1356,7 +1356,7 @@
     "overallExplanation": "The scope of authorisation for a CIF is specific regarding the types of services for which it can be authorised."
   },
   {
-    "chapter": "Chapter 02 - Exam Questions",
+    "chapter": "Chapter 02 - Cypriot Investment Firms (CIFs)",
     "question": "According to Section 7, within how many minutes after publication must Consolidated Tape Providers (CTPs) make information available free of charge?",
     "options": [
       "30 minutes",
@@ -1369,7 +1369,7 @@
     "overallExplanation": "CTPs have specific obligations regarding the timely dissemination of consolidated market data, including making it available free of charge shortly after publication."
   },
   {
-    "chapter": "Chapter 02 - Exam Questions",
+    "chapter": "Chapter 02 - Cypriot Investment Firms (CIFs)",
     "question": "As described in Section 6.1.1, Table on Page 49 (Signal 10), what is 'Buying or selling of a financial instrument at the reference time of the trading session (eg, opening, closing, settlement) in an effort to increase, to decrease or to maintain the reference price at a specific level' commonly known as?",
     "options": [
       "Layering and spoofing",
@@ -1382,7 +1382,7 @@
     "overallExplanation": "Certain trading activities around key reference times like market open or close can be manipulative if intended to artificially influence prices, a practice known as 'marking the close'."
   },
   {
-    "chapter": "Chapter 02 - Exam Questions",
+    "chapter": "Chapter 02 - Cypriot Investment Firms (CIFs)",
     "question": "According to Section 1.2, Page 31, the rules and conditions governing CIF authorisation cover organisational requirements, ongoing capital requirements, and what other key area?",
     "options": [
       "Client onboarding procedures",
@@ -1395,7 +1395,7 @@
     "overallExplanation": "The regulatory framework for CIF authorisation encompasses several critical aspects of a firm's operations and structure."
   },
   {
-    "chapter": "Chapter 02 - Exam Questions",
+    "chapter": "Chapter 02 - Cypriot Investment Firms (CIFs)",
     "question": "According to Section 7, by when at the latest must Approved Reporting Mechanisms (ARMs) report all transaction information?",
     "options": [
       "By the close of the next business day.",
@@ -1408,7 +1408,7 @@
     "overallExplanation": "ARMs have a specific deadline for reporting transaction information to ensure timely data for regulatory oversight."
   },
   {
-    "chapter": "Chapter 02 - Exam Questions",
+    "chapter": "Chapter 02 - Cypriot Investment Firms (CIFs)",
     "question": "According to Section 6.1, Page 44, changes in ownership levels of persons with significant influence over a regulated market must be reported to CySEC at what point?",
     "options": [
       "At the end of the financial year in which the transfer occurred.",
@@ -1421,7 +1421,7 @@
     "overallExplanation": "CySEC must be informed in advance of changes in significant ownership of regulated markets to ensure proper oversight."
   },
   {
-    "chapter": "Chapter 02 - Exam Questions",
+    "chapter": "Chapter 02 - Cypriot Investment Firms (CIFs)",
     "question": "According to Section 3.3 concerning crowdfunding, what must a project owner issue for CIFs to accept a crowdfunding project on their platform?",
     "options": [
       "A Key Investment Information Sheet (KIIS).",
@@ -1434,7 +1434,7 @@
     "overallExplanation": "Transparency is key in crowdfunding, and the KIIS is a mandatory document for CIFs to accept projects on their platforms."
   },
   {
-    "chapter": "Chapter 02 - Exam Questions",
+    "chapter": "Chapter 02 - Cypriot Investment Firms (CIFs)",
     "question": "As per Section 6.2, a regulated market must be able to distinguish and, if necessary, stop orders or trading by a person using direct electronic access (DEA) separately from what?",
     "options": [
       "Algorithmic trading orders not using DEA.",
@@ -1447,7 +1447,7 @@
     "overallExplanation": "To manage risks associated with DEA, regulated markets must have systems to identify and control DEA orders separately from other market activity."
   },
   {
-    "chapter": "Chapter 02 - Exam Questions",
+    "chapter": "Chapter 02 - Cypriot Investment Firms (CIFs)",
     "question": "According to Section 6.3, what is the obligation of an issuer if its financial instruments are admitted to trading on a regulated market without its consent?",
     "options": [
       "The issuer has no obligation to provide information directly to that regulated market.",
@@ -1460,7 +1460,7 @@
     "overallExplanation": "When instruments are traded on a market without the issuer's explicit consent, the issuer's direct information provision obligations to that specific market are limited."
   },
   {
-    "chapter": "Chapter 02 - Exam Questions",
+    "chapter": "Chapter 02 - Cypriot Investment Firms (CIFs)",
     "question": "According to Section 6.1, if CySEC finds that persons who effectively direct the business and operation of a regulated market are not suitable, what action may CySEC take regarding the application for authorisation?",
     "options": [
       "Impose a temporary operational ban.",
@@ -1473,7 +1473,7 @@
     "overallExplanation": "The suitability of senior management is a critical factor in the authorisation process for regulated markets."
   },
   {
-    "chapter": "Chapter 02 - Exam Questions",
+    "chapter": "Chapter 02 - Cypriot Investment Firms (CIFs)",
     "question": "As per Section 7 (Articles 84-89 of EU 565/2017), what is the minimum notice period APAs and CTPs must provide for advanced disclosure of future price changes for market data?",
     "options": [
       "90 days",
@@ -1486,7 +1486,7 @@
     "overallExplanation": "DRSPs like APAs and CTPs must provide sufficient advance notice of any changes to their pricing for market data to ensure transparency."
   },
   {
-    "chapter": "Chapter 02 - Exam Questions",
+    "chapter": "Chapter 02 - Cypriot Investment Firms (CIFs)",
     "question": "As per Section 6.4, what must a regulated market communicate to CySEC if it intends to provide remote participation from other member states?",
     "options": [
       "The fee structure for remote participants.",
@@ -1499,7 +1499,7 @@
     "overallExplanation": "Regulated markets planning to offer remote participation need to inform CySEC of their intentions as part of regulatory oversight."
   },
   {
-    "chapter": "Chapter 02 - Exam Questions",
+    "chapter": "Chapter 02 - Cypriot Investment Firms (CIFs)",
     "question": "As per Section 7, if an APA or CTP deems a per-user fee for market data disproportionate, what may they decide to do?",
     "options": [
       "Report the disproportionate fee structure to ESMA.",
@@ -1512,7 +1512,7 @@
     "overallExplanation": "APAs and CTPs have a mechanism to address situations where per-user fees for market data are considered disproportionate, ensuring fairness in data provision."
   },
   {
-    "chapter": "Chapter 02 - Exam Questions",
+    "chapter": "Chapter 02 - Cypriot Investment Firms (CIFs)",
     "question": "As per Section 4, Page 41, for the restrictions on binary options not to apply, what condition must be met by the binary option provider regarding profit or loss from the option?",
     "options": [
       "The provider is not making any profit or loss from the binary option except announced commissions, payments, or charges.",
@@ -1525,7 +1525,7 @@
     "overallExplanation": "For binary option restrictions to be lifted, the provider's revenue model from the option must be transparent and based on pre-announced fees, not on profiting from the option's outcome against the client."
   },
   {
-    "chapter": "Chapter 02 - Exam Questions",
+    "chapter": "Chapter 02 - Cypriot Investment Firms (CIFs)",
     "question": "According to Section 3.1, Page 38, what quality must tied agents established in the Republic possess, in addition to appropriate knowledge and competence?",
     "options": [
       "A minimum net worth.",
@@ -1538,7 +1538,7 @@
     "overallExplanation": "Tied agents acting for CIFs must meet certain standards, including good repute, to ensure client protection and market integrity."
   },
   {
-    "chapter": "Chapter 02 - Exam Questions",
+    "chapter": "Chapter 02 - Cypriot Investment Firms (CIFs)",
     "question": "As per Section 2.1, Page 34, unless representing the Republic, a member of the board of a significant CIF holding one executive directorship can hold how many additional non-executive directorships at the same time?",
     "options": [
       "Two",
@@ -1551,7 +1551,7 @@
     "overallExplanation": "Directorship limits are specific and depend on the combination of executive and non-executive roles held by board members of significant CIFs."
   },
   {
-    "chapter": "Chapter 02 - Exam Questions",
+    "chapter": "Chapter 02 - Cypriot Investment Firms (CIFs)",
     "question": "According to Section 6.2, what must a regulated market that permits direct electronic access (DEA) ensure about the members or participants providing these DEA services?",
     "options": [
       "They are only permitted to provide these services if they are authorised Investment Firms (IFs).",
@@ -1564,7 +1564,7 @@
     "overallExplanation": "Regulated markets allowing DEA must ensure that entities providing such access are appropriately authorised, safeguarding market integrity."
   },
   {
-    "chapter": "Chapter 02 - Exam Questions",
+    "chapter": "Chapter 02 - Cypriot Investment Firms (CIFs)",
     "question": "As per Section 7, Page 57, what must Approved Reporting Mechanisms (ARMs) have systems in place to check transaction reports for?",
     "options": [
       "Potential profitability for the CIF.",
@@ -1577,7 +1577,7 @@
     "overallExplanation": "ARMs play a crucial role in ensuring the quality and accuracy of transaction reports submitted by CIFs."
   },
   {
-    "chapter": "Chapter 02 - Exam Questions",
+    "chapter": "Chapter 02 - Cypriot Investment Firms (CIFs)",
     "question": "According to Section 5, Page 42, if an issuer's shares have been admitted to trading for between one and two years, what is used as the base price for determining if their market capitalisation is below EUR 200 million for SME Growth Market qualification?",
     "options": [
       "Average of last closing share prices of each of the first two years of trading.",
@@ -1590,7 +1590,7 @@
     "overallExplanation": "For determining SME status for SME Growth Markets, the method of calculating market capitalisation varies based on how long the issuer's shares have been trading."
   },
   {
-    "chapter": "Chapter 02 - Exam Questions",
+    "chapter": "Chapter 02 - Cypriot Investment Firms (CIFs)",
     "question": "According to Section 1.1, within how many months will CySEC inform an applicant for a CIF authorisation whether its application has been successful?",
     "options": [
       "Within nine months",
@@ -1603,7 +1603,7 @@
     "overallExplanation": "The timeframe for CySEC to inform an applicant about the success of their CIF authorisation application is clearly defined in the regulations."
   },
   {
-    "chapter": "Chapter 02 - Exam Questions",
+    "chapter": "Chapter 02 - Cypriot Investment Firms (CIFs)",
     "question": "As per Section 3.2, when a CIF deals with eligible counterparties, what must it obtain from the counterparty regarding its treatment?",
     "options": [
       "A detailed financial statement.",
@@ -1616,7 +1616,7 @@
     "overallExplanation": "For CIFs dealing with eligible counterparties, explicit agreement on this classification is a key requirement."
   },
   {
-    "chapter": "Chapter 02 - Exam Questions",
+    "chapter": "Chapter 02 - Cypriot Investment Firms (CIFs)",
     "question": "As per Section 2.1, Page 34, if CySEC considers directors of a CIF applicant not of sufficiently good repute or experience, what action can CySEC take?",
     "options": [
       "Impose higher capital requirements on the CIF.",
@@ -1629,7 +1629,7 @@
     "overallExplanation": "The suitability of a CIF's directors is paramount, and CySEC can reject an authorisation application if concerns exist in this regard."
   },
   {
-    "chapter": "Chapter 02 - Exam Questions",
+    "chapter": "Chapter 02 - Cypriot Investment Firms (CIFs)",
     "question": "According to Section 2.1, which of the following counts as a single directorship for the purpose of directorship limits?",
     "options": [
       "Executive directorships held in two unrelated CIFs.",
@@ -1642,7 +1642,7 @@
     "overallExplanation": "The rules clarify how multiple directorships are counted, particularly within group structures, to ensure compliance with the overall limits."
   },
   {
-    "chapter": "Chapter 02 - Exam Questions",
+    "chapter": "Chapter 02 - Cypriot Investment Firms (CIFs)",
     "question": "According to Section 1.3, if a CIF's authorisation is suspended, what happens if it fails to comply with the relevant rules and regulations within the deadline set by CySEC?",
     "options": [
       "The CIF will be placed under temporary administration.",
@@ -1655,7 +1655,7 @@
     "overallExplanation": "The consequences of non-compliance after a CIF's authorisation has been suspended are severe and clearly outlined."
   },
   {
-    "chapter": "Chapter 02 - Exam Questions",
+    "chapter": "Chapter 02 - Cypriot Investment Firms (CIFs)",
     "question": "As per Section 6.1.1, Table on Page 48, Signal 4 for 'Signals of possible insider dealing' relates to orders or transactions undertaken by a market member/participant before or immediately after what event?",
     "options": [
       "The announcement of a new regulatory requirement by CySEC.",
