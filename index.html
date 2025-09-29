@@ -249,32 +249,43 @@ footer{
     render();
   }
 
-  function render(){
-    const empty = el('emptyState');
-    const card = el('card');
-    const hasPool = pool.length>0;
-    empty.classList.toggle('hidden', hasPool);
-    card.classList.toggle('hidden', !hasPool);
-    if (!hasPool) return;
+function render(){
+  const empty = el('emptyState');
+  const card = el('card');
+  const hasPool = pool.length > 0;
+  empty.classList.toggle('hidden', hasPool);
+  card.classList.toggle('hidden', !hasPool);
+  if (!hasPool) return;
 
-    const q = pool[idx];
-    questionText.textContent = q.question || '(No question)';
-    optionsEl.innerHTML = '';
-    const labels = ['A','B','C','D'];
-    (q.options || []).slice(0,4).forEach((text, i) => {
-      const lab = labels[i];
-      const row = document.createElement('label');
-      row.className = 'option';
-      row.innerHTML = `
-        <input type="radio" name="opt" value="${lab}">
-        <div><strong>${lab}.</strong> ${text || ''}</div>
-      `;
-      optionsEl.appendChild(row);
-    });
-    answeredThis = false;
-    helper.textContent = 'Select one option, then press Submit.';
-    updateMeta();
-  }
+  const q = pool[idx];
+  questionText.textContent = q.question || '(No question)';
+  optionsEl.innerHTML = '';
+
+  const labels = ['A','B','C','D'];
+  (q.options || []).slice(0,4).forEach((text, i) => {
+    const lab = labels[i];
+    const row = document.createElement('label');
+    row.className = 'option';
+    row.innerHTML = `
+      <input type="radio" name="opt" value="${lab}">
+      <div><strong>${lab}.</strong> ${text || ''}</div>
+    `;
+    optionsEl.appendChild(row);
+  });
+
+  // Auto-submit when user picks an option
+  const radios = optionsEl.querySelectorAll('input[name="opt"]');
+  radios.forEach(r => {
+    r.addEventListener('change', () => {
+      if (!answeredThis) submit();   // call your existing submit()
+    }, { passive: true });
+  });
+
+  answeredThis = false;
+  helper.textContent = 'Tap an option to submit.';
+  updateMeta();
+}
+
 
   function flipToBack(correct, picked, rightLetter, rightText, expl, ovexpl){
     const msg = correct
