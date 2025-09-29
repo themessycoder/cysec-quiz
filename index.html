@@ -373,12 +373,12 @@ function render(){
 
   async function loadDefault(){
     try{
-      const res = await fetch('./quiz-ch3.json?v=' + Date.now());
+      const res = await fetch('./chapter3.json?v=' + Date.now());
       if (!res.ok) throw new Error('Not found');
       const json = await res.json();
       setData(json);
     }catch(e){
-      helper.textContent = 'Could not fetch quiz-ch3.json. Use Upload to load JSON/CSV.';
+      helper.textContent = 'Could not fetch json file. Use Upload to load JSON/CSV.';
     }
   }
 
