@@ -352,6 +352,77 @@
         render();
     }
 
+
+    // Build a mixed mock-exam pool from the full dataset.
+// - Randomizes within each chapter on every call
+// - Uses exact chapter names (must match your JSON exactly)
+// - You can override counts via options.counts
+// - Set options.shuffleFinal=true to also shuffle the final combined pool
+function MockExamPool(source, options = {}) {
+  const defaultCounts = {
+    "Chapter 01 - Investment Services Law 2017": 5,
+    "Chapter 02 - Cypriot Investment Firms (CIFs)": 8,
+    "Chapter 03 - Cypriot Investment Firms (CIFs) and Banks": 8,
+    "Chapter 04 - Open-Ended Undertakings for Collective Investment (UCI) Laws": 6,
+    "Chapter 05 - Alternative Investments": 6,
+    "Chapter 06 - The Business of Credit Institutions Laws of 1997–2016": 5,
+    "Chapter 07 - The Prevention and Suppression of Money Laundering": 5,
+    "Chapter 08 - Markets in Financial Instruments Regulation (MIFIR)": 5,
+    "Chapter 09 - Capital Adequacy Requirements": 8,
+    "Chapter 10 - European Market Infrastructure Regulation (EMIR)": 5,
+    "Chapter 11 - Recovery and Resolution Laws": 5,
+    "Chapter 12 - Prospectus Regulation": 5,
+    "Chapter 13 - Transparency Laws": 5,
+    "Chapter 14 - Insider Dealing and Market Manipulation Regulation": 5
+  };
+
+  const counts = Object.assign({}, defaultCounts, options.counts || {});
+  const chaptersInOrder = Object.keys(defaultCounts); // preserve the intended order
+
+  // Group questions by exact chapter string
+  const byChapter = new Map();
+  (source || []).forEach(q => {
+    const ch = (q.chapter || "").trim();
+    if (!byChapter.has(ch)) byChapter.set(ch, []);
+    byChapter.get(ch).push(q);
+  });
+
+  // Fisher–Yates shuffle helper
+  function shuffled(arr) {
+    const a = arr.slice();
+    for (let i = a.length - 1; i > 0; i--) {
+      const j = Math.floor(Math.random() * (i + 1));
+      [a[i], a[j]] = [a[j], a[i]];
+    }
+    return a;
+  }
+
+  // Sample N from an array after shuffling
+  function sampleN(arr, n) {
+    if (!arr || !arr.length || !n) return [];
+    const a = shuffled(arr);
+    return a.slice(0, Math.min(n, a.length));
+  }
+
+  // Build pool: randomize within each chapter, then concatenate
+  let pool = [];
+  chaptersInOrder.forEach(ch => {
+    const want = counts[ch] || 0;
+    const have = byChapter.get(ch) || [];
+    if (want > 0 && have.length) {
+      pool = pool.concat(sampleN(have, want));
+    }
+  });
+
+  // Optional: shuffle final combined pool as well
+  if (options.shuffleFinal) {
+    pool = shuffled(pool);
+  }
+
+  return pool;
+}
+
+
     function render(){
         const empty = el('emptyState');
         const card = el('card');
@@ -570,7 +641,8 @@
         }).filter(r=>r.question && r.options.some(Boolean));
 
         updateChapterFilter();
-        pool = all.slice();
+        //pool = all.slice();
+        pool = MockExamPool(all, { shuffleFinal: true }); // random per chapter + final shuffle
         optionOrder = []; // reset per-question shuffle cache
         reshuffle(true);
     }
