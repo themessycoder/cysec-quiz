@@ -2436,5 +2436,709 @@
     "answer": "Information about the scope and nature of such guarantee or capital protection.",
     "explanation": "Page 76, Section 4.2, states: 'For financial instruments that incorporate a guarantee or capital protection, the investment firm shall provide a client or a potential client with information about the scope and nature of such guarantee or capital protection.'",
     "overallExplanation": "For instruments with guarantees or capital protection, firms must clearly inform clients about the specifics of that protection, including its scope and nature."
+  },
+
+  
+  {
+    "chapter": "Chapter 04 - Open-Ended Undertakings for Collective Investment (UCI) Laws",
+    "question": "If the portfolio value of a management company exceeds EUR 250,000,000, by what percentage of the additional portfolio value must its capital be increased, according to Chapter 4, Section 4.1.2?",
+    "options": [
+      "0.02 percent",
+      "0.05 percent",
+      "0.10 percent",
+      "0.01 percent"
+    ],
+    "answer": "0.02 percent",
+    "explanation": "According to Chapter 4, Section 4.1.2, 'In the event that the value of the portfolio of the management company exceeds EUR 250.000.000,00 the capital of the management company needs to be increased by 0.02 percent of the additional portfolio value...'",
+    "overallExplanation": "This question is a quantitative test on capital requirements for management companies based on portfolio value."
+  },
+  {
+    "chapter": "Chapter 04 - Open-Ended Undertakings for Collective Investment (UCI) Laws",
+    "question": "According to Chapter 4, Section 2.1.2, what is the maximum percentage of its own funds that a management company may borrow for the acquisition of immovable property mandatory to its business?",
+    "options": [
+      "5 percent",
+      "15 percent",
+      "20 percent",
+      "10 percent"
+    ],
+    "answer": "15 percent",
+    "explanation": "According to Chapter 4, Section 2.1.2, 'Management companies may borrow up to 15 percent of its own funds for the acquisition of immovable property mandatory to its business.'",
+    "overallExplanation": "This is a quantitative question regarding borrowing limits for management companies."
+  },
+  {
+    "chapter": "Chapter 04 - Open-Ended Undertakings for Collective Investment (UCI) Laws",
+    "question": "What is the minimum fully paid up initial capital requirement for a management company, as stated in Section 4.1.2?",
+    "options": [
+      "EUR 125,000.00",
+      "EUR 100,000.00",
+      "EUR 50,000.00",
+      "EUR 250,000.00"
+    ],
+    "answer": "EUR 125,000.00",
+    "explanation": "Page 111, Section 4.1.2 Share Capital, specifies: 'The management company must have a fully paid up initial capital of at least EUR 125,000.00.'",
+    "overallExplanation": "This question focuses on the quantitative initial capital requirements for UCITS management companies."
+  },
+  {
+    "chapter": "Chapter 04 - Open-Ended Undertakings for Collective Investment (UCI) Laws",
+    "question": "As outlined in Chapter 4, Section 1.2, which entity is typically required to be appointed as a single depositary for each UCITS managed by a management company?",
+    "options": [
+      "The management company itself.",
+      "Any law firm specializing in financial services.",
+      "An insurance undertaking.",
+      "A credit institution with a registered office in the Republic or another EU member state."
+    ],
+    "answer": "A credit institution with a registered office in the Republic or another EU member state.",
+    "explanation": "Chapter 4, Section 1.2 states, 'The depositary needs to be a credit institution with a registered office in the Republic or another EU member state.'",
+    "overallExplanation": "This question focuses on the eligibility criteria for entities acting as depositaries for UCITS."
+  },
+  {
+    "chapter": "Chapter 04 - Open-Ended Undertakings for Collective Investment (UCI) Laws",
+    "question": "Under which circumstance will CySEC revoke the operating licence of a management company, as per Section 4.1.8?",
+    "options": [
+      "If the company has ceased the activity for which the licence was granted for more than six months.",
+      "If the company has not used its licence within 6 months of it being granted.",
+      "If the company changes its organisational structure without prior notification.",
+      "If the company's own funds fall below the minimum capital requirements for any period."
+    ],
+    "answer": "If the company has ceased the activity for which the licence was granted for more than six months.",
+    "explanation": "Page 114, Section 4.1.8 Revoking the Licence of a Management Company, point 3 lists as a reason for revocation: 'the company has ceased the activity for which the licence was granted for more than six months.'",
+    "overallExplanation": "This question assesses understanding of the specific conditions leading to the revocation of a management company's licence."
+  },
+  {
+    "chapter": "Chapter 04 - Open-Ended Undertakings for Collective Investment (UCI) Laws",
+    "question": "When a UCITS established in the Republic wants to market its units in other EU member states, to whom must it submit a notification letter first, according to Section 2.2.1?",
+    "options": [
+      "The Central Bank of Cyprus.",
+      "The European Securities and Markets Authority (ESMA).",
+      "The competent authority of the host member state directly.",
+      "CySEC."
+    ],
+    "answer": "CySEC.",
+    "explanation": "Page 106, Section 2.2.1 UCITS Established in the Republic Marketing to Other Member States, clearly states: 'A UCITS authorised in the Republic that wants to market units in other EU member states must submit a notification letter to CySEC prior to doing so.'",
+    "overallExplanation": "This question tests knowledge of the notification procedure for cross-border marketing of UCITS established in Cyprus."
+  },
+  {
+    "chapter": "Chapter 04 - Open-Ended Undertakings for Collective Investment (UCI) Laws",
+    "question": "What is the minimum percentage of a feeder UCITS's total net assets that must be approved for investment in other UCITS or collective investment funds, according to Section 3.1?",
+    "options": [
+      "85 percent.",
+      "50 percent.",
+      "100 percent.",
+      "75 percent."
+    ],
+    "answer": "85 percent.",
+    "explanation": "Page 108, Section 3.1 Investment Policy, states: 'A feeder UCITS is a UCITS, or an investment compartment of a UCITS, that has been approved to invest at least 85 percent of its total net assets in other UCITS or other collective investment funds.'",
+    "overallExplanation": "This question assesses understanding of the investment policy requirements for feeder UCITS."
+  },
+  {
+    "chapter": "Chapter 04 - Open-Ended Undertakings for Collective Investment (UCI) Laws",
+    "question": "Which of the following is NOT a type of undertaking excluded from the definition of a UCITS under Chapter 4, Section 1 (page 90)?",
+    "options": [
+      "Closed-ended undertakings for collective investment.",
+      "Undertakings for collective investment which raise capital without promoting the sale of their units to the public within the EU.",
+      "Common funds managed by a management company.",
+      "Undertakings for collective investment whose units may be sold only to the public in third countries."
+    ],
+    "answer": "Common funds managed by a management company.",
+    "explanation": "Chapter 4, Section 1 (page 90), states 'A UCITS fund may only be constituted in accordance with the UCI Laws and can take the form of a common fund managed by a management company or a variable capital investment company (VCIC).' This indicates it is a type of UCITS, not an exclusion.",
+    "overallExplanation": "This question requires identifying what IS a UCITS by understanding the exclusions."
+  },
+  {
+    "chapter": "Chapter 04 - Open-Ended Undertakings for Collective Investment (UCI) Laws",
+    "question": "Within how many days of the end of the period must a UCITS provide its summarised statement of assets and expenses for the first, second, and third quarters, according to the table in Chapter 4, Section 2.1.3 (page 103)?",
+    "options": [
+      "Within 15 days.",
+      "Within 10 days.",
+      "Within 20 days.",
+      "Within 30 days (one month)."
+    ],
+    "answer": "Within 15 days.",
+    "explanation": "The table in Chapter 4, Section 2.1.3 (page 103) under 'Publication Date' for 'Summarised statement of assets and expenses' for the 'First, second and third quarter' states: 'Within 15 days of the end of the period they refer to'.",
+    "overallExplanation": "This question tests knowledge of reporting deadlines for UCITS quarterly statements."
+  },
+  {
+    "chapter": "Chapter 04 - Open-Ended Undertakings for Collective Investment (UCI) Laws",
+    "question": "According to the permitted investment limits for UCITS in Chapter 4, Section 2.1.1 (page 99), what is the maximum percentage of a UCITS's assets that can be invested in units of any single other UCITS or collective investment undertaking?",
+    "options": [
+      "10 percent",
+      "30 percent",
+      "25 percent",
+      "20 percent"
+    ],
+    "answer": "20 percent",
+    "explanation": "The table in Chapter 4, Section 2.1.1 (page 99) indicates 'Units of other UCITS, or other collective investment undertakings with no more than 20 percent in the units of any single UCITS or collective investment undertaking.'",
+    "overallExplanation": "This question tests knowledge of a specific quantitative investment limit for UCITS."
+  },
+  {
+    "chapter": "Chapter 04 - Open-Ended Undertakings for Collective Investment (UCI) Laws",
+    "question": "If a management company's own funds fall below the minimum capital requirements, what is the maximum period CySEC may set for the company to rectify the situation before revoking the operating licence, according to Chapter 4, Section 4.1.8?",
+    "options": [
+      "Six months.",
+      "Three months.",
+      "The text specifies CySEC may set a deadline, but not a maximum duration for this deadline.",
+      "One month."
+    ],
+    "answer": "The text specifies CySEC may set a deadline, but not a maximum duration for this deadline.",
+    "explanation": "Chapter 4, Section 4.1.8 states: 'If the amount of the management company’s own funds falls below the minimum capital requirements, CySEC may set a deadline for the management company to rectify the situation. If the management company does not increase its capital within the given time frame, CySEC will revoke the operating licence.' It does not specify a maximum duration for that deadline.",
+    "overallExplanation": "This question assesses understanding of CySEC's powers when a management company's capital is deficient."
+  },
+  {
+    "chapter": "Chapter 04 - Open-Ended Undertakings for Collective Investment (UCI) Laws",
+    "question": "Within how many months must a management company submit its audited annual report to CySEC, according to Section 4.1.5?",
+    "options": [
+      "Within two months.",
+      "Within three months.",
+      "Within six months.",
+      "Within four months."
+    ],
+    "answer": "Within four months.",
+    "explanation": "Page 113, Section 4.1.5 Financial Submissions, states: 'Annual and semi-annual reports must be submitted to CySEC... annual report – within four months'.",
+    "overallExplanation": "This question tests knowledge of the financial submission deadlines for management companies."
+  },
+  {
+    "chapter": "Chapter 04 - Open-Ended Undertakings for Collective Investment (UCI) Laws",
+    "question": "What is the primary purpose of the Open-Ended Undertakings for Collective Investment (UCI) Law of 2012 (L.78(I)/2012) and its amendments, as stated in Chapter 4?",
+    "options": [
+      "To regulate the operation and supervision of open-ended undertakings for collective investment in transferable securities (UCITS) and of management companies.",
+      "To primarily focus on the taxation regime of all investment vehicles in Cyprus.",
+      "To harmonize Cypriot laws with US investment fund regulations.",
+      "To regulate closed-ended investment funds exclusively."
+    ],
+    "answer": "To regulate the operation and supervision of open-ended undertakings for collective investment in transferable securities (UCITS) and of management companies.",
+    "explanation": "Chapter 4, Introduction, explicitly states that the UCI Law 'regulates the operation and supervision of open-ended undertakings for collective investment in transferable securities (UCITS) and of management companies, as well as of the taxation regime of open-ended UCITS.'",
+    "overallExplanation": "The question assesses understanding of the fundamental scope of the UCI Laws as introduced in Chapter 4."
+  },
+  {
+    "chapter": "Chapter 04 - Open-Ended Undertakings for Collective Investment (UCI) Laws",
+    "question": "According to Chapter 4, Section 4.1.3, what is the minimum number of directors required for a management company to be granted an operation licence?",
+    "options": [
+      "Four directors.",
+      "Two directors.",
+      "One director.",
+      "Three directors."
+    ],
+    "answer": "Two directors.",
+    "explanation": "As per Chapter 4, Section 4.1.3, point 7, 'A minimum of two directors are appointed.'",
+    "overallExplanation": "This question tests a specific condition related to the governance structure for management company licensing."
+  },
+  {
+    "chapter": "Chapter 04 - Open-Ended Undertakings for Collective Investment (UCI) Laws",
+    "question": "What is the minimum percentage of its total net assets that a feeder UCITS must be approved to invest in other UCITS or other collective investment funds, according to Chapter 4, Section 3.1?",
+    "options": [
+      "100 percent",
+      "50 percent",
+      "85 percent",
+      "75 percent"
+    ],
+    "answer": "85 percent",
+    "explanation": "Chapter 4, Section 3.1, defines a feeder UCITS as one 'that has been approved to invest at least 85 percent of its total net assets in other UCITS or other collective investment funds.'",
+    "overallExplanation": "This question tests the definition of a feeder UCITS in terms of its investment allocation."
+  },
+  {
+    "chapter": "Chapter 04 - Open-Ended Undertakings for Collective Investment (UCI) Laws",
+    "question": "What is the minimum requirement for the number of depositaries a management company must appoint for each UCITS it manages, according to Section 1.2?",
+    "options": [
+      "At least two depositaries for risk diversification.",
+      "One depositary per asset class within the UCITS.",
+      "A single depositary.",
+      "No specific number, as long as safekeeping is ensured."
+    ],
+    "answer": "A single depositary.",
+    "explanation": "Page 92, Section 1.2 Depositaries, states: 'A management company needs to appoint a single depositary for each of the UCITS it manages.'",
+    "overallExplanation": "This question assesses knowledge of the rules regarding the appointment of depositaries for UCITS."
+  },
+  {
+    "chapter": "Chapter 04 - Open-Ended Undertakings for Collective Investment (UCI) Laws",
+    "question": "What is the maximum percentage of a management company's additional capital (required when portfolio value exceeds EUR 250 million) that may be provided in the form of a guarantee from a credit institution, according to Chapter 4, Section 4.1.2?",
+    "options": [
+      "50 percent",
+      "75 percent",
+      "25 percent",
+      "100 percent"
+    ],
+    "answer": "50 percent",
+    "explanation": "According to Chapter 4, Section 4.1.2, 'Up to 50 percent of the additional capital may be provided in the form of a guarantee from a credit institution operating in the Republic or one of the other member states.'",
+    "overallExplanation": "This is a quantitative question about the composition of additional capital for management companies."
+  },
+  {
+    "chapter": "Chapter 04 - Open-Ended Undertakings for Collective Investment (UCI) Laws",
+    "question": "According to Section 1.2.1, if a depositary intends to resign, how much notice must it give to the management company or the UCITS itself?",
+    "options": [
+      "At least six months.",
+      "Immediately upon finding a replacement.",
+      "At least one month.",
+      "At least three months."
+    ],
+    "answer": "At least three months.",
+    "explanation": "Page 95, Section 1.2.1 Resignation of the Depositary, specifies: 'it must inform the management company or the UCITS itself, of its intention in writing, and at least three months before the resignation.'",
+    "overallExplanation": "This question focuses on the procedural requirements for the resignation of a UCITS depositary."
+  },
+  {
+    "chapter": "Chapter 04 - Open-Ended Undertakings for Collective Investment (UCI) Laws",
+    "question": "Under what condition can the 10 percent investment limit in transferable securities or money market instruments issued by the same body be raised to 35 percent for a UCITS?",
+    "options": [
+      "If the UCITS obtains special approval from CySEC.",
+      "If the securities are issued by a blue-chip company.",
+      "If the investment is for a short-term period only.",
+      "If the securities are issued or guaranteed by a member state or its local authorities."
+    ],
+    "answer": "If the securities are issued or guaranteed by a member state or its local authorities.",
+    "explanation": "Page 99, under the 10 percent limit section, states it 'May be raised to 35 percent if the securities are issued or guaranteed by a member state, its local authorities, a third country, or a public international body to which one or more member states belong.'",
+    "overallExplanation": "This question assesses understanding of specific conditions under which UCITS investment limits can be increased."
+  },
+  {
+    "chapter": "Chapter 04 - Open-Ended Undertakings for Collective Investment (UCI) Laws",
+    "question": "According to the UCI Laws 2012-2019, what is the primary purpose of Commission Regulation (EU) No 583/2010?",
+    "options": [
+      "To implement Directive 2009/65/EC regarding key investor information and conditions for providing it in a durable medium other than paper or by website.",
+      "To lay down a general framework for securitisation and create a specific framework for simple, transparent and standardised securitisation.",
+      "To regulate the form and content of the standard notification letter and UCITS attestation for cross-border marketing.",
+      "To amend depository functions, remuneration policies, and sanctions for UCITS."
+    ],
+    "answer": "To implement Directive 2009/65/EC regarding key investor information and conditions for providing it in a durable medium other than paper or by website.",
+    "explanation": "Page 89 of the document states that Commission Regulation (EU) No 583/2010 implements Directive 2009/65/EC 'with regard to key investor information, and the conditions to be met when providing key investor information or the prospectus in a durable medium other than paper or by means of a website.'",
+    "overallExplanation": "This question tests knowledge of the specific EU regulations implemented by the UCI Laws, focusing on the role of Commission Regulation (EU) No 583/2010."
+  },
+  {
+    "chapter": "Chapter 04 - Open-Ended Undertakings for Collective Investment (UCI) Laws",
+    "question": "When a management company authorised in the Republic wishes to establish a branch in another EU member state, how long does CySEC have to inform the competent authorities of the host member state and the management company of its approval, provided there is no objection?",
+    "options": [
+      "Within two months of receiving all required information.",
+      "Immediately upon receiving the notification.",
+      "Within one month of receiving all required information.",
+      "Within three months of receiving all required information."
+    ],
+    "answer": "Within two months of receiving all required information.",
+    "explanation": "Page 116, Section 4.2.1 Establishing a Branch in Another Member State, states: 'Provided that CySEC has no objection, it will inform both the competent authorities in the member state and the management company of its approval within two months of receiving all required information.'",
+    "overallExplanation": "This question tests knowledge of the timeline for CySEC's approval process for establishing a branch in another EU member state."
+  },
+  {
+    "chapter": "Chapter 04 - Open-Ended Undertakings for Collective Investment (UCI) Laws",
+    "question": "What is the maximum percentage of a UCITS's Net Asset Value (NAV) that internally managed VCICs may borrow on a temporary basis, according to Section 2.1.2?",
+    "options": [
+      "5 percent of its NAV.",
+      "15 percent of its NAV.",
+      "10 percent of its NAV.",
+      "20 percent of its NAV."
+    ],
+    "answer": "10 percent of its NAV.",
+    "explanation": "Page 102, Section 2.1.2 Standing Obligations, states: 'internally managed VCICs, and management companies or depositaries acting on behalf of a UCITS, may borrow on a temporary basis an amount not exceeding 10 percent of the net asset value (NAV) of the UCITS.'",
+    "overallExplanation": "This question tests knowledge of borrowing restrictions for internally managed VCICs under UCITS regulations."
+  },
+  {
+    "chapter": "Chapter 04 - Open-Ended Undertakings for Collective Investment (UCI) Laws",
+    "question": "Under what condition, mentioned in Chapter 4, Section 1.2.1, must a depositary intending to resign inform the management company or UCITS?",
+    "options": [
+      "Immediately upon deciding to resign, with no minimum notice period.",
+      "At least one month before the resignation.",
+      "At least three months before the resignation.",
+      "At least six months before the resignation."
+    ],
+    "answer": "At least three months before the resignation.",
+    "explanation": "Chapter 4, Section 1.2.1 states: 'In the event that a depositary of the UCITS intends to resign from its duties, it must inform the management company or the UCITS itself, of its intention in writing, and at least three months before the resignation.'",
+    "overallExplanation": "This question tests knowledge of the procedural requirements for a depositary's resignation."
+  },
+  {
+    "chapter": "Chapter 04 - Open-Ended Undertakings for Collective Investment (UCI) Laws",
+    "question": "If a management company authorised in another EU member state wishes to provide services in the Republic without establishing a branch, how long after CySEC receives notification from the competent authority in that member state can the company start providing services, as per Chapter 4, Section 4.2.2?",
+    "options": [
+      "Immediately upon CySEC's receipt of notification.",
+      "One month after CySEC receives notification.",
+      "Six months after CySEC receives notification.",
+      "Two months after CySEC receives notification."
+    ],
+    "answer": "Two months after CySEC receives notification.",
+    "explanation": "According to Chapter 4, Section 4.2.2, 'Similarly, two months after CySEC has received a notification from a competent authority in another member state, a management company authorised in that member state may provide services in the Republic as long it is authorised to undertake these services.'",
+    "overallExplanation": "This tests the conditions under which a foreign EU management company can provide services in Cyprus without a branch."
+  },
+  {
+    "chapter": "Chapter 04 - Open-Ended Undertakings for Collective Investment (UCI) Laws",
+    "question": "What is the maximum percentage of a UCITS's assets that can be invested with a single body (whether securities or OTC), according to Chapter 4, Section 2.1.1 (page 100)?",
+    "options": [
+      "35 percent",
+      "25 percent",
+      "40 percent",
+      "20 percent"
+    ],
+    "answer": "35 percent",
+    "explanation": "According to Chapter 4, Section 2.1.1 (page 100), 'The above-mentioned limits may not be combined, and therefore, the total that can be invested with a single body (whether securities or OTC) is 35 percent'.",
+    "overallExplanation": "This question asks for a specific aggregate investment limit for UCITS."
+  },
+  {
+    "chapter": "Chapter 04 - Open-Ended Undertakings for Collective Investment (UCI) Laws",
+    "question": "When a UCITS established in the Republic wants to market its units in other EU member states, how long does CySEC have to verify the completeness of the notification letter and send it to the competent authorities in the host member state, according to Chapter 4, Section 2.2.1?",
+    "options": [
+      "Within 15 working days of receipt.",
+      "Within 10 working days of receipt.",
+      "Within one month of receipt.",
+      "Within 5 working days of receipt."
+    ],
+    "answer": "Within 10 working days of receipt.",
+    "explanation": "Chapter 4, Section 2.2.1 states: 'CySEC will verify the completeness of the information, send it to the competent authorities in the member state within ten working days of receipt, and notify the UCITS.'",
+    "overallExplanation": "This question assesses knowledge of the timeline for CySEC's actions in cross-border marketing notifications."
+  },
+  {
+    "chapter": "Chapter 04 - Open-Ended Undertakings for Collective Investment (UCI) Laws",
+    "question": "When may the 10 percent investment limit in transferable securities or money market instruments issued by the same body be raised to 35 percent, according to Chapter 4, Section 2.1.1 (page 99)?",
+    "options": [
+      "If the securities are issued or guaranteed by a member state, its local authorities, a third country, or a public international body to which one or more member states belong.",
+      "If the investment is for a period shorter than 6 months.",
+      "If the UCITS obtains special permission from ESMA.",
+      "If the securities are issued by a highly rated private corporation."
+    ],
+    "answer": "If the securities are issued or guaranteed by a member state, its local authorities, a third country, or a public international body to which one or more member states belong.",
+    "explanation": "Chapter 4, Section 2.1.1 (page 99) explicitly states: 'May be raised to 35 percent if the securities are issued or guaranteed by a member state, its local authorities, a third country, or a public international body to which one or more member states belong.'",
+    "overallExplanation": "This tests understanding of conditions under which certain UCITS investment limits can be increased."
+  },
+  {
+    "chapter": "Chapter 04 - Open-Ended Undertakings for Collective Investment (UCI) Laws",
+    "question": "According to Chapter 4, Section 2.1.3 (page 105), which document needs to include a short description of the investment objectives and investment policy, past performance or performance scenarios, costs and associated charges, and the risk/reward profile of the investment?",
+    "options": [
+      "The half-yearly report.",
+      "The annual report.",
+      "The full prospectus.",
+      "The Key Investor Information Document (KIID)."
+    ],
+    "answer": "The Key Investor Information Document (KIID).",
+    "explanation": "Chapter 4, Section 2.1.3 (page 105) states: 'The key investor information document needs to include an identification of the UCITS, the competent authority of the UCITS, a short description of the investment objectives and investment policy, past performance or performance scenarios, costs and associated charges, and the risk/reward profile of the investment.'",
+    "overallExplanation": "This question tests the content requirements of the Key Investor Information Document."
+  },
+  {
+    "chapter": "Chapter 04 - Open-Ended Undertakings for Collective Investment (UCI) Laws",
+    "question": "What is the maximum amount to which the own funds of a management company can be increased due to its portfolio value exceeding EUR 250,000,000, as per Chapter 4, Section 4.1.2?",
+    "options": [
+      "EUR 5,000,000",
+      "EUR 1,000,000",
+      "EUR 10,000,000",
+      "EUR 25,000,000"
+    ],
+    "answer": "EUR 10,000,000",
+    "explanation": "Chapter 4, Section 4.1.2, states '...with a maximum increase of own funds to EUR 10.000.000,00.'",
+    "overallExplanation": "This quantitative question tests the upper limit of additional capital requirements for management companies."
+  },
+  {
+    "chapter": "Chapter 04 - Open-Ended Undertakings for Collective Investment (UCI) Laws",
+    "question": "What is the minimum period for which the Key Investor Information Document (KIID) must cover past performance information, if the instrument has existed for that long, according to Section 4 (Page 72, referenced by context on page 105)?",
+    "options": [
+      "The preceding five years.",
+      "The preceding three years.",
+      "The entire period of the instrument's existence, regardless of length.",
+      "The preceding seven years."
+    ],
+    "answer": "The preceding five years.",
+    "explanation": "Page 72, which provides general principles for information to clients applicable to Chapter 4's KIID requirements (page 105), specifies: 'Any indications of past performance... must include the appropriate performance information covering at least the preceding five years.'",
+    "overallExplanation": "This question assesses understanding of the past performance disclosure requirements in the KIID."
+  },
+  {
+    "chapter": "Chapter 04 - Open-Ended Undertakings for Collective Investment (UCI) Laws",
+    "question": "What is the maximum percentage of its assets that a feeder UCITS can invest in the master UCITS before the agreement (or internal conduct of business rule) between them is effective, as per Chapter 4, Section 3.2?",
+    "options": [
+      "25 percent",
+      "10 percent",
+      "15 percent",
+      "20 percent"
+    ],
+    "answer": "20 percent",
+    "explanation": "According to Chapter 4, Section 3.2, 'Until such a time that the agreement is effective, the feeder UCITS must not invest more than 20 percent of its assets in the master UCITS.'",
+    "overallExplanation": "This question tests a specific investment restriction for feeder UCITS prior to the master-feeder agreement becoming effective."
+  },
+  {
+    "chapter": "Chapter 04 - Open-Ended Undertakings for Collective Investment (UCI) Laws",
+    "question": "What is the maximum percentage of a UCITS's assets that may generally be invested in transferable securities not listed under points 1-7 of Section 2.1.1 (Investment Policy)?",
+    "options": [
+      "5 percent.",
+      "10 percent.",
+      "20 percent.",
+      "15 percent."
+    ],
+    "answer": "10 percent.",
+    "explanation": "Page 98, Section 2.1.1 Investment Policy, states: 'A UCITS fund may not invest more than 10 percent of its assets in transferable securities, except for those mentioned under points 1–7 above'.",
+    "overallExplanation": "This question tests knowledge of a specific investment limit for UCITS funds regarding transferable securities."
+  },
+  {
+    "chapter": "Chapter 04 - Open-Ended Undertakings for Collective Investment (UCI) Laws",
+    "question": "According to Chapter 4, Section 1.2.4, who is liable for any loss suffered by the UCITS or its unitholders as a result of negligence or intentional failure of the depositary?",
+    "options": [
+      "The depositary.",
+      "CySEC, as the regulatory authority.",
+      "The management company exclusively.",
+      "Only the third party to whom safekeeping was delegated."
+    ],
+    "answer": "The depositary.",
+    "explanation": "Chapter 4, Section 1.2.4 states: 'The depositary is liable to the UCITS, and to the unitholders of the UCITS, for any loss suffered as a result of negligence or intentional failure of the depositary, or that of the third party to whom the custody of financial instruments is delegated...'",
+    "overallExplanation": "This question assesses understanding of the depositary's liability."
+  },
+  {
+    "chapter": "Chapter 04 - Open-Ended Undertakings for Collective Investment (UCI) Laws",
+    "question": "Under what condition may an internally managed VCIC borrow up to 10 percent of its net asset value (NAV), as stated in Chapter 4, Section 2.1.2?",
+    "options": [
+      "To engage in speculative trading.",
+      "To cover temporary liquidity shortfalls due to redemptions.",
+      "To acquire immovable property mandatory to its business.",
+      "To invest in another UCITS fund."
+    ],
+    "answer": "To acquire immovable property mandatory to its business.",
+    "explanation": "Chapter 4, Section 2.1.2 states, 'Internally managed VCICs may borrow up to 10 percent of its net asset value, to acquire immovable property mandatory to its business.'",
+    "overallExplanation": "This question assesses knowledge of specific borrowing rules for internally managed VCICs."
+  },
+  {
+    "chapter": "Chapter 04 - Open-Ended Undertakings for Collective Investment (UCI) Laws",
+    "question": "What is the minimum period for which a UCITS prospectus must be kept available to the public, as per Chapter 4, Section 2.1.3 (page 104)?",
+    "options": [
+      "For at least five years.",
+      "Indefinitely.",
+      "For at least one year.",
+      "The UCITS prospectus must include all information necessary for investors. For how long the annual and half-yearly reports need to be available to investors?"
+    ],
+    "answer": "The UCITS prospectus must include all information necessary for investors. For how long the annual and half-yearly reports need to be available to investors?",
+    "explanation": "Chapter 4, Section 2.1.3 (page 103) states the half-yearly report needs to be available for 'at least ten years'. Page 105 states 'Annual and half-yearly reports need to be made available to all investors', implying the same duration.",
+    "overallExplanation": "This question concerns the public availability duration of UCITS investor information."
+  },
+  {
+    "chapter": "Chapter 04 - Open-Ended Undertakings for Collective Investment (UCI) Laws",
+    "question": "If the value of a management company's portfolio exceeds EUR 250,000,000.00, by what percentage of the additional portfolio value must its capital be increased, according to Section 4.1.2?",
+    "options": [
+      "0.02 percent.",
+      "0.10 percent.",
+      "0.05 percent.",
+      "0.01 percent."
+    ],
+    "answer": "0.02 percent.",
+    "explanation": "Page 111, Section 4.1.2 Share Capital, indicates: 'In the event that the value of the portfolio of the management company exceeds EUR 250,000,000.00 the capital of the management company needs to be increased by 0.02 percent of the additional portfolio value'.",
+    "overallExplanation": "This question tests understanding of the additional capital requirements for management companies based on portfolio size."
+  },
+  {
+    "chapter": "Chapter 04 - Open-Ended Undertakings for Collective Investment (UCI) Laws",
+    "question": "According to Section 3.4, can a master UCITS charge subscription, redemption, or repurchase fees for the purchase or transfer of its units from a feeder UCITS?",
+    "options": [
+      "Only if the feeder UCITS agrees in writing.",
+      "Yes, but only if disclosed in the prospectus.",
+      "Yes, but at a reduced rate.",
+      "No, such fees cannot be charged."
+    ],
+    "answer": "No, such fees cannot be charged.",
+    "explanation": "Page 109, Section 3.4 Specific Obligations of the Master UCITS, clearly states: 'Master UCITS may not charge subscription, redemption or repurchase fees for the purchase or transfer of its units from the feeder UCITS.'",
+    "overallExplanation": "This question tests knowledge of the fee restrictions between master and feeder UCITS."
+  },
+  {
+    "chapter": "Chapter 04 - Open-Ended Undertakings for Collective Investment (UCI) Laws",
+    "question": "What is the minimum initial fully paid-up capital requirement for a management company to be granted an operation licence, according to Chapter 4, Section 4.1.3?",
+    "options": [
+      "EUR 50,000",
+      "EUR 250,000",
+      "EUR 125,000",
+      "EUR 100,000"
+    ],
+    "answer": "EUR 125,000",
+    "explanation": "Chapter 4, Section 4.1.3, point 1, specifies 'Initial fully paid up capital of at least EUR 125.000,00 in cash.'",
+    "overallExplanation": "This question tests a key quantitative requirement for licensing management companies."
+  },
+  {
+    "chapter": "Chapter 04 - Open-Ended Undertakings for Collective Investment (UCI) Laws",
+    "question": "How often must the annual report of a UCITS be made available to investors, according to Chapter 4, Section 2.1.3?",
+    "options": [
+      "Within 6 months of the financial year end.",
+      "Within 4 months of the financial year end.",
+      "Within 2 months of the financial year end.",
+      "Within 3 months of the financial year end."
+    ],
+    "answer": "Within 4 months of the financial year end.",
+    "explanation": "Chapter 4, Section 2.1.3, in the table 'Report Periodicity Publication Date', specifies for the 'Annual report including balance sheet and profit and loss account' a publication date 'Within four months of the end of the financial year'.",
+    "overallExplanation": "This question tests the timeline for UCITS annual report publication."
+  },
+  {
+    "chapter": "Chapter 04 - Open-Ended Undertakings for Collective Investment (UCI) Laws",
+    "question": "According to Section 2.1.3 (Page 103), within how many months of the end of the financial year must an annual report including balance sheet and profit and loss account be published?",
+    "options": [
+      "Within six months.",
+      "Within three months.",
+      "Within two months.",
+      "Within four months."
+    ],
+    "answer": "Within four months.",
+    "explanation": "The table on Page 103 under Section 2.1.3 Investor Information clearly states for 'Annual report including balance sheet and profit and loss account' the publication date is 'Within four months of the end of the financial year'.",
+    "overallExplanation": "This question tests knowledge of the publication deadlines for UCITS annual reports."
+  },
+  {
+    "chapter": "Chapter 04 - Open-Ended Undertakings for Collective Investment (UCI) Laws",
+    "question": "Which of these functions of a depositary CANNOT be delegated to a third party, as stated in Section 1.2 (Page 93)?",
+    "options": [
+      "Monitoring of cash flows of UCITS funds.",
+      "Safekeeping of financial instruments held in custody.",
+      "Providing a full inventory of assets on a regular basis.",
+      "Verification of ownership of other assets."
+    ],
+    "answer": "Monitoring of cash flows of UCITS funds.",
+    "explanation": "Page 93, after listing the depositary's functions (including ensuring cash flows are properly monitored), states: 'All aforementioned functions cannot be delegated to a third party.'",
+    "overallExplanation": "This question tests understanding of the non-delegable functions of a UCITS depositary."
+  },
+  {
+    "chapter": "Chapter 04 - Open-Ended Undertakings for Collective Investment (UCI) Laws",
+    "question": "According to Chapter 4, Section 1, which of the following is a defining characteristic of a UCITS fund?",
+    "options": [
+      "It is primarily constituted as a closed-ended undertaking.",
+      "It operates on the principle of risk concentration in a single asset class.",
+      "Its units can be redeemed or repurchased, directly or indirectly, out of the undertaking’s assets, at the request of the investor.",
+      "Its sole object is direct investment in real estate."
+    ],
+    "answer": "Its units can be redeemed or repurchased, directly or indirectly, out of the undertaking’s assets, at the request of the investor.",
+    "explanation": "Chapter 4, Section 1, lists as a defining characteristic that its units 'can be redeemed or repurchased, directly or indirectly, out of the undertaking’s assets, at the request of the investor.'",
+    "overallExplanation": "This question tests knowledge of the core definition of a UCITS fund as per the UCI Laws."
+  },
+  {
+    "chapter": "Chapter 04 - Open-Ended Undertakings for Collective Investment (UCI) Laws",
+    "question": "According to Chapter 4, Section 1.1.2, what is the sole purpose of a Variable Capital Investment Company (VCIC)?",
+    "options": [
+      "The collective management of its portfolio by investing in transferable securities or other financial instruments, to the interest of its shareholders.",
+      "To act as a depositary for other UCITS funds.",
+      "To provide investment advice to retail clients.",
+      "To engage in direct commercial lending activities."
+    ],
+    "answer": "The collective management of its portfolio by investing in transferable securities or other financial instruments, to the interest of its shareholders.",
+    "explanation": "Chapter 4, Section 1.1.2, point 1, states, 'Its sole purpose is the collective management of its portfolio by investing in transferable securities or other financial instruments (as outlined in section 1 of this chapter), to the interest of its shareholders.'",
+    "overallExplanation": "This question tests knowledge of the defined purpose of a VCIC under UCI Laws."
+  },
+  {
+    "chapter": "Chapter 04 - Open-Ended Undertakings for Collective Investment (UCI) Laws",
+    "question": "Which of the following is a key function of the depositary as defined in Chapter 4, Section 1.2 (page 93)?",
+    "options": [
+      "Ensuring that the sale, issue, redemption, repurchase, cancellation and valuation of units is carried out in accordance with the appropriate rules and regulations.",
+      "Marketing the UCITS units to potential investors.",
+      "Providing investment advice to the unitholders.",
+      "Setting the investment strategy for the UCITS."
+    ],
+    "answer": "Ensuring that the sale, issue, redemption, repurchase, cancellation and valuation of units is carried out in accordance with the appropriate rules and regulations.",
+    "explanation": "Chapter 4, Section 1.2 (page 93) explicitly lists this as a function: 'Ensure that the sale, issue, redemption, repurchase, cancellation and valuation of units is carried out in accordance with the appropriate rules and regulations.'",
+    "overallExplanation": "This question tests the understanding of the depositary's core responsibilities."
+  },
+  {
+    "chapter": "Chapter 04 - Open-Ended Undertakings for Collective Investment (UCI) Laws",
+    "question": "According to Section 1.1.1 of Chapter 4, what is the legal personality of a common fund?",
+    "options": [
+      "It is represented by its unitholders directly.",
+      "It has the legal form of a limited liability company.",
+      "It does not have a legal personality.",
+      "It is a type of variable capital investment company."
+    ],
+    "answer": "It does not have a legal personality.",
+    "explanation": "Page 91, under section 1.1.1 Common Funds, explicitly states: 'A common fund does not have a legal personality'.",
+    "overallExplanation": "This question tests the understanding of the legal structure of a common fund UCITS."
+  },
+  {
+    "chapter": "Chapter 04 - Open-Ended Undertakings for Collective Investment (UCI) Laws",
+    "question": "When can a depositary delegate its safekeeping functions to a third party located in a third country where local law requires custody by a local entity, even if no local entities satisfy the standard delegation requirements, as per Chapter 4, Section 1.2.3 (page 96)?",
+    "options": [
+      "Only if the third country is an EU member state associate.",
+      "If CySEC provides an explicit waiver for the standard delegation requirements.",
+      "If the third-party local entity provides a full financial guarantee for the assets.",
+      "If the investors are duly informed prior to their investment about the necessity and risks, and the VCIC or management company has instructed such delegation."
+    ],
+    "answer": "If the investors are duly informed prior to their investment about the necessity and risks, and the VCIC or management company has instructed such delegation.",
+    "explanation": "Chapter 4, Section 1.2.3 (page 96) lists two conditions: 'a. the investors of the relevant UCITS are duly informed, prior to their investment, of the fact that such a delegation is required due to legal constraints in the law of the third country, of the circumstances justifying the delegation and of the risks involved in such a delegation' and 'b. the internally managed VCIC, or the management company on behalf of the UCITS, has instructed the depositary to delegate the custody of such financial instruments to such a local entity.'",
+    "overallExplanation": "This question tests understanding of specific conditions for delegating safekeeping to certain third-country entities."
+  },
+  {
+    "chapter": "Chapter 04 - Open-Ended Undertakings for Collective Investment (UCI) Laws",
+    "question": "Which of the following is NOT a characteristic of a UCITS fund as defined in Section 1 of Chapter 4?",
+    "options": [
+      "Its sole object is the collective investment in transferable securities and/or other liquid financial instruments of capital raised from the public.",
+      "It must be a closed-ended undertaking for collective investment.",
+      "Its units can be redeemed or repurchased, directly or indirectly, out of the undertaking’s assets, at the request of the investor.",
+      "It operates on the principle of risk spreading."
+    ],
+    "answer": "It must be a closed-ended undertaking for collective investment.",
+    "explanation": "Page 90 explicitly states that 'Closed-ended undertakings for collective investment' shall not be regarded as UCITS. UCITS are open-ended.",
+    "overallExplanation": "This question assesses understanding of the core definition of a UCITS fund as outlined in the UCI Laws."
+  },
+  {
+    "chapter": "Chapter 04 - Open-Ended Undertakings for Collective Investment (UCI) Laws",
+    "question": "According to the code of conduct for management companies in Chapter 4, Section 4.1.9, management companies must act in the best interests of:",
+    "options": [
+      "Primarily their shareholders and secondarily the UCITS.",
+      "Only the regulatory authorities like CySEC.",
+      "Their own profitability above all other considerations.",
+      "The UCITS or other collective investment undertaking they manage and of the integrity and smooth operation of the market."
+    ],
+    "answer": "The UCITS or other collective investment undertaking they manage and of the integrity and smooth operation of the market.",
+    "explanation": "Chapter 4, Section 4.1.9, point 2 explicitly states management companies must 'act in the best interests of the UCITS or other collective investment undertaking they manage and of the integrity and smooth operation of the market.'",
+    "overallExplanation": "This question tests a core principle from the code of conduct for management companies."
+  },
+  {
+    "chapter": "Chapter 04 - Open-Ended Undertakings for Collective Investment (UCI) Laws",
+    "question": "According to Section 4.1.3, what is the minimum number of directors required for a management company to be granted an operation licence?",
+    "options": [
+      "Three directors.",
+      "Four directors, with at least two being independent.",
+      "One director.",
+      "Two directors."
+    ],
+    "answer": "Two directors.",
+    "explanation": "Page 112, Section 4.1.3 Conditions for Granting an Operation Licence, condition 7 states: 'A minimum of two directors are appointed.'",
+    "overallExplanation": "This question focuses on a specific condition for granting an operation licence to a management company regarding the number of directors."
+  },
+  {
+    "chapter": "Chapter 04 - Open-Ended Undertakings for Collective Investment (UCI) Laws",
+    "question": "When a management company authorised in the Republic wishes to establish a branch in another EU member state, how long does CySEC have to inform the competent authorities of the host member state and the management company of its approval, provided there is no objection and all required information is received, according to Chapter 4, Section 4.2.1?",
+    "options": [
+      "Within two months.",
+      "Within one month.",
+      "Within six months.",
+      "Within three months."
+    ],
+    "answer": "Within two months.",
+    "explanation": "According to Chapter 4, Section 4.2.1, 'Provided that CySEC has no objection, it will inform both the competent authorities in the member state and the management company of its approval within two months of receiving all required information.'",
+    "overallExplanation": "This question tests the timeline for CySEC's approval process for establishing a branch in another EU state."
+  },
+  {
+    "chapter": "Chapter 04 - Open-Ended Undertakings for Collective Investment (UCI) Laws",
+    "question": "As per Chapter 4, Section 1.1.1, what is the legal personality of a common fund?",
+    "options": [
+      "It is a partnership with unlimited liability for unitholders.",
+      "It has no legal personality; the management company represents the unitholders.",
+      "It has the same legal personality as its depositary.",
+      "It is a limited liability company."
+    ],
+    "answer": "It has no legal personality; the management company represents the unitholders.",
+    "explanation": "Chapter 4, Section 1.1.1 explicitly states, 'A common fund does not have a legal personality; the management company represents the unitholders in relation to the fund and the assets.'",
+    "overallExplanation": "This question assesses understanding of the legal structure of a common fund UCITS."
+  },
+  {
+    "chapter": "Chapter 04 - Open-Ended Undertakings for Collective Investment (UCI) Laws",
+    "question": "What must a UCITS prospectus include if the Net Asset Value (NAV) of the UCITS is likely to have high volatility due to its portfolio composition or management techniques, as per Chapter 4, Section 2.1.3 (page 104)?",
+    "options": [
+      "A guarantee from the management company against losses.",
+      "A statement drawing attention to this possibility.",
+      "A detailed stress test analysis.",
+      "An alternative lower-risk investment option."
+    ],
+    "answer": "A statement drawing attention to this possibility.",
+    "explanation": "According to Chapter 4, Section 2.1.3 (page 104), point 3 under prospectus content: 'When the net asset value (NAV) of a UCITS is likely to have high volatility due to its portfolio composition or portfolio management techniques, the prospectus needs to include a statement drawing attention to this possibility.'",
+    "overallExplanation": "This question tests disclosure requirements in a UCITS prospectus related to NAV volatility."
+  },
+  {
+    "chapter": "Chapter 04 - Open-Ended Undertakings for Collective Investment (UCI) Laws",
+    "question": "According to Chapter 4, Section 3.2, if the master and feeder UCITS are managed by the same management company, what can replace the formal agreement between them?",
+    "options": [
+      "No replacement is needed; the relationship is assumed.",
+      "A verbal agreement between the fund managers.",
+      "A simple notification to CySEC.",
+      "An internal conduct of business rule governing the relationship."
+    ],
+    "answer": "An internal conduct of business rule governing the relationship.",
+    "explanation": "Chapter 4, Section 3.2, states: 'In the event that the master and the feeder UCITS are managed by the same management company, the agreement can be replaced by an internal conduct of business rule governing the relationship.'",
+    "overallExplanation": "This question tests understanding of the arrangements between master and feeder UCITS under common management."
+  },
+  {
+    "chapter": "Chapter 04 - Open-Ended Undertakings for Collective Investment (UCI) Laws",
+    "question": "What percentage of a UCITS fund's assets may NOT be invested in transferable securities, except for those mentioned under points 1–7 of Section 2.1.1, Investment Policy?",
+    "options": [
+      "More than 5 percent.",
+      "More than 10 percent.",
+      "More than 20 percent.",
+      "More than 15 percent."
+    ],
+    "answer": "More than 10 percent.",
+    "explanation": "According to Chapter 4, Section 2.1.1 (page 98), 'A UCITS fund may not invest more than 10 percent of its assets in transferable securities, except for those mentioned under points 1–7 above'.",
+    "overallExplanation": "This question tests a specific investment restriction for UCITS funds."
   }
 ]
