@@ -3140,5 +3140,762 @@
     "answer": "More than 10 percent.",
     "explanation": "According to Chapter 4, Section 2.1.1 (page 98), 'A UCITS fund may not invest more than 10 percent of its assets in transferable securities, except for those mentioned under points 1–7 above'.",
     "overallExplanation": "This question tests a specific investment restriction for UCITS funds."
+  },
+
+
+  
+  {
+    "chapter": "Chapter 05 - Alternative Investments",
+    "question": "Under Chapter 5, Section 4.1, what can CySEC impose on an AIFM or AIF when allowing the marketing of AIF units to retail investors in the Republic?",
+    "options": [
+      "A fixed fee payable to CySEC for each retail investor acquired.",
+      "A complete prohibition on marketing to retail investors if the AIF is leveraged.",
+      "A requirement that the AIFM must be domiciled in the Republic.",
+      "Additional obligations, provided they are not stricter than EU rules and regulations."
+    ],
+    "answer": "Additional obligations, provided they are not stricter than EU rules and regulations.",
+    "explanation": "Chapter 5, Section 4.1, 'Marketing of AIFs to Retail Investors in the Republic', states: 'CySEC may impose additional obligations on the AIFM or AIF, although these may not be stricter than the EU rules and regulations.'",
+    "overallExplanation": "Section 4.1 details CySEC's role and powers concerning the marketing of AIFs to retail investors, including the imposition of additional, but not stricter than EU, obligations."
+  },
+  {
+    "chapter": "Chapter 05 - Alternative Investments",
+    "question": "When is an AIFM required to establish an internal audit function, as per Chapter 5, Section 3?",
+    "options": [
+      "Only if its managed assets exceed EUR 500 million.",
+      "Always, irrespective of its size or complexity.",
+      "Only if it manages more than three AIFs.",
+      "When appropriate and proportionate in view of the nature, scale and complexity of its business."
+    ],
+    "answer": "When appropriate and proportionate in view of the nature, scale and complexity of its business.",
+    "explanation": "Chapter 5, Section 3, 'Organisational Requirements' (page 141), states: 'The AIFM shall, when appropriate and proportionate in view of the nature, scale and complexity of their business and the nature and range of collective portfolio management activities undertaken...establish and maintain an internal audit function...'",
+    "overallExplanation": "Section 3 on page 141 specifies that the establishment of an internal audit function by an AIFM is based on principles of appropriateness and proportionality."
+  },
+  {
+    "chapter": "Chapter 05 - Alternative Investments",
+    "question": "What is the minimum content required for an AIFM's organisational structure according to Chapter 5, Section 3?",
+    "options": [
+      "A detailed marketing plan for each AIF.",
+      "A list of all potential investors for its AIFs.",
+      "Proof of professional indemnity insurance covering all managed AIFs.",
+      "A well-documented structure that clearly assigns responsibilities and defines control mechanisms."
+    ],
+    "answer": "A well-documented structure that clearly assigns responsibilities and defines control mechanisms.",
+    "explanation": "Chapter 5, Section 3, 'Organisational Requirements' (page 141), states: 'AIFMs should have a well-documented organisational structure that clearly assigns responsibilities, defines control mechanisms and ensures a good flow of information between all parties involved.'",
+    "overallExplanation": "Section 3 on page 141 details the necessary components of an AIFM's organisational structure, focusing on clear responsibilities and controls."
+  },
+  {
+    "chapter": "Chapter 05 - Alternative Investments",
+    "question": "Can the depositary of an AIF undertake the valuation of the AIF's assets, according to Chapter 5, Section 3.1?",
+    "options": [
+      "Yes, without any restrictions.",
+      "No, under no circumstances.",
+      "Only if the AIFM provides written consent.",
+      "Yes, if functionally and hierarchically separated from its depositary tasks and conflicts are managed."
+    ],
+    "answer": "Yes, if functionally and hierarchically separated from its depositary tasks and conflicts are managed.",
+    "explanation": "Chapter 5, Section 3.1, 'Valuation' (page 142), states: 'The valuation must not be undertaken by the depositary unless it has functionally and hierarchically separated the performance of its depositary functions from its tasks as external valuer, and that any potential conflicts of interest are properly identified, managed, monitored and disclosed to investors of the AIF.'",
+    "overallExplanation": "Section 3.1 on page 142 outlines specific and strict conditions under which a depositary might also perform valuation tasks for an AIF."
+  },
+  {
+    "chapter": "Chapter 05 - Alternative Investments",
+    "question": "According to Chapter 5, Section 3, what is a key aspect of the internal control procedures an AIFM must have regarding its own account investments?",
+    "options": [
+      "Allowing employees to use AIFM's own account for personal transactions with minimal oversight.",
+      "Prioritizing AIFM's own account investments over AIF investments in case of limited opportunities.",
+      "Ensuring maximum profitability from own account trading.",
+      "That each transaction involving AIFs can be reconstructed to its origin, parties, nature, time, and place."
+    ],
+    "answer": "That each transaction involving AIFs can be reconstructed to its origin, parties, nature, time, and place.",
+    "explanation": "Chapter 5, Section 3, 'Organisational Requirements', states internal control procedures need to ensure at least: '1. that each transaction involving the AIFs may be reconstructed according to its origin, the parties to it, its nature, and the time and place that the transaction was executed'.",
+    "overallExplanation": "Section 3 details the organisational requirements for AIFMs, including specific internal controls over investments and transactions."
+  },
+  {
+    "chapter": "Chapter 05 - Alternative Investments",
+    "question": "Which of these items is NOT listed in Chapter 5, Section 2.7 as information to be disclosed to investors by an AIFM PRIOR to them investing in an AIF?",
+    "options": [
+      "The identity of the prime broker and material arrangements with them.",
+      "Fees, charges, and expenses directly borne by investors and their maximum amounts.",
+      "Valuation procedure and pricing methodology for valuing assets.",
+      "The latest quarterly performance report of the AIF."
+    ],
+    "answer": "The latest quarterly performance report of the AIF.",
+    "explanation": "Section 2.7 (Disclosures to Investors, point 11) requires disclosure of 'The latest annual report.' While historical performance (point 14) is mentioned, a specific 'latest quarterly performance report' is not listed as a mandatory pre-investment disclosure item.",
+    "overallExplanation": "Section 2.7 provides an extensive list of disclosures AIFMs must make to potential investors before they invest."
+  },
+  {
+    "chapter": "Chapter 05 - Alternative Investments",
+    "question": "What is the minimum amount of assets that ALL Alternative Investment Funds (AIFs) must retain, as stated in Chapter 5, Section 1.1?",
+    "options": [
+      "EUR 250,000",
+      "EUR 1,000,000",
+      "EUR 125,000",
+      "EUR 500,000"
+    ],
+    "answer": "EUR 500,000",
+    "explanation": "Chapter 5, Section 1.1, 'Initial Capital and Retention of Minimum Assets', states: 'The obligation for the retention of minimum assets applies to all AIFs and must be at least EUR 500,000...'",
+    "overallExplanation": "Section 1.1 of Chapter 5 clearly defines the minimum asset retention requirements applicable to all AIFs."
+  },
+  {
+    "chapter": "Chapter 05 - Alternative Investments",
+    "question": "What is the minimum number of natural persons required for the governing body of an internally managed AIF, and how many must perform executive duties, according to Chapter 5, Section 1.4?",
+    "options": [
+      "At least five natural persons, three performing executive duties.",
+      "At least two natural persons, one performing executive duties.",
+      "At least three natural persons, two performing executive duties.",
+      "At least four natural persons, at least two performing executive duties."
+    ],
+    "answer": "At least four natural persons, at least two performing executive duties.",
+    "explanation": "Chapter 5, Section 1.4, 'Management and Conduct of Business', states: 'The governing body of the internally managed AIF consists of at least four natural persons, of which at least two perform executive duties.'",
+    "overallExplanation": "Section 1.4 details the composition requirements for the governing body of an internally managed AIF."
+  },
+  {
+    "chapter": "Chapter 05 - Alternative Investments",
+    "question": "According to Chapter 5, Section 2.5, what must an AIFM do regarding its risk management department?",
+    "options": [
+      "Review risk management systems at least every two years.",
+      "Primarily rely on the AIF's risk profile without setting maximum leverage levels.",
+      "Ensure it is functionally integrated with the operating units for efficiency.",
+      "Be functionally segregated from operating units and implement due diligence processes."
+    ],
+    "answer": "Be functionally segregated from operating units and implement due diligence processes.",
+    "explanation": "Chapter 5, Section 2.5 states: 'The risk management department of an AIFM needs to be functionally segregated from the operating units.' It also mentions the AIFM 'must implement appropriate, documented and regularly updated due diligence processes when investing on behalf of an AIF...'",
+    "overallExplanation": "Section 2.5 details requirements for an AIFM's risk management, emphasizing segregation, due diligence, and active monitoring."
+  },
+  {
+    "chapter": "Chapter 05 - Alternative Investments",
+    "question": "When must valuation and calculation of NAV per unit be carried out for closed-ended AIFs, in addition to at least once a year, as per Chapter 5, Section 3.1 (Valuation)?",
+    "options": [
+      "Weekly, regardless of other events.",
+      "Only when new investors subscribe to the AIF.",
+      "Whenever the AIFM changes its investment strategy.",
+      "In the event of an increase or decrease of the capital by the relevant AIF."
+    ],
+    "answer": "In the event of an increase or decrease of the capital by the relevant AIF.",
+    "explanation": "Chapter 5, Section 3.1, 'Valuation', states: 'For closed-ended AIFs, the valuation and calculation must also be carried out in the event of an increase or decrease of the capital by the relevant AIF.'",
+    "overallExplanation": "Section 3.1 specifies distinct valuation frequency requirements for open-ended and closed-ended AIFs."
+  },
+  {
+    "chapter": "Chapter 05 - Alternative Investments",
+    "question": "Up to what percentage of an AIFM's additional capital (beyond initial) may be provided in the form of a guarantee from a credit institution or insurance undertaking, as per Chapter 5, Section 2.1?",
+    "options": [
+      "25 percent",
+      "75 percent",
+      "100 percent",
+      "50 percent"
+    ],
+    "answer": "50 percent",
+    "explanation": "Chapter 5, Section 2.1 (page 130) specifies: 'Up to 50 percent of the capital may be provided in the form of a guarantee from a credit institution or insurance undertaking...'",
+    "overallExplanation": "Page 130 of Section 2.1 details how AIFM capital requirements, particularly the additional capital, can be met, including the use of guarantees."
+  },
+  {
+    "chapter": "Chapter 05 - Alternative Investments",
+    "question": "Which item is NOT required to be included in an AIFM's annual report for an AIF, if that information is already part of a publicly available annual report for the AIF which is made available within four months of year-end, according to Chapter 5, Section 2.7?",
+    "options": [
+      "Any material changes to the fund.",
+      "The total amount of variable and fixed remuneration paid to the AIFM’s staff.",
+      "The balance sheet or statement of assets and liabilities.",
+      "A detailed list of all individual investor complaints received during the year."
+    ],
+    "answer": "A detailed list of all individual investor complaints received during the year.",
+    "explanation": "Chapter 5, Section 2.7 (Annual Report, page 138) lists specific items to be included. While a report on activities (point 3) is required, a 'detailed list of all individual investor complaints' is not specified as one of the six items that, if in a public report, would exempt separate AIFM reporting of them. General AIFM organisational requirements would cover complaint handling.",
+    "overallExplanation": "Section 2.7, page 138, details what must be in the AIFM's annual report for an AIF and provides for a streamlined approach if some of this information is already in a timely public AIF report."
+  },
+  {
+    "chapter": "Chapter 05 - Alternative Investments",
+    "question": "What is the maximum administrative fine CySEC may impose on an AIFM for an infringement committed while its authorisation is suspended, as per Chapter 5, Section 2.1.1?",
+    "options": [
+      "EUR 100,000",
+      "EUR 500,000",
+      "EUR 250,000",
+      "EUR 350,000"
+    ],
+    "answer": "EUR 350,000",
+    "explanation": "Chapter 5, Section 2.1.1, states: 'In case of an infringement committed by the AIFM, CySEC may impose an administrative fine of up to EUR 350,000.'",
+    "overallExplanation": "Section 2.1.1 clearly states the maximum administrative fine for infringements by an AIFM during suspension."
+  },
+  {
+    "chapter": "Chapter 05 - Alternative Investments",
+    "question": "What is the maximum time CySEC has to inform an AIFM applicant of its authorisation decision in writing, if no extension is required, according to Chapter 5, Section 2.1?",
+    "options": [
+      "One month",
+      "Six months",
+      "Two months",
+      "Three months"
+    ],
+    "answer": "Three months",
+    "explanation": "Chapter 5, Section 2.1 (page 130) states: 'Within three months of receiving the completed application, CySEC will inform the applicant of its decision in writing. This period may be extended for another three months, if necessary...'",
+    "overallExplanation": "Section 2.1 on page 130 clearly outlines the timeline for CySEC's decision on AIFM authorisation."
+  },
+  {
+    "chapter": "Chapter 05 - Alternative Investments",
+    "question": "In the case of a variable remuneration component of a particularly high amount for AIFM staff, what is the minimum percentage that must be deferred, as per Chapter 5, Section 2.3 (point 13 on page 133)?",
+    "options": [
+      "75 percent",
+      "50 percent",
+      "40 percent",
+      "60 percent"
+    ],
+    "answer": "60 percent",
+    "explanation": "Chapter 5, Section 2.3, point 13 (page 133) specifies: 'In the case of a variable remuneration component of a particularly high amount, at least 60 percent of the amount shall be deferred.'",
+    "overallExplanation": "Point 13 on page 133 of Section 2.3 specifies a higher deferral percentage for particularly large variable remuneration components."
+  },
+  {
+    "chapter": "Chapter 05 - Alternative Investments",
+    "question": "If an AIFM's own funds fall below the minimum limits, what action may CySEC take initially, according to Chapter 5, Section 2.1.1?",
+    "options": [
+      "Require the AIFM to suspend all non-core services.",
+      "Impose an administrative fine of EUR 350,000.",
+      "Immediately withdraw the AIFM's license.",
+      "Impose a deadline within which the AIFM needs to remedy the issue."
+    ],
+    "answer": "Impose a deadline within which the AIFM needs to remedy the issue.",
+    "explanation": "Chapter 5, Section 2.1.1 (page 131, last paragraph) states: 'In the event that the own funds of the AIFM are reduced below the minimum limits, or where they no longer comply with the capital adequacy requirements, CySEC may impose a deadline within which the AIFM needs to remedy the issue.'",
+    "overallExplanation": "The last paragraph of Section 2.1.1 on page 131 describes CySEC's initial response when an AIFM's own funds fall below required levels."
+  },
+  {
+    "chapter": "Chapter 05 - Alternative Investments",
+    "question": "Within how many months following the end of the financial year must an AIFM prepare an annual report for each EU AIF it manages, according to Chapter 5, Section 2.7?",
+    "options": [
+      "Three months",
+      "Four months",
+      "Twelve months",
+      "Six months"
+    ],
+    "answer": "Six months",
+    "explanation": "Chapter 5, Section 2.7, under 'Annual Report', states: 'For each of the EU AIFs that the AIFM manages...it must prepare an annual report, for each financial year, within six months following the end of the financial year.'",
+    "overallExplanation": "Section 2.7 clearly outlines the deadline for AIFMs to prepare annual reports for the AIFs they manage."
+  },
+  {
+    "chapter": "Chapter 05 - Alternative Investments",
+    "question": "Under which of these circumstances will CySEC withdraw the authorisation of an AIFM, according to Chapter 5, Section 2.1.1?",
+    "options": [
+      "The AIFM's own funds fall slightly below the minimum limit but are remedied within 10 days.",
+      "The AIFM has ceased the activity covered by the Law for the preceding three months.",
+      "The AIFM applies for a minor change in its investment strategy.",
+      "The AIFM does not make use of the authorisation within 12 months."
+    ],
+    "answer": "The AIFM does not make use of the authorisation within 12 months.",
+    "explanation": "Chapter 5, Section 2.1.1 (a) lists reasons for withdrawal, including: 'The AIFM does not make use of the authorisation within 12 months...'",
+    "overallExplanation": "Section 2.1.1 lists specific conditions under which CySEC will withdraw an AIFM's authorisation."
+  },
+  {
+    "chapter": "Chapter 05 - Alternative Investments",
+    "question": "Can an internally managed AIFM also manage UCITS, according to Chapter 5, Section 2.1?",
+    "options": [
+      "Yes, if it obtains a separate UCITS management license from CySEC.",
+      "No, unless the UCITS portfolio is below EUR 100 million.",
+      "Yes, but only if the UCITS are marketed exclusively outside the Republic.",
+      "No, internally managed AIFMs cannot manage UCITS."
+    ],
+    "answer": "No, internally managed AIFMs cannot manage UCITS.",
+    "explanation": "Chapter 5, Section 2.1 (page 127), clearly states: 'Internally managed AIFMs cannot manage UCITS.' It also notes that 'external AIFMs may also manage UCITS as long as they have been duly authorised...'",
+    "overallExplanation": "Section 2.1 on page 127 makes a clear distinction regarding UCITS management capabilities between external and internally managed AIFMs."
+  },
+  {
+    "chapter": "Chapter 05 - Alternative Investments",
+    "question": "What is the maximum percentage of variable remuneration for AIFM staff that may consist of shares in the AIF or similar instruments, unless AIFs account for less than 50 percent of the AIFM's portfolio, according to Chapter 5, Section 2.3 (point 3.l)?",
+    "options": [
+      "60 percent",
+      "25 percent",
+      "40 percent",
+      "50 percent"
+    ],
+    "answer": "50 percent",
+    "explanation": "Chapter 5, Section 2.3 (point 3.l on page 133) specifies: '...up to 50 percent of any variable remuneration may consist of shares in the AIF or similar instruments, unless the management of the AIFs accounts for less than 50 percent of the portfolio managed by the AIFM'.",
+    "overallExplanation": "Point 3.l in Section 2.3 (page 133) details the conditions and limits for including AIF shares or similar instruments in variable remuneration packages."
+  },
+  {
+    "chapter": "Chapter 05 - Alternative Investments",
+    "question": "Under what condition can the investment policy of an AIF be restricted, according to Chapter 5, Section 1.2?",
+    "options": [
+      "If the AIF targets retail investors exclusively.",
+      "Only if the AIF invests in non-securities.",
+      "If the AIF's Net Asset Value falls below EUR 500,000.",
+      "By CySEC through a special directive."
+    ],
+    "answer": "By CySEC through a special directive.",
+    "explanation": "Chapter 5, Section 1.2, 'Investment Policy', clearly states: 'The investment policy of an AIF may be restricted by CySEC by special directive.'",
+    "overallExplanation": "Section 1.2 outlines CySEC's authority to restrict an AIF's investment policy."
+  },
+  {
+    "chapter": "Chapter 05 - Alternative Investments",
+    "question": "What is the minimum number of natural persons required for the management and operations of an AIF, according to Chapter 5, Section 1.4?",
+    "options": [
+      "Three, with at least one having executive duties.",
+      "One, if sufficiently experienced and specialized.",
+      "Four, to align with the governing body minimum.",
+      "At least two, both of whom need to be sufficiently experienced and specialized."
+    ],
+    "answer": "At least two, both of whom need to be sufficiently experienced and specialized.",
+    "explanation": "Chapter 5, Section 1.4, 'Management and Conduct of Business', specifies: 'The management and operations of an AIF need to be undertaken by at least two natural persons, both of whom needs to be sufficiently experienced and specialised.'",
+    "overallExplanation": "Section 1.4 distinguishes between the governing body and the personnel for management and operations, specifying different minimum numbers."
+  },
+  {
+    "chapter": "Chapter 05 - Alternative Investments",
+    "question": "According to Chapter 5, Section 2.3, what should AIFM remuneration policies NOT do?",
+    "options": [
+      "Apply to staff whose activities have a material impact on risk profiles.",
+      "Be consistent with sound and effective risk management.",
+      "Be reviewed periodically and subject to an independent annual review.",
+      "Encourage risk taking inconsistent with AIF risk profiles."
+    ],
+    "answer": "Encourage risk taking inconsistent with AIF risk profiles.",
+    "explanation": "Chapter 5, Section 2.3, point 2 states remuneration policies 'must not encourage risk taking that is inconsistent with the risk profiles, rules or instruments of incorporation of the AIFs that it manages.'",
+    "overallExplanation": "Section 2.3 details several requirements and principles for AIFM remuneration policies, focusing on sound risk management and alignment with AIF profiles."
+  },
+  {
+    "chapter": "Chapter 05 - Alternative Investments",
+    "question": "When must assets subject to a transaction involving an AIF and its related parties be valued by an independent expert, according to Chapter 5, Section 1.6?",
+    "options": [
+      "Only if the AIF is internally managed.",
+      "Only if the transaction involves non-security assets.",
+      "Only if the transaction value exceeds EUR 1,000,000.",
+      "For any transaction between an AIF and its external manager or depositary."
+    ],
+    "answer": "For any transaction between an AIF and its external manager or depositary.",
+    "explanation": "Chapter 5, Section 1.6, 'Transactions', states: 'Any transaction between an AIF and its external manager, its depositary, its investment adviser, its partner, its unitholders, or any other related person, will require the assets to be valued by an independent expert...'",
+    "overallExplanation": "Section 1.6 mandates independent expert valuation for assets in transactions between an AIF and its related parties to ensure fairness."
+  },
+  {
+    "chapter": "Chapter 05 - Alternative Investments",
+    "question": "For which type of AIFs is the AIFM NOT required to employ a liquidity management system, as per Chapter 5, Section 2.6?",
+    "options": [
+      "All AIFs regardless of leverage or type.",
+      "Unleveraged open-ended AIFs.",
+      "Leveraged closed-ended AIFs.",
+      "Unleveraged closed-ended AIFs."
+    ],
+    "answer": "Unleveraged closed-ended AIFs.",
+    "explanation": "Chapter 5, Section 2.6, 'Liquidity Management', states: 'For each AIF that it manages, with the exception of unleveraged closed-ended AIFs, the AIFM will employ an adequate liquidity management system...'",
+    "overallExplanation": "Section 2.6 specifies an exception for the requirement of a liquidity management system for AIFMs managing unleveraged closed-ended AIFs."
+  },
+  {
+    "chapter": "Chapter 05 - Alternative Investments",
+    "question": "What is the maximum period CySEC can initially extend the three-month AIFM authorisation decision timeline, if necessary, as stated in Chapter 5, Section 2.1?",
+    "options": [
+      "One month",
+      "Two months",
+      "Six months",
+      "Three months"
+    ],
+    "answer": "Three months",
+    "explanation": "Chapter 5, Section 2.1 (page 130) specifies: 'This period may be extended for another three months, if necessary, and after informing the AIFM accordingly.'",
+    "overallExplanation": "Page 130 of Section 2.1 details the possibility and duration of extending the AIFM authorisation decision timeline."
+  },
+  {
+    "chapter": "Chapter 05 - Alternative Investments",
+    "question": "According to Chapter 5, Section 2.7 (Reporting Obligations to CySEC), AIFMs employing leverage on a substantial basis need to provide CySEC with a breakdown between leverage arising from borrowing of cash/securities and what other source?",
+    "options": [
+      "Leverage embedded in equity instruments.",
+      "Leverage from unfunded commitments.",
+      "Leverage from operational activities.",
+      "Leverage embedded in financial derivatives."
+    ],
+    "answer": "Leverage embedded in financial derivatives.",
+    "explanation": "Chapter 5, Section 2.7, under 'Reporting Obligations to CySEC' (page 140, point 2), states that AIFMs with substantial leverage must provide: 'A breakdown between leverage arising from the borrowing of cash or securities, and leverage embedded in financial derivatives.'",
+    "overallExplanation": "Section 2.7 details specific reporting requirements to CySEC for AIFMs using substantial leverage, including the sources of that leverage."
+  },
+  {
+    "chapter": "Chapter 05 - Alternative Investments",
+    "question": "For an AIFM's remuneration policy, which principle applies to pension policies according to Chapter 5, Section 2.3 (point 3.o)?",
+    "options": [
+      "They are exempt from the general remuneration policy requirements.",
+      "They should encourage early retirement with full benefits.",
+      "They must prioritize short-term AIFM profitability.",
+      "They need to be in line with the business strategy, objectives, values and long-term interests of the AIFM and AIFs."
+    ],
+    "answer": "They need to be in line with the business strategy, objectives, values and long-term interests of the AIFM and AIFs.",
+    "explanation": "Chapter 5, Section 2.3 (point 3.o on page 134) states: 'pension policies need to be in line with the business strategy, objectives, values and long-term interests of the AIFM and the AIFs that it manages'.",
+    "overallExplanation": "Point 3.o of Section 2.3 (page 134) specifies how pension policies should align with the AIFM's overall strategy and long-term interests."
+  },
+  {
+    "chapter": "Chapter 05 - Alternative Investments",
+    "question": "For a non-EU AIFM with a branch in the Republic, to which AIFs do the leverage reporting obligations to CySEC apply, as per Chapter 5, Section 2.7?",
+    "options": [
+      "The reporting obligations are waived for branches of non-EU AIFMs.",
+      "Only to non-EU AIFs managed by the branch.",
+      "To all AIFs managed globally by the non-EU AIFM.",
+      "To EU AIFs managed by the branch and non-EU AIFs marketed in the EU by the branch."
+    ],
+    "answer": "To EU AIFs managed by the branch and non-EU AIFs marketed in the EU by the branch.",
+    "explanation": "Chapter 5, Section 2.7, 'Reporting Obligations to CySEC' (page 140), specifies: 'A non-EU AIFM with a branch in the Republic only has to report this information for the EU AIFs that it manages and the non-EU AIFs that it markets in the EU.'",
+    "overallExplanation": "Section 2.7 on page 140 clarifies the scope of reporting obligations for branches of non-EU AIFMs operating in the Republic."
+  },
+  {
+    "chapter": "Chapter 05 - Alternative Investments",
+    "question": "If an appointed external valuer delegates its valuation responsibility for an AIF to a third party, is this permissible under Chapter 5, Section 3.1?",
+    "options": [
+      "Yes, with the prior approval of CySEC.",
+      "Yes, if the third party is also a registered valuer.",
+      "Only if the AIFM agrees to assume ultimate liability for the third party's valuation.",
+      "No, an appointed external valuer must not delegate its responsibility."
+    ],
+    "answer": "No, an appointed external valuer must not delegate its responsibility.",
+    "explanation": "Chapter 5, Section 3.1, 'Valuation' (page 142), explicitly states: 'An appointed external valuer must not delegate its responsibility to a third party.'",
+    "overallExplanation": "Page 142 of Section 3.1 is unequivocal about the non-delegation of responsibility by an appointed external valuer."
+  },
+  {
+    "chapter": "Chapter 05 - Alternative Investments",
+    "question": "According to Chapter 5, Section 2.5 (Risk Management), who is responsible for setting and monitoring the maximum level of leverage for each AIF?",
+    "options": [
+      "The AIF's investors through a majority vote",
+      "The AIF's depositary",
+      "CySEC",
+      "The AIFM"
+    ],
+    "answer": "The AIFM",
+    "explanation": "Chapter 5, Section 2.5, 'Risk Management' (page 136), states: 'The maximum level of leverage, and the extent of the right to use collateral or guarantees that may be employed on behalf of each AIF, will be set and monitored by the AIFM...'",
+    "overallExplanation": "Section 2.5 clearly assigns the responsibility of setting and monitoring AIF leverage to the AIFM."
+  },
+  {
+    "chapter": "Chapter 05 - Alternative Investments",
+    "question": "What is the primary purpose of an AIFM's internal audit function, when it is established, according to Chapter 5, Section 3?",
+    "options": [
+      "To manage the AIFM's conflicts of interest directly.",
+      "To approve the AIFM's investment strategies.",
+      "To set the remuneration policy for senior management.",
+      "To examine and evaluate the adequacy and effectiveness of the AIFM’s systems, internal control mechanisms and arrangements."
+    ],
+    "answer": "To examine and evaluate the adequacy and effectiveness of the AIFM’s systems, internal control mechanisms and arrangements.",
+    "explanation": "Chapter 5, Section 3, 'Organisational Requirements' (page 142), states the internal audit function shall: 'a. establish, implement and maintain an audit plan to examine and evaluate the adequacy and effectiveness of the AIFM’s systems, internal control mechanisms and arrangements'.",
+    "overallExplanation": "Section 3 (page 142) clearly defines the evaluative and oversight role of the AIFM's internal audit function."
+  },
+  {
+    "chapter": "Chapter 05 - Alternative Investments",
+    "question": "If an AIF invests in other collective investment schemes managed by a connected external manager, what does Chapter 5, Section 1.2 say about remuneration or redemption fees for the manager of the selling AIF?",
+    "options": [
+      "The manager can only charge redemption fees but not remuneration.",
+      "The manager must share 50 percent of the fees with the connected manager.",
+      "The manager can charge double fees to compensate for the connection.",
+      "The manager will not receive any remuneration or redemption fees it would otherwise receive."
+    ],
+    "answer": "The manager will not receive any remuneration or redemption fees it would otherwise receive.",
+    "explanation": "Chapter 5, Section 1.2, 'Investment Policy', states: 'In the event that the AIF invests in other collective investment schemes of any type managed by a connected external manager, or the same manager, the manager of the AIF selling the units will not receive any remuneration or redemption fees that it would otherwise receive.'",
+    "overallExplanation": "Section 1.2 addresses potential conflicts and double-charging when AIFs invest in schemes managed by connected managers."
+  },
+  {
+    "chapter": "Chapter 05 - Alternative Investments",
+    "question": "When an AIFM's authorisation is partially suspended related to the management of portfolios, what is the impact on its non-core services, according to Chapter 5, Section 2.1.1?",
+    "options": [
+      "Only non-core services related to the suspended portfolios are affected.",
+      "Non-core services can continue as usual.",
+      "The AIFM can apply for a waiver to continue non-core services.",
+      "Non-core services are also suspended."
+    ],
+    "answer": "Non-core services are also suspended.",
+    "explanation": "Chapter 5, Section 2.1.1 (page 131) clearly states: 'In the case of a partial suspension that is related to the management of portfolios, CySEC will also suspend the non-core services.'",
+    "overallExplanation": "Section 2.1.1 on page 131 describes the implications of a partial suspension of an AIFM's authorisation on its other activities."
+  },
+  {
+    "chapter": "Chapter 05 - Alternative Investments",
+    "question": "What is the minimum initial capital requirement for an externally managed AIFM, as specified in Chapter 5, Section 2.1?",
+    "options": [
+      "EUR 300,000",
+      "EUR 10,000,000",
+      "EUR 250,000,000",
+      "EUR 125,000"
+    ],
+    "answer": "EUR 125,000",
+    "explanation": "Chapter 5, Section 2.1, page 130, details the minimum capital requirements. The table shows 'Externally managed AIF' require 'EUR 125,000'.",
+    "overallExplanation": "Page 130 in Section 2.1 provides a table clearly stating the minimum capital requirements for different types of AIFMs."
+  },
+  {
+    "chapter": "Chapter 05 - Alternative Investments",
+    "question": "What is the maximum total capital, inclusive of the initial capital, that an AIFM might be required to hold if its portfolio significantly exceeds EUR 250 million, as per Chapter 5, Section 2.1?",
+    "options": [
+      "EUR 5 million",
+      "EUR 1 million",
+      "EUR 25 million",
+      "EUR 10 million"
+    ],
+    "answer": "EUR 10 million",
+    "explanation": "Chapter 5, Section 2.1, page 130, specifies for additional capital: '...but no more than EUR 10 million, inclusive of the initial capital'.",
+    "overallExplanation": "Page 130 clearly caps the additional capital requirement for AIFMs at EUR 10 million, inclusive of the initial capital."
+  },
+  {
+    "chapter": "Chapter 05 - Alternative Investments",
+    "question": "When an AIFM uses the services of a prime broker on behalf of an AIF, who must be informed of the contract, as per Chapter 5, Section 2.4?",
+    "options": [
+      "Both CySEC and the AIF's investors directly.",
+      "Only CySEC.",
+      "Only the AIF's investors.",
+      "The depositary."
+    ],
+    "answer": "The depositary.",
+    "explanation": "Chapter 5, Section 2.4, 'Conflicts of Interest', states: 'If the AIFM uses the services of a prime broker on behalf of an AIF...the depositary must be informed of the contract.'",
+    "overallExplanation": "Section 2.4 specifies the AIFM's obligations when engaging a prime broker, including informing the depositary."
+  },
+  {
+    "chapter": "Chapter 05 - Alternative Investments",
+    "question": "Which core activities must EVERY AIFM at least engage in when managing an AIF, as per Chapter 5, Section 2.1?",
+    "options": [
+      "Marketing and Administration.",
+      "Valuation and Customer inquiries.",
+      "Legal services and Distribution of income.",
+      "Portfolio management and Risk management."
+    ],
+    "answer": "Portfolio management and Risk management.",
+    "explanation": "Chapter 5, Section 2.1 (page 127), under 'Authorisation', states: 'Every AIFM, must at least engage in portfolio management and risk management when managing an AIF.'",
+    "overallExplanation": "Section 2.1 on page 127 clearly identifies portfolio management and risk management as the minimum core activities for every AIFM."
+  },
+  {
+    "chapter": "Chapter 05 - Alternative Investments",
+    "question": "According to Chapter 5, Section 1.4, who must the persons directing the business of an external manager of an AIF or an internally managed AIF NOT be part of?",
+    "options": [
+      "Any other AIF managed by the same external manager.",
+      "The AIF's investment committee.",
+      "The AIF's audit committee.",
+      "The governing body or senior management of the AIF’s depositary."
+    ],
+    "answer": "The governing body or senior management of the AIF’s depositary.",
+    "explanation": "Chapter 5, Section 1.4, 'Management and Conduct of Business', states: 'The persons directing the business of the external manager of the AIF or the internally managed AIF, must not be part of the governing body or senior management of the AIF’s depositary, and vice versa.'",
+    "overallExplanation": "Section 1.4 emphasizes the independence required between the management of an AIF and its depositary."
+  },
+  {
+    "chapter": "Chapter 05 - Alternative Investments",
+    "question": "Which of these is NOT listed as an additional function an AIFM may perform in the course of collective management of an AIF, besides portfolio and risk management, as per Chapter 5, Section 2.1?",
+    "options": [
+      "Administration, including legal and fund management accounting services.",
+      "Marketing.",
+      "Activities related to the assets of the AIF, such as facilities management.",
+      "Providing independent financial advice to third parties unrelated to the AIF."
+    ],
+    "answer": "Providing independent financial advice to third parties unrelated to the AIF.",
+    "explanation": "While external AIFMs can be authorised for non-core services like investment advice (Section 2.1, page 128, point 2.a under 'In addition, external AIFMs may be authorised to provide any of the following services:'), this is distinct from the functions performed 'in the course of the collective management of an AIF'. The question focuses on functions during *collective management*.",
+    "overallExplanation": "Section 2.1 lists functions AIFMs perform during collective AIF management and additional services they can be authorized for. Independent advice to unrelated third parties is an additional service, not a core collective management function."
+  },
+  {
+    "chapter": "Chapter 05 - Alternative Investments",
+    "question": "What is the asset threshold for AIF portfolios managed by an AIFM where the AIFs do NOT use leverage and investors do NOT have repurchase rights in the first 5 years, above which the AIFM Law applies, according to Chapter 5, Section 2?",
+    "options": [
+      "EUR 250,000,000",
+      "EUR 100,000,000",
+      "EUR 750,000,000",
+      "EUR 500,000,000"
+    ],
+    "answer": "EUR 500,000,000",
+    "explanation": "Chapter 5, Section 2, under 'The scope of the AIFM Law includes AIFMs that manage AIF portfolios whose assets: ...exceed the total limit of EUR 500,000,000, provided that the portfolios of the AIF do not use leverage and also investors do not have the right to repurchase their shares in the first 5 years of their initial investment'.",
+    "overallExplanation": "Section 2 defines two distinct asset thresholds for the AIFM Law's applicability, depending on leverage and investor repurchase rights."
+  },
+  {
+    "chapter": "Chapter 05 - Alternative Investments",
+    "question": "What is the minimum percentage of variable remuneration that generally needs to be deferred for AIFM staff, according to Chapter 5, Section 2.3?",
+    "options": [
+      "30 percent",
+      "20 percent",
+      "50 percent",
+      "40 percent"
+    ],
+    "answer": "40 percent",
+    "explanation": "Chapter 5, Section 2.3, point 3.m states: 'at least 40 percent of the variable remuneration component needs to be deferred for a period appropriate in view of the life cycle and redemption policy of the AIF'.",
+    "overallExplanation": "Section 2.3 outlines specific rules for deferral of variable remuneration for AIFM staff."
+  },
+  {
+    "chapter": "Chapter 05 - Alternative Investments",
+    "question": "Under the AIFM Law, how are own funds of an AIFM required to be invested, as per Chapter 5, Section 2.1?",
+    "options": [
+      "In long-term real estate holdings to ensure stability.",
+      "Primarily in speculative instruments for higher returns.",
+      "In a diversified portfolio of AIFs managed by other AIFMs.",
+      "In liquid assets or assets readily convertible to cash at short notice."
+    ],
+    "answer": "In liquid assets or assets readily convertible to cash at short notice.",
+    "explanation": "Chapter 5, Section 2.1 (page 130) states: 'The own funds of an AIFM will be invested in liquid assets or in assets that can readily be converted to cash at short notice. Own funds may not be invested in speculative instruments.'",
+    "overallExplanation": "Page 130 of Section 2.1 specifies how an AIFM's own funds must be invested, emphasizing liquidity and prohibiting speculative investments."
+  },
+  {
+    "chapter": "Chapter 05 - Alternative Investments",
+    "question": "For an AIF that constitutes multiple investment compartments (umbrella AIF), what does Chapter 5, Section 1.1 state regarding the retention of minimum assets?",
+    "options": [
+      "Only the umbrella AIF as a whole needs to meet the EUR 500,000 minimum.",
+      "The minimum asset retention requirement is waived for umbrella AIFs.",
+      "The largest compartment by AUM must meet the EUR 500,000 minimum, and others can be smaller.",
+      "Each compartment needs to meet the minimum capital requirements for retaining the minimum assets."
+    ],
+    "answer": "Each compartment needs to meet the minimum capital requirements for retaining the minimum assets.",
+    "explanation": "Chapter 5, Section 1.1, 'Initial Capital and Retention of Minimum Assets', states: 'For AIFs that constitute multiple investment compartments, also known as umbrella AIF, each of these compartments needs to meet the minimum capital requirements with regards to retaining the minimum assets.'",
+    "overallExplanation": "Section 1.1 clarifies how minimum asset retention rules apply to umbrella AIFs."
+  },
+  {
+    "chapter": "Chapter 05 - Alternative Investments",
+    "question": "What is the general rule regarding preferential treatment of AIF investors by an AIFM, as per Chapter 5, Section 2.2?",
+    "options": [
+      "It is always prohibited.",
+      "It is allowed if it benefits the AIFM's profitability.",
+      "It is allowed only for institutional investors.",
+      "It is not allowed unless disclosed in the AIF’s rules or instruments of incorporation."
+    ],
+    "answer": "It is not allowed unless disclosed in the AIF’s rules or instruments of incorporation.",
+    "explanation": "Chapter 5, Section 2.2, 'General Principles' (page 132), states: 'Investors may not be given preferential treatment, unless such treatment is disclosed in the AIF’s rules or instruments of incorporation.'",
+    "overallExplanation": "Section 2.2 on page 132 sets out the conditions under which preferential treatment of AIF investors may be permissible."
+  },
+  {
+    "chapter": "Chapter 05 - Alternative Investments",
+    "question": "According to Chapter 5, Section 2.3, who oversees the remuneration of senior risk and compliance officers in an AIFM?",
+    "options": [
+      "An independent external consultant.",
+      "The CEO of the AIFM directly.",
+      "The AIFM's board of directors.",
+      "The remuneration committee."
+    ],
+    "answer": "The remuneration committee.",
+    "explanation": "Chapter 5, Section 2.3 (point 3.e on page 133) states: 'the remuneration of senior risk and compliance officers is directly overseen by the remuneration committee'.",
+    "overallExplanation": "Section 2.3, point 3.e on page 133, specifies the body responsible for overseeing the remuneration of key control function personnel."
+  },
+  {
+    "chapter": "Chapter 05 - Alternative Investments",
+    "question": "How often must the unit Net Asset Value (NAV) of an AIF be calculated at a minimum, as per Chapter 5, Section 1.5?",
+    "options": [
+      "Only when marketing or redemption of units takes place.",
+      "At least once a month.",
+      "At least once a quarter.",
+      "At least once a year."
+    ],
+    "answer": "At least once a year.",
+    "explanation": "Chapter 5, Section 1.5, 'Valuation', states: 'The unit NAV must be calculated at least once a year.'",
+    "overallExplanation": "Section 1.5 specifies the minimum frequency for calculating an AIF's unit NAV."
+  },
+  {
+    "chapter": "Chapter 05 - Alternative Investments",
+    "question": "Who is ultimately responsible for the proper valuation of an AIF’s assets and the calculation and publication of its NAV, even when an external valuer is appointed, according to Chapter 5, Section 3.1?",
+    "options": [
+      "The AIF’s depositary.",
+      "The external valuer exclusively.",
+      "CySEC.",
+      "The AIFM."
+    ],
+    "answer": "The AIFM.",
+    "explanation": "Chapter 5, Section 3.1, 'Valuation', states: 'Even when an external valuer is appointed, the AIFM is ultimately responsible for the proper valuation of the AIF’s assets, and the calculation and publication of the net asset value.'",
+    "overallExplanation": "Section 3.1 clarifies that despite the potential appointment of an external valuer, the AIFM retains ultimate responsibility for AIF asset valuation and NAV."
+  },
+  {
+    "chapter": "Chapter 05 - Alternative Investments",
+    "question": "What is the minimum deferral period for variable remuneration components for AIFM staff, according to Chapter 5, Section 2.3 (point 13 on page 133)?",
+    "options": [
+      "Five to seven years.",
+      "One to two years.",
+      "Two to four years.",
+      "Three to five years."
+    ],
+    "answer": "Three to five years.",
+    "explanation": "Chapter 5, Section 2.3, point 13 (page 133) specifies: 'A substantial portion...of the variable remuneration component is deferred over a period which is not less than three to five years...'",
+    "overallExplanation": "Point 13 on page 133 in Section 2.3 details the deferral period requirements for variable remuneration."
+  },
+  {
+    "chapter": "Chapter 05 - Alternative Investments",
+    "question": "If an AIFM's managed portfolio exceeds EUR 250 million, by what percentage of the excess amount must its capital be increased, according to Chapter 5, Section 2.1?",
+    "options": [
+      "0.10 percent",
+      "0.01 percent",
+      "0.05 percent",
+      "0.02 percent"
+    ],
+    "answer": "0.02 percent",
+    "explanation": "Chapter 5, Section 2.1, page 130, in the table for minimum capital requirements, specifies: 'Additional capital of 0.02 percent of the amount by which the EUR 250 million is exceeded...'",
+    "overallExplanation": "The rules for additional capital requirements for AIFMs when portfolios exceed EUR 250 million are detailed on page 130."
+  },
+  {
+    "chapter": "Chapter 05 - Alternative Investments",
+    "question": "If CySEC deems that an AIFM's continuation of activities may jeopardise market integrity and sets a deadline for the AIFM to remedy the situation, what is the maximum initial duration of this deadline according to Chapter 5, Section 2.1.1?",
+    "options": [
+      "15 days",
+      "Three months",
+      "Six months",
+      "One month"
+    ],
+    "answer": "One month",
+    "explanation": "Chapter 5, Section 2.1.1, regarding suspension of authorisation, states: 'In this case CySEC may set the AIFM a reasonable deadline to remedy the situation; this deadline may not exceed one month from the date that the AIFM has been notified...'",
+    "overallExplanation": "Section 2.1.1 describes the process and timelines when CySEC suspends an AIFM's authorisation due to potential risks."
+  },
+  {
+    "chapter": "Chapter 05 - Alternative Investments",
+    "question": "If an AIFM is subject to securitization requirements under Regulation (EU) 2017/2402 and does not meet them, what must it do according to Chapter 5, Section 2.6?",
+    "options": [
+      "Increase its capital adequacy by 10 percent.",
+      "Apply to CySEC for an exemption.",
+      "Immediately cease all securitization activities.",
+      "Act and take corrective actions towards the benefits and general interest of the AIF investors."
+    ],
+    "answer": "Act and take corrective actions towards the benefits and general interest of the AIF investors.",
+    "explanation": "Chapter 5, Section 2.6, 'Liquidity Management' (page 137), states: 'An AIFM that is subject to securitization and does not meet the requirements set out in Regulation (EU) 2017/2402, if deemed necessary, must act and take corrective actions towards the benefits and general interest of the AIF investors.'",
+    "overallExplanation": "Section 2.6 on page 137 outlines an AIFM's responsibilities if it fails to meet securitization requirements."
+  },
+  {
+    "chapter": "Chapter 05 - Alternative Investments",
+    "question": "What type of AIFs are AIFMs whose managed assets do NOT exceed EUR 100,000,000 (including leverage) or EUR 500,000,000 (unleveraged with 5-year lock-up) generally considered under the AIFM Law, according to Chapter 5, Section 2?",
+    "options": [
+      "Subject to a simplified AIFM Law regime.",
+      "Required to obtain full AIFM authorisation but with reduced capital requirements.",
+      "Exempt from all AIFM Law provisions but must register with CySEC.",
+      "Not included within the scope of the AIFM Law, unless they apply for an affiliation."
+    ],
+    "answer": "Not included within the scope of the AIFM Law, unless they apply for an affiliation.",
+    "explanation": "Chapter 5, Section 2 (page 126) states: 'Therefore, AIFMs managing AIFs whose assets do not exceed the above limits, are not included within the scope of the AIMF Law, unless they apply for an affiliation.'",
+    "overallExplanation": "Section 2 on page 126 clarifies the status of AIFMs managing smaller portfolios relative to the AIFM Law's scope."
+  },
+  {
+    "chapter": "Chapter 05 - Alternative Investments",
+    "question": "One of the principles for AIFM remuneration policies, as per Chapter 5, Section 2.3 (point 3.h), states that guaranteed variable remuneration is:",
+    "options": [
+      "Permitted for all staff in their first three years of employment.",
+      "Prohibited under all circumstances.",
+      "A standard component of the remuneration package to attract talent.",
+      "Exceptional and may only be paid to new staff in their first year of employment."
+    ],
+    "answer": "Exceptional and may only be paid to new staff in their first year of employment.",
+    "explanation": "Chapter 5, Section 2.3 (point 3.h) states: 'guaranteed variable remuneration is exceptional and may only be paid to new members of staff in their first year of employment'.",
+    "overallExplanation": "Section 2.3 provides specific guidelines on variable remuneration, including the exceptional nature of guaranteed variable pay."
+  },
+  {
+    "chapter": "Chapter 05 - Alternative Investments",
+    "question": "According to Chapter 5, what is the minimum initial capital an Alternative Investment Fund (AIF) with internal management must maintain?",
+    "options": [
+      "EUR 250,000",
+      "EUR 1,000,000",
+      "EUR 500,000",
+      "EUR 125,000"
+    ],
+    "answer": "EUR 125,000",
+    "explanation": "Section 1.1, 'Initial Capital and Retention of Minimum Assets', specifies: 'The obligation to maintain an initial capital applies only to AIF with internal management and amounts to EUR 125,000.'",
+    "overallExplanation": "Chapter 5, Section 1.1 clearly distinguishes between the initial capital for internally managed AIFs and the general minimum asset retention for all AIFs."
+  },
+  {
+    "chapter": "Chapter 05 - Alternative Investments",
+    "question": "What is a key principle regarding AIFM conduct towards investors, as stated in Chapter 5, Section 2.2 General Principles?",
+    "options": [
+      "AIFMs are not required to disclose conflicts of interest if they are minor.",
+      "AIFMs can invest a client’s portfolio in its own AIFs without prior approval.",
+      "AIFMs can give preferential treatment to certain investors if it benefits the AIFM.",
+      "AIFMs must always act in the best interests of their investors and for market integrity."
+    ],
+    "answer": "AIFMs must always act in the best interests of their investors and for market integrity.",
+    "explanation": "Chapter 5, Section 2.2, 'General Principles', states: 'AIFMs have to act honestly, fairly and with due skill, care and diligence... They need to act both in the best interests of their investors and for the integrity of the market.'",
+    "overallExplanation": "Section 2.2 outlines the fundamental ethical and operational principles AIFMs must adhere to."
+  },
+  {
+    "chapter": "Chapter 05 - Alternative Investments",
+    "question": "What is the threshold for AIF portfolios managed by an AIFM, including leverage data, above which the AIFM Law applies, according to Chapter 5, Section 2?",
+    "options": [
+      "EUR 250,000,000",
+      "EUR 50,000,000",
+      "EUR 500,000,000",
+      "EUR 100,000,000"
+    ],
+    "answer": "EUR 100,000,000",
+    "explanation": "Chapter 5, Section 2, 'Operational Conditions of AIF Managers (AIFMs)', under 'The scope of the AIFM Law includes AIFMs that manage AIF portfolios whose assets: exceed the total limit of EUR 100,000,000, including leverage data...'",
+    "overallExplanation": "Section 2 of Chapter 5 defines the asset thresholds that bring an AIFM within the scope of the AIFM Law."
+  },
+  {
+    "chapter": "Chapter 05 - Alternative Investments",
+    "question": "What is one of the conditions under which an AIFM may perform the valuation task itself, rather than appointing an independent external valuer, as per Chapter 5, Section 3.1?",
+    "options": [
+      "If CySEC grants a specific waiver due to the small size of the AIFM.",
+      "If the AIF's assets are primarily liquid and traded on regulated markets.",
+      "If the AIFM has a dedicated valuation department approved by investors.",
+      "The valuation task is functionally independent from portfolio management and remuneration policy, and conflicts are mitigated."
+    ],
+    "answer": "The valuation task is functionally independent from portfolio management and remuneration policy, and conflicts are mitigated.",
+    "explanation": "Chapter 5, Section 3.1, 'Valuation', states: 'The AIFM must ensure that the valuations are either performed by an independent external valuer, or by the AIFM itself, providing that the valuation task is functionally independent from the portfolio management and the remuneration policy, and that conflicts of interest are mitigated.'",
+    "overallExplanation": "Section 3.1 outlines the conditions under which an AIFM can perform its own valuations, focusing on internal independence and conflict mitigation."
   }
 ]

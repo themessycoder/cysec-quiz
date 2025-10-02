@@ -126,7 +126,7 @@
     @media (max-width: 640px){
     .hide-mobile{display:none}
     /*header{display:none}*/
-    footer{font-size:12px}
+    footer{display:none; font-size:12px}
     }
 
     /* RESULTS VIEW */
@@ -191,11 +191,9 @@
     <div class="stage">
         <div class="meta hide-mobile">
         <span id="metaPool" class="badge hide-mobile">Pool: 0</span>
-        <span id="metaViewed" class="badge hide-mobile">Viewed: 0</span>
         <span id="metaChapter" class="badge hide-mobile">Chapter: All</span>
         <span id="metaScore" class="badge hide-mobile">Score: 0</span>
         <span id="metaProgress" class="badge hide-mobile">Progress: 0 / 0</span>
-        <span class="badge hide-mobile">Submit to flip</span>
         </div>
 
         <div class="card" id="card">
@@ -255,7 +253,7 @@
     </div>
     </main>
 
-    <footer>MCQ Quiz PWA • Offline • iPhone-friendly layout</footer>
+    <footer>Mobile Friendly CySEC Advanced Mock Exams</footer>
 
     <script>
     (function(){
@@ -269,7 +267,7 @@
     const helper = el('helper');
 
     const meta = {
-    pool: el('metaPool'), viewed: el('metaViewed'), chapter: el('metaChapter'),
+    pool: el('metaPool'), chapter: el('metaChapter'),
     progress: el('metaProgress'), score: el('metaScore')
     };
     const chapterFilter = el('chapterFilter');
@@ -285,15 +283,40 @@
     let incorrectLog = [];
     let skippedLog = [];
 
+    let optionOrder = []; // per-question shuffled order (array of arrays of indices)
+
+    function shuffleInPlace(arr){
+        for (let i = arr.length - 1; i > 0; i--){
+            const j = Math.floor(Math.random() * (i + 1));
+            [arr[i], arr[j]] = [arr[j], arr[i]];
+        }
+        return arr;
+    }
+
+    function getShuffledIndexOrder(i){
+        const q = pool[i];
+        const count = Math.min(4, (q.options || []).length);
+        // build indices only for non-empty options
+        const idxs = [];
+        for (let k = 0; k < count; k++){
+            if ((q.options[k] || '').trim() !== '') idxs.push(k);
+        }
+        if (!optionOrder[i]){
+            optionOrder[i] = shuffleInPlace(idxs.slice()); // store once per question
+        }
+        return optionOrder[i];
+    }
+
+
 
     function normalizeAnswer(a, options){
-    if(!a) return '';
-    const s = String(a).trim();
-    const map = {A:0,B:1,C:2,D:3};
-    if (s.length===1 && map[s.toUpperCase()]!=null) return s.toUpperCase();
-    const i = (options||[]).findIndex(opt => opt && opt.trim().toLowerCase() === s.toLowerCase());
-    if (i>=0) return Object.keys(map)[i];
-    return s;
+        if(!a) return '';
+        const s = String(a).trim();
+        const map = {A:0,B:1,C:2,D:3};
+        if (s.length===1 && map[s.toUpperCase()]!=null) return s.toUpperCase();
+        const i = (options||[]).findIndex(opt => opt && opt.trim().toLowerCase() === s.toLowerCase());
+        if (i>=0) return Object.keys(map)[i];
+        return s;
     }
 
     function updateChapterFilter(){
@@ -320,6 +343,8 @@
         correctLog = [];
         incorrectLog = [];
         skippedLog = [];
+        
+        optionOrder = []; // reset per-question shuffle cache
 
         cardInner.classList.remove('flipped');
         // show quiz view, hide results (in case we were there)
@@ -335,6 +360,7 @@
         card.classList.toggle('hidden', !hasPool);
         if (!hasPool) return;
 
+        /*
         const q = pool[idx];
         questionText.textContent = q.question || '(No question)';
         optionsEl.innerHTML = '';
@@ -350,6 +376,33 @@
         `;
         optionsEl.appendChild(row);
         });
+        */
+
+        const q = pool[idx];
+        questionText.textContent = q.question || '(No question)';
+        optionsEl.innerHTML = '';
+
+        const labels = ['A','B','C','D'];            // visible labels (fixed order)
+        const order = getShuffledIndexOrder(idx);     // randomized mapping to originals
+
+        // We will display A,B,C,D in order, but each one will show a randomized original option.
+        // The radio's value is the ORIGINAL letter so submit() keeps working.
+        for (let pos = 0; pos < order.length; pos++){
+        const origIdx = order[pos];                 // 0..3 (original position)
+        const visibleLabel = labels[pos];           // A/B/C/D (always in order on screen)
+        const originalLetter = labels[origIdx];     // the true letter tied to this option
+        const text = (q.options[origIdx] || '');
+
+        const row = document.createElement('label');
+        row.className = 'option';
+        row.innerHTML = `
+            <input type="radio" name="opt" value="${originalLetter}">
+            <div><strong>${visibleLabel}.</strong> ${text}</div>
+        `;
+        optionsEl.appendChild(row);
+        }
+
+
 
         // Auto-submit when user picks an option
         const radios = optionsEl.querySelectorAll('input[name="opt"]');
@@ -518,6 +571,7 @@
 
         updateChapterFilter();
         pool = all.slice();
+        optionOrder = []; // reset per-question shuffle cache
         reshuffle(true);
     }
 
